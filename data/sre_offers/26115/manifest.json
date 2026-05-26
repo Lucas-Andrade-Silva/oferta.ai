@@ -1,0 +1,252 @@
+{
+  "offer_number": "26115",
+  "cvm": {
+    "Numero_Requerimento": 26115,
+    "Numero_Processo": "SRE/1349/2026",
+    "Data_requerimento": "2026-04-30T00:00:00",
+    "Data_Registro": "2026-04-30T00:00:00",
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Registro Concedido",
+    "Valor_Mobiliario": "Cotas de FII",
+    "Tipo_requerimento": "OPD Aut Profissional - sem bookbuilding",
+    "Bookbuilding": "N",
+    "CNPJ_Emissor": "59.137.587/0001-28",
+    "Nome_Emissor": "VALORA CRI PRÉ I FEEDER II FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+    "CNPJ_Lider": "62.232.889/0001-90",
+    "Nome_Lider": "BANCO DAYCOVAL S.A.",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 355000,
+    "Valor_Total_Registrado": 30075600.0,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": "BANCO DAYCOVAL S.A.",
+    "Gestor": "VALORA IMOBILIÁRIO E INFRAESTRUTURA LTDA.",
+    "Destinacao_recursos": "Os recursos captados no âmbito da Oferta serão destinados à aquisição pelo Fundo de Ativos e de Ativos de Liquidez, de forma ativa e discricionária pelo Gestor, e ao pagamento dos Encargos do Fundo."
+  },
+  "documents": [
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "60ae1a5c-df8e-48d7-ae3b-c6d178895b7d"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "179703",
+      "razaoSocial": "BANCO DAYCOVAL S.A.",
+      "cnpjInstituicao": "62.232.889/0001-90",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "57464",
+      "razaoSocial": "VALORA CRI PRÉ I FEEDER II FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+      "cnpjInstituicao": "59.137.587/0001-28",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "57465",
+      "razaoSocial": "BANCO DAYCOVAL S.A.",
+      "cnpjInstituicao": "62.232.889/0001-90",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "57466",
+      "razaoSocial": "VALORA CRI PRÉ I FEEDER II FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+      "cnpjInstituicao": "59.137.587/0001-28",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26115,
+      "campoNome": "Oferta inicial?",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26115,
+      "campoNome": "Emissão nº",
+      "valor": "3"
+    },
+    {
+      "codigo": 26115,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "29/04/2026"
+    },
+    {
+      "codigo": 26115,
+      "campoNome": "Mercado de negociação",
+      "valor": "As novas cotas subordinadas poderão ser: (i) distribuídas no mercado primário via MDA da B3, com liquidação pela própria B3; e (ii) negociadas no mercado secundário no sistema Fundos 21 da B3."
+    },
+    {
+      "codigo": 26115,
+      "campoNome": "Administrador",
+      "valor": "BANCO DAYCOVAL S.A."
+    },
+    {
+      "codigo": 26115,
+      "campoNome": "Gestor",
+      "valor": "VALORA IMOBILIÁRIO E INFRAESTRUTURA LTDA."
+    },
+    {
+      "codigo": 26115,
+      "campoNome": "Escriturador",
+      "valor": "BANCO DAYCOVAL S.A."
+    },
+    {
+      "codigo": 26115,
+      "campoNome": "Custodiante",
+      "valor": "BANCO DAYCOVAL S.A."
+    },
+    {
+      "codigo": 26115,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Os recursos captados no âmbito da Oferta serão destinados à aquisição pelo Fundo de Ativos e de Ativos de Liquidez, de forma ativa e discricionária pelo Gestor, e ao pagamento dos Encargos do Fundo."
+    },
+    {
+      "codigo": 26115,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1349/2026",
+      "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/140",
+      "nomeValorMobiliario": "Cotas de FII",
+      "valorTotalInicial": "30.075.600,0000",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "30.075.600,0000",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "30/04/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+      "status": "Registro Concedido",
+      "automaticaSemBook": true,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42662
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "3ª EMISSÃO DE COTAS SUBORDINADAS",
+              "loteBase": {
+                "quantidadeAtivos": "355.000,0000",
+                "valorNominal": "84,7200",
+                "custoUnitario": "0,0000",
+                "valorTotal": "30.075.600,0000"
+              },
+              "valorTotalLote": "30.075.600,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Descrição do valor mobiliário",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Cotas de FII",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/140"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 0,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 0,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 0,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 0,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "0,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "0,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "0,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "0,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "oid": 42662
+    },
+    "registroValorMobiliario": true
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "numeroProcesso": "SRE/1349/2026",
+    "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/140",
+    "nomeValorMobiliario": "Cotas de FII",
+    "valorTotal": "30.075.600,0000",
+    "data": "30/04/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "355.000,0000",
+    "status": "Registro Concedido",
+    "automaticaSemBook": true,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42662,
+    "dataInicioOferta": "30/04/2026",
+    "bookbuildingPreenchido": false,
+    "razaoSocialFundoAssociado": "VALORA CRI PRÉ I FEEDER II FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+    "cnpjFundoAssociado": "59.137.587/0001-28",
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "30/04/2026",
+      "hora": "15:44:42",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "30/04/2026",
+      "hora": "15:44:42",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "30/04/2026",
+      "hora": "15:44:49",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26115\\pdfs\\Anúncio de Início da Distribuição_60ae1a5c-df8e-48d7-ae3b-c6d178895b7d.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "60ae1a5c-df8e-48d7-ae3b-c6d178895b7d"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26115\\pdfs\\Anúncio de Início da Distribuição_60ae1a5c-df8e-48d7-ae3b-c6d178895b7d.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

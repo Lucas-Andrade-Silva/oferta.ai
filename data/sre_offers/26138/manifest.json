@@ -1,0 +1,614 @@
+{
+  "offer_number": "26138",
+  "cvm": {
+    "Numero_Requerimento": 26138,
+    "Numero_Processo": "SRE/1374/2026",
+    "Data_requerimento": "2026-05-04T00:00:00",
+    "Data_Registro": "2026-05-04T00:00:00",
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Registro Concedido",
+    "Valor_Mobiliario": "Certificados de Recebíveis Imobiliários",
+    "Tipo_requerimento": "OPD Aut Público em Geral ou Qualificado - sem bookbuilding",
+    "Bookbuilding": "N",
+    "CNPJ_Emissor": "48.415.978/0001-40",
+    "Nome_Emissor": "LEVERAGE COMPANHIA SECURITIZADORA",
+    "CNPJ_Lider": "48.415.978/0001-40",
+    "Nome_Lider": "LEVERAGE COMPANHIA SECURITIZADORA",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 35000,
+    "Valor_Total_Registrado": 35000000.0,
+    "Publico_alvo": "Qualificado",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": null,
+    "Gestor": null,
+    "Destinacao_recursos": "Os recursos oriundos da integralização dos CRI serão destinados à integralização das Notas Comerciais, cujos recursos serão destinados ao desenvolvimento pela controlada da Devedora, a Lar Inglaterra Incorporadora SPE Ltda., no imóvel matriculado sob o nº 214728 do 2º Oficial de Registro de Imóveis de Ribeirão Preto - SP."
+  },
+  "documents": [
+    {
+      "label": "Prospecto Definitivo",
+      "uuid": "abb92dd5-7dbb-4bac-960e-cb5bce1a66c0"
+    },
+    {
+      "label": "Prospecto Definitivo",
+      "uuid": "ec4d1964-ce23-415b-9182-541b3513cf48"
+    },
+    {
+      "label": "Lâmina",
+      "uuid": "1f39f68d-832e-4855-8e74-3b03c8518cd4"
+    },
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "ce4fe2b3-50d0-4830-aa69-93d182d0054f"
+    },
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "cbfc1cf9-a8db-45fa-a011-393737b5f038"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "179970",
+      "razaoSocial": "LEVERAGE COMPANHIA SECURITIZADORA",
+      "cnpjInstituicao": "48.415.978/0001-40",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "57533",
+      "razaoSocial": "LEVERAGE COMPANHIA SECURITIZADORA",
+      "cnpjInstituicao": "48.415.978/0001-40",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "57534",
+      "razaoSocial": "LEVERAGE COMPANHIA SECURITIZADORA",
+      "cnpjInstituicao": "48.415.978/0001-40",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "57535",
+      "razaoSocial": "LEVERAGE COMPANHIA SECURITIZADORA",
+      "cnpjInstituicao": "48.415.978/0001-40",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26138,
+      "campoNome": "Emissão nº",
+      "valor": "72"
+    },
+    {
+      "codigo": 26138,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "29/04/2023"
+    },
+    {
+      "codigo": 26138,
+      "campoNome": "Mercado de negociação",
+      "valor": "B3 S.A. – Brasil, Bolsa, Balcão - Balcão"
+    },
+    {
+      "codigo": 26138,
+      "campoNome": "Regime fiduciário",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 26138,
+      "campoNome": "Agente fiduciário",
+      "valor": "VÓRTX DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA."
+    },
+    {
+      "codigo": 26138,
+      "campoNome": "Escriturador",
+      "valor": "VÓRTX DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA."
+    },
+    {
+      "codigo": 26138,
+      "campoNome": "Custodiante",
+      "valor": "VÓRTX DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA."
+    },
+    {
+      "codigo": 26138,
+      "campoNome": "Avaliador de risco",
+      "valor": "Não há."
+    },
+    {
+      "codigo": 26138,
+      "campoNome": "Tipo de lastro",
+      "valor": "Concentrado"
+    },
+    {
+      "codigo": 26138,
+      "campoNome": "Descrição do lastro",
+      "valor": "Créditos imobiliários devidos pela BRIO INCORPORADORA LTDA. (CNPJ 20.220.831/0001-86) (Devedora) representados pelas Cédulas de Crédito Imobiliário descritas no Anexo [=] do Termo de Securitização, oriundos do “Termo da 1ª (Primeira) Emissão Particular de Notas Comerciais, em 2 (Duas) Séries, com Garantia Real, com Garantia Adicional Fidejussória, Não Conversível, para Distribuição Privada, da Brio Incorporadora Ltda.”, destinado ao desenvolvimento pela controlada da Devedora, a Lar Inglaterra Incorporadora SPE Ltda., no imóvel matriculado sob o nº 214728 do 2º Oficial de Registro de Imóveis de Ribeirão Preto - SP"
+    },
+    {
+      "codigo": 26138,
+      "campoNome": "Identificação dos devedores e coobrigados",
+      "valor": "1. Devedora principal: BRIO INCORPORADORA LTDA. (CNPJ 20.220.831/0001-86)\n2. Avalistas: (i) FVB Empreendimentos e Participações Ltda. (CNPJ 20.265.487/0001-41); (ii) Perplan Empreendimentos e Urbanização Ltda. (CNPJ 04.079.642/0001-89); (iii) Fábio Villas Boas (CPF 218.560.558-50); (iv) Adilson Perdiza Villas Boas (CPF 744.259.608-82); (v) Márcio Perdiza Villas Boas (CPF 747.106.138-34)."
+    },
+    {
+      "codigo": 26138,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Os recursos oriundos da integralização dos CRI serão destinados à integralização das Notas Comerciais, cujos recursos serão destinados ao desenvolvimento pela controlada da Devedora, a Lar Inglaterra Incorporadora SPE Ltda., no imóvel matriculado sob o nº 214728 do 2º Oficial de Registro de Imóveis de Ribeirão Preto - SP."
+    },
+    {
+      "codigo": 26138,
+      "campoNome": "Descrição das garantias",
+      "valor": "1. Aval dos Avalistas acima mencionados.\n2. Alienação Fiduciária dos imóveis matriculados  sob: (i) nº 220.013 no 1º (Primeiro) Oficial de Registro de Imóveis de Ribeirão Preto/SP, (ii) nº 216.506 no 1º (Primeiro) Oficial de Registro de Imóveis de Ribeirão Preto/SP, e (iii) nº 176.497, 176.498, 176.499, 176.500, 176.501, 176.502 e 176.503 no 2º (segundo) Cartório de Registro de Imóveis de Ribeirão Preto/SP.\n3. Fundo de Reservas e Fundo de Despesas, conforme previstos no Termo de Securitização."
+    },
+    {
+      "codigo": 26138,
+      "campoNome": "Público alvo",
+      "valor": "Qualificado"
+    },
+    {
+      "codigo": 26138,
+      "campoNome": "Título padronizado",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26138,
+      "campoNome": "Reabertura de série",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26138,
+      "campoNome": "Endereço do emissor na rede mundial de computadores",
+      "valor": "https://www.leveragesec.com.br/"
+    },
+    {
+      "codigo": 26138,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    },
+    {
+      "codigo": 26138,
+      "campoNome": "Título classificado como “verde”, “social”, “sustentável” ou correlato",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26138,
+      "campoNome": "Possibilidade de revolvência",
+      "valor": "Não"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1374/2026",
+      "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/247;CVM/SRE/AUT/CRI/PRI/2026/248",
+      "nomeValorMobiliario": "Certificados de Recebíveis Imobiliários",
+      "valorTotalInicial": "35.000.000,0000",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "35.000.000,0000",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "04/05/2026",
+      "nomeTipoRequerimento": "OPD Aut Público em Geral ou Qualificado - sem bookbuilding",
+      "status": "Registro Concedido",
+      "automaticaSemBook": true,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42686
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "CRI da 1ª Série",
+              "loteBase": {
+                "quantidadeAtivos": "9.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "9.000.000,0000"
+              },
+              "valorTotalLote": "9.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "07/04/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "24/04/2030",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Não há.",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações  sobre subordinação",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Não há subordinação.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Juros remuneratórios correspondentes a 100% da variação acumulada da Taxa DI, acrescida de spread (sobretaxa) equivalente a 2,00% ao ano, para os CRI 1ª Série, base 252 Dias Úteis, conforme fórmula prevista no item 5.2 do Termo de Securitização, a ser paga nas datas previstas no Anexo I do Termo de Securitização, observados demais termos e condições do referido instrumento.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "A amortização ordinária dos CRI da 1ª Série será realizada de acordo com os percentuais (Tai) e nas datas previstas no Anexo I ao Termo de Securitização, conforme Cláusula 5.4 do referido instrumento, sem prejuízo da possibilidade de amortização extraordinária de resgate antecipado dos CRI da 1ª Série conforme Termo de Securitização.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Oferta conta com benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/247"
+          },
+          {
+            "loteInicial": {
+              "valorMobiliario": "CRI da 2ª Série",
+              "loteBase": {
+                "quantidadeAtivos": "26.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "26.000.000,0000"
+              },
+              "valorTotalLote": "26.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "07/04/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "24/04/2030",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Não há.",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações  sobre subordinação",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Não há subordinação.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Juros remuneratórios correspondentes a 100% da variação acumulada da Taxa DI, acrescida de spread (sobretaxa) equivalente a 2,0001% ao ano, para os CRI 2ª Série, base 252 Dias Úteis, conforme fórmula prevista no item 5.2 do Termo de Securitização, a ser paga nas datas previstas no Anexo I do Termo de Securitização, observadas demais condições do referido instrumento.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "A amortização ordinária dos CRI da 2ª Série será realizada de acordo com os percentuais (Tai) e nas datas previstas no Anexo I ao Termo de Securitização, conforme Cláusula 5.4 do referido instrumento, sem prejuízo da possibilidade de amortização extraordinária de resgate antecipado dos CRI da 2ª Série conforme Termo de Securitização.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Oferta conta com benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/248"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 0,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 0,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 0,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 0,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "0,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "0,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "0,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "0,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "oid": 42686
+    },
+    "registroValorMobiliario": false
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "resumoOferta": "Oferta Pública de Distribuição dos Certificados de Recebíveis Imobiliários das 1ª e 2ª Séries da 72ª Emissão da Leverage Companhia Securitizadora, com lastro nos Créditos Imobiliários Devidos pela Brio Incorporadora Ltda.",
+    "numeroProcesso": "SRE/1374/2026",
+    "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/247;CVM/SRE/AUT/CRI/PRI/2026/248",
+    "nomeValorMobiliario": "Certificados de Recebíveis Imobiliários",
+    "valorTotal": "35.000.000,0000",
+    "data": "04/05/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Público em Geral ou Qualificado - sem bookbuilding",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "9.000,0000",
+    "status": "Registro Concedido",
+    "automaticaSemBook": true,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42686,
+    "dataInicioOferta": "04/05/2026",
+    "bookbuildingPreenchido": false,
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "04/05/2026",
+      "hora": "20:15:48",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "04/05/2026",
+      "hora": "20:15:49",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "04/05/2026",
+      "hora": "20:16:03",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26138\\pdfs\\Prospecto Definitivo_abb92dd5-7dbb-4bac-960e-cb5bce1a66c0.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26138\\pdfs\\Prospecto Definitivo_ec4d1964-ce23-415b-9182-541b3513cf48.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26138\\pdfs\\Lâmina_1f39f68d-832e-4855-8e74-3b03c8518cd4.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26138\\pdfs\\Anúncio de Início da Distribuição_ce4fe2b3-50d0-4830-aa69-93d182d0054f.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26138\\pdfs\\Anúncio de Início da Distribuição_cbfc1cf9-a8db-45fa-a011-393737b5f038.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Prospecto Definitivo",
+        "uuid": "abb92dd5-7dbb-4bac-960e-cb5bce1a66c0"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26138\\pdfs\\Prospecto Definitivo_abb92dd5-7dbb-4bac-960e-cb5bce1a66c0.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Prospecto Definitivo",
+        "uuid": "ec4d1964-ce23-415b-9182-541b3513cf48"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26138\\pdfs\\Prospecto Definitivo_ec4d1964-ce23-415b-9182-541b3513cf48.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Lâmina",
+        "uuid": "1f39f68d-832e-4855-8e74-3b03c8518cd4"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26138\\pdfs\\Lâmina_1f39f68d-832e-4855-8e74-3b03c8518cd4.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "ce4fe2b3-50d0-4830-aa69-93d182d0054f"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26138\\pdfs\\Anúncio de Início da Distribuição_ce4fe2b3-50d0-4830-aa69-93d182d0054f.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "cbfc1cf9-a8db-45fa-a011-393737b5f038"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26138\\pdfs\\Anúncio de Início da Distribuição_cbfc1cf9-a8db-45fa-a011-393737b5f038.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

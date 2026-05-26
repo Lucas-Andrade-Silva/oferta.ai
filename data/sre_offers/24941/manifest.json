@@ -1,0 +1,252 @@
+{
+  "offer_number": "24941",
+  "cvm": {
+    "Numero_Requerimento": 24941,
+    "Numero_Processo": "SRE/0966/2026",
+    "Data_requerimento": "2026-03-27T00:00:00",
+    "Data_Registro": "2026-03-27T00:00:00",
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Registro Concedido",
+    "Valor_Mobiliario": "Cotas de FII",
+    "Tipo_requerimento": "OPD Aut Profissional - sem bookbuilding",
+    "Bookbuilding": "N",
+    "CNPJ_Emissor": "65.331.709/0001-15",
+    "Nome_Emissor": "BTG PACTUAL PRIME HOSPITALIDADE FUNDO DE INVESTIMENTO IMOBILIARIO RESPONSABILIDADE LIMITADA",
+    "CNPJ_Lider": "46.482.072/0001-13",
+    "Nome_Lider": "BTG PACTUAL INVESTMENT BANKING LTDA.",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 30000000,
+    "Valor_Total_Registrado": 300000000.0,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": "BTG PACTUAL SERVIÇOS FINANCEIROS S.A. DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS",
+    "Gestor": "BTG PACTUAL GESTORA DE RECURSOS LTDA.",
+    "Destinacao_recursos": "A Classe tem por objetivo proporcionar aos Cotistas a valorização e a rentabilidade de suas Cotas, conforme política de investimento"
+  },
+  "documents": [
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "d935ac56-4ef0-4d3f-9aa1-bf16942595cf"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "170391",
+      "razaoSocial": "BTG PACTUAL INVESTMENT BANKING LTDA.",
+      "cnpjInstituicao": "46.482.072/0001-13",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "54897",
+      "razaoSocial": "BTG PACTUAL PRIME HOSPITALIDADE FUNDO DE INVESTIMENTO IMOBILIARIO RESPONSABILIDADE LIMITADA",
+      "cnpjInstituicao": "65.331.709/0001-15",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "54898",
+      "razaoSocial": "BTG PACTUAL INVESTMENT BANKING LTDA.",
+      "cnpjInstituicao": "46.482.072/0001-13",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "54899",
+      "razaoSocial": "BTG PACTUAL PRIME HOSPITALIDADE FUNDO DE INVESTIMENTO IMOBILIARIO RESPONSABILIDADE LIMITADA",
+      "cnpjInstituicao": "65.331.709/0001-15",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 24941,
+      "campoNome": "Oferta inicial?",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 24941,
+      "campoNome": "Emissão nº",
+      "valor": "25.022.026"
+    },
+    {
+      "codigo": 24941,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "25/02/2026"
+    },
+    {
+      "codigo": 24941,
+      "campoNome": "Mercado de negociação",
+      "valor": "As cotas poderão ser negociadas no mercado primário, por meio do MDA – Módulo de Distribuição de Ativos e (ii) para negociação no mercado secundário por meio do FUNDOS21 – Módulo de Fundos"
+    },
+    {
+      "codigo": 24941,
+      "campoNome": "Administrador",
+      "valor": "BTG PACTUAL SERVIÇOS FINANCEIROS S.A. DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS"
+    },
+    {
+      "codigo": 24941,
+      "campoNome": "Gestor",
+      "valor": "BTG PACTUAL GESTORA DE RECURSOS LTDA."
+    },
+    {
+      "codigo": 24941,
+      "campoNome": "Escriturador",
+      "valor": "BTG PACTUAL SERVIÇOS FINANCEIROS S.A. DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS"
+    },
+    {
+      "codigo": 24941,
+      "campoNome": "Custodiante",
+      "valor": "BANCO BTG PACTUAL S.A."
+    },
+    {
+      "codigo": 24941,
+      "campoNome": "Destinação dos recursos",
+      "valor": "A Classe tem por objetivo proporcionar aos Cotistas a valorização e a rentabilidade de suas Cotas, conforme política de investimento"
+    },
+    {
+      "codigo": 24941,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/0966/2026",
+      "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/103",
+      "nomeValorMobiliario": "Cotas de FII",
+      "valorTotalInicial": "300.000.000,0000",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "300.000.000,0000",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "27/03/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+      "status": "Registro Concedido",
+      "automaticaSemBook": true,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42275
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "Sub C",
+              "loteBase": {
+                "quantidadeAtivos": "30.000.000,0000",
+                "valorNominal": "10,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "300.000.000,0000"
+              },
+              "valorTotalLote": "300.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Descrição do valor mobiliário",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/103"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 0,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 0,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 0,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 0,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "0,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "0,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "0,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "0,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "oid": 42275
+    },
+    "registroValorMobiliario": true
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "numeroProcesso": "SRE/0966/2026",
+    "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/103",
+    "nomeValorMobiliario": "Cotas de FII",
+    "valorTotal": "300.000.000,0000",
+    "data": "27/03/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "30.000.000,0000",
+    "status": "Registro Concedido",
+    "automaticaSemBook": true,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42275,
+    "dataInicioOferta": "27/03/2026",
+    "bookbuildingPreenchido": false,
+    "razaoSocialFundoAssociado": "BTG PACTUAL PRIME HOSPITALIDADE FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+    "cnpjFundoAssociado": "65.331.709/0001-15",
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "27/03/2026",
+      "hora": "18:17:14",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "27/03/2026",
+      "hora": "18:17:14",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "27/03/2026",
+      "hora": "18:17:15",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "data\\sre_offers\\24941\\pdfs\\Anúncio de Início da Distribuição_d935ac56-4ef0-4d3f-9aa1-bf16942595cf.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "d935ac56-4ef0-4d3f-9aa1-bf16942595cf"
+      },
+      "arquivo": "data\\sre_offers\\24941\\pdfs\\Anúncio de Início da Distribuição_d935ac56-4ef0-4d3f-9aa1-bf16942595cf.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

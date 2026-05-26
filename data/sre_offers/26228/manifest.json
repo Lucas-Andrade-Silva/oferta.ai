@@ -1,0 +1,252 @@
+{
+  "offer_number": "26228",
+  "cvm": {
+    "Numero_Requerimento": 26228,
+    "Numero_Processo": "SRE/1433/2026",
+    "Data_requerimento": "2026-05-08T00:00:00",
+    "Data_Registro": "2026-05-08T00:00:00",
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Registro Concedido",
+    "Valor_Mobiliario": "Cotas de FII",
+    "Tipo_requerimento": "OPD Aut Profissional - sem bookbuilding",
+    "Bookbuilding": "N",
+    "CNPJ_Emissor": "35.880.201/0001-05",
+    "Nome_Emissor": "DARP JIVE FUNDO DE INVESTIMENTO IMOBILIARIO - RESPONSABILIDADE LIMITADA",
+    "CNPJ_Lider": "36.864.992/0001-42",
+    "Nome_Lider": "MAF DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS S.A.",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 11818182,
+    "Valor_Total_Registrado": 6500000.0,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": "MAF DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A.",
+    "Gestor": "JIVE INVESTMENTS GESTÃO DE RECURSOS E CONSULTORIA S.A.",
+    "Destinacao_recursos": "Aquisição de ativos previsto na politica de investimento do regulamento do Fundo."
+  },
+  "documents": [
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "b2cb3b6b-d734-473d-ba47-f52a675421cb"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "181019",
+      "razaoSocial": "MAF DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS S.A.",
+      "cnpjInstituicao": "36.864.992/0001-42",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "57803",
+      "razaoSocial": "DARP JIVE FUNDO DE INVESTIMENTO IMOBILIARIO - RESPONSABILIDADE LIMITADA",
+      "cnpjInstituicao": "35.880.201/0001-05",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "57804",
+      "razaoSocial": "MAF DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS S.A.",
+      "cnpjInstituicao": "36.864.992/0001-42",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "57805",
+      "razaoSocial": "DARP JIVE FUNDO DE INVESTIMENTO IMOBILIARIO - RESPONSABILIDADE LIMITADA",
+      "cnpjInstituicao": "35.880.201/0001-05",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26228,
+      "campoNome": "Oferta inicial?",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26228,
+      "campoNome": "Emissão nº",
+      "valor": "3"
+    },
+    {
+      "codigo": 26228,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "07/05/2026"
+    },
+    {
+      "codigo": 26228,
+      "campoNome": "Mercado de negociação",
+      "valor": "Escritural"
+    },
+    {
+      "codigo": 26228,
+      "campoNome": "Administrador",
+      "valor": "MAF DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A."
+    },
+    {
+      "codigo": 26228,
+      "campoNome": "Gestor",
+      "valor": "JIVE INVESTMENTS GESTÃO DE RECURSOS E CONSULTORIA S.A."
+    },
+    {
+      "codigo": 26228,
+      "campoNome": "Escriturador",
+      "valor": "MAF DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A."
+    },
+    {
+      "codigo": 26228,
+      "campoNome": "Custodiante",
+      "valor": "MAF DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A."
+    },
+    {
+      "codigo": 26228,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Aquisição de ativos previsto na politica de investimento do regulamento do Fundo."
+    },
+    {
+      "codigo": 26228,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1433/2026",
+      "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/147",
+      "nomeValorMobiliario": "Cotas de FII",
+      "valorTotalInicial": "6.499.999,9955",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "6.499.999,9955",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "08/05/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+      "status": "Registro Concedido",
+      "automaticaSemBook": true,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42751
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "3ª emissão de cotas",
+              "loteBase": {
+                "quantidadeAtivos": "11.818.181,8100",
+                "valorNominal": "0,5500",
+                "custoUnitario": "0,0000",
+                "valorTotal": "6.499.999,9955"
+              },
+              "valorTotalLote": "6.499.999,9955",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Descrição do valor mobiliário",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "3ª emissão de cotas",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/147"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 0,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 0,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 0,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 0,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "0,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "0,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "0,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "0,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "oid": 42751
+    },
+    "registroValorMobiliario": true
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "numeroProcesso": "SRE/1433/2026",
+    "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/147",
+    "nomeValorMobiliario": "Cotas de FII",
+    "valorTotal": "6.500.000,0000",
+    "data": "08/05/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "11.818.181,8100",
+    "status": "Registro Concedido",
+    "automaticaSemBook": true,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42751,
+    "dataInicioOferta": "08/05/2026",
+    "bookbuildingPreenchido": false,
+    "razaoSocialFundoAssociado": "DARP JIVE FUNDO DE INVESTIMENTO IMOBILIÁRIO - RESPONSABILIDADE LIMITADA",
+    "cnpjFundoAssociado": "35.880.201/0001-05",
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "08/05/2026",
+      "hora": "15:30:37",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "08/05/2026",
+      "hora": "15:30:38",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "08/05/2026",
+      "hora": "15:30:52",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26228\\pdfs\\Anúncio de Início da Distribuição_b2cb3b6b-d734-473d-ba47-f52a675421cb.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "b2cb3b6b-d734-473d-ba47-f52a675421cb"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26228\\pdfs\\Anúncio de Início da Distribuição_b2cb3b6b-d734-473d-ba47-f52a675421cb.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

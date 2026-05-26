@@ -1,0 +1,433 @@
+{
+  "offer_number": "26427",
+  "cvm": {
+    "Numero_Requerimento": "26427",
+    "Numero_Processo": "SRE/1612/2026",
+    "Data_requerimento": "2026-05-22T00:00:00",
+    "Data_Registro": null,
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Aguardando Bookbuilding",
+    "Valor_Mobiliario": "Certificados de Recebíveis do Agronegócio",
+    "Tipo_requerimento": "OPD Aut Profissional - com bookbuilding",
+    "Bookbuilding": "S",
+    "CNPJ_Emissor": "02.773.542/0001-22",
+    "Nome_Emissor": "OPEA SECURITIZADORA S.A.",
+    "CNPJ_Lider": "90.400.888/0001-42",
+    "Nome_Lider": "BANCO SANTANDER (BRASIL) S.A.",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": "0",
+    "Valor_Total_Registrado": 0.0,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Garantia Firme de Colocação",
+    "Administrador": null,
+    "Gestor": null,
+    "Destinacao_recursos": "Produção, à comercialização, ao beneficiamento e/ou à industrialização de produtos agropecuários, insumos agropecuários e/ou máquinas e implementos utilizados na atividade agropecuária.",
+    "Rito_Requerimento": "Automático",
+    "Grupo_Coordenador": "COORDENADOR PLENO",
+    "Emissao": "224",
+    "Oferta_inicial": null,
+    "Oferta_vasos_comunicantes": null,
+    "Reabertura_serie": "N",
+    "Titulo_classificado_como_sustentavel": "N",
+    "Titulo_padronizado": "N",
+    "Data_deliberacao_aprovou_oferta": "13/10/2025",
+    "Mercado_negociacao": "B3 S.A. - BRASIL, BOLSA, BALCÃO",
+    "Tipo_lastro": "Concentrado",
+    "Regime_fiduciario": "S",
+    "Ativos_alvo": null,
+    "Descricao_garantias": "A CPR-F Sênior conta com garantia real a ser constituída sob a forma de cessão fiduciária sobre os Direitos Creditórios Cedidos Fiduciariamente. A CPR-F Subordinada não conta com qualquer garantia, seja ela real ou pessoal.",
+    "Descricao_lastro": "Direitos Creditórios do Agronegócio, devidos pela Ouro Safra S.A.. em razão das CPR-Fs",
+    "Identificacao_devedores_coobrigados": "Ouro Safra S.A.",
+    "Possibilidade_revolvencia": "N",
+    "FIDC_nao_padronizado": null,
+    "Titulo_incentivado": null,
+    "Tipo_societario": null,
+    "Agente_fiduciario": "OLIVEIRA TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A.",
+    "Escriturador": "ITAÚ CORRETORA DE VALORES S.A.",
+    "Custodiante": "OLIVEIRA TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A.",
+    "Avaliador_Risco": null,
+    "Processo_SEI": null,
+    "Endereco_emissor_rede_mundial_computadores": null,
+    "Num_Invest_Pessoa_Natural": "0",
+    "Qtde_VM_Pessoa_Natural": "0",
+    "Num_Invest_Clube_Investimento": "0",
+    "Qtde_VM_Clube_Investimento": "0",
+    "Num_Invest_Fundos_Investimento": "0",
+    "Qtde_VM_Fundos_Investimento": "0",
+    "Num_Invest_Entidade_Previdencia_Privada": "0",
+    "Qtde_VM_Entidade_Previdencia_Privada": "0",
+    "Num_Invest_Companhia_Seguradora": "0",
+    "Qtde_VM_Companhia_Seguradora": "0",
+    "Num_Invest_Investidor_Estrangeiro": "0",
+    "Qtde_VM_Investidor_Estrangeiro": "0",
+    "Num_Invest_Instit_Intermed_Partic_Consorcio_Distrib": "0",
+    "Qtde_VM_Instit_Intermed_Partic_Consorcio_Distrib": "0",
+    "Num_Invest_Instit_Financ_Emissora_Partic_Consorcio": "0",
+    "Qtde_VM_Instit_Financ_Emissora_Partic_Consorcio": "0",
+    "Num_Invest_Demais_Instit_Financ": "0",
+    "Qtde_VM_Demais_Instit_Financ": "0",
+    "Num_Invest_Demais_Pessoa_Juridica_Emissora_Partic_Consorcio": "0",
+    "Qtde_VM_Demais_Pessoa_Juridica_Emissora_Partic_Consorcio": "0",
+    "Num_Invest_Demais_Pessoa_Juridica": "0",
+    "Qtde_VM_Demais_Pessoa_Juridica": "0",
+    "Num_Invest_Soc_Adm_Emp_Prop_Demais_Pess_Jurid_Emiss_Partic_Consorcio": "0",
+    "Qdte_VM_Soc_Adm_Emp_Prop_Demais_Pess_Jurid_Emiss_Partic_Consorcio": "0",
+    "Mes": "2026-05",
+    "ticker_sre": "SEM-TICKER",
+    "label_sre": "26427 | SEM-TICKER | OPEA SECURITIZADORA S.A. | BANCO SANTANDER (BRASIL) S.A. | 2026-05-22"
+  },
+  "documents": [
+    {
+      "label": "Aviso ao Mercado",
+      "uuid": "a80b5105-d5c4-4017-8411-8dbdd6a070aa"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "183320",
+      "razaoSocial": "BANCO SANTANDER (BRASIL) S.A.",
+      "cnpjInstituicao": "90.400.888/0001-42",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "58397",
+      "razaoSocial": "OPEA SECURITIZADORA S.A.",
+      "cnpjInstituicao": "02.773.542/0001-22",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "58398",
+      "razaoSocial": "BANCO SANTANDER (BRASIL) S.A.",
+      "cnpjInstituicao": "90.400.888/0001-42",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "58399",
+      "razaoSocial": "OPEA SECURITIZADORA S.A.",
+      "cnpjInstituicao": "02.773.542/0001-22",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26427,
+      "campoNome": "Emissão nº",
+      "valor": "224"
+    },
+    {
+      "codigo": 26427,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "13/10/2025"
+    },
+    {
+      "codigo": 26427,
+      "campoNome": "Mercado de negociação",
+      "valor": "B3 S.A. – BRASIL, BOLSA, BALCÃO"
+    },
+    {
+      "codigo": 26427,
+      "campoNome": "Regime fiduciário",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 26427,
+      "campoNome": "Agente fiduciário",
+      "valor": "OLIVEIRA TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A."
+    },
+    {
+      "codigo": 26427,
+      "campoNome": "Escriturador",
+      "valor": "ITAÚ CORRETORA DE VALORES S.A."
+    },
+    {
+      "codigo": 26427,
+      "campoNome": "Custodiante",
+      "valor": "OLIVEIRA TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A."
+    },
+    {
+      "codigo": 26427,
+      "campoNome": "Avaliador de risco",
+      "valor": "N/A"
+    },
+    {
+      "codigo": 26427,
+      "campoNome": "Tipo de lastro",
+      "valor": "Concentrado"
+    },
+    {
+      "codigo": 26427,
+      "campoNome": "Descrição do lastro",
+      "valor": "Direitos Creditórios do Agronegócio, devidos pela Ouro Safra S.A.. em razão das CPR-Fs"
+    },
+    {
+      "codigo": 26427,
+      "campoNome": "Identificação dos devedores e coobrigados",
+      "valor": "Ouro Safra S.A."
+    },
+    {
+      "codigo": 26427,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Produção, à comercialização, ao beneficiamento e/ou à industrialização de produtos agropecuários, insumos agropecuários e/ou máquinas e implementos utilizados na atividade agropecuária."
+    },
+    {
+      "codigo": 26427,
+      "campoNome": "Descrição das garantias",
+      "valor": "A CPR-F Sênior conta com garantia real a ser constituída sob a forma de cessão fiduciária sobre os Direitos Creditórios Cedidos Fiduciariamente. A CPR-F Subordinada não conta com qualquer garantia, seja ela real ou pessoal."
+    },
+    {
+      "codigo": 26427,
+      "campoNome": "Título padronizado",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26427,
+      "campoNome": "Reabertura de série",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26427,
+      "campoNome": "Endereço do emissor na rede mundial de computadores",
+      "valor": ""
+    },
+    {
+      "codigo": 26427,
+      "campoNome": "Regime de distribuição",
+      "valor": "Garantia Firme de Colocação"
+    },
+    {
+      "codigo": 26427,
+      "campoNome": "Título classificado como “verde”, “social”, “sustentável” ou correlato",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26427,
+      "campoNome": "Possibilidade de revolvência",
+      "valor": "Não"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1612/2026",
+      "numeroRegistro": "N/A",
+      "nomeValorMobiliario": "Certificados de Recebíveis do Agronegócio",
+      "valorTotalInicial": "180.000.000,0000",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "180.000.000,0000",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "22/05/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - com bookbuilding",
+      "status": "Aguardando Bookbuilding",
+      "automaticaSemBook": false,
+      "ofertaAutomatica": true
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "Certificado de Recebíveis do Agronegócio",
+              "loteBase": {
+                "quantidadeAtivos": "72.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "72.000.000,0000"
+              },
+              "valorTotalLote": "72.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "22/05/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/05/2031",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "n.a.",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre subordinação",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "n.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração máxima",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "100% CDI a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração final (pós bookbuilding)",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Amortização anual, a partir do mês 36",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "Em andamento"
+          },
+          {
+            "loteInicial": {
+              "valorMobiliario": "Certificado de Recebíveis do Agronegócio",
+              "loteBase": {
+                "quantidadeAtivos": "108.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "108.000.000,0000"
+              },
+              "valorTotalLote": "108.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "22/05/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "16/05/2033",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "n.a.",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre subordinação",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "n.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração máxima",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "CDI + 2,20% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração final (pós bookbuilding)",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Bullet, no vencimento",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "Em andamento"
+          }
+        ]
+      }
+    ],
+    "registroValorMobiliario": false
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "numeroProcesso": "SRE/1612/2026",
+    "numeroRegistro": "N/A",
+    "nomeValorMobiliario": "Certificados de Recebíveis do Agronegócio",
+    "valorTotal": "180.000.000,0000",
+    "data": "22/05/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - com bookbuilding",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "72.000,0000",
+    "status": "Aguardando Bookbuilding",
+    "automaticaSemBook": false,
+    "ofertaAutomatica": true,
+    "bookbuildingPreenchido": true,
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "22/05/2026",
+      "hora": "21:58:29",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "22/05/2026",
+      "hora": "21:58:30",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26427\\pdfs\\Aviso ao Mercado_a80b5105-d5c4-4017-8411-8dbdd6a070aa.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Aviso ao Mercado",
+        "uuid": "a80b5105-d5c4-4017-8411-8dbdd6a070aa"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26427\\pdfs\\Aviso ao Mercado_a80b5105-d5c4-4017-8411-8dbdd6a070aa.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

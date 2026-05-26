@@ -1,0 +1,318 @@
+{
+  "offer_number": "26022",
+  "cvm": {
+    "Numero_Requerimento": 26022,
+    "Numero_Processo": "SRE/1236/2026",
+    "Data_requerimento": "2026-04-22T00:00:00",
+    "Data_Registro": "2026-04-22T00:00:00",
+    "Data_Encerramento": "2026-05-05T00:00:00",
+    "Status_Requerimento": "Oferta Encerrada",
+    "Valor_Mobiliario": "Cotas de FII",
+    "Tipo_requerimento": "OPD Aut Profissional - sem bookbuilding",
+    "Bookbuilding": "N",
+    "CNPJ_Emissor": "52.551.605/0001-74",
+    "Nome_Emissor": "INVISTA BRAZILIAN BUSINESS PARK FUNDO DE INVESTIMENTO IMOBILIÁRIO",
+    "CNPJ_Lider": "22.610.500/0001-88",
+    "Nome_Lider": "VORTX DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS LTDA.",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 16899577,
+    "Valor_Total_Registrado": 152941171.85,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": "VORTX DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA",
+    "Gestor": "INVISTA REAL ESTATE LTDA",
+    "Destinacao_recursos": "Os recursos provenientes da Emissão serão aplicados pela Classe, de acordo com a política de investimento estabelecida no anexo do Regulamento."
+  },
+  "documents": [
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "1e517c02-1e28-4403-9422-c72ae2b0000b"
+    },
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "5d3ef4f4-b4d5-4f93-ba49-4ee0f91eb2e8"
+    },
+    {
+      "label": "Comunicado ao Mercado",
+      "uuid": "5a0b1b03-25bd-4fb2-b59a-7c10c15f9441"
+    },
+    {
+      "label": "Comunicado ao Mercado",
+      "uuid": "48432d78-a0a0-4d82-91c8-012ffda48875"
+    },
+    {
+      "label": "Anúncio de Encerramento da Distribuição",
+      "uuid": "1ef084d4-c90c-458b-b47b-2f22051c5095"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "178601",
+      "razaoSocial": "VORTX DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS LTDA.",
+      "cnpjInstituicao": "22.610.500/0001-88",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "178607",
+      "razaoSocial": "INVISTA REAL ESTATE LTDA.",
+      "cnpjInstituicao": "18.356.470/0001-58",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "57174",
+      "razaoSocial": "INVISTA BRAZILIAN BUSINESS PARK FUNDO DE INVESTIMENTO IMOBILIÁRIO",
+      "cnpjInstituicao": "52.551.605/0001-74",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "57175",
+      "razaoSocial": "VORTX DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS LTDA.",
+      "cnpjInstituicao": "22.610.500/0001-88",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "57176",
+      "razaoSocial": "INVISTA BRAZILIAN BUSINESS PARK FUNDO DE INVESTIMENTO IMOBILIÁRIO",
+      "cnpjInstituicao": "52.551.605/0001-74",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26022,
+      "campoNome": "Oferta inicial?",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26022,
+      "campoNome": "Emissão nº",
+      "valor": "2"
+    },
+    {
+      "codigo": 26022,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "17/03/2026"
+    },
+    {
+      "codigo": 26022,
+      "campoNome": "Mercado de negociação",
+      "valor": "ESCRITURAL"
+    },
+    {
+      "codigo": 26022,
+      "campoNome": "Administrador",
+      "valor": "VORTX DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA"
+    },
+    {
+      "codigo": 26022,
+      "campoNome": "Gestor",
+      "valor": "INVISTA REAL ESTATE LTDA"
+    },
+    {
+      "codigo": 26022,
+      "campoNome": "Escriturador",
+      "valor": "VORTX DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA"
+    },
+    {
+      "codigo": 26022,
+      "campoNome": "Custodiante",
+      "valor": "VORTX DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA"
+    },
+    {
+      "codigo": 26022,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Os recursos provenientes da Emissão serão aplicados pela Classe, de acordo com a política de investimento estabelecida no anexo do Regulamento."
+    },
+    {
+      "codigo": 26022,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1236/2026",
+      "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/129",
+      "nomeValorMobiliario": "Cotas de FII",
+      "valorTotalInicial": "152.941.171,8500",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "152.941.171,8500",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "22/04/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+      "status": "Oferta Encerrada",
+      "automaticaSemBook": true,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42541
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "2ª Emissão Senior",
+              "loteBase": {
+                "quantidadeAtivos": "16.899.577,0000",
+                "valorNominal": "9,0500",
+                "custoUnitario": "0,0000",
+                "valorTotal": "152.941.171,8500"
+              },
+              "valorTotalLote": "152.941.171,8500",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Descrição do valor mobiliário",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "2ª Emissão Senior",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/129"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "dataEncerramento": "2026-05-05T17:00:00Z",
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 3,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 0,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 0,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 0,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "14.364.640,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "0,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "0,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "0,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "foiRevogada": false,
+      "oid": 42541
+    },
+    "registroValorMobiliario": true
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "numeroProcesso": "SRE/1236/2026",
+    "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/129",
+    "nomeValorMobiliario": "Cotas de FII",
+    "valorTotal": "155.976.395,2500",
+    "data": "22/04/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "16.899.577,0000",
+    "status": "Oferta Encerrada",
+    "automaticaSemBook": true,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42541,
+    "dataInicioOferta": "22/04/2026",
+    "bookbuildingPreenchido": false,
+    "razaoSocialFundoAssociado": "INVISTA BRAZILIAN BUSINESS PARK FUNDO DE INVESTIMENTO IMOBILIÁRIO",
+    "cnpjFundoAssociado": "52.551.605/0001-74",
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "22/04/2026",
+      "hora": "15:49:43",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "22/04/2026",
+      "hora": "15:49:43",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "22/04/2026",
+      "hora": "15:49:44",
+      "observacao": ""
+    },
+    {
+      "status": "Oferta Encerrada",
+      "data": "05/05/2026",
+      "hora": "19:12:25",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "data\\sre_offers\\26022\\pdfs\\Anúncio de Início da Distribuição_1e517c02-1e28-4403-9422-c72ae2b0000b.pdf",
+    "data\\sre_offers\\26022\\pdfs\\Anúncio de Início da Distribuição_5d3ef4f4-b4d5-4f93-ba49-4ee0f91eb2e8.pdf",
+    "data\\sre_offers\\26022\\pdfs\\Comunicado ao Mercado_5a0b1b03-25bd-4fb2-b59a-7c10c15f9441.pdf",
+    "data\\sre_offers\\26022\\pdfs\\Comunicado ao Mercado_48432d78-a0a0-4d82-91c8-012ffda48875.pdf",
+    "data\\sre_offers\\26022\\pdfs\\Anúncio de Encerramento da Distribuição_1ef084d4-c90c-458b-b47b-2f22051c5095.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "1e517c02-1e28-4403-9422-c72ae2b0000b"
+      },
+      "arquivo": "data\\sre_offers\\26022\\pdfs\\Anúncio de Início da Distribuição_1e517c02-1e28-4403-9422-c72ae2b0000b.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "5d3ef4f4-b4d5-4f93-ba49-4ee0f91eb2e8"
+      },
+      "arquivo": "data\\sre_offers\\26022\\pdfs\\Anúncio de Início da Distribuição_5d3ef4f4-b4d5-4f93-ba49-4ee0f91eb2e8.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Comunicado ao Mercado",
+        "uuid": "5a0b1b03-25bd-4fb2-b59a-7c10c15f9441"
+      },
+      "arquivo": "data\\sre_offers\\26022\\pdfs\\Comunicado ao Mercado_5a0b1b03-25bd-4fb2-b59a-7c10c15f9441.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Comunicado ao Mercado",
+        "uuid": "48432d78-a0a0-4d82-91c8-012ffda48875"
+      },
+      "arquivo": "data\\sre_offers\\26022\\pdfs\\Comunicado ao Mercado_48432d78-a0a0-4d82-91c8-012ffda48875.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Anúncio de Encerramento da Distribuição",
+        "uuid": "1ef084d4-c90c-458b-b47b-2f22051c5095"
+      },
+      "arquivo": "data\\sre_offers\\26022\\pdfs\\Anúncio de Encerramento da Distribuição_1ef084d4-c90c-458b-b47b-2f22051c5095.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

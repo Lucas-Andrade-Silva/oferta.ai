@@ -1,0 +1,370 @@
+{
+  "offer_number": "26195",
+  "cvm": {
+    "Numero_Requerimento": 26195,
+    "Numero_Processo": "SRE/1449/2026",
+    "Data_requerimento": "2026-05-11T00:00:00",
+    "Data_Registro": "2026-05-11T00:00:00",
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Registro Concedido",
+    "Valor_Mobiliario": "Certificados de Recebíveis Imobiliários",
+    "Tipo_requerimento": "OPD Aut Profissional - sem bookbuilding",
+    "Bookbuilding": "N",
+    "CNPJ_Emissor": "41.811.375/0001-19",
+    "Nome_Emissor": "CANAL COMPANHIA DE SECURITIZAÇÃO",
+    "CNPJ_Lider": "41.811.375/0001-19",
+    "Nome_Lider": "CANAL COMPANHIA DE SECURITIZAÇÃO",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 25000,
+    "Valor_Total_Registrado": 25000000.0,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": null,
+    "Gestor": null,
+    "Destinacao_recursos": "Os recursos líquidos obtidos por meio da Operação não serão objeto de comprovação e verificação de destinação, uma vez que os creditórios imobiliários representam direitos creditórios imobiliários por origem, pois decorrem de contrato de locação."
+  },
+  "documents": [],
+  "participants": [
+    {
+      "idParticipante": "180629",
+      "razaoSocial": "CANAL COMPANHIA DE SECURITIZAÇÃO",
+      "cnpjInstituicao": "41.811.375/0001-19",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "57704",
+      "razaoSocial": "CANAL COMPANHIA DE SECURITIZAÇÃO",
+      "cnpjInstituicao": "41.811.375/0001-19",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "57705",
+      "razaoSocial": "CANAL COMPANHIA DE SECURITIZAÇÃO",
+      "cnpjInstituicao": "41.811.375/0001-19",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "57706",
+      "razaoSocial": "CANAL COMPANHIA DE SECURITIZAÇÃO",
+      "cnpjInstituicao": "41.811.375/0001-19",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26195,
+      "campoNome": "Emissão nº",
+      "valor": "189"
+    },
+    {
+      "codigo": 26195,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "07/05/2025"
+    },
+    {
+      "codigo": 26195,
+      "campoNome": "Mercado de negociação",
+      "valor": "B3"
+    },
+    {
+      "codigo": 26195,
+      "campoNome": "Regime fiduciário",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 26195,
+      "campoNome": "Agente fiduciário",
+      "valor": "OLIVEIRA TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A."
+    },
+    {
+      "codigo": 26195,
+      "campoNome": "Escriturador",
+      "valor": "OLIVEIRA TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A."
+    },
+    {
+      "codigo": 26195,
+      "campoNome": "Custodiante",
+      "valor": "OLIVEIRA TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A."
+    },
+    {
+      "codigo": 26195,
+      "campoNome": "Avaliador de risco",
+      "valor": ""
+    },
+    {
+      "codigo": 26195,
+      "campoNome": "Tipo de lastro",
+      "valor": "Concentrado"
+    },
+    {
+      "codigo": 26195,
+      "campoNome": "Descrição do lastro",
+      "valor": "Cessão de créditos imobiliários decorrentes de contrato de locação na modalidade built-to-suit."
+    },
+    {
+      "codigo": 26195,
+      "campoNome": "Identificação dos devedores e coobrigados",
+      "valor": "REGRA BTS VAREJO FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA"
+    },
+    {
+      "codigo": 26195,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Os recursos líquidos obtidos por meio da Operação não serão objeto de comprovação e verificação de destinação, uma vez que os creditórios imobiliários representam direitos creditórios imobiliários por origem, pois decorrem de contrato de locação."
+    },
+    {
+      "codigo": 26195,
+      "campoNome": "Descrição das garantias",
+      "valor": "i) Alienação Fiduciária de Imóvel; ii) Fundo de Despesas; iii) Fundo de Liquidez; e iv) Fundo de Obras."
+    },
+    {
+      "codigo": 26195,
+      "campoNome": "Título padronizado",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26195,
+      "campoNome": "Reabertura de série",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26195,
+      "campoNome": "Endereço do emissor na rede mundial de computadores",
+      "valor": "www.canalsecuritizadora.com.br"
+    },
+    {
+      "codigo": 26195,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    },
+    {
+      "codigo": 26195,
+      "campoNome": "Título classificado como “verde”, “social”, “sustentável” ou correlato",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26195,
+      "campoNome": "Possibilidade de revolvência",
+      "valor": "Não"
+    }
+  ],
+  "errors": [
+    "documentos: nenhum UUID encontrado"
+  ],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1449/2026",
+      "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/259",
+      "nomeValorMobiliario": "Certificados de Recebíveis Imobiliários",
+      "valorTotalInicial": "25.000.000,0000",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "25.000.000,0000",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "11/05/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+      "status": "Registro Concedido",
+      "automaticaSemBook": true,
+      "ofertaAutomatica": true
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "189ª Emissão - Série 1",
+              "loteBase": {
+                "quantidadeAtivos": "25.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "25.000.000,0000"
+              },
+              "valorTotalLote": "25.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "05/05/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "22/05/2041",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações  sobre subordinação",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Não há.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "IPCA + 9,4000% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Amortização ordinária e amortização extraordinária.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Oferta conta com benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/259"
+          }
+        ]
+      }
+    ],
+    "registroValorMobiliario": false
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "numeroProcesso": "SRE/1449/2026",
+    "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/259",
+    "nomeValorMobiliario": "Certificados de Recebíveis Imobiliários",
+    "valorTotal": "25.000.000,0000",
+    "data": "11/05/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "25.000,0000",
+    "status": "Registro Concedido",
+    "automaticaSemBook": true,
+    "ofertaAutomatica": true,
+    "bookbuildingPreenchido": false,
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "11/05/2026",
+      "hora": "16:06:14",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "11/05/2026",
+      "hora": "16:06:15",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "11/05/2026",
+      "hora": "16:06:30",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [],
+  "pdf_summaries": []
+}

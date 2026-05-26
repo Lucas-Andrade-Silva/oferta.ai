@@ -1,0 +1,556 @@
+{
+  "offer_number": "26199",
+  "cvm": {
+    "Numero_Requerimento": 26199,
+    "Numero_Processo": "SRE/1430/2026",
+    "Data_requerimento": "2026-05-08T00:00:00",
+    "Data_Registro": "2026-05-08T00:00:00",
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Registro Concedido",
+    "Valor_Mobiliario": "Certificados de Recebíveis Imobiliários",
+    "Tipo_requerimento": "OPD Aut Profissional - sem bookbuilding",
+    "Bookbuilding": "N",
+    "CNPJ_Emissor": "04.200.649/0001-07",
+    "Nome_Emissor": "CIA PROVINCIA DE SECURITIZAÇÃO",
+    "CNPJ_Lider": "33.775.974/0001-04",
+    "Nome_Lider": "ATIVA INVESTIMENTOS S.A. C.T.C.V.",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 104000000,
+    "Valor_Total_Registrado": 104000000.0,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": null,
+    "Gestor": null,
+    "Destinacao_recursos": "Os recursos líquidos captados pela Emissora com a emissão dos CRI serão destinados para o pagamento do Valor da Cessão, na forma do Contrato de Cessão, e para a composição do Fundo de Despesas. Em razão da natureza dos Créditos Imobiliários (financiamento imobiliário e empréstimos com garantia de alienação fiduciária em imóvel), não haverá a necessidade de verificação da destinação dos recursos pelo Agente Fiduciário ao longo do prazo da Emissão, uma vez que os Créditos Imobiliários são créditos já desembolsados garantidos por alienação fiduciária de bem imóvel."
+  },
+  "documents": [
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "35c53307-a9a8-42ab-9b99-80cb58e34f8c"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "180675",
+      "razaoSocial": "ATIVA INVESTIMENTOS S.A. C.T.C.V.",
+      "cnpjInstituicao": "33.775.974/0001-04",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "57716",
+      "razaoSocial": "CIA PROVINCIA DE SECURITIZAÇÃO",
+      "cnpjInstituicao": "04.200.649/0001-07",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "57717",
+      "razaoSocial": "ATIVA INVESTIMENTOS S.A. C.T.C.V.",
+      "cnpjInstituicao": "33.775.974/0001-04",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "57718",
+      "razaoSocial": "CIA PROVINCIA DE SECURITIZAÇÃO",
+      "cnpjInstituicao": "04.200.649/0001-07",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26199,
+      "campoNome": "Emissão nº",
+      "valor": "125"
+    },
+    {
+      "codigo": 26199,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "10/06/2024"
+    },
+    {
+      "codigo": 26199,
+      "campoNome": "Mercado de negociação",
+      "valor": "CETIP21 – Títulos e Valores Mobiliários"
+    },
+    {
+      "codigo": 26199,
+      "campoNome": "Regime fiduciário",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 26199,
+      "campoNome": "Agente fiduciário",
+      "valor": "OLIVEIRA TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A."
+    },
+    {
+      "codigo": 26199,
+      "campoNome": "Escriturador",
+      "valor": "VÓRTX DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA."
+    },
+    {
+      "codigo": 26199,
+      "campoNome": "Custodiante",
+      "valor": "OXY COMPANHIA HIPOTECARIA S.A."
+    },
+    {
+      "codigo": 26199,
+      "campoNome": "Avaliador de risco",
+      "valor": ""
+    },
+    {
+      "codigo": 26199,
+      "campoNome": "Tipo de lastro",
+      "valor": "Pulverizado"
+    },
+    {
+      "codigo": 26199,
+      "campoNome": "Descrição do lastro",
+      "valor": "Financiamento Imobiliário cujo lastro seja oriundo de financiamento destinado a aquisição de imóveis e/ou ainda para financiamentos com garantia de imóvel (home equity)."
+    },
+    {
+      "codigo": 26199,
+      "campoNome": "Identificação dos devedores e coobrigados",
+      "valor": "Os devedores dos Contratos Imobiliários, que, portanto, são os devedores dos Créditos Imobiliários. Não conta com coobrigação."
+    },
+    {
+      "codigo": 26199,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Os recursos líquidos captados pela Emissora com a emissão dos CRI serão destinados para o pagamento do Valor da Cessão, na forma do Contrato de Cessão, e para a composição do Fundo de Despesas. Em razão da natureza dos Créditos Imobiliários (financiamento imobiliário e empréstimos com garantia de alienação fiduciária em imóvel), não haverá a necessidade de verificação da destinação dos recursos pelo Agente Fiduciário ao longo do prazo da Emissão, uma vez que os Créditos Imobiliários são créditos já desembolsados garantidos por alienação fiduciária de bem imóvel."
+    },
+    {
+      "codigo": 26199,
+      "campoNome": "Descrição das garantias",
+      "valor": "Não serão constituídas garantias específicas, reais ou pessoais, sobre os CRI. Os Créditos Imobiliários, lastro dos CRI, por sua vez, são garantidos pelas Alienações Fiduciárias de Imóveis e pelas Apólices de Seguro."
+    },
+    {
+      "codigo": 26199,
+      "campoNome": "Título padronizado",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26199,
+      "campoNome": "Reabertura de série",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 26199,
+      "campoNome": "Endereço do emissor na rede mundial de computadores",
+      "valor": ""
+    },
+    {
+      "codigo": 26199,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    },
+    {
+      "codigo": 26199,
+      "campoNome": "Título classificado como “verde”, “social”, “sustentável” ou correlato",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26199,
+      "campoNome": "Possibilidade de revolvência",
+      "valor": "Não"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1430/2026",
+      "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/255;CVM/SRE/AUT/CRI/PRI/2026/256",
+      "nomeValorMobiliario": "Certificados de Recebíveis Imobiliários",
+      "valorTotalInicial": "104.000.000,0000",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "104.000.000,0000",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "08/05/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+      "status": "Registro Concedido",
+      "automaticaSemBook": true,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42752
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "1ª Série - CRI Seniores - Reabertura",
+              "loteBase": {
+                "quantidadeAtivos": "57.889.418,0000",
+                "valorNominal": "1,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "57.889.418,0000"
+              },
+              "valorTotalLote": "57.889.418,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "09/10/2025",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "25/07/2040",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações  sobre subordinação",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Os pagamentos dos CRI Júnior e CRI Mezanino se encontram subordinados aos pagamentos dos CRI Sênior, nos termos do Termo de Securitização",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Correspondente ao índice IPCA/IBGE acrescido de uma Spread de 9,75% (nove inteiros e setenta e cinco centésimos por cento) ao ano",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Amortização Mensal, conforme Anexo II do Termo de Securitização",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Oferta conta com benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/255"
+          },
+          {
+            "loteInicial": {
+              "valorMobiliario": "2ª Série- CRI Mezanino - Reabertura",
+              "loteBase": {
+                "quantidadeAtivos": "46.110.582,0000",
+                "valorNominal": "1,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "46.110.582,0000"
+              },
+              "valorTotalLote": "46.110.582,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "09/10/2025",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "25/07/2040",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações  sobre subordinação",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Os pagamentos dos CRI Mezanino se encontram subordinados aos pagamentos dos CRI Sênior, nos termos do Termo de Securitização.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Correspondente ao IPCA/IBGE acrescido da sobretaxa, de 11,75 % (onze inteiros e setenta e cinco centésimos por cento) ao ano.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Amortização customizada, conforme Anexo II do Termo de Securitização.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Oferta conta com benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/256"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 0,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 0,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 0,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 0,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "0,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "0,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "0,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "0,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "oid": 42752
+    },
+    "registroValorMobiliario": false
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "numeroProcesso": "SRE/1430/2026",
+    "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/255;CVM/SRE/AUT/CRI/PRI/2026/256",
+    "nomeValorMobiliario": "Certificados de Recebíveis Imobiliários",
+    "valorTotal": "104.000.000,0000",
+    "data": "08/05/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "57.889.418,0000",
+    "status": "Registro Concedido",
+    "automaticaSemBook": true,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42752,
+    "dataInicioOferta": "08/05/2026",
+    "bookbuildingPreenchido": false,
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "08/05/2026",
+      "hora": "10:50:23",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "08/05/2026",
+      "hora": "10:50:23",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "08/05/2026",
+      "hora": "10:50:30",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26199\\pdfs\\Anúncio de Início da Distribuição_35c53307-a9a8-42ab-9b99-80cb58e34f8c.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "35c53307-a9a8-42ab-9b99-80cb58e34f8c"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26199\\pdfs\\Anúncio de Início da Distribuição_35c53307-a9a8-42ab-9b99-80cb58e34f8c.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

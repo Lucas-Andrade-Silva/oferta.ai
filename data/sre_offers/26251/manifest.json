@@ -1,0 +1,2113 @@
+{
+  "offer_number": "26251",
+  "cvm": {
+    "Numero_Requerimento": 26251,
+    "Numero_Processo": "SRE/1472/2026",
+    "Data_requerimento": "2026-05-12T00:00:00",
+    "Data_Registro": "2026-05-21T00:00:00",
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Registro Concedido",
+    "Valor_Mobiliario": "Certificados de Recebíveis Imobiliários",
+    "Tipo_requerimento": "OPD Aut Público em Geral ou Qualificado - com bookbuilding",
+    "Bookbuilding": "S",
+    "CNPJ_Emissor": "02.773.542/0001-22",
+    "Nome_Emissor": "OPEA SECURITIZADORA S.A.",
+    "CNPJ_Lider": "46.482.072/0001-13",
+    "Nome_Lider": "BTG PACTUAL INVESTMENT BANKING LTDA.",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 600000,
+    "Valor_Total_Registrado": 600000000.0,
+    "Publico_alvo": "Qualificado",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": null,
+    "Gestor": null,
+    "Destinacao_recursos": "O valor obtido com a integralização dos CRI pelos Investidores será utilizado, em sua integralidade, pela Emissora para pagamento do Preço de Cessão de cada um dos Créditos Imobiliários, representados pelas CCI, conforme previsto no respectivo Contrato de Cessão"
+  },
+  "documents": [
+    {
+      "label": "Prospecto Preliminar",
+      "uuid": "ee13b457-602d-479b-92cf-cebcb211bd7f"
+    },
+    {
+      "label": "Prospecto Definitivo",
+      "uuid": "955113ea-ac27-48e2-9ce9-676e5d6c91a7"
+    },
+    {
+      "label": "Prospecto Definitivo",
+      "uuid": "077b4b8e-eb24-495e-a34b-ef88b92b6034"
+    },
+    {
+      "label": "Lâmina",
+      "uuid": "d2926ce9-414a-41b8-9223-94d02502498a"
+    },
+    {
+      "label": "Aviso ao Mercado",
+      "uuid": "67c47269-f201-4e4a-aa43-86ec23a61d2a"
+    },
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "505092d0-ff64-4ea2-b3d2-e3d9067f455f"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "181289",
+      "razaoSocial": "BTG PACTUAL INVESTMENT BANKING LTDA.",
+      "cnpjInstituicao": "46.482.072/0001-13",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "57872",
+      "razaoSocial": "OPEA SECURITIZADORA S.A.",
+      "cnpjInstituicao": "02.773.542/0001-22",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "57873",
+      "razaoSocial": "BTG PACTUAL INVESTMENT BANKING LTDA.",
+      "cnpjInstituicao": "46.482.072/0001-13",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "57874",
+      "razaoSocial": "OPEA SECURITIZADORA S.A.",
+      "cnpjInstituicao": "02.773.542/0001-22",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26251,
+      "campoNome": "Emissão nº",
+      "valor": "600"
+    },
+    {
+      "codigo": 26251,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "13/10/2025"
+    },
+    {
+      "codigo": 26251,
+      "campoNome": "Mercado de negociação",
+      "valor": "CETIP 21"
+    },
+    {
+      "codigo": 26251,
+      "campoNome": "Regime fiduciário",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 26251,
+      "campoNome": "Agente fiduciário",
+      "valor": "GDC PARTNERS SERVIÇOS FIDUCIÁRIOS DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA."
+    },
+    {
+      "codigo": 26251,
+      "campoNome": "Escriturador",
+      "valor": "BTG PACTUAL SERVIÇOS FINANCEIROS S.A DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS"
+    },
+    {
+      "codigo": 26251,
+      "campoNome": "Custodiante",
+      "valor": "OLIVEIRA TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A."
+    },
+    {
+      "codigo": 26251,
+      "campoNome": "Avaliador de risco",
+      "valor": ""
+    },
+    {
+      "codigo": 26251,
+      "campoNome": "Tipo de lastro",
+      "valor": "Concentrado"
+    },
+    {
+      "codigo": 26251,
+      "campoNome": "Descrição do lastro",
+      "valor": "Contratos de QPA"
+    },
+    {
+      "codigo": 26251,
+      "campoNome": "Identificação dos devedores e coobrigados",
+      "valor": "BTGI QUARTZO PARTICIPAÇÕES S.A."
+    },
+    {
+      "codigo": 26251,
+      "campoNome": "Destinação dos recursos",
+      "valor": "O valor obtido com a integralização dos CRI pelos Investidores será utilizado, em sua integralidade, pela Emissora para pagamento do Preço de Cessão de cada um dos Créditos Imobiliários, representados pelas CCI, conforme previsto no respectivo Contrato de Cessão"
+    },
+    {
+      "codigo": 26251,
+      "campoNome": "Descrição das garantias",
+      "valor": "N/A"
+    },
+    {
+      "codigo": 26251,
+      "campoNome": "Público Alvo",
+      "valor": "Qualificado"
+    },
+    {
+      "codigo": 26251,
+      "campoNome": "Título padronizado",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26251,
+      "campoNome": "Reabertura de série",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26251,
+      "campoNome": "Endereço do emissor na rede mundial de computadores",
+      "valor": ""
+    },
+    {
+      "codigo": 26251,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    },
+    {
+      "codigo": 26251,
+      "campoNome": "Título classificado como “verde”, “social”, “sustentável” ou correlato",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26251,
+      "campoNome": "Possibilidade de revolvência",
+      "valor": "Não"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": true,
+      "numeroProcesso": "SRE/1472/2026",
+      "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/289;CVM/SRE/AUT/CRI/PRI/2026/290;CVM/SRE/AUT/CRI/PRI/2026/291;CVM/SRE/AUT/CRI/PRI/2026/292;CVM/SRE/AUT/CRI/PRI/2026/293;CVM/SRE/AUT/CRI/PRI/2026/294",
+      "nomeValorMobiliario": "Certificados de Recebíveis Imobiliários",
+      "valorTotalInicial": "600.000.000,0000",
+      "valorTotalFinal": "600.000.000,0000",
+      "valorTotalLoteBaseInicial": "600.000.000,0000",
+      "valorTotalLoteBaseFinal": "600.000.000,0000",
+      "data": "21/05/2026",
+      "nomeTipoRequerimento": "OPD Aut Público em Geral ou Qualificado - com bookbuilding",
+      "status": "Registro Concedido",
+      "automaticaSemBook": false,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42894
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": true,
+    "bookPreenchido": true,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "1a Série",
+              "loteBase": {
+                "quantidadeAtivos": "600.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "600.000.000,0000"
+              },
+              "valorTotalLote": "600.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/05/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/05/2036",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "N/A",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações  sobre subordinação",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "N/A",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração máxima",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "97,50% CDI a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração final (pós bookbuilding)",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "94,00% CDI a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Bullet",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Oferta conta com benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "loteFinal": {
+              "valorMobiliario": "1a Série",
+              "loteBase": {
+                "quantidadeAtivos": "205.345,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "205.345.000,0000"
+              },
+              "valorTotalLote": "205.345.000,0000",
+              "taxaRemuneracao": "94,00% CDI a.a.",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/05/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/05/2036",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "N/A",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações  sobre subordinação",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "N/A",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração máxima",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "97,50% CDI a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração final (pós bookbuilding)",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "94,00% CDI a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Bullet",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Oferta conta com benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": true,
+            "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/289"
+          },
+          {
+            "loteInicial": {
+              "valorMobiliario": "2a Série",
+              "loteBase": {
+                "quantidadeAtivos": "600.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "600.000.000,0000"
+              },
+              "valorTotalLote": "600.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/05/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/05/2036",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "N/A",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações  sobre subordinação",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "N/A",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração máxima",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "PréxDI jan/32 - 0,20% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração final (pós bookbuilding)",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Pré 12,6582% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Bullet",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Oferta conta com benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "loteFinal": {
+              "valorMobiliario": "2a Série",
+              "loteBase": {
+                "quantidadeAtivos": "140.953,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "140.953.000,0000"
+              },
+              "valorTotalLote": "140.953.000,0000",
+              "taxaRemuneracao": "Pré 12,6582% a.a.",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/05/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/05/2036",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "N/A",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações  sobre subordinação",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "N/A",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração máxima",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "PréxDI jan/32 - 0,20% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração final (pós bookbuilding)",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Pré 12,6582% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Bullet",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Oferta conta com benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": true,
+            "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/290"
+          },
+          {
+            "loteInicial": {
+              "valorMobiliario": "3a Série",
+              "loteBase": {
+                "quantidadeAtivos": "600.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "600.000.000,0000"
+              },
+              "valorTotalLote": "600.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/05/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/05/2036",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "N/A",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações  sobre subordinação",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "N/A",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração máxima",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "NTN-B 2037 - 0,30% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração final (pós bookbuilding)",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "IPCA+6.2488% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Bullet",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Oferta conta com benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "loteFinal": {
+              "valorMobiliario": "3a Série",
+              "loteBase": {
+                "quantidadeAtivos": "36.623,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "36.623.000,0000"
+              },
+              "valorTotalLote": "36.623.000,0000",
+              "taxaRemuneracao": "IPCA+6.2488% a.a.",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/05/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/05/2036",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "N/A",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações  sobre subordinação",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "N/A",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração máxima",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "NTN-B 2037 - 0,30% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração final (pós bookbuilding)",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "IPCA+6.2488% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Bullet",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Oferta conta com benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": true,
+            "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/291"
+          },
+          {
+            "loteInicial": {
+              "valorMobiliario": "4a Série",
+              "loteBase": {
+                "quantidadeAtivos": "600.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "600.000.000,0000"
+              },
+              "valorTotalLote": "600.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/05/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/05/2041",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "N/A",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações  sobre subordinação",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "N/A",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração máxima",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "98,50% CDI a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração final (pós bookbuilding)",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "96,00% CDI a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Bullet",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Oferta conta com benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "loteFinal": {
+              "valorMobiliario": "4a Série",
+              "loteBase": {
+                "quantidadeAtivos": "145.880,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "145.880.000,0000"
+              },
+              "valorTotalLote": "145.880.000,0000",
+              "taxaRemuneracao": "96,00% CDI a.a",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/05/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/05/2041",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "N/A",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações  sobre subordinação",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "N/A",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração máxima",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "98,50% CDI a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração final (pós bookbuilding)",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "96,00% CDI a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Bullet",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Oferta conta com benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": true,
+            "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/292"
+          },
+          {
+            "loteInicial": {
+              "valorMobiliario": "5a Série",
+              "loteBase": {
+                "quantidadeAtivos": "600.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "600.000.000,0000"
+              },
+              "valorTotalLote": "600.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/05/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/05/2041",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "N/A",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações  sobre subordinação",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "N/A",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração máxima",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "PréxDI Jan/33 -0,20% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração final (pós bookbuilding)",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Pré 12,8029% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Bullet",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Oferta conta com benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "loteFinal": {
+              "valorMobiliario": "5a Série",
+              "loteBase": {
+                "quantidadeAtivos": "56.982,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "56.982.000,0000"
+              },
+              "valorTotalLote": "56.982.000,0000",
+              "taxaRemuneracao": "Pré 12,8029% a.a.",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/05/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/05/2041",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "N/A",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações  sobre subordinação",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "N/A",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração máxima",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "PréxDI Jan/33 -0,20% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração final (pós bookbuilding)",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Pré 12,8029% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Bullet",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Oferta conta com benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": true,
+            "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/293"
+          },
+          {
+            "loteInicial": {
+              "valorMobiliario": "6a Série",
+              "loteBase": {
+                "quantidadeAtivos": "600.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "600.000.000,0000"
+              },
+              "valorTotalLote": "600.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/05/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/05/2041",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "N/A",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações  sobre subordinação",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "N/A",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração máxima",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "NTN-B 2040 - 0,20% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração final (pós bookbuilding)",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "IPCA+6,2211% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Bullet",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Oferta conta com benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "loteFinal": {
+              "valorMobiliario": "6a Série",
+              "loteBase": {
+                "quantidadeAtivos": "14.217,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "14.217.000,0000"
+              },
+              "valorTotalLote": "14.217.000,0000",
+              "taxaRemuneracao": "IPCA+6,2211% a.a.",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/05/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/05/2041",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "N/A",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações  sobre subordinação",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "N/A",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração máxima",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "NTN-B 2040 - 0,20% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração final (pós bookbuilding)",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "IPCA+6,2211% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Bullet",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Oferta conta com benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": true,
+            "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/294"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 0,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 0,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 0,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 0,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "0,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "0,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "0,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "0,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "oid": 42894
+    },
+    "registroValorMobiliario": false
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": true,
+    "resumoOferta": "CRÉDITOS IMOBILIÁRIOS DOS CERTIFICADOS DE RECEBÍVEIS IMOBILIÁRIOS DAS 1ª, 2ª, 3ª, 4ª, 5ª E 6ª SÉRIES, EM CLASSE ÚNICA, DA 600ª (SEXCENTÉSIMA) EMISSÃO DA OPEA SECURITIZADORA S.A. LASTRADOS EM CRÉDITOS IMOBILIÁRIOS DEVIDOS POR BTGI QUARTZO PARTICIPAÇÕES S.A.",
+    "numeroProcesso": "SRE/1472/2026",
+    "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/289;CVM/SRE/AUT/CRI/PRI/2026/290;CVM/SRE/AUT/CRI/PRI/2026/291;CVM/SRE/AUT/CRI/PRI/2026/292;CVM/SRE/AUT/CRI/PRI/2026/293;CVM/SRE/AUT/CRI/PRI/2026/294",
+    "nomeValorMobiliario": "Certificados de Recebíveis Imobiliários",
+    "valorTotal": "14.217.000,0000",
+    "data": "21/05/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Público em Geral ou Qualificado - com bookbuilding",
+    "bookValorTotal": "1.000,0000",
+    "bookQuantidadeAtivos": "205.345,0000",
+    "quantidadeAtivos": "600.000,0000",
+    "status": "Registro Concedido",
+    "automaticaSemBook": false,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42894,
+    "dataInicioOferta": "22/05/2026",
+    "bookbuildingPreenchido": true,
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "12/05/2026",
+      "hora": "22:19:39",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "12/05/2026",
+      "hora": "22:19:40",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "21/05/2026",
+      "hora": "20:38:51",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26251\\pdfs\\Prospecto Preliminar_ee13b457-602d-479b-92cf-cebcb211bd7f.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26251\\pdfs\\Prospecto Definitivo_955113ea-ac27-48e2-9ce9-676e5d6c91a7.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26251\\pdfs\\Prospecto Definitivo_077b4b8e-eb24-495e-a34b-ef88b92b6034.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26251\\pdfs\\Lâmina_d2926ce9-414a-41b8-9223-94d02502498a.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26251\\pdfs\\Aviso ao Mercado_67c47269-f201-4e4a-aa43-86ec23a61d2a.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26251\\pdfs\\Anúncio de Início da Distribuição_505092d0-ff64-4ea2-b3d2-e3d9067f455f.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Prospecto Preliminar",
+        "uuid": "ee13b457-602d-479b-92cf-cebcb211bd7f"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26251\\pdfs\\Prospecto Preliminar_ee13b457-602d-479b-92cf-cebcb211bd7f.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Prospecto Definitivo",
+        "uuid": "955113ea-ac27-48e2-9ce9-676e5d6c91a7"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26251\\pdfs\\Prospecto Definitivo_955113ea-ac27-48e2-9ce9-676e5d6c91a7.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Prospecto Definitivo",
+        "uuid": "077b4b8e-eb24-495e-a34b-ef88b92b6034"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26251\\pdfs\\Prospecto Definitivo_077b4b8e-eb24-495e-a34b-ef88b92b6034.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Lâmina",
+        "uuid": "d2926ce9-414a-41b8-9223-94d02502498a"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26251\\pdfs\\Lâmina_d2926ce9-414a-41b8-9223-94d02502498a.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Aviso ao Mercado",
+        "uuid": "67c47269-f201-4e4a-aa43-86ec23a61d2a"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26251\\pdfs\\Aviso ao Mercado_67c47269-f201-4e4a-aa43-86ec23a61d2a.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "505092d0-ff64-4ea2-b3d2-e3d9067f455f"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26251\\pdfs\\Anúncio de Início da Distribuição_505092d0-ff64-4ea2-b3d2-e3d9067f455f.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

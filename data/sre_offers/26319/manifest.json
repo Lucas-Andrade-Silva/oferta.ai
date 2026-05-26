@@ -1,0 +1,258 @@
+{
+  "offer_number": "26319",
+  "cvm": {
+    "Numero_Requerimento": 26319,
+    "Numero_Processo": "SRE/1512/2026",
+    "Data_requerimento": "2026-05-14T00:00:00",
+    "Data_Registro": "2026-05-14T00:00:00",
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Registro Concedido",
+    "Valor_Mobiliario": "Cotas de FII",
+    "Tipo_requerimento": "OPD Aut Profissional - sem bookbuilding",
+    "Bookbuilding": "N",
+    "CNPJ_Emissor": "66.743.243/0001-28",
+    "Nome_Emissor": "CAPITANIA ARTON JARDIM PAULISTANO FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+    "CNPJ_Lider": "59.281.253/0001-23",
+    "Nome_Lider": "BTG PACTUAL SERVIÇOS FINANCEIROS S/A DTVM",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 1500000,
+    "Valor_Total_Registrado": 150000000.0,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": "BTG Pactual Serviços Financeiros S.A. Distribuidora de Títulos e ValoresMobiliários",
+    "Gestor": "Capitânia Alternatives S.A",
+    "Destinacao_recursos": "A classe tem por objetivo proporcionar aos cotistas a valorização e a rentabilidadede suas cotas, conforme política de investimento definida no regulamento"
+  },
+  "documents": [
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "8025eeb2-6474-4caf-98e7-f10e8b9eefee"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "182078",
+      "razaoSocial": "BTG PACTUAL SERVIÇOS FINANCEIROS S/A DTVM",
+      "cnpjInstituicao": "59.281.253/0001-23",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "58076",
+      "razaoSocial": "CAPITANIA ARTON JARDIM PAULISTANO FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+      "cnpjInstituicao": "66.743.243/0001-28",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "58077",
+      "razaoSocial": "BTG PACTUAL SERVIÇOS FINANCEIROS S/A DTVM",
+      "cnpjInstituicao": "59.281.253/0001-23",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "58078",
+      "razaoSocial": "CAPITANIA ARTON JARDIM PAULISTANO FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+      "cnpjInstituicao": "66.743.243/0001-28",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26319,
+      "campoNome": "Oferta inicial?",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 26319,
+      "campoNome": "Emissão nº",
+      "valor": "1"
+    },
+    {
+      "codigo": 26319,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "12/05/2026"
+    },
+    {
+      "codigo": 26319,
+      "campoNome": "Mercado de negociação",
+      "valor": "(i) distribuição e liquidação no mercado\nDDA\nEscriturador, conforme o caso; e (ii) negociação e liquidação no mercado\nsecundário exclusivamente por meio do mercado de bolsa, ambos\nadministrados e operacionalizados pela B3 S.A. B3"
+    },
+    {
+      "codigo": 26319,
+      "campoNome": "Administrador",
+      "valor": "BTG Pactual Serviços Financeiros S.A. Distribuidora de Títulos e Valores\nMobiliários"
+    },
+    {
+      "codigo": 26319,
+      "campoNome": "Gestor",
+      "valor": "Capitânia Alternatives S.A"
+    },
+    {
+      "codigo": 26319,
+      "campoNome": "Escriturador",
+      "valor": "BTG Pactual Serviços Financeiros S.A. Distribuidora de Títulos e Valores\nMobiliários"
+    },
+    {
+      "codigo": 26319,
+      "campoNome": "Custodiante",
+      "valor": "Banco BTG Pactual S.A."
+    },
+    {
+      "codigo": 26319,
+      "campoNome": "Destinação dos recursos",
+      "valor": "A classe tem por objetivo proporcionar aos cotistas a valorização e a rentabilidade\nde suas cotas, conforme política de investimento definida no regulamento"
+    },
+    {
+      "codigo": 26319,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1512/2026",
+      "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/156",
+      "nomeValorMobiliario": "Cotas de FII",
+      "valorTotalInicial": "150.000.000,0000",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "120.000.000,0000",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "14/05/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+      "status": "Registro Concedido",
+      "automaticaSemBook": true,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42903
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "Cotas de FII",
+              "loteBase": {
+                "quantidadeAtivos": "1.200.000,0000",
+                "valorNominal": "100,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "120.000.000,0000"
+              },
+              "loteAdicional": {
+                "quantidadeAtivos": "300.000,0000",
+                "valorNominal": "100,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "30.000.000,0000"
+              },
+              "valorTotalLote": "150.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Descrição do valor mobiliário",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Cotas de FII",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/156"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 0,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 0,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 0,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 0,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "0,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "0,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "0,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "0,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "oid": 42903
+    },
+    "registroValorMobiliario": true
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "numeroProcesso": "SRE/1512/2026",
+    "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/156",
+    "nomeValorMobiliario": "Cotas de FII",
+    "valorTotal": "150.000.000,0000",
+    "data": "14/05/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "1.200.000,0000",
+    "status": "Registro Concedido",
+    "automaticaSemBook": true,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42903,
+    "dataInicioOferta": "22/05/2026",
+    "bookbuildingPreenchido": false,
+    "razaoSocialFundoAssociado": "CAPITANIA ARTON JARDIM PAULISTANO FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+    "cnpjFundoAssociado": "66.743.243/0001-28",
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "14/05/2026",
+      "hora": "19:37:52",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "14/05/2026",
+      "hora": "19:37:53",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "14/05/2026",
+      "hora": "19:38:00",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26319\\pdfs\\Anúncio de Início da Distribuição_8025eeb2-6474-4caf-98e7-f10e8b9eefee.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "8025eeb2-6474-4caf-98e7-f10e8b9eefee"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26319\\pdfs\\Anúncio de Início da Distribuição_8025eeb2-6474-4caf-98e7-f10e8b9eefee.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

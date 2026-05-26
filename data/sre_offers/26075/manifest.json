@@ -1,0 +1,250 @@
+{
+  "offer_number": "26075",
+  "cvm": {
+    "Numero_Requerimento": 26075,
+    "Numero_Processo": "SRE/1286/2026",
+    "Data_requerimento": "2026-04-24T00:00:00",
+    "Data_Registro": "2026-04-24T00:00:00",
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Registro Concedido",
+    "Valor_Mobiliario": "Cotas de FII",
+    "Tipo_requerimento": "OPD Aut Profissional - sem bookbuilding",
+    "Bookbuilding": "N",
+    "CNPJ_Emissor": "59.030.677/0001-15",
+    "Nome_Emissor": "PISA VII FUNDO DE INVESTIMENTO IMOBILIARIO RESPONSABILIDADE  LIMITADA",
+    "CNPJ_Lider": "16.695.922/0001-09",
+    "Nome_Lider": "ID CORRETORA DE TITULOS E VALORES MOBILIARIOS S.A.",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 15200000,
+    "Valor_Total_Registrado": 20064000.0,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": "ID CORRETORA DE TÍTULOS E VALORES MOBILIÁRIOS SA.",
+    "Gestor": "SUNO GESTORA DE RECURSOS LTDA",
+    "Destinacao_recursos": "Aplicação preponderante em empreendimentos imobiliários, que poderá ser realizada por meio da aquisição dos Ativos Imobiliários elegíveis conforme o regulamento do fundo."
+  },
+  "documents": [
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "4eb5d4f5-1bb4-4c1e-bb98-0a5b1b001b30"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "179221",
+      "razaoSocial": "ID CORRETORA DE TITULOS E VALORES MOBILIARIOS S.A.",
+      "cnpjInstituicao": "16.695.922/0001-09",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "57333",
+      "razaoSocial": "PISA VII FUNDO DE INVESTIMENTO IMOBILIARIO RESPONSABILIDADE  LIMITADA",
+      "cnpjInstituicao": "59.030.677/0001-15",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "57334",
+      "razaoSocial": "ID CORRETORA DE TITULOS E VALORES MOBILIARIOS S.A.",
+      "cnpjInstituicao": "16.695.922/0001-09",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "57335",
+      "razaoSocial": "PISA VII FUNDO DE INVESTIMENTO IMOBILIARIO RESPONSABILIDADE  LIMITADA",
+      "cnpjInstituicao": "59.030.677/0001-15",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26075,
+      "campoNome": "Oferta inicial?",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26075,
+      "campoNome": "Emissão nº",
+      "valor": "2"
+    },
+    {
+      "codigo": 26075,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "24/04/2026"
+    },
+    {
+      "codigo": 26075,
+      "campoNome": "Mercado de negociação",
+      "valor": "PRIMÁRIO (MDA) / SECUNDARIO (FUNDOS21) - B3 S.A. - Brasil, Bolsa, Balcão"
+    },
+    {
+      "codigo": 26075,
+      "campoNome": "Administrador",
+      "valor": "ID CORRETORA DE TÍTULOS E VALORES MOBILIÁRIOS SA."
+    },
+    {
+      "codigo": 26075,
+      "campoNome": "Gestor",
+      "valor": "SUNO GESTORA DE RECURSOS LTDA"
+    },
+    {
+      "codigo": 26075,
+      "campoNome": "Escriturador",
+      "valor": "ID CORRETORA DE TÍTULOS E VALORES MOBILIÁRIOS SA."
+    },
+    {
+      "codigo": 26075,
+      "campoNome": "Custodiante",
+      "valor": "ID CORRETORA DE TÍTULOS E VALORES MOBILIÁRIOS SA."
+    },
+    {
+      "codigo": 26075,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Aplicação preponderante em empreendimentos imobiliários, que poderá ser realizada por meio da aquisição dos Ativos Imobiliários elegíveis conforme o regulamento do fundo."
+    },
+    {
+      "codigo": 26075,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1286/2026",
+      "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/135",
+      "nomeValorMobiliario": "Cotas de FII",
+      "valorTotalInicial": "20.064.000,0000",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "20.064.000,0000",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "24/04/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+      "status": "Registro Concedido",
+      "automaticaSemBook": true,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42605
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "COTAS DE FUNDO FECHADO",
+              "loteBase": {
+                "quantidadeAtivos": "15.200.000,0000",
+                "valorNominal": "1,3200",
+                "custoUnitario": "0,0000",
+                "valorTotal": "20.064.000,0000"
+              },
+              "valorTotalLote": "20.064.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Descrição do valor mobiliário",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "2ª EMISSÃO - CLASSE ÚNICA",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/135"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 0,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 0,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 0,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 0,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "0,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "0,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "0,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "0,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "oid": 42605
+    },
+    "registroValorMobiliario": true
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "numeroProcesso": "SRE/1286/2026",
+    "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/135",
+    "nomeValorMobiliario": "Cotas de FII",
+    "valorTotal": "20.064.000,0000",
+    "data": "24/04/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "15.200.000,0000",
+    "status": "Registro Concedido",
+    "automaticaSemBook": true,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42605,
+    "dataInicioOferta": "27/04/2026",
+    "bookbuildingPreenchido": false,
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "24/04/2026",
+      "hora": "16:57:36",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "24/04/2026",
+      "hora": "16:57:36",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "24/04/2026",
+      "hora": "16:57:37",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26075\\pdfs\\Anúncio de Início da Distribuição_4eb5d4f5-1bb4-4c1e-bb98-0a5b1b001b30.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "4eb5d4f5-1bb4-4c1e-bb98-0a5b1b001b30"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26075\\pdfs\\Anúncio de Início da Distribuição_4eb5d4f5-1bb4-4c1e-bb98-0a5b1b001b30.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

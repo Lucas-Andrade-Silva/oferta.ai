@@ -1,0 +1,362 @@
+{
+  "offer_number": "26410",
+  "cvm": {
+    "Numero_Requerimento": 26410,
+    "Numero_Processo": "SRE/1598/2026",
+    "Data_requerimento": "2026-05-21T00:00:00",
+    "Data_Registro": null,
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Aguardando Bookbuilding",
+    "Valor_Mobiliario": "Debêntures",
+    "Tipo_requerimento": "OPD Aut Profissional - com bookbuilding - Emissor Não Registrado",
+    "Bookbuilding": "S",
+    "CNPJ_Emissor": "03.645.772/0001-79",
+    "Nome_Emissor": "DOCK TECNOLOGIA S.A.",
+    "CNPJ_Lider": "06.271.464/0001-19",
+    "Nome_Lider": "BANCO BRADESCO BBI S.A.",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 0,
+    "Valor_Total_Registrado": 0.0,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Garantia Firme de Colocação",
+    "Administrador": null,
+    "Gestor": null,
+    "Destinacao_recursos": "Liability Management, pagamento de sellers finance e gestão ordinária"
+  },
+  "documents": [
+    {
+      "label": "Aviso ao Mercado",
+      "uuid": "0cf20d00-442e-4e8d-837e-6fa201a904d8"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "183125",
+      "razaoSocial": "BANCO BRADESCO BBI S.A.",
+      "cnpjInstituicao": "06.271.464/0001-19",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "183131",
+      "razaoSocial": "BANCO CITIBANK SA",
+      "cnpjInstituicao": "33.479.023/0001-80",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "58346",
+      "razaoSocial": "DOCK TECNOLOGIA S.A.",
+      "cnpjInstituicao": "03.645.772/0001-79",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "58347",
+      "razaoSocial": "BANCO BRADESCO BBI S.A.",
+      "cnpjInstituicao": "06.271.464/0001-19",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "58348",
+      "razaoSocial": "DOCK TECNOLOGIA S.A.",
+      "cnpjInstituicao": "03.645.772/0001-79",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26410,
+      "campoNome": "Emissão nº",
+      "valor": "2"
+    },
+    {
+      "codigo": 26410,
+      "campoNome": "Tipo societário",
+      "valor": "SA capital fechado"
+    },
+    {
+      "codigo": 26410,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "20/05/2026"
+    },
+    {
+      "codigo": 26410,
+      "campoNome": "Mercado de negociação",
+      "valor": "CETIP 21"
+    },
+    {
+      "codigo": 26410,
+      "campoNome": "Agente fiduciário",
+      "valor": "PENTÁGONO S.A DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS"
+    },
+    {
+      "codigo": 26410,
+      "campoNome": "Escriturador",
+      "valor": "Banco Bradesco S.A."
+    },
+    {
+      "codigo": 26410,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Liability Management, pagamento de sellers finance e gestão ordinária"
+    },
+    {
+      "codigo": 26410,
+      "campoNome": "Avaliador de risco",
+      "valor": ""
+    },
+    {
+      "codigo": 26410,
+      "campoNome": "Título padronizado",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26410,
+      "campoNome": "Reabertura de série",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26410,
+      "campoNome": "Endereço do emissor na rede mundial de computadores",
+      "valor": ""
+    },
+    {
+      "codigo": 26410,
+      "campoNome": "Regime de distribuição",
+      "valor": "Garantia Firme de Colocação"
+    },
+    {
+      "codigo": 26410,
+      "campoNome": "Título classificado como “verde”, “social”, “sustentável” ou correlato",
+      "valor": "Não"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1598/2026",
+      "numeroRegistro": "N/A",
+      "nomeValorMobiliario": "Debêntures",
+      "valorTotalInicial": "175.000.000,0000",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "175.000.000,0000",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "21/05/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - com bookbuilding - Emissor Não Registrado",
+      "status": "Aguardando Bookbuilding",
+      "automaticaSemBook": false,
+      "ofertaAutomatica": true
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "Debênture",
+              "loteBase": {
+                "quantidadeAtivos": "175.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "175.000.000,0000"
+              },
+              "valorTotalLote": "175.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "25/05/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "25/05/2031",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Espécie",
+                  "campoTipo": "Espécie de Debênture",
+                  "campoValor": "Quirografária",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração máxima",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "CDI + 3,20% a.a. (252)",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração final (pós bookbuilding)",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Trimestal, a partir de 25 de agosto de 2027",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tem benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim fixo",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º ou Lei 14.801/24",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxxx ou +xx.xxxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxxx ou +xx.xxxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "Em andamento"
+          }
+        ]
+      }
+    ],
+    "registroValorMobiliario": false
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "resumoOferta": "OFERTA DE DISTRIBUIÇÃO PÚBLICA, SOB O RITO DE REGISTRO AUTOMÁTICO, DESTINADA A INVESTIDORES PROFISSIONAIS, DE DEBÊNTURES SIMPLES, NÃO CONVERSÍVEIS EM AÇÕES, DA ESPÉCIE QUIROGRAFÁRIA, A SER CONVOLADA NA ESPÉCIE COM GARANTIA REAL, COM GARANTIA FIDEJUSSÓRIA ADICIONAL, EM SÉRIE ÚNICA, DA 2ª (SEGUNDA) EMISSÃO DA DOCK TECNOLOGIA S.A.",
+    "numeroProcesso": "SRE/1598/2026",
+    "numeroRegistro": "N/A",
+    "nomeValorMobiliario": "Debêntures",
+    "valorTotal": "175.000.000,0000",
+    "data": "21/05/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - com bookbuilding - Emissor Não Registrado",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "175.000,0000",
+    "status": "Aguardando Bookbuilding",
+    "automaticaSemBook": false,
+    "ofertaAutomatica": true,
+    "bookbuildingPreenchido": true,
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "21/05/2026",
+      "hora": "19:06:11",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "21/05/2026",
+      "hora": "19:06:13",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26410\\pdfs\\Aviso ao Mercado_0cf20d00-442e-4e8d-837e-6fa201a904d8.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Aviso ao Mercado",
+        "uuid": "0cf20d00-442e-4e8d-837e-6fa201a904d8"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26410\\pdfs\\Aviso ao Mercado_0cf20d00-442e-4e8d-837e-6fa201a904d8.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

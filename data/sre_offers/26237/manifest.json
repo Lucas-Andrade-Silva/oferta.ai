@@ -1,0 +1,337 @@
+{
+  "offer_number": "26237",
+  "cvm": {
+    "Numero_Requerimento": 26237,
+    "Numero_Processo": "SRE/1439/2026",
+    "Data_requerimento": "2026-05-08T00:00:00",
+    "Data_Registro": "2026-05-08T00:00:00",
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Registro Concedido",
+    "Valor_Mobiliario": "Certificados de Recebíveis do Agronegócio",
+    "Tipo_requerimento": "OPD Aut Profissional - sem bookbuilding",
+    "Bookbuilding": "N",
+    "CNPJ_Emissor": "26.609.050/0001-64",
+    "Nome_Emissor": "TRAVESSIA SECURITIZADORA S.A.",
+    "CNPJ_Lider": "26.609.050/0001-64",
+    "Nome_Lider": "TRAVESSIA SECURITIZADORA S.A.",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 25500,
+    "Valor_Total_Registrado": 25500000.0,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": null,
+    "Gestor": null,
+    "Destinacao_recursos": "Os recursos líquidos obtidos com a subscrição e integralização dos CRA serão utilizados pela Emissora para pagamento do respectivo Preço de Integralização ao Devedor, conforme estabelecido na CPR-Financeira. Os recursos captados por meio da CPR-Financeira deverão ser utilizados pelo Devedor, integral e exclusivamente, de acordo com o artigo 2º, parágrafo 4º, inciso III, do Anexo Normativo II da Resolução CVM 60, para a atividade de produção, comercialização, beneficiamento e industrialização de soja."
+  },
+  "documents": [
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "5d1be4c9-99d2-4402-93cc-809d61db5e2b"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "181124",
+      "razaoSocial": "TRAVESSIA SECURITIZADORA S.A.",
+      "cnpjInstituicao": "26.609.050/0001-64",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "57830",
+      "razaoSocial": "TRAVESSIA SECURITIZADORA S.A.",
+      "cnpjInstituicao": "26.609.050/0001-64",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "57831",
+      "razaoSocial": "TRAVESSIA SECURITIZADORA S.A.",
+      "cnpjInstituicao": "26.609.050/0001-64",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "57832",
+      "razaoSocial": "TRAVESSIA SECURITIZADORA S.A.",
+      "cnpjInstituicao": "26.609.050/0001-64",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26237,
+      "campoNome": "Emissão nº",
+      "valor": "27"
+    },
+    {
+      "codigo": 26237,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "29/04/2025"
+    },
+    {
+      "codigo": 26237,
+      "campoNome": "Mercado de negociação",
+      "valor": "CETIP21 - TÍTULOS E VALORES MOBILIÁRIOS"
+    },
+    {
+      "codigo": 26237,
+      "campoNome": "Regime fiduciário",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 26237,
+      "campoNome": "Agente fiduciário",
+      "valor": "Oliveira Trust Distribuidora de Títulos e Valores Mobiliários S.A."
+    },
+    {
+      "codigo": 26237,
+      "campoNome": "Escriturador",
+      "valor": "Oliveira Trust Distribuidora de Títulos e Valores Mobiliários S.A."
+    },
+    {
+      "codigo": 26237,
+      "campoNome": "Custodiante",
+      "valor": "Oliveira Trust Distribuidora de Títulos e Valores Mobiliários S.A."
+    },
+    {
+      "codigo": 26237,
+      "campoNome": "Avaliador de risco",
+      "valor": ""
+    },
+    {
+      "codigo": 26237,
+      "campoNome": "Tipo de lastro",
+      "valor": "Concentrado"
+    },
+    {
+      "codigo": 26237,
+      "campoNome": "Descrição do lastro",
+      "valor": "Cédula de Produto Rural com Liquidação Financeira"
+    },
+    {
+      "codigo": 26237,
+      "campoNome": "Identificação dos devedores e coobrigados",
+      "valor": "FABIO RUEDIGER - 001.272.695-84\nLARISSA RENOVATO RUEDIGER - 005.874.161-57\nMARGARIDA VERONICA RUEDIGER - 757.135.865-53"
+    },
+    {
+      "codigo": 26237,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Os recursos líquidos obtidos com a subscrição e integralização dos CRA serão utilizados pela Emissora para pagamento do respectivo Preço de Integralização ao Devedor, conforme estabelecido na CPR-Financeira. Os recursos captados por meio da CPR-Financeira deverão ser utilizados pelo Devedor, integral e exclusivamente, de acordo com o artigo 2º, parágrafo 4º, inciso III, do Anexo Normativo II da Resolução CVM 60, para a atividade de produção, comercialização, beneficiamento e industrialização de soja."
+    },
+    {
+      "codigo": 26237,
+      "campoNome": "Descrição das garantias",
+      "valor": "Aval, a Alienação Fiduciária de\nImóvel e a Cessão Fiduciária;"
+    },
+    {
+      "codigo": 26237,
+      "campoNome": "Título padronizado",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26237,
+      "campoNome": "Reabertura de série",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26237,
+      "campoNome": "Endereço do emissor na rede mundial de computadores",
+      "valor": "www.grupotravessia.com"
+    },
+    {
+      "codigo": 26237,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    },
+    {
+      "codigo": 26237,
+      "campoNome": "Título classificado como “verde”, “social”, “sustentável” ou correlato",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26237,
+      "campoNome": "Possibilidade de revolvência",
+      "valor": "Não"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1439/2026",
+      "numeroRegistro": "CVM/SRE/AUT/CRA/PRI/2026/070",
+      "nomeValorMobiliario": "Certificados de Recebíveis do Agronegócio",
+      "valorTotalInicial": "25.500.000,0000",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "25.500.000,0000",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "08/05/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+      "status": "Registro Concedido",
+      "automaticaSemBook": true,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42758
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "1a série",
+              "loteBase": {
+                "quantidadeAtivos": "25.500,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "25.500.000,0000"
+              },
+              "valorTotalLote": "25.500.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "30/04/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "30/04/2032",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre subordinação",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Não há",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "A partir da primeira integralização: variação da cotação da taxa de câmbio (cotação de fechamento), para venda, do dólar norte-americano (“PTAX”) + 10,00% a.a., 360 dias corridos\nA partir de 28/04/2028: DI + 4,85% a.a., 252 dias úteis",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Semestral, a partir de 28/04/2028",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/CRA/PRI/2026/070"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 0,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 0,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 0,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 0,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "0,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "0,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "0,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "0,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "oid": 42758
+    },
+    "registroValorMobiliario": false
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "numeroProcesso": "SRE/1439/2026",
+    "numeroRegistro": "CVM/SRE/AUT/CRA/PRI/2026/070",
+    "nomeValorMobiliario": "Certificados de Recebíveis do Agronegócio",
+    "valorTotal": "25.500.000,0000",
+    "data": "08/05/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "25.500,0000",
+    "status": "Registro Concedido",
+    "automaticaSemBook": true,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42758,
+    "dataInicioOferta": "08/05/2026",
+    "bookbuildingPreenchido": false,
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "08/05/2026",
+      "hora": "18:33:31",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "08/05/2026",
+      "hora": "18:33:33",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "08/05/2026",
+      "hora": "18:33:41",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26237\\pdfs\\Anúncio de Início da Distribuição_5d1be4c9-99d2-4402-93cc-809d61db5e2b.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "5d1be4c9-99d2-4402-93cc-809d61db5e2b"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26237\\pdfs\\Anúncio de Início da Distribuição_5d1be4c9-99d2-4402-93cc-809d61db5e2b.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

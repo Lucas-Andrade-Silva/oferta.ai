@@ -1,0 +1,572 @@
+{
+  "offer_number": "26206",
+  "cvm": {
+    "Numero_Requerimento": 26206,
+    "Numero_Processo": "SRE/1410/2026",
+    "Data_requerimento": "2026-05-06T00:00:00",
+    "Data_Registro": "2026-05-13T00:00:00",
+    "Data_Encerramento": "2026-05-14T00:00:00",
+    "Status_Requerimento": "Oferta Encerrada",
+    "Valor_Mobiliario": "Debêntures",
+    "Tipo_requerimento": "OPD Aut Profissional - com bookbuilding - Emissor Não Registrado",
+    "Bookbuilding": "S",
+    "CNPJ_Emissor": "65.730.963/0001-96",
+    "Nome_Emissor": "TTL HOLDING 36 S/A",
+    "CNPJ_Lider": "06.271.464/0001-19",
+    "Nome_Lider": "BANCO BRADESCO BBI S.A.",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 550000,
+    "Valor_Total_Registrado": 550000000.0,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Garantia Firme de Colocação",
+    "Administrador": null,
+    "Gestor": null,
+    "Destinacao_recursos": "Os Recursos Líquidos obtidos pela Emissora por meio da Emissão das Debêntures serão utilizados exclusivamente para a consecução do objeto social da Emissora, incluindo a participação, direta ou indireta, no capital social de outras sociedades que desenvolvam projetos e/ou atividades relacionadas a infraestrutura digital, incluindo centro de dados (data centers)."
+  },
+  "documents": [
+    {
+      "label": "Aviso ao Mercado",
+      "uuid": "ac76845f-f1de-43e0-bf02-cbb672deb5c7"
+    },
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "0d2fdb43-5d9e-4678-a96a-2158cc532c8c"
+    },
+    {
+      "label": "Anúncio de Encerramento da Distribuição",
+      "uuid": "09d08319-2869-4f5a-8fc9-8cd01d30bd7f"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "180761",
+      "razaoSocial": "BANCO BRADESCO BBI S.A.",
+      "cnpjInstituicao": "06.271.464/0001-19",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "57737",
+      "razaoSocial": "TTL HOLDING 36 S/A",
+      "cnpjInstituicao": "65.730.963/0001-96",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "57738",
+      "razaoSocial": "BANCO BRADESCO BBI S.A.",
+      "cnpjInstituicao": "06.271.464/0001-19",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "57739",
+      "razaoSocial": "TTL HOLDING 36 S/A",
+      "cnpjInstituicao": "65.730.963/0001-96",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26206,
+      "campoNome": "Emissão nº",
+      "valor": "1"
+    },
+    {
+      "codigo": 26206,
+      "campoNome": "Tipo societário",
+      "valor": "SA capital fechado"
+    },
+    {
+      "codigo": 26206,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "20/04/2026"
+    },
+    {
+      "codigo": 26206,
+      "campoNome": "Mercado de negociação",
+      "valor": "MDA, administrado e operacionalizado pela B3 - CETIP21-Títulos e Valores Mobiliários"
+    },
+    {
+      "codigo": 26206,
+      "campoNome": "Agente fiduciário",
+      "valor": "OLIVEIRA TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A."
+    },
+    {
+      "codigo": 26206,
+      "campoNome": "Escriturador",
+      "valor": "BANCO BRADESCO S.A."
+    },
+    {
+      "codigo": 26206,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Os Recursos Líquidos obtidos pela Emissora por meio da Emissão das Debêntures serão utilizados exclusivamente para a consecução do objeto social da Emissora, incluindo a participação, direta ou indireta, no capital social de outras sociedades que desenvolvam projetos e/ou atividades relacionadas a infraestrutura digital, incluindo centro de dados (data centers)."
+    },
+    {
+      "codigo": 26206,
+      "campoNome": "Avaliador de risco",
+      "valor": ""
+    },
+    {
+      "codigo": 26206,
+      "campoNome": "Título padronizado",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26206,
+      "campoNome": "Reabertura de série",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26206,
+      "campoNome": "Endereço do emissor na rede mundial de computadores",
+      "valor": ""
+    },
+    {
+      "codigo": 26206,
+      "campoNome": "Regime de distribuição",
+      "valor": "Garantia Firme de Colocação"
+    },
+    {
+      "codigo": 26206,
+      "campoNome": "Título classificado como “verde”, “social”, “sustentável” ou correlato",
+      "valor": "Não"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": true,
+      "numeroProcesso": "SRE/1410/2026",
+      "numeroRegistro": "CVM/SRE/AUT/DEB/PRI/2026/240",
+      "nomeValorMobiliario": "Debêntures",
+      "valorTotalInicial": "550.000.000,0000",
+      "valorTotalFinal": "550.000.000,0000",
+      "valorTotalLoteBaseInicial": "550.000.000,0000",
+      "valorTotalLoteBaseFinal": "550.000.000,0000",
+      "data": "13/05/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - com bookbuilding - Emissor Não Registrado",
+      "status": "Oferta Encerrada",
+      "automaticaSemBook": false,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42806
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": true,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "Debêntures",
+              "loteBase": {
+                "quantidadeAtivos": "550.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "550.000.000,0000"
+              },
+              "valorTotalLote": "550.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "06/05/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "06/05/2028",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Espécie",
+                  "campoTipo": "Espécie de Debênture",
+                  "campoValor": "Garantia Real",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração máxima",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "CDI + 5,20% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração final (pós bookbuilding)",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "CDI + 5,20% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "será pago integralmente na Data de Vencimento das Debêntures",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tem benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim fixo",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º ou Lei 14.801/24",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxxx ou +xx.xxxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxxx ou +xx.xxxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "loteFinal": {
+              "valorMobiliario": "Debêntures",
+              "loteBase": {
+                "quantidadeAtivos": "550.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "550.000.000,0000"
+              },
+              "valorTotalLote": "550.000.000,0000",
+              "taxaRemuneracao": "CDI + 5,20% a.a.",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "06/05/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "06/05/2028",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Espécie",
+                  "campoTipo": "Espécie de Debênture",
+                  "campoValor": "Garantia Real",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração máxima",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "CDI + 5,20% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração final (pós bookbuilding)",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "CDI + 5,20% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "será pago integralmente na Data de Vencimento das Debêntures",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tem benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim fixo",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º ou Lei 14.801/24",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxxx ou +xx.xxxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxxx ou +xx.xxxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": true,
+            "numeroRegistro": "CVM/SRE/AUT/DEB/PRI/2026/240"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "dataEncerramento": "2026-05-14T17:00:00Z",
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 12,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 0,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 0,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 0,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "550.000,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "0,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "0,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "0,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "foiRevogada": false,
+      "oid": 42806
+    },
+    "registroValorMobiliario": false
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": true,
+    "resumoOferta": "1ª (PRIMEIRA) EMISSÃO DE DEBÊNTURES SIMPLES, NÃO CONVERSÍVEIS EM AÇÕES, DA ESPÉCIE COM GARANTIA REAL, EM SÉRIE ÚNICA, PARA DISTRIBUIÇÃO PÚBLICA, SOB O RITO DE REGISTRO AUTOMÁTICO, DA TTL HOLDING 36 S.A.",
+    "numeroProcesso": "SRE/1410/2026",
+    "numeroRegistro": "CVM/SRE/AUT/DEB/PRI/2026/240",
+    "nomeValorMobiliario": "Debêntures",
+    "valorTotal": "550.000.000,0000",
+    "data": "13/05/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - com bookbuilding - Emissor Não Registrado",
+    "bookValorTotal": "1.000,0000",
+    "bookQuantidadeAtivos": "550.000,0000",
+    "quantidadeAtivos": "550.000,0000",
+    "status": "Oferta Encerrada",
+    "automaticaSemBook": false,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42806,
+    "dataInicioOferta": "13/05/2026",
+    "bookbuildingPreenchido": true,
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "06/05/2026",
+      "hora": "21:39:13",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "06/05/2026",
+      "hora": "21:39:13",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "13/05/2026",
+      "hora": "19:32:02",
+      "observacao": ""
+    },
+    {
+      "status": "Oferta Encerrada",
+      "data": "14/05/2026",
+      "hora": "20:04:14",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26206\\pdfs\\Aviso ao Mercado_ac76845f-f1de-43e0-bf02-cbb672deb5c7.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26206\\pdfs\\Anúncio de Início da Distribuição_0d2fdb43-5d9e-4678-a96a-2158cc532c8c.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26206\\pdfs\\Anúncio de Encerramento da Distribuição_09d08319-2869-4f5a-8fc9-8cd01d30bd7f.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Aviso ao Mercado",
+        "uuid": "ac76845f-f1de-43e0-bf02-cbb672deb5c7"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26206\\pdfs\\Aviso ao Mercado_ac76845f-f1de-43e0-bf02-cbb672deb5c7.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "0d2fdb43-5d9e-4678-a96a-2158cc532c8c"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26206\\pdfs\\Anúncio de Início da Distribuição_0d2fdb43-5d9e-4678-a96a-2158cc532c8c.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Anúncio de Encerramento da Distribuição",
+        "uuid": "09d08319-2869-4f5a-8fc9-8cd01d30bd7f"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26206\\pdfs\\Anúncio de Encerramento da Distribuição_09d08319-2869-4f5a-8fc9-8cd01d30bd7f.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

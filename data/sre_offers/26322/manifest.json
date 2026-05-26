@@ -1,0 +1,355 @@
+{
+  "offer_number": "26322",
+  "cvm": {
+    "Numero_Requerimento": 26322,
+    "Numero_Processo": "SRE/1522/2026",
+    "Data_requerimento": "2026-05-15T00:00:00",
+    "Data_Registro": null,
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Aguardando Bookbuilding",
+    "Valor_Mobiliario": "Debêntures",
+    "Tipo_requerimento": "OPD Aut Profissional - com bookbuilding - Emissor Não Registrado",
+    "Bookbuilding": "S",
+    "CNPJ_Emissor": "50.117.634/0001-05",
+    "Nome_Emissor": "AXS ENERGIA UNIDADE 10 SPE S.A",
+    "CNPJ_Lider": "03.751.794/0001-13",
+    "Nome_Lider": "TERRA INVESTIMENTOS DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS LTDA",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 0,
+    "Valor_Total_Registrado": 0.0,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": null,
+    "Gestor": null,
+    "Destinacao_recursos": "Os recursos captados pelo Emissor por meio da integralização das Debêntures da Primeira Série serão por ele destinados, nos termos do artigo 2º, parágrafo 1º, da Lei 12.431, do inciso I do artigo 2º do Decreto 11.964, de 26 de março de 2024, da Lei 14.801, de 9 de janeiro de 2024 e da Resolução CMN 5.034, ao custeio das despesas já incorridas e relacionadas ao Primeiro Projeto de Investimento para: (i) o pré-pagamento, ou outro mecanismo de liquidação antecipada, aplicável e com efeitos jurídicos e financeiros substancialmente similares, da 1ª (primeira) emissão de debêntures não convers"
+  },
+  "documents": [
+    {
+      "label": "Aviso ao Mercado",
+      "uuid": "74802282-59fd-4903-80be-c3958a7bb0c5"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "182113",
+      "razaoSocial": "TERRA INVESTIMENTOS DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS LTDA",
+      "cnpjInstituicao": "03.751.794/0001-13",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "58085",
+      "razaoSocial": "AXS ENERGIA UNIDADE 10 SPE S.A",
+      "cnpjInstituicao": "50.117.634/0001-05",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "58086",
+      "razaoSocial": "TERRA INVESTIMENTOS DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS LTDA",
+      "cnpjInstituicao": "03.751.794/0001-13",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "58087",
+      "razaoSocial": "AXS ENERGIA UNIDADE 10 SPE S.A",
+      "cnpjInstituicao": "50.117.634/0001-05",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26322,
+      "campoNome": "Emissão nº",
+      "valor": "2"
+    },
+    {
+      "codigo": 26322,
+      "campoNome": "Tipo societário",
+      "valor": "SA capital fechado"
+    },
+    {
+      "codigo": 26322,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "05/05/2026"
+    },
+    {
+      "codigo": 26322,
+      "campoNome": "Mercado de negociação",
+      "valor": "CETIP21 - Títulos e Valores Mobiliários"
+    },
+    {
+      "codigo": 26322,
+      "campoNome": "Agente fiduciário",
+      "valor": "VÓRTX DISTRIBUIDORA DE VALORES MOBILIÁRIOS LTDA"
+    },
+    {
+      "codigo": 26322,
+      "campoNome": "Escriturador",
+      "valor": "VÓRTX DISTRIBUIDORA DE VALORES MOBILIÁRIOS LTDA"
+    },
+    {
+      "codigo": 26322,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Os recursos captados pelo Emissor por meio da integralização das Debêntures da Primeira Série serão por ele destinados, nos termos do artigo 2º, parágrafo 1º, da Lei 12.431, do inciso I do artigo 2º do Decreto 11.964, de 26 de março de 2024, da Lei 14.801, de 9 de janeiro de 2024 e da Resolução CMN 5.034, ao custeio das despesas já incorridas e relacionadas ao Primeiro Projeto de Investimento para: (i) o pré-pagamento, ou outro mecanismo de liquidação antecipada, aplicável e com efeitos jurídicos e financeiros substancialmente similares, da 1ª (primeira) emissão de debêntures não convers"
+    },
+    {
+      "codigo": 26322,
+      "campoNome": "Avaliador de risco",
+      "valor": ""
+    },
+    {
+      "codigo": 26322,
+      "campoNome": "Título padronizado",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26322,
+      "campoNome": "Reabertura de série",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26322,
+      "campoNome": "Endereço do emissor na rede mundial de computadores",
+      "valor": ""
+    },
+    {
+      "codigo": 26322,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    },
+    {
+      "codigo": 26322,
+      "campoNome": "Título classificado como “verde”, “social”, “sustentável” ou correlato",
+      "valor": "Não"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1522/2026",
+      "numeroRegistro": "N/A",
+      "nomeValorMobiliario": "Debêntures",
+      "valorTotalInicial": "162.500.000,0000",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "162.500.000,0000",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "15/05/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - com bookbuilding - Emissor Não Registrado",
+      "status": "Aguardando Bookbuilding",
+      "automaticaSemBook": false,
+      "ofertaAutomatica": true
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "1ª Série",
+              "loteBase": {
+                "quantidadeAtivos": "162.500,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "162.500.000,0000"
+              },
+              "valorTotalLote": "162.500.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/05/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/05/2041",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Espécie",
+                  "campoTipo": "Espécie de Debênture",
+                  "campoValor": "Garantia Real",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração máxima",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "NTN-B 2035, apurada no dia do Book + 5,50%",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração final (pós bookbuilding)",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "o saldo do Valor Nominal Unitário Atualizado das Debêntures, conforme o caso, deverá ser pago em 25 (vinte e cinco) parcelas semestrais e consecutivas, nos meses de maio e novembro de cada ano, conforme o cronograma indicado no Anexo II desta Escritura de Emissão (cada uma, uma “Amortização Programada”, e cada data de pagamento, uma “Data de Pagamento da Amortização Programada”, e cada Data de Pagamento da Amortização Programada, quando em conjunto com uma Data de Pagamento dos Juros Remuneratórios, cada uma, uma “Data de Pagamento”), com primeiro pagamento devido em 15 de maio de 2029 e o últ",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tem benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim fixo",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º ou Lei 14.801/24",
+                  "campoValor": "Lei 12.431/11 - art. 2º",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "48340.002864/2026-89",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "III - Energia: Geração Distribuída por Fontes Renováveis",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "Permissão",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxxx ou +xx.xxxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "0",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxxx ou +xx.xxxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "0",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "Em andamento"
+          }
+        ]
+      }
+    ],
+    "registroValorMobiliario": false
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "numeroProcesso": "SRE/1522/2026",
+    "numeroRegistro": "N/A",
+    "nomeValorMobiliario": "Debêntures",
+    "valorTotal": "162.500.000,0000",
+    "data": "15/05/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - com bookbuilding - Emissor Não Registrado",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "162.500,0000",
+    "status": "Aguardando Bookbuilding",
+    "automaticaSemBook": false,
+    "ofertaAutomatica": true,
+    "bookbuildingPreenchido": true,
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "15/05/2026",
+      "hora": "17:55:28",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "15/05/2026",
+      "hora": "17:55:29",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26322\\pdfs\\Aviso ao Mercado_74802282-59fd-4903-80be-c3958a7bb0c5.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Aviso ao Mercado",
+        "uuid": "74802282-59fd-4903-80be-c3958a7bb0c5"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26322\\pdfs\\Aviso ao Mercado_74802282-59fd-4903-80be-c3958a7bb0c5.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

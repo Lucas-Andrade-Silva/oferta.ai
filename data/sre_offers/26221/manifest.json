@@ -1,0 +1,382 @@
+{
+  "offer_number": "26221",
+  "cvm": {
+    "Numero_Requerimento": 26221,
+    "Numero_Processo": "SRE/1427/2026",
+    "Data_requerimento": "2026-05-07T00:00:00",
+    "Data_Registro": "2026-05-07T00:00:00",
+    "Data_Encerramento": "2026-05-20T00:00:00",
+    "Status_Requerimento": "Oferta Encerrada",
+    "Valor_Mobiliario": "Debêntures",
+    "Tipo_requerimento": "OPD Aut Profissional - sem bookbuilding - Emissor Não Registrado",
+    "Bookbuilding": "N",
+    "CNPJ_Emissor": "65.329.869/0001-20",
+    "Nome_Emissor": "ACQUAVIAS SP PARTICIPACOES S.A",
+    "CNPJ_Lider": "13.673.855/0001-25",
+    "Nome_Lider": "OSLO CAPITAL DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS S.A.",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 121000,
+    "Valor_Total_Registrado": 121000000.0,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": null,
+    "Gestor": null,
+    "Destinacao_recursos": "Os recursos líquidos obtidos pela Emissora por meio da emissão das Debêntures serão destinados (i) à integralização do capital social da ACQUAVIAS SP TRAVESSIAS SPE S.A., conforme disposto na Escritura de Emissão e (ii) integralização das debêntures de colocação privada a serem emitidas pela Concessionária com valor total de R$ 52.000.000,00, e subscritas pela Emissora, conforme descrito na Escritura de Emissão."
+  },
+  "documents": [
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "0e2c888e-20a6-4229-9209-a6ae0dada901"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "180937",
+      "razaoSocial": "OSLO CAPITAL DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS S.A.",
+      "cnpjInstituicao": "13.673.855/0001-25",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "57782",
+      "razaoSocial": "ACQUAVIAS SP PARTICIPACOES S.A",
+      "cnpjInstituicao": "65.329.869/0001-20",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "57783",
+      "razaoSocial": "OSLO CAPITAL DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS S.A.",
+      "cnpjInstituicao": "13.673.855/0001-25",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "57784",
+      "razaoSocial": "ACQUAVIAS SP PARTICIPACOES S.A",
+      "cnpjInstituicao": "65.329.869/0001-20",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26221,
+      "campoNome": "Emissão nº",
+      "valor": "1"
+    },
+    {
+      "codigo": 26221,
+      "campoNome": "Tipo societário",
+      "valor": "SA capital fechado"
+    },
+    {
+      "codigo": 26221,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "30/04/2026"
+    },
+    {
+      "codigo": 26221,
+      "campoNome": "Mercado de negociação",
+      "valor": "B3"
+    },
+    {
+      "codigo": 26221,
+      "campoNome": "Agente fiduciário",
+      "valor": "OLIVEIRA TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A"
+    },
+    {
+      "codigo": 26221,
+      "campoNome": "Escriturador",
+      "valor": "OLIVEIRA TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A"
+    },
+    {
+      "codigo": 26221,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Os recursos líquidos obtidos pela Emissora por meio da emissão das Debêntures serão destinados (i) à integralização do capital social da ACQUAVIAS SP TRAVESSIAS SPE S.A., conforme disposto na Escritura de Emissão e (ii) integralização das debêntures de colocação privada a serem emitidas pela Concessionária com valor total de R$ 52.000.000,00, e subscritas pela Emissora, conforme descrito na Escritura de Emissão."
+    },
+    {
+      "codigo": 26221,
+      "campoNome": "Avaliador de risco",
+      "valor": ""
+    },
+    {
+      "codigo": 26221,
+      "campoNome": "Endereço do emissor na rede mundial de computadores",
+      "valor": "https://www.holdingacquaviassp.com.br/"
+    },
+    {
+      "codigo": 26221,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    },
+    {
+      "codigo": 26221,
+      "campoNome": "Título classificado como “verde”, “social”, “sustentável” ou correlato",
+      "valor": "Não"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1427/2026",
+      "numeroRegistro": "CVM/SRE/AUT/DEB/PRI/2026/239",
+      "nomeValorMobiliario": "Debêntures",
+      "valorTotalInicial": "121.000.000,0000",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "121.000.000,0000",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "07/05/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding - Emissor Não Registrado",
+      "status": "Oferta Encerrada",
+      "automaticaSemBook": true,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42743
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "Debêntures",
+              "loteBase": {
+                "quantidadeAtivos": "121.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "121.000.000,0000"
+              },
+              "valorTotalLote": "121.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/04/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/10/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Espécie",
+                  "campoTipo": "Espécie de Debênture",
+                  "campoValor": "Garantia Real",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Sobre o Valor Nominal Unitário ou saldo do Valor Nominal Unitário das Debêntures, conforme o caso, incidirão juros remuneratórios correspondentes a 100,00% da variação acumulada das taxas médias diárias de juros dos DI – Depósitos Interfinanceiros de um dia, acrescida exponencialmente de sobretaxa de 6,50% ao ano. O pagamento da Remuneração será feito em uma única parcela, devida na Data de Vencimento, conforme previsto na Escritura de Emissão.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "O Valor Nominal Unitário ou o saldo do Valor Nominal Unitário, conforme o caso, das Debêntures será amortizado em uma única parcela, devida na Data de Vencimento, conforme previsto na Escritura de Emissão.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tem benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim fixo",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º ou Lei 14.801/24",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do Projeto de Investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/DEB/PRI/2026/239"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "dataEncerramento": "2026-05-20T17:00:00Z",
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 8,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 0,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 0,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 0,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "121.000,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "0,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "0,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "0,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "foiRevogada": false,
+      "oid": 42743
+    },
+    "registroValorMobiliario": false
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "numeroProcesso": "SRE/1427/2026",
+    "numeroRegistro": "CVM/SRE/AUT/DEB/PRI/2026/239",
+    "nomeValorMobiliario": "Debêntures",
+    "valorTotal": "121.000.000,0000",
+    "data": "07/05/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding - Emissor Não Registrado",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "121.000,0000",
+    "status": "Oferta Encerrada",
+    "automaticaSemBook": true,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42743,
+    "dataInicioOferta": "07/05/2026",
+    "bookbuildingPreenchido": false,
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "07/05/2026",
+      "hora": "19:29:38",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "07/05/2026",
+      "hora": "19:29:39",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "07/05/2026",
+      "hora": "19:29:43",
+      "observacao": ""
+    },
+    {
+      "status": "Oferta Encerrada",
+      "data": "20/05/2026",
+      "hora": "09:51:54",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26221\\pdfs\\Anúncio de Início da Distribuição_0e2c888e-20a6-4229-9209-a6ae0dada901.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "0e2c888e-20a6-4229-9209-a6ae0dada901"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26221\\pdfs\\Anúncio de Início da Distribuição_0e2c888e-20a6-4229-9209-a6ae0dada901.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

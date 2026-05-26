@@ -1,0 +1,435 @@
+{
+  "offer_number": "26239",
+  "cvm": {
+    "Numero_Requerimento": 26239,
+    "Numero_Processo": "SRE/1448/2026",
+    "Data_requerimento": "2026-05-11T00:00:00",
+    "Data_Registro": "2026-05-11T00:00:00",
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Registro Concedido",
+    "Valor_Mobiliario": "Certificados de Recebíveis Imobiliários",
+    "Tipo_requerimento": "OPD Aut Profissional - sem bookbuilding",
+    "Bookbuilding": "N",
+    "CNPJ_Emissor": "25.005.683/0001-09",
+    "Nome_Emissor": "VERT COMPANHIA SECURITIZADORA",
+    "CNPJ_Lider": "25.005.683/0001-09",
+    "Nome_Lider": "VERT COMPANHIA SECURITIZADORA",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 22000,
+    "Valor_Total_Registrado": 22000000.0,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": null,
+    "Gestor": null,
+    "Destinacao_recursos": "Os recursos líquidos obtidos pela Emitente por meio da emissão das Notas Comerciais serão integralmente utilizados direta ou indiretamente, por meio de sociedade controlada, pela Emitente, para (i) a a destinação de natureza imobiliária dos empreendimentos imobiliários diversos, na modalidade de incorporação, nos termos da Lei nº 4.591, de 16 de dezembro de 1964 ou loteamento, nos termos da Lei nº 6.766, de 19 de dezembro de 1.979, localizados na cidade de Contagem, Estado de Minas Gerais, objeto das matrículas indicadas na Tabela 1 do Anexo II, todas do Cartório do Registro de Imóveis da Coma"
+  },
+  "documents": [
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "fdf59518-ff8d-4298-bdf6-c2858d2e1125"
+    },
+    {
+      "label": "Anúncio de Encerramento da Distribuição",
+      "uuid": "e342a028-5f77-4999-8024-a9d420f985c9"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "181149",
+      "razaoSocial": "VERT COMPANHIA SECURITIZADORA",
+      "cnpjInstituicao": "25.005.683/0001-09",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "57836",
+      "razaoSocial": "VERT COMPANHIA SECURITIZADORA",
+      "cnpjInstituicao": "25.005.683/0001-09",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "57837",
+      "razaoSocial": "VERT COMPANHIA SECURITIZADORA",
+      "cnpjInstituicao": "25.005.683/0001-09",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "57838",
+      "razaoSocial": "VERT COMPANHIA SECURITIZADORA",
+      "cnpjInstituicao": "25.005.683/0001-09",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26239,
+      "campoNome": "Emissão nº",
+      "valor": "175"
+    },
+    {
+      "codigo": 26239,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "08/11/2022"
+    },
+    {
+      "codigo": 26239,
+      "campoNome": "Mercado de negociação",
+      "valor": "CETIP"
+    },
+    {
+      "codigo": 26239,
+      "campoNome": "Regime fiduciário",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 26239,
+      "campoNome": "Agente fiduciário",
+      "valor": "Oliveira Trust Distribuidora de Títulos e Valores Mobiliários S.A"
+    },
+    {
+      "codigo": 26239,
+      "campoNome": "Escriturador",
+      "valor": "VERT DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA"
+    },
+    {
+      "codigo": 26239,
+      "campoNome": "Custodiante",
+      "valor": "VERT DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA"
+    },
+    {
+      "codigo": 26239,
+      "campoNome": "Avaliador de risco",
+      "valor": ""
+    },
+    {
+      "codigo": 26239,
+      "campoNome": "Tipo de lastro",
+      "valor": "Concentrado"
+    },
+    {
+      "codigo": 26239,
+      "campoNome": "Descrição do lastro",
+      "valor": "Os CRI são lastreados pela CCI, que representa os Créditos Imobiliários, a qual foi vinculada aos CRI por meio do Termo de Securitização, por meio do qual é instituído o Regime Fiduciário e constituído o Patrimônio Separado. Os Créditos Imobiliários representados pela CCI representam créditos detidos pela Emissora em face da Devedora, correspondentes ao saldo da CCI, que compreendem atualização monetária, juros e outras eventuais taxas de remuneração"
+    },
+    {
+      "codigo": 26239,
+      "campoNome": "Identificação dos devedores e coobrigados",
+      "valor": "ECON PARTICIPAÇÕES S/A"
+    },
+    {
+      "codigo": 26239,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Os recursos líquidos obtidos pela Emitente por meio da emissão das Notas Comerciais serão integralmente utilizados direta ou indiretamente, por meio de sociedade controlada, pela Emitente, para (i) a a destinação de natureza imobiliária dos empreendimentos imobiliários diversos, na modalidade de incorporação, nos termos da Lei nº 4.591, de 16 de dezembro de 1964 ou loteamento, nos termos da Lei nº 6.766, de 19 de dezembro de 1.979, localizados na cidade de Contagem, Estado de Minas Gerais, objeto das matrículas indicadas na Tabela 1 do Anexo II, todas do Cartório do Registro de Imóveis da Coma"
+    },
+    {
+      "codigo": 26239,
+      "campoNome": "Descrição das garantias",
+      "valor": ""
+    },
+    {
+      "codigo": 26239,
+      "campoNome": "Título padronizado",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26239,
+      "campoNome": "Reabertura de série",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26239,
+      "campoNome": "Endereço do emissor na rede mundial de computadores",
+      "valor": ""
+    },
+    {
+      "codigo": 26239,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    },
+    {
+      "codigo": 26239,
+      "campoNome": "Título classificado como “verde”, “social”, “sustentável” ou correlato",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26239,
+      "campoNome": "Possibilidade de revolvência",
+      "valor": "Não"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1448/2026",
+      "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/258",
+      "nomeValorMobiliario": "Certificados de Recebíveis Imobiliários",
+      "valorTotalInicial": "22.000.000,0000",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "22.000.000,0000",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "11/05/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+      "status": "Oferta Encerrada",
+      "automaticaSemBook": true,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42769
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "Série única",
+              "loteBase": {
+                "quantidadeAtivos": "22.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "22.000.000,0000"
+              },
+              "valorTotalLote": "22.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "07/05/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "29/04/2030",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações  sobre subordinação",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "N/A",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Sobre o Valor Nominal Unitário dos CRI, incidirão juros remuneratórios correspondentes à 100,00% (cem por cento) da variação acumulada das taxas médias diárias dos Depósitos Interfinanceiros – DI de 1 (um) dia, over extra-grupo, expressas na forma percentual ao ano, com base em um ano de 252 (duzentos e cinquenta e dois) Dias Úteis, calculadas e divulgadas pela B3 no informativo diário disponível em sua página na rede mundial de computadores (http://www.b3.com.br), acrescida de spread (sobretaxa) de 2,00% (dois inteiros por cento) ao ano, com base em um ano de 252 (duzentos e cinquenta e dois)",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "O pagamento do saldo do Valor Unitário será realizado em única parcela na Data de Vencimento, conforme previsto no Anexo I ao presente Termo de Securitização. Sem prejuízo da Amortização Programada dos CRI, os CRI serão amortizados de forma extraordinária compulsória ou facultativa nos casos de Amortização Extraordinária Compulsória das Notas Comerciais",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Oferta conta com benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/258"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "dataEncerramento": "2026-05-22T17:00:00Z",
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 1,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 0,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 0,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 0,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "22.000,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "0,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "0,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "0,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "foiRevogada": false,
+      "oid": 42769
+    },
+    "registroValorMobiliario": false
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "numeroProcesso": "SRE/1448/2026",
+    "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/258",
+    "nomeValorMobiliario": "Certificados de Recebíveis Imobiliários",
+    "valorTotal": "22.000.000,0000",
+    "data": "11/05/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "22.000,0000",
+    "status": "Oferta Encerrada",
+    "automaticaSemBook": true,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42769,
+    "dataInicioOferta": "11/05/2026",
+    "bookbuildingPreenchido": false,
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "11/05/2026",
+      "hora": "15:07:21",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "11/05/2026",
+      "hora": "15:07:22",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "11/05/2026",
+      "hora": "15:07:24",
+      "observacao": ""
+    },
+    {
+      "status": "Oferta Encerrada",
+      "data": "22/05/2026",
+      "hora": "11:03:53",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26239\\pdfs\\Anúncio de Início da Distribuição_fdf59518-ff8d-4298-bdf6-c2858d2e1125.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26239\\pdfs\\Anúncio de Encerramento da Distribuição_e342a028-5f77-4999-8024-a9d420f985c9.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "fdf59518-ff8d-4298-bdf6-c2858d2e1125"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26239\\pdfs\\Anúncio de Início da Distribuição_fdf59518-ff8d-4298-bdf6-c2858d2e1125.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Anúncio de Encerramento da Distribuição",
+        "uuid": "e342a028-5f77-4999-8024-a9d420f985c9"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26239\\pdfs\\Anúncio de Encerramento da Distribuição_e342a028-5f77-4999-8024-a9d420f985c9.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

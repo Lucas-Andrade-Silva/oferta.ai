@@ -1,0 +1,296 @@
+{
+  "offer_number": "26185",
+  "cvm": {
+    "Numero_Requerimento": 26185,
+    "Numero_Processo": "SRE/1391/2026",
+    "Data_requerimento": "2026-05-05T00:00:00",
+    "Data_Registro": "2026-05-05T00:00:00",
+    "Data_Encerramento": "2026-05-08T00:00:00",
+    "Status_Requerimento": "Oferta Encerrada",
+    "Valor_Mobiliario": "Cotas de FII",
+    "Tipo_requerimento": "OPD Aut Profissional - sem bookbuilding",
+    "Bookbuilding": "N",
+    "CNPJ_Emissor": "65.870.565/0001-75",
+    "Nome_Emissor": "SC RENDA IMOBILIÁRIA FUNDO DE INVESTIMENTO IMOBILIÁRIO",
+    "CNPJ_Lider": "02.332.886/0001-04",
+    "Nome_Lider": "XP INVESTIMENTOS CCTVM S.A.",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 7914180,
+    "Valor_Total_Registrado": 791418000.0,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Misto",
+    "Administrador": "XP INVESTIMENTOS CORRETORA DE CÂMBIO, TÍTULOS E VALORES MOBILIÁRIOS S.A.",
+    "Gestor": "XP ALLOCATION ASSET MANAGEMENT LTDA.",
+    "Destinacao_recursos": "Os recursos líquidos obtidos com a emissão das subclasses de cotas serão utilizados para: (a) adquirir ativos alvo da São Carlos Participações e Empreendimentos (CNPJ: 29.780.061/0001-09) e suas SPEs (b) Constituição de fundo de liquidez e despesas gerais do fundo"
+  },
+  "documents": [
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "37bbd840-c5a1-4ea9-9240-99cafb811216"
+    },
+    {
+      "label": "Anúncio de Encerramento da Distribuição",
+      "uuid": "3162be62-c5f8-4906-8d55-25add6f3b607"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "180508",
+      "razaoSocial": "XP INVESTIMENTOS CCTVM S.A.",
+      "cnpjInstituicao": "02.332.886/0001-04",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "57674",
+      "razaoSocial": "SC RENDA IMOBILIÁRIA FUNDO DE INVESTIMENTO IMOBILIÁRIO",
+      "cnpjInstituicao": "65.870.565/0001-75",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "57675",
+      "razaoSocial": "XP INVESTIMENTOS CCTVM S.A.",
+      "cnpjInstituicao": "02.332.886/0001-04",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "57676",
+      "razaoSocial": "SC RENDA IMOBILIÁRIA FUNDO DE INVESTIMENTO IMOBILIÁRIO",
+      "cnpjInstituicao": "65.870.565/0001-75",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26185,
+      "campoNome": "Oferta inicial?",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 26185,
+      "campoNome": "Emissão nº",
+      "valor": "1"
+    },
+    {
+      "codigo": 26185,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "24/03/2026"
+    },
+    {
+      "codigo": 26185,
+      "campoNome": "Mercado de negociação",
+      "valor": "CETIP - B3 - MDA"
+    },
+    {
+      "codigo": 26185,
+      "campoNome": "Administrador",
+      "valor": "XP INVESTIMENTOS CORRETORA DE CÂMBIO, TÍTULOS E VALORES MOBILIÁRIOS S.A."
+    },
+    {
+      "codigo": 26185,
+      "campoNome": "Gestor",
+      "valor": "XP ALLOCATION ASSET MANAGEMENT LTDA."
+    },
+    {
+      "codigo": 26185,
+      "campoNome": "Escriturador",
+      "valor": "OLIVEIRA TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A."
+    },
+    {
+      "codigo": 26185,
+      "campoNome": "Custodiante",
+      "valor": "OLIVEIRA TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A."
+    },
+    {
+      "codigo": 26185,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Os recursos líquidos obtidos com a emissão das subclasses de cotas serão utilizados para: (a) adquirir ativos alvo da São Carlos Participações e Empreendimentos (CNPJ: 29.780.061/0001-09) e suas SPEs; (b) Constituição de fundo de liquidez e despesas gerais do fundo"
+    },
+    {
+      "codigo": 26185,
+      "campoNome": "Regime de distribuição",
+      "valor": "Misto"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1391/2026",
+      "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/146",
+      "nomeValorMobiliario": "Cotas de FII",
+      "valorTotalInicial": "791.418.000,0000",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "791.418.000,0000",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "05/05/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+      "status": "Oferta Encerrada",
+      "automaticaSemBook": true,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42704
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "COTAS DA SUBCLASSE A",
+              "loteBase": {
+                "quantidadeAtivos": "5.539.930,0000",
+                "valorNominal": "100,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "553.993.000,0000"
+              },
+              "valorTotalLote": "553.993.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Descrição do valor mobiliário",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Cotas da subclasse A - Sênior",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/146"
+          },
+          {
+            "loteInicial": {
+              "valorMobiliario": "COTAS DA SUBCLASSE B",
+              "loteBase": {
+                "quantidadeAtivos": "2.374.250,0000",
+                "valorNominal": "100,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "237.425.000,0000"
+              },
+              "valorTotalLote": "237.425.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Descrição do valor mobiliário",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Cotas da subclasse B - Subordinada",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/146"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "dataEncerramento": "2026-05-08T17:00:00Z",
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 0,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 0,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 0,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 1,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 1,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "0,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "0,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "0,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "5.539.930,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "2.374.250,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "foiRevogada": false,
+      "oid": 42704
+    },
+    "registroValorMobiliario": true
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "numeroProcesso": "SRE/1391/2026",
+    "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/146",
+    "nomeValorMobiliario": "Cotas de FII",
+    "valorTotal": "791.418.000,0000",
+    "data": "05/05/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "5.539.930,0000",
+    "status": "Oferta Encerrada",
+    "automaticaSemBook": true,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42704,
+    "dataInicioOferta": "05/05/2026",
+    "bookbuildingPreenchido": false,
+    "razaoSocialFundoAssociado": "SC RENDA IMOBILIÁRIA FUNDO DE INVESTIMENTO IMOBILIÁRIO",
+    "cnpjFundoAssociado": "65.870.565/0001-75",
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "05/05/2026",
+      "hora": "20:13:35",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "05/05/2026",
+      "hora": "20:13:36",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "05/05/2026",
+      "hora": "20:13:45",
+      "observacao": ""
+    },
+    {
+      "status": "Oferta Encerrada",
+      "data": "08/05/2026",
+      "hora": "15:07:37",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26185\\pdfs\\Anúncio de Início da Distribuição_37bbd840-c5a1-4ea9-9240-99cafb811216.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26185\\pdfs\\Anúncio de Encerramento da Distribuição_3162be62-c5f8-4906-8d55-25add6f3b607.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "37bbd840-c5a1-4ea9-9240-99cafb811216"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26185\\pdfs\\Anúncio de Início da Distribuição_37bbd840-c5a1-4ea9-9240-99cafb811216.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Anúncio de Encerramento da Distribuição",
+        "uuid": "3162be62-c5f8-4906-8d55-25add6f3b607"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26185\\pdfs\\Anúncio de Encerramento da Distribuição_3162be62-c5f8-4906-8d55-25add6f3b607.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

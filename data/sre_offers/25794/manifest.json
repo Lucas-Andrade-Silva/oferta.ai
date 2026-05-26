@@ -1,0 +1,252 @@
+{
+  "offer_number": "25794",
+  "cvm": {
+    "Numero_Requerimento": 25794,
+    "Numero_Processo": "SRE/1049/2026",
+    "Data_requerimento": "2026-04-06T00:00:00",
+    "Data_Registro": "2026-04-06T00:00:00",
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Registro Concedido",
+    "Valor_Mobiliario": "Cotas de FII",
+    "Tipo_requerimento": "OPD Aut Profissional - sem bookbuilding",
+    "Bookbuilding": "N",
+    "CNPJ_Emissor": "35.360.651/0001-77",
+    "Nome_Emissor": "BE IN RIO FUNDO DE INVESTIMENTO IMOBILIÁRIO - RESPONSABILIDADE LIMITADA",
+    "CNPJ_Lider": "13.486.793/0001-42",
+    "Nome_Lider": "BRL TRUST DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS S.A.",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 8844,
+    "Valor_Total_Registrado": 15000573.72,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": "BRL TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A",
+    "Gestor": "BRL TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A",
+    "Destinacao_recursos": "(i) na aquisição dos Imóveis-Alvo (ii) no desenvolvimento de empreendimentos imobiliários em geral e (iii) no investimento em Outros Ativos visando rentabilizar os investimentos efetuados pelos Cotistas mediante (a) o pagamento de remuneração advinda da exploração dos Ativos Imobiliários do Fundo, (b) pelo aumento do valor patrimonial das cotas advindo da valorização dos ativos do Fundo ou (c) da posterior alienação, à vista ou a prazo, dos ativos que comporão a carteira do Fundo, conforme permitido pelo Regulamento do Fundo, pela lei e disposições da CVM."
+  },
+  "documents": [
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "46f578f3-e56a-43ef-90cd-f6d494187f15"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "175952",
+      "razaoSocial": "BRL TRUST DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS S.A.",
+      "cnpjInstituicao": "13.486.793/0001-42",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "56490",
+      "razaoSocial": "BE IN RIO FUNDO DE INVESTIMENTO IMOBILIÁRIO - RESPONSABILIDADE LIMITADA",
+      "cnpjInstituicao": "35.360.651/0001-77",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "56491",
+      "razaoSocial": "BRL TRUST DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS S.A.",
+      "cnpjInstituicao": "13.486.793/0001-42",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "56492",
+      "razaoSocial": "BE IN RIO FUNDO DE INVESTIMENTO IMOBILIÁRIO - RESPONSABILIDADE LIMITADA",
+      "cnpjInstituicao": "35.360.651/0001-77",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 25794,
+      "campoNome": "Oferta inicial?",
+      "valor": "Não"
+    },
+    {
+      "codigo": 25794,
+      "campoNome": "Emissão nº",
+      "valor": "8"
+    },
+    {
+      "codigo": 25794,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "01/04/2026"
+    },
+    {
+      "codigo": 25794,
+      "campoNome": "Mercado de negociação",
+      "valor": "mercado secundário de bolsa ou balcão organizado"
+    },
+    {
+      "codigo": 25794,
+      "campoNome": "Administrador",
+      "valor": "BRL TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A"
+    },
+    {
+      "codigo": 25794,
+      "campoNome": "Gestor",
+      "valor": "BRL TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A"
+    },
+    {
+      "codigo": 25794,
+      "campoNome": "Escriturador",
+      "valor": "BRL TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A"
+    },
+    {
+      "codigo": 25794,
+      "campoNome": "Custodiante",
+      "valor": "BRL TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A"
+    },
+    {
+      "codigo": 25794,
+      "campoNome": "Destinação dos recursos",
+      "valor": "(i) na aquisição dos Imóveis-Alvo; (ii) no desenvolvimento de empreendimentos imobiliários em geral; e (iii) no investimento em Outros Ativos; visando rentabilizar os investimentos efetuados pelos Cotistas mediante (a) o pagamento de remuneração advinda da exploração dos Ativos Imobiliários do Fundo, (b) pelo aumento do valor patrimonial das cotas advindo da valorização dos ativos do Fundo; ou (c) da posterior alienação, à vista ou a prazo, dos ativos que comporão a carteira do Fundo, conforme permitido pelo Regulamento do Fundo, pela lei e disposições da CVM."
+    },
+    {
+      "codigo": 25794,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1049/2026",
+      "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/107",
+      "nomeValorMobiliario": "Cotas de FII",
+      "valorTotalInicial": "15.000.573,7200",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "15.000.573,7200",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "06/04/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+      "status": "Registro Concedido",
+      "automaticaSemBook": true,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42362
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "8ª Emissão de Cotas Sênior",
+              "loteBase": {
+                "quantidadeAtivos": "8.844,0000",
+                "valorNominal": "1.696,1300",
+                "custoUnitario": "0,0000",
+                "valorTotal": "15.000.573,7200"
+              },
+              "valorTotalLote": "15.000.573,7200",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Descrição do valor mobiliário",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Cotas Seniores",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/107"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 0,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 0,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 0,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 0,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "0,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "0,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "0,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "0,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "oid": 42362
+    },
+    "registroValorMobiliario": true
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "numeroProcesso": "SRE/1049/2026",
+    "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/107",
+    "nomeValorMobiliario": "Cotas de FII",
+    "valorTotal": "15.000.573,7200",
+    "data": "06/04/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "8.844,0000",
+    "status": "Registro Concedido",
+    "automaticaSemBook": true,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42362,
+    "dataInicioOferta": "06/04/2026",
+    "bookbuildingPreenchido": false,
+    "razaoSocialFundoAssociado": "BE IN RIO FUNDO DE INVESTIMENTO IMOBILIÁRIO - RESPONSABILIDADE LIMITADA",
+    "cnpjFundoAssociado": "35.360.651/0001-77",
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "06/04/2026",
+      "hora": "14:15:25",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "06/04/2026",
+      "hora": "14:15:26",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "06/04/2026",
+      "hora": "14:15:27",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "data\\sre_offers\\25794\\pdfs\\Anúncio de Início da Distribuição_46f578f3-e56a-43ef-90cd-f6d494187f15.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "46f578f3-e56a-43ef-90cd-f6d494187f15"
+      },
+      "arquivo": "data\\sre_offers\\25794\\pdfs\\Anúncio de Início da Distribuição_46f578f3-e56a-43ef-90cd-f6d494187f15.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

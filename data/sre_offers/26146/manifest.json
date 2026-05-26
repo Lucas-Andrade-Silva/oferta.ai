@@ -1,0 +1,350 @@
+{
+  "offer_number": "26146",
+  "cvm": {
+    "Numero_Requerimento": 26146,
+    "Numero_Processo": "SRE/1381/2026",
+    "Data_requerimento": "2026-05-05T00:00:00",
+    "Data_Registro": "2026-05-05T00:00:00",
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Registro Concedido",
+    "Valor_Mobiliario": "Certificados de Recebíveis do Agronegócio",
+    "Tipo_requerimento": "OPD Aut Profissional - sem bookbuilding",
+    "Bookbuilding": "N",
+    "CNPJ_Emissor": "41.534.746/0001-62",
+    "Nome_Emissor": "CERES SECURITIZADORA S.A.",
+    "CNPJ_Lider": "41.534.746/0001-62",
+    "Nome_Lider": "CERES SECURITIZADORA S.A.",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 100000,
+    "Valor_Total_Registrado": 100000000.0,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": null,
+    "Gestor": null,
+    "Destinacao_recursos": "Pela Emissora:Despesas e custos da Emissão/OfertaConstituição do Fundo de DespesasPagamento do Valor de Desembolso à DevedoraPela Devedora:Integral e exclusivamente para:Atividades na cadeia do agronegócioComercialização de insumos agropecuários (fertilizantes)"
+  },
+  "documents": [
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "0742182f-23e7-405f-8d07-43138d1a4e75"
+    },
+    {
+      "label": "Comunicado ao Mercado",
+      "uuid": "1550b4ca-28e5-4b99-8d26-6e7537f40796"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "180064",
+      "razaoSocial": "CERES SECURITIZADORA S.A.",
+      "cnpjInstituicao": "41.534.746/0001-62",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "57557",
+      "razaoSocial": "CERES SECURITIZADORA S.A.",
+      "cnpjInstituicao": "41.534.746/0001-62",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "57558",
+      "razaoSocial": "CERES SECURITIZADORA S.A.",
+      "cnpjInstituicao": "41.534.746/0001-62",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "57559",
+      "razaoSocial": "CERES SECURITIZADORA S.A.",
+      "cnpjInstituicao": "41.534.746/0001-62",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26146,
+      "campoNome": "Emissão nº",
+      "valor": "64"
+    },
+    {
+      "codigo": 26146,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "11/04/2025"
+    },
+    {
+      "codigo": 26146,
+      "campoNome": "Mercado de negociação",
+      "valor": "B3"
+    },
+    {
+      "codigo": 26146,
+      "campoNome": "Regime fiduciário",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 26146,
+      "campoNome": "Agente fiduciário",
+      "valor": "VÓRTX DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA"
+    },
+    {
+      "codigo": 26146,
+      "campoNome": "Escriturador",
+      "valor": "VÓRTX DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA"
+    },
+    {
+      "codigo": 26146,
+      "campoNome": "Custodiante",
+      "valor": "VÓRTX DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA"
+    },
+    {
+      "codigo": 26146,
+      "campoNome": "Avaliador de risco",
+      "valor": ""
+    },
+    {
+      "codigo": 26146,
+      "campoNome": "Tipo de lastro",
+      "valor": "Concentrado"
+    },
+    {
+      "codigo": 26146,
+      "campoNome": "Descrição do lastro",
+      "valor": "Certificado de Direitos Creditórios do Agronegócio (CDCA)"
+    },
+    {
+      "codigo": 26146,
+      "campoNome": "Identificação dos devedores e coobrigados",
+      "valor": "DEVEDORA PRINCIPAL: FERTZ FERTILIZANTES S.A.\nCOOBRIGADOS (FIADORES):  ÊXITO PARTICIPAÇÕES LTDA, SDO PARTICIPAÇÕES HOLDING OPERACIONAL LTDA, FERTZ PARTICIPAÇÕES S.A."
+    },
+    {
+      "codigo": 26146,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Pela Emissora:\n\nDespesas e custos da Emissão/Oferta\nConstituição do Fundo de Despesas\nPagamento do Valor de Desembolso à Devedora\n\nPela Devedora:\nIntegral e exclusivamente para:\n\nAtividades na cadeia do agronegócio\nComercialização de insumos agropecuários (fertilizantes)"
+    },
+    {
+      "codigo": 26146,
+      "campoNome": "Descrição das garantias",
+      "valor": ""
+    },
+    {
+      "codigo": 26146,
+      "campoNome": "Título padronizado",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 26146,
+      "campoNome": "Reabertura de série",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26146,
+      "campoNome": "Endereço do emissor na rede mundial de computadores",
+      "valor": ""
+    },
+    {
+      "codigo": 26146,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    },
+    {
+      "codigo": 26146,
+      "campoNome": "Título classificado como “verde”, “social”, “sustentável” ou correlato",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26146,
+      "campoNome": "Possibilidade de revolvência",
+      "valor": "Sim"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1381/2026",
+      "numeroRegistro": "CVM/SRE/AUT/CRA/PRI/2026/064",
+      "nomeValorMobiliario": "Certificados de Recebíveis do Agronegócio",
+      "valorTotalInicial": "100.000.000,0000",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "100.000.000,0000",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "05/05/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+      "status": "Registro Concedido",
+      "automaticaSemBook": true,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42689
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "CRA SÉRIE UNICA",
+              "loteBase": {
+                "quantidadeAtivos": "100.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "100.000.000,0000"
+              },
+              "valorTotalLote": "100.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "29/04/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "31/10/2031",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre subordinação",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Não há",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "100% do CDI + 2,75% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "AMORTIZAÇÃO:\nO Valor Nominal Unitário ou saldo do Valor Nominal Unitário será amortizado nas Datas de Pagamento dos CRA previstas no Anexo I do Termo de Securitização, ressalvados os Eventos de  Liquidação do Patrimônio Separado e/ou as hipóteses de resgate antecipado total dos CRA.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/CRA/PRI/2026/064"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 0,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 0,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 0,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 0,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "0,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "0,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "0,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "0,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "oid": 42689
+    },
+    "registroValorMobiliario": false
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "numeroProcesso": "SRE/1381/2026",
+    "numeroRegistro": "CVM/SRE/AUT/CRA/PRI/2026/064",
+    "nomeValorMobiliario": "Certificados de Recebíveis do Agronegócio",
+    "valorTotal": "100.000.000,0000",
+    "data": "05/05/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "100.000,0000",
+    "status": "Registro Concedido",
+    "automaticaSemBook": true,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42689,
+    "dataInicioOferta": "05/05/2026",
+    "bookbuildingPreenchido": false,
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "05/05/2026",
+      "hora": "09:56:30",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "05/05/2026",
+      "hora": "09:56:32",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "05/05/2026",
+      "hora": "09:56:47",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26146\\pdfs\\Anúncio de Início da Distribuição_0742182f-23e7-405f-8d07-43138d1a4e75.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26146\\pdfs\\Comunicado ao Mercado_1550b4ca-28e5-4b99-8d26-6e7537f40796.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "0742182f-23e7-405f-8d07-43138d1a4e75"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26146\\pdfs\\Anúncio de Início da Distribuição_0742182f-23e7-405f-8d07-43138d1a4e75.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Comunicado ao Mercado",
+        "uuid": "1550b4ca-28e5-4b99-8d26-6e7537f40796"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26146\\pdfs\\Comunicado ao Mercado_1550b4ca-28e5-4b99-8d26-6e7537f40796.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

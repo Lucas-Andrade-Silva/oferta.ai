@@ -1,0 +1,368 @@
+{
+  "offer_number": "26253",
+  "cvm": {
+    "Numero_Requerimento": 26253,
+    "Numero_Processo": "SRE/1453/2026",
+    "Data_requerimento": "2026-05-11T00:00:00",
+    "Data_Registro": "2026-05-11T00:00:00",
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Registro Concedido",
+    "Valor_Mobiliario": "Certificados de Recebíveis do Agronegócio",
+    "Tipo_requerimento": "OPD Aut Público em Geral ou Qualificado - sem bookbuilding",
+    "Bookbuilding": "N",
+    "CNPJ_Emissor": "08.769.451/0001-08",
+    "Nome_Emissor": "RIZA SECURITIZADORA S.A.",
+    "CNPJ_Lider": "07.253.654/0001-76",
+    "Nome_Lider": "HEDGE INVESTMENTS DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA.",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 41000,
+    "Valor_Total_Registrado": 41000000.0,
+    "Publico_alvo": "Qualificado",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": null,
+    "Gestor": null,
+    "Destinacao_recursos": "Os recursos obtidos com a subscrição e integralização dos CRA serão utilizados pela Emissora para pagar à Cedente o Valor de Cessão, descontado dos custos e Despesas referentes à estruturação, coordenação e implementação da Oferta, incluindo a constituição do Fundo de Despesas e do Fundo de Reserva, bem como quaisquer tributos incidentes e decorrentes da emissão dos CRA."
+  },
+  "documents": [
+    {
+      "label": "Prospecto Definitivo",
+      "uuid": "eeabb4b5-d814-41a6-a56d-53a3be4cb731"
+    },
+    {
+      "label": "Lâmina",
+      "uuid": "fb912e81-d503-4edb-9568-04e7f8e38573"
+    },
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "1ff9e48d-f50e-44f8-b795-42d558df8a5e"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "181311",
+      "razaoSocial": "HEDGE INVESTMENTS DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA.",
+      "cnpjInstituicao": "07.253.654/0001-76",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "57878",
+      "razaoSocial": "RIZA SECURITIZADORA S.A.",
+      "cnpjInstituicao": "08.769.451/0001-08",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "57879",
+      "razaoSocial": "HEDGE INVESTMENTS DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA.",
+      "cnpjInstituicao": "07.253.654/0001-76",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "57880",
+      "razaoSocial": "RIZA SECURITIZADORA S.A.",
+      "cnpjInstituicao": "08.769.451/0001-08",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26253,
+      "campoNome": "Emissão nº",
+      "valor": "277"
+    },
+    {
+      "codigo": 26253,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "07/05/2026"
+    },
+    {
+      "codigo": 26253,
+      "campoNome": "Mercado de negociação",
+      "valor": "B3"
+    },
+    {
+      "codigo": 26253,
+      "campoNome": "Regime fiduciário",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 26253,
+      "campoNome": "Agente fiduciário",
+      "valor": "OLIVEIRA TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A."
+    },
+    {
+      "codigo": 26253,
+      "campoNome": "Escriturador",
+      "valor": "OLIVEIRA TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A."
+    },
+    {
+      "codigo": 26253,
+      "campoNome": "Custodiante",
+      "valor": "OLIVEIRA TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A."
+    },
+    {
+      "codigo": 26253,
+      "campoNome": "Avaliador de risco",
+      "valor": ""
+    },
+    {
+      "codigo": 26253,
+      "campoNome": "Tipo de lastro",
+      "valor": "Pulverizado"
+    },
+    {
+      "codigo": 26253,
+      "campoNome": "Descrição do lastro",
+      "valor": "Os CRA são lastreados em Créditos do Agronegócio decorrentes do Contrato Fornecimento, cedidos à Emissora nos termos do Contrato de Cessão."
+    },
+    {
+      "codigo": 26253,
+      "campoNome": "Identificação dos devedores e coobrigados",
+      "valor": "AGRIPAR BIOFERTILIZANTES DO TRIÂNGULO SPE LTDA. \nERNANI KLINGELHOEFER JUDICE, inscrito no CPF sob nº 080.702.087-75 \nAGRIPAR PARTICIPAÇÕES S.A., inscrita no CNPJ sob o nº 45.683.373/0001-42"
+    },
+    {
+      "codigo": 26253,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Os recursos obtidos com a subscrição e integralização dos CRA serão utilizados pela Emissora para pagar à Cedente o Valor de Cessão, descontado dos custos e Despesas referentes à estruturação, coordenação e implementação da Oferta, incluindo a constituição do Fundo de Despesas e do Fundo de Reserva, bem como quaisquer tributos incidentes e decorrentes da emissão dos CRA."
+    },
+    {
+      "codigo": 26253,
+      "campoNome": "Descrição das garantias",
+      "valor": "Fiança, Alienação Fiduciária de Quotas e a Alienação Fiduciária de Equipamentos."
+    },
+    {
+      "codigo": 26253,
+      "campoNome": "Público alvo",
+      "valor": "Qualificado"
+    },
+    {
+      "codigo": 26253,
+      "campoNome": "Título padronizado",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 26253,
+      "campoNome": "Reabertura de série",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26253,
+      "campoNome": "Endereço do emissor na rede mundial de computadores",
+      "valor": ""
+    },
+    {
+      "codigo": 26253,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    },
+    {
+      "codigo": 26253,
+      "campoNome": "Título classificado como “verde”, “social”, “sustentável” ou correlato",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26253,
+      "campoNome": "Possibilidade de revolvência",
+      "valor": "Não"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1453/2026",
+      "numeroRegistro": "CVM/SRE/AUT/CRA/PRI/2026/071",
+      "nomeValorMobiliario": "Certificados de Recebíveis do Agronegócio",
+      "valorTotalInicial": "41.000.000,0000",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "41.000.000,0000",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "11/05/2026",
+      "nomeTipoRequerimento": "OPD Aut Público em Geral ou Qualificado - sem bookbuilding",
+      "status": "Registro Concedido",
+      "automaticaSemBook": true,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42779
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "Certificados de Recebíveis do Agronegócio",
+              "loteBase": {
+                "quantidadeAtivos": "41.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "41.000.000,0000"
+              },
+              "valorTotalLote": "41.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "07/05/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "18/05/2032",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre subordinação",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Não Aplicável",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "O VALOR NOMINAL UNITÁRIO DOS CRA OU O SALDO DO VALOR NOMINAL UNITÁRIO DOS CRA, CONFORME O CASO, NÃO SERÁ ATUALIZADO MONETARIAMENTE. SOBRE O VALOR NOMINAL UNITÁRIO DOS CRA OU SALDO DO VALOR NOMINAL UNITÁRIO DOS CRA, CONFORME O CASO, INCIDIRÃO JUROS CORRESPONDENTES À VARIAÇÃO ACUMULADA DE 100% (CEM POR CENTO) DA TAXA DI-OVER, ACRESCIDA DE UMA SOBRETAXA EQUIVALENTE A 4,00% (QUATRO INTEIROS POR CENTO) AO ANO, BASE 252 (DUZENTOS E CINQUENTA E DOIS) DIAS ÚTEIS",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Os CRA serão amortizados nas datas previstas no anexo (vii) do termo de securitização",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/CRA/PRI/2026/071"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 0,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 0,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 0,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 0,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "0,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "0,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "0,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "0,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "oid": 42779
+    },
+    "registroValorMobiliario": false
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "numeroProcesso": "SRE/1453/2026",
+    "numeroRegistro": "CVM/SRE/AUT/CRA/PRI/2026/071",
+    "nomeValorMobiliario": "Certificados de Recebíveis do Agronegócio",
+    "valorTotal": "41.000.000,0000",
+    "data": "11/05/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Público em Geral ou Qualificado - sem bookbuilding",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "41.000,0000",
+    "status": "Registro Concedido",
+    "automaticaSemBook": true,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42779,
+    "dataInicioOferta": "11/05/2026",
+    "bookbuildingPreenchido": false,
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "11/05/2026",
+      "hora": "19:29:41",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "11/05/2026",
+      "hora": "19:29:42",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "11/05/2026",
+      "hora": "19:30:04",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26253\\pdfs\\Prospecto Definitivo_eeabb4b5-d814-41a6-a56d-53a3be4cb731.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26253\\pdfs\\Lâmina_fb912e81-d503-4edb-9568-04e7f8e38573.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26253\\pdfs\\Anúncio de Início da Distribuição_1ff9e48d-f50e-44f8-b795-42d558df8a5e.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Prospecto Definitivo",
+        "uuid": "eeabb4b5-d814-41a6-a56d-53a3be4cb731"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26253\\pdfs\\Prospecto Definitivo_eeabb4b5-d814-41a6-a56d-53a3be4cb731.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Lâmina",
+        "uuid": "fb912e81-d503-4edb-9568-04e7f8e38573"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26253\\pdfs\\Lâmina_fb912e81-d503-4edb-9568-04e7f8e38573.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "1ff9e48d-f50e-44f8-b795-42d558df8a5e"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26253\\pdfs\\Anúncio de Início da Distribuição_1ff9e48d-f50e-44f8-b795-42d558df8a5e.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

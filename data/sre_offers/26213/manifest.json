@@ -1,0 +1,458 @@
+{
+  "offer_number": "26213",
+  "cvm": {
+    "Numero_Requerimento": 26213,
+    "Numero_Processo": "SRE/1416/2026",
+    "Data_requerimento": "2026-05-07T00:00:00",
+    "Data_Registro": "2026-05-07T00:00:00",
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Registro Concedido",
+    "Valor_Mobiliario": "Certificados de Recebíveis Imobiliários",
+    "Tipo_requerimento": "OPD Aut Público em Geral ou Qualificado - sem bookbuilding",
+    "Bookbuilding": "N",
+    "CNPJ_Emissor": "09.304.427/0001-58",
+    "Nome_Emissor": "HABITASEC SECURITIZADORA SA",
+    "CNPJ_Lider": "07.253.654/0001-76",
+    "Nome_Lider": "HEDGE INVESTMENTS DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA.",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 105000,
+    "Valor_Total_Registrado": 105000000.0,
+    "Publico_alvo": "Qualificado",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": null,
+    "Gestor": null,
+    "Destinacao_recursos": "Pagamento ou reembolso de gastos, custos e despesas diretamente relacionados à aquisição de terrenos e/ou desenvolvimento de empreendimentos imobiliários da Devedora ou suas controladas."
+  },
+  "documents": [
+    {
+      "label": "Prospecto Definitivo",
+      "uuid": "48e86aee-5ced-4c8c-8804-ced4ebc4b631"
+    },
+    {
+      "label": "Prospecto Definitivo",
+      "uuid": "a60b1496-81ed-4aa2-a3e7-c3bd8bcc1211"
+    },
+    {
+      "label": "Lâmina",
+      "uuid": "070eb759-baca-43c1-917e-ed7a34396928"
+    },
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "978f7cde-9be3-4c31-9a97-dc71740682ec"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "180844",
+      "razaoSocial": "HEDGE INVESTMENTS DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA.",
+      "cnpjInstituicao": "07.253.654/0001-76",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "57758",
+      "razaoSocial": "HABITASEC SECURITIZADORA SA",
+      "cnpjInstituicao": "09.304.427/0001-58",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "57759",
+      "razaoSocial": "HEDGE INVESTMENTS DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA.",
+      "cnpjInstituicao": "07.253.654/0001-76",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "57760",
+      "razaoSocial": "HABITASEC SECURITIZADORA SA",
+      "cnpjInstituicao": "09.304.427/0001-58",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26213,
+      "campoNome": "Emissão nº",
+      "valor": "122"
+    },
+    {
+      "codigo": 26213,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "24/03/2026"
+    },
+    {
+      "codigo": 26213,
+      "campoNome": "Mercado de negociação",
+      "valor": "B3"
+    },
+    {
+      "codigo": 26213,
+      "campoNome": "Regime fiduciário",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 26213,
+      "campoNome": "Agente fiduciário",
+      "valor": "Vórtx Distribuidora de Títulos e Valores Mobiliários LTDA."
+    },
+    {
+      "codigo": 26213,
+      "campoNome": "Escriturador",
+      "valor": "Vórtx Distribuidora de Títulos e Valores Mobiliários LTDA."
+    },
+    {
+      "codigo": 26213,
+      "campoNome": "Custodiante",
+      "valor": "Vórtx Distribuidora de Títulos e Valores Mobiliários LTDA."
+    },
+    {
+      "codigo": 26213,
+      "campoNome": "Avaliador de risco",
+      "valor": ""
+    },
+    {
+      "codigo": 26213,
+      "campoNome": "Tipo de lastro",
+      "valor": "Concentrado"
+    },
+    {
+      "codigo": 26213,
+      "campoNome": "Descrição do lastro",
+      "valor": "O Termo da 1ª (primeira) Emissão de Notas Comerciais Escriturais, em 5 (cinco) Séries, para Colocação Privada, da FGR Incorporações Jardins Grécia Ltda., celebrado pela Devedora, na qualidade de emitente, pela Securitizadora, na qualidade de subscritora, e pelos Garantidores, na qualidade de garantidores."
+    },
+    {
+      "codigo": 26213,
+      "campoNome": "Identificação dos devedores e coobrigados",
+      "valor": "- FGR Incorporações Jardins Grécia Ltda - CNPJ 47.370.562/0001-90.\n- Market Empreendedora S.A. - CNPJ: 14.887.893/0001-40\n- FGR Participações S.A. - CNPJ: 14.887.776/0001-84\n- Frederico Peixoto de Carvalho Craveiro - CPF: 485.652.791-00\n- Guilherme Peixoto de Carvalho Craveiro - CPF: 767.651.801-68\n- André Peixoto de Carvalho Craveiro -CPF: 767.651.641-20\n- Rodolfo Dafico Bernardes de Oliveira - CPF: 864.793.631-49"
+    },
+    {
+      "codigo": 26213,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Pagamento ou reembolso de gastos, custos e despesas diretamente relacionados à aquisição de terrenos e/ou desenvolvimento de empreendimentos imobiliários da Devedora ou suas controladas."
+    },
+    {
+      "codigo": 26213,
+      "campoNome": "Descrição das garantias",
+      "valor": "Alienação Fiduciária de Cotas, Cessão Fiduciária de Direitos Creditórios (Recebíveis), Fiança e Aval dos coobrigados acima listados, além de Fundo de Reserva e Fundo de Despesas."
+    },
+    {
+      "codigo": 26213,
+      "campoNome": "Público alvo",
+      "valor": "Qualificado"
+    },
+    {
+      "codigo": 26213,
+      "campoNome": "Título padronizado",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26213,
+      "campoNome": "Reabertura de série",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26213,
+      "campoNome": "Endereço do emissor na rede mundial de computadores",
+      "valor": "www.habitasec.com.br"
+    },
+    {
+      "codigo": 26213,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    },
+    {
+      "codigo": 26213,
+      "campoNome": "Título classificado como “verde”, “social”, “sustentável” ou correlato",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26213,
+      "campoNome": "Possibilidade de revolvência",
+      "valor": "Sim"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1416/2026",
+      "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/250",
+      "nomeValorMobiliario": "Certificados de Recebíveis Imobiliários",
+      "valorTotalInicial": "105.000.000,0000",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "105.000.000,0000",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "07/05/2026",
+      "nomeTipoRequerimento": "OPD Aut Público em Geral ou Qualificado - sem bookbuilding",
+      "status": "Registro Concedido",
+      "automaticaSemBook": true,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42748
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "Certificado de Recebíveis Imobiliários",
+              "loteBase": {
+                "quantidadeAtivos": "105.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "105.000.000,0000"
+              },
+              "valorTotalLote": "105.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "04/05/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "24/04/2041",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações  sobre subordinação",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Não há subordinação entre as classes.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "10,00% (dez inteiros) ao ano, com base em um ano com 252 (duzentos e cinquenta e dois) Dias Úteis.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Amortização Programada conforme Cronograma de Pagamentos, observada eventual carência prevista no cronograma (se aplicável). 6.6. Cálculo da Amortização. O cálculo da amortização: AMi = VNA x TAi  Onde: AMi = Valor unitário da i-ésima parcela de amortização. Valor em reais, calculado com 8 (oito) casas decimais, sem arredondamento; VNA = Conforme acima definido; TAi = Taxa de Amortização i-ésima, expressa em percentual, com 4 (quatro) casas decimais, de acordo com o Anexo “Cronogramas de Pagamentos”.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Oferta conta com benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/250"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 0,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 0,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 0,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 0,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "0,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "0,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "0,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "0,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "oid": 42748
+    },
+    "registroValorMobiliario": false
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "numeroProcesso": "SRE/1416/2026",
+    "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/250",
+    "nomeValorMobiliario": "Certificados de Recebíveis Imobiliários",
+    "valorTotal": "105.000.000,0000",
+    "data": "07/05/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Público em Geral ou Qualificado - sem bookbuilding",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "105.000,0000",
+    "status": "Registro Concedido",
+    "automaticaSemBook": true,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42748,
+    "dataInicioOferta": "07/05/2026",
+    "bookbuildingPreenchido": false,
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "07/05/2026",
+      "hora": "15:14:00",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "07/05/2026",
+      "hora": "15:14:00",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "07/05/2026",
+      "hora": "15:14:02",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26213\\pdfs\\Prospecto Definitivo_48e86aee-5ced-4c8c-8804-ced4ebc4b631.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26213\\pdfs\\Prospecto Definitivo_a60b1496-81ed-4aa2-a3e7-c3bd8bcc1211.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26213\\pdfs\\Lâmina_070eb759-baca-43c1-917e-ed7a34396928.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26213\\pdfs\\Anúncio de Início da Distribuição_978f7cde-9be3-4c31-9a97-dc71740682ec.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Prospecto Definitivo",
+        "uuid": "48e86aee-5ced-4c8c-8804-ced4ebc4b631"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26213\\pdfs\\Prospecto Definitivo_48e86aee-5ced-4c8c-8804-ced4ebc4b631.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Prospecto Definitivo",
+        "uuid": "a60b1496-81ed-4aa2-a3e7-c3bd8bcc1211"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26213\\pdfs\\Prospecto Definitivo_a60b1496-81ed-4aa2-a3e7-c3bd8bcc1211.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Lâmina",
+        "uuid": "070eb759-baca-43c1-917e-ed7a34396928"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26213\\pdfs\\Lâmina_070eb759-baca-43c1-917e-ed7a34396928.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "978f7cde-9be3-4c31-9a97-dc71740682ec"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26213\\pdfs\\Anúncio de Início da Distribuição_978f7cde-9be3-4c31-9a97-dc71740682ec.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

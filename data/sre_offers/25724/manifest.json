@@ -1,0 +1,258 @@
+{
+  "offer_number": "25724",
+  "cvm": {
+    "Numero_Requerimento": 25724,
+    "Numero_Processo": "SRE/0974/2026",
+    "Data_requerimento": "2026-03-30T00:00:00",
+    "Data_Registro": "2026-03-30T00:00:00",
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Registro Concedido",
+    "Valor_Mobiliario": "Cotas de FII",
+    "Tipo_requerimento": "OPD Aut Profissional - sem bookbuilding",
+    "Bookbuilding": "N",
+    "CNPJ_Emissor": "45.188.066/0001-95",
+    "Nome_Emissor": "ZAGROS MULTIESTRATÉGIA FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+    "CNPJ_Lider": "62.285.390/0001-40",
+    "Nome_Lider": "QI CORRETORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A.",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 21459228,
+    "Valor_Total_Registrado": 201716743.2,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": "QI Corretora de Títulos e Valores Mobiliários S.A.",
+    "Gestor": "Zagros Capital Gestão de Recursos S.A.",
+    "Destinacao_recursos": "Os recursos líquidos captados na Oferta serão destinados à aquisição de ativos que atendam à política de investimentos do Fundo, podendo ser alocados em ativos de liquidez até sua efetiva destinação."
+  },
+  "documents": [
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "63569ba5-4ca7-421c-8d9b-9cefceb23fb9"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "175162",
+      "razaoSocial": "QI CORRETORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A.",
+      "cnpjInstituicao": "62.285.390/0001-40",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "56280",
+      "razaoSocial": "ZAGROS MULTIESTRATÉGIA FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+      "cnpjInstituicao": "45.188.066/0001-95",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "56281",
+      "razaoSocial": "QI CORRETORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A.",
+      "cnpjInstituicao": "62.285.390/0001-40",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "56282",
+      "razaoSocial": "ZAGROS MULTIESTRATÉGIA FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+      "cnpjInstituicao": "45.188.066/0001-95",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 25724,
+      "campoNome": "Oferta inicial?",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 25724,
+      "campoNome": "Emissão nº",
+      "valor": "3"
+    },
+    {
+      "codigo": 25724,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "30/03/2026"
+    },
+    {
+      "codigo": 25724,
+      "campoNome": "Mercado de negociação",
+      "valor": "B3 S.A. – Brasil, Bolsa, Balcão"
+    },
+    {
+      "codigo": 25724,
+      "campoNome": "Administrador",
+      "valor": "QI Corretora de Títulos e Valores Mobiliários S.A."
+    },
+    {
+      "codigo": 25724,
+      "campoNome": "Gestor",
+      "valor": "Zagros Capital Gestão de Recursos S.A."
+    },
+    {
+      "codigo": 25724,
+      "campoNome": "Escriturador",
+      "valor": "QI Corretora de Títulos e Valores Mobiliários S.A."
+    },
+    {
+      "codigo": 25724,
+      "campoNome": "Custodiante",
+      "valor": "QI Corretora de Títulos e Valores Mobiliários S.A."
+    },
+    {
+      "codigo": 25724,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Os recursos líquidos captados na Oferta serão destinados à aquisição de ativos que atendam à política de investimentos do Fundo, podendo ser alocados em ativos de liquidez até sua efetiva destinação."
+    },
+    {
+      "codigo": 25724,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/0974/2026",
+      "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/104",
+      "nomeValorMobiliario": "Cotas de FII",
+      "valorTotalInicial": "201.716.743,2000",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "100.858.371,6000",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "30/03/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+      "status": "Registro Concedido",
+      "automaticaSemBook": true,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42287
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "3° Emissão Classe Única",
+              "loteBase": {
+                "quantidadeAtivos": "10.729.614,0000",
+                "valorNominal": "9,3200",
+                "custoUnitario": "0,0800",
+                "valorTotal": "100.858.371,6000"
+              },
+              "loteAdicional": {
+                "quantidadeAtivos": "10.729.614,0000",
+                "valorNominal": "9,3200",
+                "custoUnitario": "0,0800",
+                "valorTotal": "100.858.371,6000"
+              },
+              "valorTotalLote": "201.716.743,2000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Descrição do valor mobiliário",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Cotas da 3ª emissão do Zagros Multiestratégia FII, para investidores profissionais, com distribuição por melhores esforços.",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/104"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 0,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 0,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 0,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 0,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "0,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "0,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "0,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "0,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "oid": 42287
+    },
+    "registroValorMobiliario": true
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "numeroProcesso": "SRE/0974/2026",
+    "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/104",
+    "nomeValorMobiliario": "Cotas de FII",
+    "valorTotal": "201.716.743,2000",
+    "data": "30/03/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "10.729.614,0000",
+    "status": "Registro Concedido",
+    "automaticaSemBook": true,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42287,
+    "dataInicioOferta": "30/03/2026",
+    "bookbuildingPreenchido": false,
+    "razaoSocialFundoAssociado": "ZAGROS MULTIESTRATÉGIA FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+    "cnpjFundoAssociado": "45.188.066/0001-95",
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "30/03/2026",
+      "hora": "15:49:12",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "30/03/2026",
+      "hora": "15:49:13",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "30/03/2026",
+      "hora": "15:49:19",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "data\\sre_offers\\25724\\pdfs\\Anúncio de Início da Distribuição_63569ba5-4ca7-421c-8d9b-9cefceb23fb9.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "63569ba5-4ca7-421c-8d9b-9cefceb23fb9"
+      },
+      "arquivo": "data\\sre_offers\\25724\\pdfs\\Anúncio de Início da Distribuição_63569ba5-4ca7-421c-8d9b-9cefceb23fb9.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

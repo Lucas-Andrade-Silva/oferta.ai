@@ -1,0 +1,395 @@
+{
+  "offer_number": "25979",
+  "cvm": {
+    "Numero_Requerimento": 25979,
+    "Numero_Processo": "SRE/1283/2026",
+    "Data_requerimento": "2026-04-24T00:00:00",
+    "Data_Registro": "2026-04-24T00:00:00",
+    "Data_Encerramento": "2026-05-21T00:00:00",
+    "Status_Requerimento": "Oferta Encerrada",
+    "Valor_Mobiliario": "Debêntures",
+    "Tipo_requerimento": "OPD Aut Profissional - sem bookbuilding - Emissor Não Registrado",
+    "Bookbuilding": "N",
+    "CNPJ_Emissor": "50.955.674/0001-18",
+    "Nome_Emissor": "GBIO ENERGIA S A",
+    "CNPJ_Lider": "03.751.794/0001-13",
+    "Nome_Lider": "TERRA INVESTIMENTOS DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS LTDA",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 40000,
+    "Valor_Total_Registrado": 40000000.0,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": null,
+    "Gestor": null,
+    "Destinacao_recursos": "Investimentos e/ou despesas de capital (capEx), capital de giro, reforço de caixa, investimentos corporativos gerais, investimentos referentes a novos contratos celebrados pela Emissora, pagamentos futuros ou reembolso de gastos, despesas ou dívidas existentes relacionadas à implantação e manutenção de projetos de biogás e/ou biometano."
+  },
+  "documents": [
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "0d387d78-4b76-4e55-ade2-f245722883c7"
+    },
+    {
+      "label": "Anúncio de Encerramento da Distribuição",
+      "uuid": "e24817fd-5c31-49e9-84e9-54203f0a311d"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "178099",
+      "razaoSocial": "TERRA INVESTIMENTOS DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS LTDA",
+      "cnpjInstituicao": "03.751.794/0001-13",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "57045",
+      "razaoSocial": "GBIO ENERGIA S A",
+      "cnpjInstituicao": "50.955.674/0001-18",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "57046",
+      "razaoSocial": "TERRA INVESTIMENTOS DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS LTDA",
+      "cnpjInstituicao": "03.751.794/0001-13",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "57047",
+      "razaoSocial": "GBIO ENERGIA S A",
+      "cnpjInstituicao": "50.955.674/0001-18",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 25979,
+      "campoNome": "Emissão nº",
+      "valor": "2"
+    },
+    {
+      "codigo": 25979,
+      "campoNome": "Tipo societário",
+      "valor": "SA capital fechado"
+    },
+    {
+      "codigo": 25979,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "10/04/2026"
+    },
+    {
+      "codigo": 25979,
+      "campoNome": "Mercado de negociação",
+      "valor": "CETIP21 - Títulos e Valores Mobiliários"
+    },
+    {
+      "codigo": 25979,
+      "campoNome": "Agente fiduciário",
+      "valor": "GDC Partners Serviços Fiduciários Distribuidora de Títulos e Valores Mobiliários Ltda."
+    },
+    {
+      "codigo": 25979,
+      "campoNome": "Escriturador",
+      "valor": "BTG Pactual Serviços Financeiros S.A. Distribuidora de Títulos e Valores Mobiliários"
+    },
+    {
+      "codigo": 25979,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Investimentos e/ou despesas de capital (capEx), capital de giro, reforço de caixa, investimentos corporativos gerais, investimentos referentes a novos contratos celebrados pela Emissora, pagamentos futuros ou reembolso de gastos, despesas ou dívidas existentes relacionadas à implantação e manutenção de projetos de biogás e/ou biometano."
+    },
+    {
+      "codigo": 25979,
+      "campoNome": "Avaliador de risco",
+      "valor": ""
+    },
+    {
+      "codigo": 25979,
+      "campoNome": "Endereço do emissor na rede mundial de computadores",
+      "valor": ""
+    },
+    {
+      "codigo": 25979,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    },
+    {
+      "codigo": 25979,
+      "campoNome": "Título classificado como “verde”, “social”, “sustentável” ou correlato",
+      "valor": "Não"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1283/2026",
+      "numeroRegistro": "CVM/SRE/AUT/DEB/PRI/2026/211",
+      "nomeValorMobiliario": "Debêntures",
+      "valorTotalInicial": "40.000.000,0000",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "40.000.000,0000",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "24/04/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding - Emissor Não Registrado",
+      "status": "Oferta Encerrada",
+      "automaticaSemBook": true,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42585
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "Série Única",
+              "loteBase": {
+                "quantidadeAtivos": "40.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "40.000.000,0000"
+              },
+              "valorTotalLote": "40.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/04/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/10/2028",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Espécie",
+                  "campoTipo": "Espécie de Debênture",
+                  "campoValor": "Quirografária",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "100% da Taxa DI acrescida de spread (sobretaxa) de 2,30% ao ano, base 252 dias úteis. Remuneração paga semestralmente a partir do 12º mês da Data de Emissão, no dia 15 de abril e outubro, sendo o 1º pagamento em 15/04/2027 e o último na Data de Vencimento.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Amortização do Valor Nominal Unitário em parcela única na Data de Vencimento (15/10/2028).",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tem benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim fixo",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º ou Lei 14.801/24",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do Projeto de Investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/DEB/PRI/2026/211"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "dataEncerramento": "2026-05-21T17:00:00Z",
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 3,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 0,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 0,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 0,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "40.000,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "0,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "0,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "0,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "foiRevogada": false,
+      "oid": 42585
+    },
+    "registroValorMobiliario": false
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "numeroProcesso": "SRE/1283/2026",
+    "numeroRegistro": "CVM/SRE/AUT/DEB/PRI/2026/211",
+    "nomeValorMobiliario": "Debêntures",
+    "valorTotal": "40.000.000,0000",
+    "data": "24/04/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding - Emissor Não Registrado",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "40.000,0000",
+    "status": "Oferta Encerrada",
+    "automaticaSemBook": true,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42585,
+    "dataInicioOferta": "24/04/2026",
+    "bookbuildingPreenchido": false,
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "24/04/2026",
+      "hora": "14:58:09",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "24/04/2026",
+      "hora": "14:58:09",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "24/04/2026",
+      "hora": "14:58:10",
+      "observacao": ""
+    },
+    {
+      "status": "Oferta Encerrada",
+      "data": "21/05/2026",
+      "hora": "16:53:23",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\25979\\pdfs\\Anúncio de Início da Distribuição_0d387d78-4b76-4e55-ade2-f245722883c7.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\25979\\pdfs\\Anúncio de Encerramento da Distribuição_e24817fd-5c31-49e9-84e9-54203f0a311d.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "0d387d78-4b76-4e55-ade2-f245722883c7"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\25979\\pdfs\\Anúncio de Início da Distribuição_0d387d78-4b76-4e55-ade2-f245722883c7.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Anúncio de Encerramento da Distribuição",
+        "uuid": "e24817fd-5c31-49e9-84e9-54203f0a311d"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\25979\\pdfs\\Anúncio de Encerramento da Distribuição_e24817fd-5c31-49e9-84e9-54203f0a311d.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

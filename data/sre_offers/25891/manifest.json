@@ -1,0 +1,273 @@
+{
+  "offer_number": "25891",
+  "cvm": {
+    "Numero_Requerimento": 25891,
+    "Numero_Processo": "SRE/1117/2026",
+    "Data_requerimento": "2026-04-10T00:00:00",
+    "Data_Registro": "2026-04-10T00:00:00",
+    "Data_Encerramento": "2026-04-15T00:00:00",
+    "Status_Requerimento": "Oferta Encerrada",
+    "Valor_Mobiliario": "Cotas de FII",
+    "Tipo_requerimento": "OPD Aut Profissional - sem bookbuilding",
+    "Bookbuilding": "N",
+    "CNPJ_Emissor": "65.782.151/0001-94",
+    "Nome_Emissor": "AZ SOLARGRID RENDA  SOLAR FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE  LIMITADA",
+    "CNPJ_Lider": "02.332.886/0001-04",
+    "Nome_Lider": "XP INVESTIMENTOS CCTVM S.A.",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 20000,
+    "Valor_Total_Registrado": 2000000.0,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": "XP INVESTIMENTOS CORRETORA DE CÂMBIO, TÍTULOS E VALORES MOBILIÁRIOS S.A",
+    "Gestor": "AZ QUEST INFRA LTDA",
+    "Destinacao_recursos": "A Classe Única tem como objetivo a obtenção de renda, mediante a aplicação de recursos de seu Patrimônio Líquido, (i) em Imóveis Alvo, por meio da aquisição destes imóveis para posterior alienação, locação, arrendamento ou exploração do direito de superfície, inclusive bens e direitos a eles relacionados, podendo, inclusive, ceder a terceiros tais direitos (ii) auferir rendimentos e ganho de capital advindos do investimento e eventual alienação dos Ativos Alvo, conforme aplicável."
+  },
+  "documents": [
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "7bf0bbb6-16f9-474c-8572-4fe45f809fa5"
+    },
+    {
+      "label": "Anúncio de Encerramento da Distribuição",
+      "uuid": "7f4b2722-58f6-43d2-8c1b-986f7e6c983e"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "177067",
+      "razaoSocial": "XP INVESTIMENTOS CCTVM S.A.",
+      "cnpjInstituicao": "02.332.886/0001-04",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "56781",
+      "razaoSocial": "AZ SOLARGRID RENDA  SOLAR FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE  LIMITADA",
+      "cnpjInstituicao": "65.782.151/0001-94",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "56782",
+      "razaoSocial": "XP INVESTIMENTOS CCTVM S.A.",
+      "cnpjInstituicao": "02.332.886/0001-04",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "56783",
+      "razaoSocial": "AZ SOLARGRID RENDA  SOLAR FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE  LIMITADA",
+      "cnpjInstituicao": "65.782.151/0001-94",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 25891,
+      "campoNome": "Oferta inicial?",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 25891,
+      "campoNome": "Emissão nº",
+      "valor": "1"
+    },
+    {
+      "codigo": 25891,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "28/01/2026"
+    },
+    {
+      "codigo": 25891,
+      "campoNome": "Mercado de negociação",
+      "valor": "Listado"
+    },
+    {
+      "codigo": 25891,
+      "campoNome": "Administrador",
+      "valor": "XP INVESTIMENTOS CORRETORA DE CÂMBIO, TÍTULOS E VALORES MOBILIÁRIOS S.A"
+    },
+    {
+      "codigo": 25891,
+      "campoNome": "Gestor",
+      "valor": "AZ QUEST INFRA LTDA"
+    },
+    {
+      "codigo": 25891,
+      "campoNome": "Escriturador",
+      "valor": "OLIVEIRA TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A."
+    },
+    {
+      "codigo": 25891,
+      "campoNome": "Custodiante",
+      "valor": "OLIVEIRA TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A."
+    },
+    {
+      "codigo": 25891,
+      "campoNome": "Destinação dos recursos",
+      "valor": "A Classe Única tem como objetivo a obtenção de renda, mediante a aplicação de recursos de seu Patrimônio Líquido, (i) em Imóveis Alvo, por meio da aquisição destes imóveis para posterior alienação, locação, arrendamento ou exploração do direito de superfície, inclusive bens e direitos a eles relacionados, podendo, inclusive, ceder a terceiros tais direitos; (ii) auferir rendimentos e ganho de capital advindos do investimento e eventual alienação dos Ativos Alvo, conforme aplicável."
+    },
+    {
+      "codigo": 25891,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1117/2026",
+      "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/119",
+      "nomeValorMobiliario": "Cotas de FII",
+      "valorTotalInicial": "2.000.000,0000",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "2.000.000,0000",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "10/04/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+      "status": "Oferta Encerrada",
+      "automaticaSemBook": true,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42437
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "Cotas de FII",
+              "loteBase": {
+                "quantidadeAtivos": "20.000,0000",
+                "valorNominal": "100,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "2.000.000,0000"
+              },
+              "valorTotalLote": "2.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Descrição do valor mobiliário",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "OFERTA PÚBLICA DE DISTRIBUIÇÃO PRIMÁRIA DE COTAS DA PRIMEIRA EMISSÃO DA CLASSE ÚNICA DO\nAZ SOLARGRID RENDA SOLAR FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/119"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "dataEncerramento": "2026-04-15T17:00:00Z",
+      "nuIPessoasNaturais": 2,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 0,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 1,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 0,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 0,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "7.852,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "0,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "12.148,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "0,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "0,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "foiRevogada": false,
+      "oid": 42437
+    },
+    "registroValorMobiliario": true
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "numeroProcesso": "SRE/1117/2026",
+    "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/119",
+    "nomeValorMobiliario": "Cotas de FII",
+    "valorTotal": "2.000.000,0000",
+    "data": "10/04/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "20.000,0000",
+    "status": "Oferta Encerrada",
+    "automaticaSemBook": true,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42437,
+    "dataInicioOferta": "10/04/2026",
+    "bookbuildingPreenchido": false,
+    "razaoSocialFundoAssociado": "AZ SOLARGRID RENDA  SOLAR FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE  LIMITADA",
+    "cnpjFundoAssociado": "65.782.151/0001-94",
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "10/04/2026",
+      "hora": "17:56:29",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "10/04/2026",
+      "hora": "17:56:29",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "10/04/2026",
+      "hora": "17:56:30",
+      "observacao": ""
+    },
+    {
+      "status": "Oferta Encerrada",
+      "data": "15/04/2026",
+      "hora": "19:58:48",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "data\\sre_offers\\25891\\pdfs\\Anúncio de Início da Distribuição_7bf0bbb6-16f9-474c-8572-4fe45f809fa5.pdf",
+    "data\\sre_offers\\25891\\pdfs\\Anúncio de Encerramento da Distribuição_7f4b2722-58f6-43d2-8c1b-986f7e6c983e.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "7bf0bbb6-16f9-474c-8572-4fe45f809fa5"
+      },
+      "arquivo": "data\\sre_offers\\25891\\pdfs\\Anúncio de Início da Distribuição_7bf0bbb6-16f9-474c-8572-4fe45f809fa5.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Anúncio de Encerramento da Distribuição",
+        "uuid": "7f4b2722-58f6-43d2-8c1b-986f7e6c983e"
+      },
+      "arquivo": "data\\sre_offers\\25891\\pdfs\\Anúncio de Encerramento da Distribuição_7f4b2722-58f6-43d2-8c1b-986f7e6c983e.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

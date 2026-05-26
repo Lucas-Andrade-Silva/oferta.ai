@@ -1,0 +1,285 @@
+{
+  "offer_number": "25876",
+  "cvm": {
+    "Numero_Requerimento": 25876,
+    "Numero_Processo": "SRE/1106/2026",
+    "Data_requerimento": "2026-04-09T00:00:00",
+    "Data_Registro": "2026-04-17T00:00:00",
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Registro Concedido",
+    "Valor_Mobiliario": "Cotas de FII",
+    "Tipo_requerimento": "OPD Aut Profissional - com bookbuilding",
+    "Bookbuilding": "S",
+    "CNPJ_Emissor": "66.174.532/0001-53",
+    "Nome_Emissor": "RBR TESOURARIA FII IPCA+ FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+    "CNPJ_Lider": "04.845.753/0001-59",
+    "Nome_Lider": "ITAU BBA ASSESSORIA FINANCEIRA S.A",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 3000000,
+    "Valor_Total_Registrado": 300000000.0,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": "INTRAG DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA.",
+    "Gestor": "RBR PRIVATE EQUITY GESTÃO DE RECURSOS LTDA.",
+    "Destinacao_recursos": "Aquisição de TVMs"
+  },
+  "documents": [
+    {
+      "label": "Aviso ao Mercado",
+      "uuid": "e1ee6a03-3aa5-4424-8524-350dc6bd9f00"
+    },
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "02cfe158-6534-4e61-84ff-371f34c1f9c5"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "176895",
+      "razaoSocial": "ITAU BBA ASSESSORIA FINANCEIRA S.A",
+      "cnpjInstituicao": "04.845.753/0001-59",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "56736",
+      "razaoSocial": "RBR TESOURARIA FII IPCA+ FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+      "cnpjInstituicao": "66.174.532/0001-53",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "56737",
+      "razaoSocial": "ITAU BBA ASSESSORIA FINANCEIRA S.A",
+      "cnpjInstituicao": "04.845.753/0001-59",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "56738",
+      "razaoSocial": "RBR TESOURARIA FII IPCA+ FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+      "cnpjInstituicao": "66.174.532/0001-53",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 25876,
+      "campoNome": "Oferta inicial?",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 25876,
+      "campoNome": "Emissão nº",
+      "valor": "1"
+    },
+    {
+      "codigo": 25876,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "09/04/2026"
+    },
+    {
+      "codigo": 25876,
+      "campoNome": "Mercado de negociação",
+      "valor": "negociação e liquidação no mercado secundário por meio do mercado de bolsa, ambos administrados e operacionalizados pela B3 S.A. – Brasil, Bolsa, Balcão (“B3”)."
+    },
+    {
+      "codigo": 25876,
+      "campoNome": "Administrador",
+      "valor": "INTRAG DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA."
+    },
+    {
+      "codigo": 25876,
+      "campoNome": "Gestor",
+      "valor": "RBR PRIVATE EQUITY GESTÃO DE RECURSOS LTDA."
+    },
+    {
+      "codigo": 25876,
+      "campoNome": "Escriturador",
+      "valor": "ITAÚ CORRETORA DE VALORES S.A."
+    },
+    {
+      "codigo": 25876,
+      "campoNome": "Custodiante",
+      "valor": "ITAÚ UNIBANCO S.A."
+    },
+    {
+      "codigo": 25876,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Aquisição de TVMs"
+    },
+    {
+      "codigo": 25876,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": true,
+      "numeroProcesso": "SRE/1106/2026",
+      "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/127",
+      "nomeValorMobiliario": "Cotas de FII",
+      "valorTotalInicial": "300.000.000,0000",
+      "valorTotalFinal": "300.000.000,0000",
+      "valorTotalLoteBaseInicial": "300.000.000,0000",
+      "valorTotalLoteBaseFinal": "300.000.000,0000",
+      "data": "17/04/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - com bookbuilding",
+      "status": "Registro Concedido",
+      "automaticaSemBook": false,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42522
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": true,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "Única",
+              "loteBase": {
+                "quantidadeAtivos": "3.000.000,0000",
+                "valorNominal": "100,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "300.000.000,0000"
+              },
+              "valorTotalLote": "300.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Descrição do valor mobiliário",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                }
+              ]
+            },
+            "loteFinal": {
+              "valorMobiliario": "Única",
+              "loteBase": {
+                "quantidadeAtivos": "3.000.000,0000",
+                "valorNominal": "100,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "300.000.000,0000"
+              },
+              "valorTotalLote": "300.000.000,0000",
+              "taxaRemuneracao": "-",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Descrição do valor mobiliário",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": true,
+            "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/127"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 0,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 0,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 0,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 0,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "0,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "0,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "0,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "0,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "oid": 42522
+    },
+    "registroValorMobiliario": true
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": true,
+    "numeroProcesso": "SRE/1106/2026",
+    "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/127",
+    "nomeValorMobiliario": "Cotas de FII",
+    "valorTotal": "300.000.000,0000",
+    "data": "17/04/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - com bookbuilding",
+    "bookValorTotal": "100,0000",
+    "bookQuantidadeAtivos": "3.000.000,0000",
+    "quantidadeAtivos": "3.000.000,0000",
+    "status": "Registro Concedido",
+    "automaticaSemBook": false,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42522,
+    "dataInicioOferta": "17/04/2026",
+    "bookbuildingPreenchido": true,
+    "razaoSocialFundoAssociado": "RBR TESOURARIA FII IPCA+ FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+    "cnpjFundoAssociado": "66.174.532/0001-53",
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "09/04/2026",
+      "hora": "21:32:40",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "09/04/2026",
+      "hora": "21:32:40",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "17/04/2026",
+      "hora": "19:31:44",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "data\\sre_offers\\25876\\pdfs\\Aviso ao Mercado_e1ee6a03-3aa5-4424-8524-350dc6bd9f00.pdf",
+    "data\\sre_offers\\25876\\pdfs\\Anúncio de Início da Distribuição_02cfe158-6534-4e61-84ff-371f34c1f9c5.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Aviso ao Mercado",
+        "uuid": "e1ee6a03-3aa5-4424-8524-350dc6bd9f00"
+      },
+      "arquivo": "data\\sre_offers\\25876\\pdfs\\Aviso ao Mercado_e1ee6a03-3aa5-4424-8524-350dc6bd9f00.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "02cfe158-6534-4e61-84ff-371f34c1f9c5"
+      },
+      "arquivo": "data\\sre_offers\\25876\\pdfs\\Anúncio de Início da Distribuição_02cfe158-6534-4e61-84ff-371f34c1f9c5.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

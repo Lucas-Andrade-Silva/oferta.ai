@@ -1,0 +1,252 @@
+{
+  "offer_number": "25879",
+  "cvm": {
+    "Numero_Requerimento": 25879,
+    "Numero_Processo": "SRE/1113/2026",
+    "Data_requerimento": "2026-04-10T00:00:00",
+    "Data_Registro": "2026-04-10T00:00:00",
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Registro Concedido",
+    "Valor_Mobiliario": "Cotas de FII",
+    "Tipo_requerimento": "OPD Aut Profissional - sem bookbuilding",
+    "Bookbuilding": "N",
+    "CNPJ_Emissor": "01.235.622/0001-61",
+    "Nome_Emissor": "OPPORTUNITY FUNDO DE INVESTIMENTO IMOBILIÁRIO -  RESPONSABILIDADE LIMITADA",
+    "CNPJ_Lider": "13.486.793/0001-42",
+    "Nome_Lider": "BRL TRUST DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS S.A.",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 99969,
+    "Valor_Total_Registrado": 290001071.79,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": "BRL TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A",
+    "Gestor": "BRL TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A",
+    "Destinacao_recursos": "Classe Única tem por objetivo proporcionar a seus Cotistas a valorização e a rentabilidade de suas Cotas no longo prazo, bem como auferir receitas, mediante (i) a realização das operações permitidas neste Regulamento (ii) no desenvolvimento de empreendimentos imobiliários em geral e/ou (iii) o investimento do patrimônio líquido da Classe, direta ou indiretamente."
+  },
+  "documents": [
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "36ef510c-8ab8-4371-954e-8709c98e6423"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "176930",
+      "razaoSocial": "BRL TRUST DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS S.A.",
+      "cnpjInstituicao": "13.486.793/0001-42",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "56745",
+      "razaoSocial": "OPPORTUNITY FUNDO DE INVESTIMENTO IMOBILIÁRIO -  RESPONSABILIDADE LIMITADA",
+      "cnpjInstituicao": "01.235.622/0001-61",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "56746",
+      "razaoSocial": "BRL TRUST DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS S.A.",
+      "cnpjInstituicao": "13.486.793/0001-42",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "56747",
+      "razaoSocial": "OPPORTUNITY FUNDO DE INVESTIMENTO IMOBILIÁRIO -  RESPONSABILIDADE LIMITADA",
+      "cnpjInstituicao": "01.235.622/0001-61",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 25879,
+      "campoNome": "Oferta inicial?",
+      "valor": "Não"
+    },
+    {
+      "codigo": 25879,
+      "campoNome": "Emissão nº",
+      "valor": "20"
+    },
+    {
+      "codigo": 25879,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "08/04/2026"
+    },
+    {
+      "codigo": 25879,
+      "campoNome": "Mercado de negociação",
+      "valor": "Mercado secundário de bolsa ou balcão organizado / B3"
+    },
+    {
+      "codigo": 25879,
+      "campoNome": "Administrador",
+      "valor": "BRL TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A"
+    },
+    {
+      "codigo": 25879,
+      "campoNome": "Gestor",
+      "valor": "BRL TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A"
+    },
+    {
+      "codigo": 25879,
+      "campoNome": "Escriturador",
+      "valor": "BRL TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A"
+    },
+    {
+      "codigo": 25879,
+      "campoNome": "Custodiante",
+      "valor": "BRL TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A"
+    },
+    {
+      "codigo": 25879,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Classe Única tem por objetivo proporcionar a seus Cotistas a valorização e a rentabilidade de suas Cotas no longo prazo, bem como auferir receitas, mediante (i) a realização das operações permitidas neste Regulamento; (ii) no desenvolvimento de empreendimentos imobiliários em geral; e/ou (iii) o investimento do patrimônio líquido da Classe, direta ou indiretamente."
+    },
+    {
+      "codigo": 25879,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1113/2026",
+      "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/118",
+      "nomeValorMobiliario": "Cotas de FII",
+      "valorTotalInicial": "290.001.071,7900",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "290.001.071,7900",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "10/04/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+      "status": "Registro Concedido",
+      "automaticaSemBook": true,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42429
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "20ª Emissão de Cotas de FII",
+              "loteBase": {
+                "quantidadeAtivos": "99.969,0000",
+                "valorNominal": "2.900,9100",
+                "custoUnitario": "0,0000",
+                "valorTotal": "290.001.071,7900"
+              },
+              "valorTotalLote": "290.001.071,7900",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Descrição do valor mobiliário",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Cotas de FII",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/118"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 0,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 0,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 0,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 0,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "0,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "0,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "0,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "0,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "oid": 42429
+    },
+    "registroValorMobiliario": true
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "numeroProcesso": "SRE/1113/2026",
+    "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/118",
+    "nomeValorMobiliario": "Cotas de FII",
+    "valorTotal": "290.001.071,7900",
+    "data": "10/04/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "99.969,0000",
+    "status": "Registro Concedido",
+    "automaticaSemBook": true,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42429,
+    "dataInicioOferta": "10/04/2026",
+    "bookbuildingPreenchido": false,
+    "razaoSocialFundoAssociado": "OPPORTUNITY FUNDO DE INVESTIMENTO IMOBILIÁRIO -  RESPONSABILIDADE LIMITADA",
+    "cnpjFundoAssociado": "01.235.622/0001-61",
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "10/04/2026",
+      "hora": "12:12:28",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "10/04/2026",
+      "hora": "12:12:28",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "10/04/2026",
+      "hora": "12:12:29",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "data\\sre_offers\\25879\\pdfs\\Anúncio de Início da Distribuição_36ef510c-8ab8-4371-954e-8709c98e6423.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "36ef510c-8ab8-4371-954e-8709c98e6423"
+      },
+      "arquivo": "data\\sre_offers\\25879\\pdfs\\Anúncio de Início da Distribuição_36ef510c-8ab8-4371-954e-8709c98e6423.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

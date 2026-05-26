@@ -1,0 +1,11 @@
+pandas
+plotly
+python-dotenv
+requests
+streamlit
+pytest
+pypdf
+langchain>=0.2
+langchain-groq>=0.1
+langchain-openai>=0.1
+langchain-core>=0.2

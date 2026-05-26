@@ -1,0 +1,355 @@
+{
+  "offer_number": "26348",
+  "cvm": {
+    "Numero_Requerimento": 26348,
+    "Numero_Processo": "SRE/1538/2026",
+    "Data_requerimento": "2026-05-18T00:00:00",
+    "Data_Registro": null,
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Aguardando Bookbuilding",
+    "Valor_Mobiliario": "Debêntures",
+    "Tipo_requerimento": "OPD Aut Profissional - com bookbuilding - Emissor Não Registrado",
+    "Bookbuilding": "S",
+    "CNPJ_Emissor": "10.376.555/0001-96",
+    "Nome_Emissor": "COMBIO ENERGIA S.A.",
+    "CNPJ_Lider": "90.400.888/0001-42",
+    "Nome_Lider": "BANCO SANTANDER (BRASIL) S.A.",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 0,
+    "Valor_Total_Registrado": 0.0,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Garantia Firme de Colocação",
+    "Administrador": null,
+    "Gestor": null,
+    "Destinacao_recursos": "Investimento e financiamento futuro do projeto descrito e caracterizado no ANEXO I da Escritura de Emissão"
+  },
+  "documents": [
+    {
+      "label": "Aviso ao Mercado",
+      "uuid": "082f33e7-6e77-4506-9211-5e68a5948f86"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "182404",
+      "razaoSocial": "BANCO SANTANDER (BRASIL) S.A.",
+      "cnpjInstituicao": "90.400.888/0001-42",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "58160",
+      "razaoSocial": "COMBIO ENERGIA S.A.",
+      "cnpjInstituicao": "10.376.555/0001-96",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "58161",
+      "razaoSocial": "BANCO SANTANDER (BRASIL) S.A.",
+      "cnpjInstituicao": "90.400.888/0001-42",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "58162",
+      "razaoSocial": "COMBIO ENERGIA S.A.",
+      "cnpjInstituicao": "10.376.555/0001-96",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26348,
+      "campoNome": "Emissão nº",
+      "valor": "1"
+    },
+    {
+      "codigo": 26348,
+      "campoNome": "Tipo societário",
+      "valor": "SA capital fechado"
+    },
+    {
+      "codigo": 26348,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "18/05/2026"
+    },
+    {
+      "codigo": 26348,
+      "campoNome": "Mercado de negociação",
+      "valor": "B3"
+    },
+    {
+      "codigo": 26348,
+      "campoNome": "Agente fiduciário",
+      "valor": "VÓRTX DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA"
+    },
+    {
+      "codigo": 26348,
+      "campoNome": "Escriturador",
+      "valor": "VÓRTX DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA"
+    },
+    {
+      "codigo": 26348,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Investimento e financiamento futuro do projeto descrito e caracterizado no ANEXO I da Escritura de Emissão"
+    },
+    {
+      "codigo": 26348,
+      "campoNome": "Avaliador de risco",
+      "valor": ""
+    },
+    {
+      "codigo": 26348,
+      "campoNome": "Título padronizado",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 26348,
+      "campoNome": "Reabertura de série",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26348,
+      "campoNome": "Endereço do emissor na rede mundial de computadores",
+      "valor": ""
+    },
+    {
+      "codigo": 26348,
+      "campoNome": "Regime de distribuição",
+      "valor": "Garantia Firme de Colocação"
+    },
+    {
+      "codigo": 26348,
+      "campoNome": "Título classificado como “verde”, “social”, “sustentável” ou correlato",
+      "valor": "Sim"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1538/2026",
+      "numeroRegistro": "N/A",
+      "nomeValorMobiliario": "Debêntures",
+      "valorTotalInicial": "200.000.000,0000",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "200.000.000,0000",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "18/05/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - com bookbuilding - Emissor Não Registrado",
+      "status": "Aguardando Bookbuilding",
+      "automaticaSemBook": false,
+      "ofertaAutomatica": true
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "DEBÊNTURES SIMPLES",
+              "loteBase": {
+                "quantidadeAtivos": "200.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "200.000.000,0000"
+              },
+              "valorTotalLote": "200.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "27/05/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "27/05/2031",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Espécie",
+                  "campoTipo": "Espécie de Debênture",
+                  "campoValor": "Garantia Real",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração máxima",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "CDI + 0,80% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração final (pós bookbuilding)",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Semestral, a partir do 24o mes",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tem benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim fixo",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º ou Lei 14.801/24",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxxx ou +xx.xxxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxxx ou +xx.xxxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "Em andamento"
+          }
+        ]
+      }
+    ],
+    "registroValorMobiliario": false
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "numeroProcesso": "SRE/1538/2026",
+    "numeroRegistro": "N/A",
+    "nomeValorMobiliario": "Debêntures",
+    "valorTotal": "200.000.000,0000",
+    "data": "18/05/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - com bookbuilding - Emissor Não Registrado",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "200.000,0000",
+    "status": "Aguardando Bookbuilding",
+    "automaticaSemBook": false,
+    "ofertaAutomatica": true,
+    "bookbuildingPreenchido": true,
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "18/05/2026",
+      "hora": "20:19:12",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "18/05/2026",
+      "hora": "20:19:14",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26348\\pdfs\\Aviso ao Mercado_082f33e7-6e77-4506-9211-5e68a5948f86.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Aviso ao Mercado",
+        "uuid": "082f33e7-6e77-4506-9211-5e68a5948f86"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26348\\pdfs\\Aviso ao Mercado_082f33e7-6e77-4506-9211-5e68a5948f86.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

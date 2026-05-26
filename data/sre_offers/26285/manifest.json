@@ -1,0 +1,435 @@
+{
+  "offer_number": "26285",
+  "cvm": {
+    "Numero_Requerimento": 26285,
+    "Numero_Processo": "SRE/1501/2026",
+    "Data_requerimento": "2026-05-14T00:00:00",
+    "Data_Registro": "2026-05-14T00:00:00",
+    "Data_Encerramento": "2026-05-18T00:00:00",
+    "Status_Requerimento": "Oferta Encerrada",
+    "Valor_Mobiliario": "Certificados de Recebíveis Imobiliários",
+    "Tipo_requerimento": "OPD Aut Profissional - sem bookbuilding",
+    "Bookbuilding": "N",
+    "CNPJ_Emissor": "41.811.375/0001-19",
+    "Nome_Emissor": "CANAL COMPANHIA DE SECURITIZAÇÃO",
+    "CNPJ_Lider": "41.811.375/0001-19",
+    "Nome_Lider": "CANAL COMPANHIA DE SECURITIZAÇÃO",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 12500,
+    "Valor_Total_Registrado": 12500000.0,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": null,
+    "Gestor": null,
+    "Destinacao_recursos": "Os recursos serão integralmente destinados, pela Devedora, para o custeio de despesas de natureza imobiliária futuras vinculadas e atinentes diretamente à construção, e/ou reforma do Empreendimento Varandas Park II, conforme cronograma indicativo."
+  },
+  "documents": [
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "5424bad6-2a1f-4c11-ae77-35f3eb79f5c1"
+    },
+    {
+      "label": "Anúncio de Encerramento da Distribuição",
+      "uuid": "debbe909-8d1b-4577-942d-b5175d4732a1"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "181681",
+      "razaoSocial": "CANAL COMPANHIA DE SECURITIZAÇÃO",
+      "cnpjInstituicao": "41.811.375/0001-19",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "57974",
+      "razaoSocial": "CANAL COMPANHIA DE SECURITIZAÇÃO",
+      "cnpjInstituicao": "41.811.375/0001-19",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "57975",
+      "razaoSocial": "CANAL COMPANHIA DE SECURITIZAÇÃO",
+      "cnpjInstituicao": "41.811.375/0001-19",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "57976",
+      "razaoSocial": "CANAL COMPANHIA DE SECURITIZAÇÃO",
+      "cnpjInstituicao": "41.811.375/0001-19",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26285,
+      "campoNome": "Emissão nº",
+      "valor": "143"
+    },
+    {
+      "codigo": 26285,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "07/05/2025"
+    },
+    {
+      "codigo": 26285,
+      "campoNome": "Mercado de negociação",
+      "valor": "B3"
+    },
+    {
+      "codigo": 26285,
+      "campoNome": "Regime fiduciário",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 26285,
+      "campoNome": "Agente fiduciário",
+      "valor": "OLIVEIRA TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A."
+    },
+    {
+      "codigo": 26285,
+      "campoNome": "Escriturador",
+      "valor": "OLIVEIRA TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A."
+    },
+    {
+      "codigo": 26285,
+      "campoNome": "Custodiante",
+      "valor": "OLIVEIRA TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A."
+    },
+    {
+      "codigo": 26285,
+      "campoNome": "Avaliador de risco",
+      "valor": ""
+    },
+    {
+      "codigo": 26285,
+      "campoNome": "Tipo de lastro",
+      "valor": "Concentrado"
+    },
+    {
+      "codigo": 26285,
+      "campoNome": "Descrição do lastro",
+      "valor": "Certificados de Recebíveis Imobiliários emitidos com lastro nos Créditos Imobiliários, oriundos das Notas Comerciais."
+    },
+    {
+      "codigo": 26285,
+      "campoNome": "Identificação dos devedores e coobrigados",
+      "valor": "REALIZA EMPREENDIMENTO GOIÂNIA I SPE – LTDA. (devedora); DANIELA CRISTINA DO NASCIMENTO, JOSÉ HUMBERTO DO NASCIMENTO JUNIOR, LUIZ GUSTAVO DO NASCIMENTO, MELINA RODRIGUES DE LIMA NASCIMENTO, THAIS FARAH MARQUEZ DO NASCIMENTO; e REALIZA CONSTRUTORA LTDA. (fiadores)"
+    },
+    {
+      "codigo": 26285,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Os recursos serão integralmente destinados, pela Devedora, para o custeio de despesas de natureza imobiliária futuras vinculadas e atinentes diretamente à construção, e/ou reforma do Empreendimento Varandas Park II, conforme cronograma indicativo."
+    },
+    {
+      "codigo": 26285,
+      "campoNome": "Descrição das garantias",
+      "valor": "Fiança, Cessão Fiduciária, Alienação Fiduciária de Imóvel e Alienação Fiduciária de Quotas."
+    },
+    {
+      "codigo": 26285,
+      "campoNome": "Título padronizado",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26285,
+      "campoNome": "Reabertura de série",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26285,
+      "campoNome": "Endereço do emissor na rede mundial de computadores",
+      "valor": "www.canalsecuritizadora.com.br/"
+    },
+    {
+      "codigo": 26285,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    },
+    {
+      "codigo": 26285,
+      "campoNome": "Título classificado como “verde”, “social”, “sustentável” ou correlato",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26285,
+      "campoNome": "Possibilidade de revolvência",
+      "valor": "Não"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1501/2026",
+      "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/279",
+      "nomeValorMobiliario": "Certificados de Recebíveis Imobiliários",
+      "valorTotalInicial": "12.500.000,0000",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "12.500.000,0000",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "14/05/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+      "status": "Oferta Encerrada",
+      "automaticaSemBook": true,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42816
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "2ª Série - 143ª Emissão",
+              "loteBase": {
+                "quantidadeAtivos": "12.500,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "12.500.000,0000"
+              },
+              "valorTotalLote": "12.500.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "01/09/2025",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "24/07/2028",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações  sobre subordinação",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Não há.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "DI + 5,2502%",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Amortização Antecipada Facultativa, Amortização Antecipada Compulsória e Amortização Extraordinária Compulsória.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Oferta conta com benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/279"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "dataEncerramento": "2026-05-18T17:00:00Z",
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 1,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 0,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 0,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 0,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "12.500,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "0,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "0,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "0,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "foiRevogada": false,
+      "oid": 42816
+    },
+    "registroValorMobiliario": false
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "numeroProcesso": "SRE/1501/2026",
+    "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/279",
+    "nomeValorMobiliario": "Certificados de Recebíveis Imobiliários",
+    "valorTotal": "12.500.000,0000",
+    "data": "14/05/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "12.500,0000",
+    "status": "Oferta Encerrada",
+    "automaticaSemBook": true,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42816,
+    "dataInicioOferta": "14/05/2026",
+    "bookbuildingPreenchido": false,
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "14/05/2026",
+      "hora": "16:07:42",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "14/05/2026",
+      "hora": "16:07:42",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "14/05/2026",
+      "hora": "16:07:45",
+      "observacao": ""
+    },
+    {
+      "status": "Oferta Encerrada",
+      "data": "18/05/2026",
+      "hora": "15:13:44",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26285\\pdfs\\Anúncio de Início da Distribuição_5424bad6-2a1f-4c11-ae77-35f3eb79f5c1.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26285\\pdfs\\Anúncio de Encerramento da Distribuição_debbe909-8d1b-4577-942d-b5175d4732a1.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "5424bad6-2a1f-4c11-ae77-35f3eb79f5c1"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26285\\pdfs\\Anúncio de Início da Distribuição_5424bad6-2a1f-4c11-ae77-35f3eb79f5c1.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Anúncio de Encerramento da Distribuição",
+        "uuid": "debbe909-8d1b-4577-942d-b5175d4732a1"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26285\\pdfs\\Anúncio de Encerramento da Distribuição_debbe909-8d1b-4577-942d-b5175d4732a1.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "offer_number": "26104",
+  "cvm": {
+    "Numero_Requerimento": 26104,
+    "Numero_Processo": "SRE/1317/2026",
+    "Data_requerimento": "2026-04-28T00:00:00",
+    "Data_Registro": "2026-04-28T00:00:00",
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Registro Concedido",
+    "Valor_Mobiliario": "Cotas de FII",
+    "Tipo_requerimento": "OPD Aut Público em Geral ou Qualificado - sem bookbuilding",
+    "Bookbuilding": "N",
+    "CNPJ_Emissor": "63.393.767/0001-48",
+    "Nome_Emissor": "QUARTA VIA REAL ASSETS FUNDO DE INVESTIMENTO IMOBILIÁRIO",
+    "CNPJ_Lider": "41.847.533/0001-90",
+    "Nome_Lider": "BLOXS COORDENAÇÃO LTDA",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 2500,
+    "Valor_Total_Registrado": 25000000.0,
+    "Publico_alvo": "Qualificado",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": "MONETAR DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA",
+    "Gestor": "BLOXS ASSET GESTÃO DE RECURSOS LTDA",
+    "Destinacao_recursos": "Os recursos captados por meio da presente Oferta serão destinados à aquisição de ativos em conformidade com a Política de Investimento do Fundo, descrita no Capítulo III do Anexo I do Regulamento."
+  },
+  "documents": [],
+  "participants": [
+    {
+      "idParticipante": "179575",
+      "razaoSocial": "BLOXS COORDENAÇÃO LTDA",
+      "cnpjInstituicao": "41.847.533/0001-90",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "57431",
+      "razaoSocial": "QUARTA VIA REAL ASSETS FUNDO DE INVESTIMENTO IMOBILIÁRIO",
+      "cnpjInstituicao": "63.393.767/0001-48",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "57432",
+      "razaoSocial": "BLOXS COORDENAÇÃO LTDA",
+      "cnpjInstituicao": "41.847.533/0001-90",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "57433",
+      "razaoSocial": "QUARTA VIA REAL ASSETS FUNDO DE INVESTIMENTO IMOBILIÁRIO",
+      "cnpjInstituicao": "63.393.767/0001-48",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26104,
+      "campoNome": "Oferta inicial?",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 26104,
+      "campoNome": "Emissão nº",
+      "valor": "1"
+    },
+    {
+      "codigo": 26104,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "15/04/2026"
+    },
+    {
+      "codigo": 26104,
+      "campoNome": "Mercado de negociação",
+      "valor": "Balcão-B3"
+    },
+    {
+      "codigo": 26104,
+      "campoNome": "Administrador",
+      "valor": "MONETAR DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA"
+    },
+    {
+      "codigo": 26104,
+      "campoNome": "Gestor",
+      "valor": "BLOXS ASSET GESTÃO DE RECURSOS LTDA"
+    },
+    {
+      "codigo": 26104,
+      "campoNome": "Escriturador",
+      "valor": "TERRA INVESTIMENTOS DTVM LTDA"
+    },
+    {
+      "codigo": 26104,
+      "campoNome": "Custodiante",
+      "valor": "TERRA INVESTIMENTOS DTVM LTDA"
+    },
+    {
+      "codigo": 26104,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Os recursos captados por meio da presente Oferta serão destinados à aquisição de ativos em conformidade com a Política de Investimento do Fundo, descrita no Capítulo III do Anexo I do Regulamento."
+    },
+    {
+      "codigo": 26104,
+      "campoNome": "Público alvo",
+      "valor": "Qualificado"
+    },
+    {
+      "codigo": 26104,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    }
+  ],
+  "errors": [
+    "documentos: nenhum UUID encontrado"
+  ],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1317/2026",
+      "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/138",
+      "nomeValorMobiliario": "Cotas de FII",
+      "valorTotalInicial": "25.000.000,0000",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "20.000.000,0000",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "28/04/2026",
+      "nomeTipoRequerimento": "OPD Aut Público em Geral ou Qualificado - sem bookbuilding",
+      "status": "Registro Concedido",
+      "automaticaSemBook": true,
+      "ofertaAutomatica": true
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "COTA FII",
+              "loteBase": {
+                "quantidadeAtivos": "2.000,0000",
+                "valorNominal": "10.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "20.000.000,0000"
+              },
+              "loteAdicional": {
+                "quantidadeAtivos": "500,0000",
+                "valorNominal": "10.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "5.000.000,0000"
+              },
+              "valorTotalLote": "25.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Descrição do valor mobiliário",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/138"
+          }
+        ]
+      }
+    ],
+    "registroValorMobiliario": true
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "numeroProcesso": "SRE/1317/2026",
+    "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/138",
+    "nomeValorMobiliario": "Cotas de FII",
+    "valorTotal": "25.000.000,0000",
+    "data": "28/04/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Público em Geral ou Qualificado - sem bookbuilding",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "2.000,0000",
+    "status": "Registro Concedido",
+    "automaticaSemBook": true,
+    "ofertaAutomatica": true,
+    "bookbuildingPreenchido": false,
+    "razaoSocialFundoAssociado": "QUARTA VIA REAL ASSETS FUNDO DE INVESTIMENTO IMOBILIÁRIO",
+    "cnpjFundoAssociado": "63.393.767/0001-48",
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "28/04/2026",
+      "hora": "18:25:35",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "28/04/2026",
+      "hora": "18:25:35",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "28/04/2026",
+      "hora": "18:25:37",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [],
+  "pdf_summaries": []
+}

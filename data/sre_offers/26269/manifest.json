@@ -1,0 +1,467 @@
+{
+  "offer_number": "26269",
+  "cvm": {
+    "Numero_Requerimento": 26269,
+    "Numero_Processo": "SRE/1464/2026",
+    "Data_requerimento": "2026-05-12T00:00:00",
+    "Data_Registro": "2026-05-12T00:00:00",
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Registro Concedido",
+    "Valor_Mobiliario": "Certificados de Recebíveis do Agronegócio",
+    "Tipo_requerimento": "OPD Aut Profissional - sem bookbuilding",
+    "Bookbuilding": "N",
+    "CNPJ_Emissor": "41.534.746/0001-62",
+    "Nome_Emissor": "CERES SECURITIZADORA S.A.",
+    "CNPJ_Lider": "41.534.746/0001-62",
+    "Nome_Lider": "CERES SECURITIZADORA S.A.",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 40000,
+    "Valor_Total_Registrado": 40000000.0,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": null,
+    "Gestor": null,
+    "Destinacao_recursos": "Os recursos líquidos captados por meio da presente Oferta serão destinados pela Securitizadora à aquisição de Direitos Creditórios do Agronegócio, representados por CPRs, CDA/WAs e demais direitos creditórios elegíveis vinculados a operações relacionadas à produção, comercialização, beneficiamento e industrialização de produtos e insumos agropecuários, os quais servirão de lastro aos CRA da presente Emissão, observados os Critérios de Elegibilidade previstos no Termo de Securitização e na regulamentação aplicável."
+  },
+  "documents": [
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "21e08347-820a-42be-b139-01fe4045decc"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "181497",
+      "razaoSocial": "CERES SECURITIZADORA S.A.",
+      "cnpjInstituicao": "41.534.746/0001-62",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "57926",
+      "razaoSocial": "CERES SECURITIZADORA S.A.",
+      "cnpjInstituicao": "41.534.746/0001-62",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "57927",
+      "razaoSocial": "CERES SECURITIZADORA S.A.",
+      "cnpjInstituicao": "41.534.746/0001-62",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "57928",
+      "razaoSocial": "CERES SECURITIZADORA S.A.",
+      "cnpjInstituicao": "41.534.746/0001-62",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26269,
+      "campoNome": "Emissão nº",
+      "valor": "61"
+    },
+    {
+      "codigo": 26269,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "11/04/2025"
+    },
+    {
+      "codigo": 26269,
+      "campoNome": "Mercado de negociação",
+      "valor": "B3"
+    },
+    {
+      "codigo": 26269,
+      "campoNome": "Regime fiduciário",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 26269,
+      "campoNome": "Agente fiduciário",
+      "valor": "Vórtx Distribuidora de Títulos e Valores Mobiliários"
+    },
+    {
+      "codigo": 26269,
+      "campoNome": "Escriturador",
+      "valor": "Vórtx Distribuidora de Títulos e Valores Mobiliários"
+    },
+    {
+      "codigo": 26269,
+      "campoNome": "Custodiante",
+      "valor": "Vórtx Distribuidora de Títulos e Valores Mobiliários"
+    },
+    {
+      "codigo": 26269,
+      "campoNome": "Avaliador de risco",
+      "valor": ""
+    },
+    {
+      "codigo": 26269,
+      "campoNome": "Tipo de lastro",
+      "valor": "Pulverizado"
+    },
+    {
+      "codigo": 26269,
+      "campoNome": "Descrição do lastro",
+      "valor": "CPRs e CDA/WAs, decorrem de operações relacionadas à produção, comercialização, beneficiamento ou industrialização de produtos agropecuários.\nOu seja, o lastro é efetivamente vinculado ao agronegócio, atendendo à Lei nº 11.076 e à Resolução CVM 60."
+    },
+    {
+      "codigo": 26269,
+      "campoNome": "Identificação dos devedores e coobrigados",
+      "valor": "Os produtores rurais emitentes das CPRs e CDA/WAs."
+    },
+    {
+      "codigo": 26269,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Os recursos líquidos captados por meio da presente Oferta serão destinados pela Securitizadora à aquisição de Direitos Creditórios do Agronegócio, representados por CPRs, CDA/WAs e demais direitos creditórios elegíveis vinculados a operações relacionadas à produção, comercialização, beneficiamento e industrialização de produtos e insumos agropecuários, os quais servirão de lastro aos CRA da presente Emissão, observados os Critérios de Elegibilidade previstos no Termo de Securitização e na regulamentação aplicável."
+    },
+    {
+      "codigo": 26269,
+      "campoNome": "Descrição das garantias",
+      "valor": ""
+    },
+    {
+      "codigo": 26269,
+      "campoNome": "Título padronizado",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 26269,
+      "campoNome": "Reabertura de série",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26269,
+      "campoNome": "Endereço do emissor na rede mundial de computadores",
+      "valor": ""
+    },
+    {
+      "codigo": 26269,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    },
+    {
+      "codigo": 26269,
+      "campoNome": "Título classificado como “verde”, “social”, “sustentável” ou correlato",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26269,
+      "campoNome": "Possibilidade de revolvência",
+      "valor": "Não"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1464/2026",
+      "numeroRegistro": "CVM/SRE/AUT/CRA/PRI/2026/072;CVM/SRE/AUT/CRA/PRI/2026/073;CVM/SRE/AUT/CRA/PRI/2026/074",
+      "nomeValorMobiliario": "Certificados de Recebíveis do Agronegócio",
+      "valorTotalInicial": "40.000.000,0000",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "40.000.000,0000",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "12/05/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+      "status": "Registro Concedido",
+      "automaticaSemBook": true,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42781
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "CRA SENIOR",
+              "loteBase": {
+                "quantidadeAtivos": "20.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "20.000.000,0000"
+              },
+              "valorTotalLote": "20.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "01/04/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "30/05/2027",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre subordinação",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Os CRA Seniores possuem prioridade de pagamento em relação aos CRA Subordinados Mezanino e Juniores, enquanto os CRA Mezanino possuem prioridade sobre os CRA Juniores.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "remuneração de 22,50% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Os CRA contarão com amortização extraordinária obrigatória, observada a Ordem de Alocação de Recursos prevista no Termo de Securitização, mediante utilização do saldo positivo disponível na Conta Centralizadora apurado em cada Data de Verificação.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/CRA/PRI/2026/072"
+          },
+          {
+            "loteInicial": {
+              "valorMobiliario": "CRA SUBORDINADO MEZANINO",
+              "loteBase": {
+                "quantidadeAtivos": "19.900,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "19.900.000,0000"
+              },
+              "valorTotalLote": "19.900.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "01/04/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "30/06/2027",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre subordinação",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Os CRA Subordinados Mezanino subordinam-se aos CRA Seniores para fins de pagamento de remuneração, amortização e resgate, possuindo, contudo, prioridade de pagamento em relação aos CRA Subordinados Juniores.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "os CRA Subordinados Mezanino farão jus à remuneração equivalente a 22,50% (vinte e dois inteiros e cinquenta centésimos por cento) ao ano.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Os CRA serão amortizados conforme a Ordem de Alocação de Recursos prevista no Termo de Securitização, observada a subordinação entre as classes da Emissão.\nOs CRA Seniores possuem prioridade no recebimento de amortização em relação aos CRA Subordinados Mezanino e aos CRA Subordinados Juniores, enquanto os CRA Subordinados Mezanino possuem prioridade em relação aos CRA Subordinados Juniores.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/CRA/PRI/2026/073"
+          },
+          {
+            "loteInicial": {
+              "valorMobiliario": "CRA SUBORDINADO JUNIOR",
+              "loteBase": {
+                "quantidadeAtivos": "100,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "100.000,0000"
+              },
+              "valorTotalLote": "100.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "01/04/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "30/06/2027",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre subordinação",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "A presente série é subordinada aos CRA Seniores e Mezanino da Emissão para fins de pagamento de remuneração, amortização e resgate, observada a ordem de prioridade prevista no Termo de Securitização.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Em forma de prêmio",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "A amortização da presente série ocorrerá conforme a Ordem de Alocação de Recursos prevista no Termo de Securitização, observada a subordinação existente entre as classes da Emissão e a disponibilidade de recursos no Patrimônio Separado.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/CRA/PRI/2026/074"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 0,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 0,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 0,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 0,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "0,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "0,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "0,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "0,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "oid": 42781
+    },
+    "registroValorMobiliario": false
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "numeroProcesso": "SRE/1464/2026",
+    "numeroRegistro": "CVM/SRE/AUT/CRA/PRI/2026/072;CVM/SRE/AUT/CRA/PRI/2026/073;CVM/SRE/AUT/CRA/PRI/2026/074",
+    "nomeValorMobiliario": "Certificados de Recebíveis do Agronegócio",
+    "valorTotal": "40.000.000,0000",
+    "data": "12/05/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "20.000,0000",
+    "status": "Registro Concedido",
+    "automaticaSemBook": true,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42781,
+    "dataInicioOferta": "12/05/2026",
+    "bookbuildingPreenchido": false,
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "12/05/2026",
+      "hora": "17:32:58",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "12/05/2026",
+      "hora": "17:32:58",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "12/05/2026",
+      "hora": "17:33:00",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26269\\pdfs\\Anúncio de Início da Distribuição_21e08347-820a-42be-b139-01fe4045decc.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "21e08347-820a-42be-b139-01fe4045decc"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26269\\pdfs\\Anúncio de Início da Distribuição_21e08347-820a-42be-b139-01fe4045decc.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

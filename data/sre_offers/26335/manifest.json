@@ -1,0 +1,382 @@
+{
+  "offer_number": "26335",
+  "cvm": {
+    "Numero_Requerimento": 26335,
+    "Numero_Processo": "SRE/1528/2026",
+    "Data_requerimento": "2026-05-15T00:00:00",
+    "Data_Registro": null,
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Aguardando Bookbuilding",
+    "Valor_Mobiliario": "Debêntures",
+    "Tipo_requerimento": "OPD Aut Profissional - com bookbuilding",
+    "Bookbuilding": "S",
+    "CNPJ_Emissor": "15.484.093/0001-44",
+    "Nome_Emissor": "ECO101 CONCESSIONÁRIA DE RODOVIAS S.A.",
+    "CNPJ_Lider": "06.271.464/0001-19",
+    "Nome_Lider": "BANCO BRADESCO BBI S.A.",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 0,
+    "Valor_Total_Registrado": 0.0,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Garantia Firme de Colocação",
+    "Administrador": null,
+    "Gestor": null,
+    "Destinacao_recursos": "Nos termos do artigo 2º, parágrafo 1º, da Lei 12.431, do Decreto 11.964 e da Resolução CMN 5.034, a totalidade dos recursos captados pela Emissora por meio das Debêntures serão utilizados exclusivamente no reembolso de gastos ou despesas do Projeto que ocorreram em prazo igual ou inferior a 48 (quarenta e oito) meses contados da data de encerramento da Oferta e/ou na realização de investimentos futuros relacionados à implantação do Projeto (conforme definido na Escritura de Emisão), nos termos da Lei 12.431, conforme tabela prevista na Escritura de Emissão."
+  },
+  "documents": [
+    {
+      "label": "Aviso ao Mercado",
+      "uuid": "ef3fb001-ad45-493f-bde2-b64311b25a7e"
+    },
+    {
+      "label": "Comunicado ao Mercado",
+      "uuid": "6ba49ac3-308e-4412-8e15-48e3f48ccfa5"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "182252",
+      "razaoSocial": "BANCO BRADESCO BBI S.A.",
+      "cnpjInstituicao": "06.271.464/0001-19",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "182258",
+      "razaoSocial": "ITAU BBA ASSESSORIA FINANCEIRA S.A",
+      "cnpjInstituicao": "04.845.753/0001-59",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "182259",
+      "razaoSocial": "BANCO SANTANDER (BRASIL) S.A.",
+      "cnpjInstituicao": "90.400.888/0001-42",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "182260",
+      "razaoSocial": "XP INVESTIMENTOS CCTVM S.A.",
+      "cnpjInstituicao": "02.332.886/0001-04",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "58121",
+      "razaoSocial": "ECO101 CONCESSIONÁRIA DE RODOVIAS S.A.",
+      "cnpjInstituicao": "15.484.093/0001-44",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "58122",
+      "razaoSocial": "BANCO BRADESCO BBI S.A.",
+      "cnpjInstituicao": "06.271.464/0001-19",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "58123",
+      "razaoSocial": "ECO101 CONCESSIONÁRIA DE RODOVIAS S.A.",
+      "cnpjInstituicao": "15.484.093/0001-44",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26335,
+      "campoNome": "Emissão nº",
+      "valor": "3"
+    },
+    {
+      "codigo": 26335,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "15/05/2026"
+    },
+    {
+      "codigo": 26335,
+      "campoNome": "Mercado de negociação",
+      "valor": "CETIP21 – Títulos e Valores Mobiliários"
+    },
+    {
+      "codigo": 26335,
+      "campoNome": "Agente fiduciário",
+      "valor": "OLIVEIRA TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A."
+    },
+    {
+      "codigo": 26335,
+      "campoNome": "Escriturador",
+      "valor": "BTG Pactual Serviços Financeiros S.A. Distribuidora de Títulos e Valores Mobiliários"
+    },
+    {
+      "codigo": 26335,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Nos termos do artigo 2º, parágrafo 1º, da Lei 12.431, do Decreto 11.964 e da Resolução CMN 5.034, a totalidade dos recursos captados pela Emissora por meio das Debêntures serão utilizados exclusivamente no reembolso de gastos ou despesas do Projeto que ocorreram em prazo igual ou inferior a 48 (quarenta e oito) meses contados da data de encerramento da Oferta e/ou na realização de investimentos futuros relacionados à implantação do Projeto (conforme definido na Escritura de Emisão), nos termos da Lei 12.431, conforme tabela prevista na Escritura de Emissão."
+    },
+    {
+      "codigo": 26335,
+      "campoNome": "Avaliador de risco",
+      "valor": ""
+    },
+    {
+      "codigo": 26335,
+      "campoNome": "Título padronizado",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26335,
+      "campoNome": "Reabertura de série",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26335,
+      "campoNome": "Endereço do emissor na rede mundial de computadores",
+      "valor": ""
+    },
+    {
+      "codigo": 26335,
+      "campoNome": "Regime de distribuição",
+      "valor": "Garantia Firme de Colocação"
+    },
+    {
+      "codigo": 26335,
+      "campoNome": "Título classificado como “verde”, “social”, “sustentável” ou correlato",
+      "valor": "Não"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": true,
+      "numeroProcesso": "SRE/1528/2026",
+      "numeroRegistro": "N/A",
+      "nomeValorMobiliario": "Debêntures",
+      "valorTotalInicial": "2.400.000.000,0000",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "2.400.000.000,0000",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "15/05/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - com bookbuilding",
+      "status": "Aguardando Bookbuilding",
+      "automaticaSemBook": false,
+      "ofertaAutomatica": true
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "Série Única",
+              "loteBase": {
+                "quantidadeAtivos": "2.400.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "2.400.000.000,0000"
+              },
+              "valorTotalLote": "2.400.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/05/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/06/2030",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Espécie",
+                  "campoTipo": "Espécie de Debênture",
+                  "campoValor": "Quirografária",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração máxima",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Sobre o Valor Nominal Unitário Atualizado incidirão juros remuneratórios a serem definidos no Procedimento de Bookbuilding, correspondente à, no máximo, a maior taxa entre as seguintes: (i) a taxa interna de retorno do Tesouro IPCA+, com vencimento em 15 de agosto de 2030, a ser apurada conforme a cotação indicativa divulgada pela ANBIMA em sua página na internet no fechamento do mercado do Dia Útil de realização do Procedimento de Bookbuilding, acrescida exponencialmente de uma sobretaxa (spread) equivequivalente a 0,45% (quarenta e cinco centésimos por cento) ao ano, base 252 DU",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração final (pós bookbuilding)",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "No vencimento (bullet)",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tem benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim fixo",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º ou Lei 14.801/24",
+                  "campoValor": "Lei 12.431/11 - art. 2º",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "50000.013297/2026-99",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "I - Logística e Transportes: Rodovias",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "Concessão",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxxx ou +xx.xxxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "-40.3077898",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxxx ou +xx.xxxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "-20.1215224",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "Em andamento"
+          }
+        ]
+      }
+    ],
+    "registroValorMobiliario": false
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": true,
+    "resumoOferta": "3ª (TERCEIRA) EMISSÃO DE DEBÊNTURES SIMPLES, NÃO CONVERSÍVEIS EM AÇÕES, DA ESPÉCIE QUIROGRAFÁRIA, COM GARANTIA FIDEJUSSÓRIA ADICIONAL, EM SÉRIE ÚNICA, PARA DISTRIBUIÇÃO PÚBLICA, SOB O RITO DE REGISTRO AUTOMÁTICO, DA ECO101 CONCESSIONÁRIA DE RODOVIAS S.A.",
+    "numeroProcesso": "SRE/1528/2026",
+    "numeroRegistro": "N/A",
+    "nomeValorMobiliario": "Debêntures",
+    "valorTotal": "2.400.000.000,0000",
+    "data": "15/05/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - com bookbuilding",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "2.400.000,0000",
+    "status": "Aguardando Bookbuilding",
+    "automaticaSemBook": false,
+    "ofertaAutomatica": true,
+    "bookbuildingPreenchido": true,
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "15/05/2026",
+      "hora": "23:23:38",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "15/05/2026",
+      "hora": "23:23:39",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26335\\pdfs\\Aviso ao Mercado_ef3fb001-ad45-493f-bde2-b64311b25a7e.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26335\\pdfs\\Comunicado ao Mercado_6ba49ac3-308e-4412-8e15-48e3f48ccfa5.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Aviso ao Mercado",
+        "uuid": "ef3fb001-ad45-493f-bde2-b64311b25a7e"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26335\\pdfs\\Aviso ao Mercado_ef3fb001-ad45-493f-bde2-b64311b25a7e.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Comunicado ao Mercado",
+        "uuid": "6ba49ac3-308e-4412-8e15-48e3f48ccfa5"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26335\\pdfs\\Comunicado ao Mercado_6ba49ac3-308e-4412-8e15-48e3f48ccfa5.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

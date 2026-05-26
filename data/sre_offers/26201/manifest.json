@@ -1,0 +1,445 @@
+{
+  "offer_number": "26201",
+  "cvm": {
+    "Numero_Requerimento": 26201,
+    "Numero_Processo": "SRE/1413/2026",
+    "Data_requerimento": "2026-05-07T00:00:00",
+    "Data_Registro": "2026-05-07T00:00:00",
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Registro Concedido",
+    "Valor_Mobiliario": "Certificados de Recebíveis Imobiliários",
+    "Tipo_requerimento": "OPD Aut Público em Geral ou Qualificado - sem bookbuilding",
+    "Bookbuilding": "N",
+    "CNPJ_Emissor": "08.769.451/0001-08",
+    "Nome_Emissor": "RIZA SECURITIZADORA S.A.",
+    "CNPJ_Lider": "07.253.654/0001-76",
+    "Nome_Lider": "HEDGE INVESTMENTS DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA.",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 56000,
+    "Valor_Total_Registrado": 56000000.0,
+    "Publico_alvo": "Qualificado",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": null,
+    "Gestor": null,
+    "Destinacao_recursos": "Os recursos líquidos captados pela Emitente por meio da Emissão das Notas Comerciais serão destinados, integral e exclusivamente, pela Emitente, para arcar com os gastos, os custos e as despesas de natureza imobiliária diretamente atinentes às obras do Empreendimento."
+  },
+  "documents": [
+    {
+      "label": "Prospecto Definitivo",
+      "uuid": "d70212a6-7dda-4788-a805-79f132b56b6c"
+    },
+    {
+      "label": "Lâmina",
+      "uuid": "f85e66f1-567d-44f4-8e40-6755c56e7194"
+    },
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "7f9434ee-24cb-49ba-820f-fb9be591128f"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "180704",
+      "razaoSocial": "HEDGE INVESTMENTS DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA.",
+      "cnpjInstituicao": "07.253.654/0001-76",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "57722",
+      "razaoSocial": "RIZA SECURITIZADORA S.A.",
+      "cnpjInstituicao": "08.769.451/0001-08",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "57723",
+      "razaoSocial": "HEDGE INVESTMENTS DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA.",
+      "cnpjInstituicao": "07.253.654/0001-76",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "57724",
+      "razaoSocial": "RIZA SECURITIZADORA S.A.",
+      "cnpjInstituicao": "08.769.451/0001-08",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26201,
+      "campoNome": "Emissão nº",
+      "valor": "309"
+    },
+    {
+      "codigo": 26201,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "06/05/2026"
+    },
+    {
+      "codigo": 26201,
+      "campoNome": "Mercado de negociação",
+      "valor": "B3"
+    },
+    {
+      "codigo": 26201,
+      "campoNome": "Regime fiduciário",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 26201,
+      "campoNome": "Agente fiduciário",
+      "valor": "OLIVEIRA TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A."
+    },
+    {
+      "codigo": 26201,
+      "campoNome": "Escriturador",
+      "valor": "OLIVEIRA TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A."
+    },
+    {
+      "codigo": 26201,
+      "campoNome": "Custodiante",
+      "valor": "OLIVEIRA TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A."
+    },
+    {
+      "codigo": 26201,
+      "campoNome": "Avaliador de risco",
+      "valor": ""
+    },
+    {
+      "codigo": 26201,
+      "campoNome": "Tipo de lastro",
+      "valor": "Concentrado"
+    },
+    {
+      "codigo": 26201,
+      "campoNome": "Descrição do lastro",
+      "valor": "Créditos Imobiliários oriundos da emissão das Notas Comerciais."
+    },
+    {
+      "codigo": 26201,
+      "campoNome": "Identificação dos devedores e coobrigados",
+      "valor": "Devedora: SHS LOTUS EMPREENDIMENTOS HOTELEIROS LTDA., sociedade empresária limitada, com sede em Brasília, Distrito Federal, no Q SHCS CR Quadra 502, Bloco C, Loja 2582, nº 37, Asa Sul, CEP 70.330-530, inscrita no CNPJ sob o nº 43.440.008/0001-81\nAvalista: Luiz Felipe Guerra de Andrade Hernandez – CPF: 021.929.211-60\nAvalista: Ruy Guerra de Andrade Hernandez – CPF: 021.948.041-96\nAvalista: Sutol Investimentos e Participações Ltda. – CNPJ: 48.368.375/0001-35"
+    },
+    {
+      "codigo": 26201,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Os recursos líquidos captados pela Emitente por meio da Emissão das Notas Comerciais serão destinados, integral e exclusivamente, pela Emitente, para arcar com os gastos, os custos e as despesas de natureza imobiliária diretamente atinentes às obras do Empreendimento."
+    },
+    {
+      "codigo": 26201,
+      "campoNome": "Descrição das garantias",
+      "valor": "Aval, a Alienação Fiduciária, Alienação Fiduciária de Quotas, Cessão Fiduciária de Direitos Creditórios, Fundo de Reserva e Fundo de Despesas."
+    },
+    {
+      "codigo": 26201,
+      "campoNome": "Público alvo",
+      "valor": "Qualificado"
+    },
+    {
+      "codigo": 26201,
+      "campoNome": "Título padronizado",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 26201,
+      "campoNome": "Reabertura de série",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26201,
+      "campoNome": "Endereço do emissor na rede mundial de computadores",
+      "valor": "https://rizasec.com/"
+    },
+    {
+      "codigo": 26201,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    },
+    {
+      "codigo": 26201,
+      "campoNome": "Título classificado como “verde”, “social”, “sustentável” ou correlato",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26201,
+      "campoNome": "Possibilidade de revolvência",
+      "valor": "Não"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1413/2026",
+      "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/249",
+      "nomeValorMobiliario": "Certificados de Recebíveis Imobiliários",
+      "valorTotalInicial": "56.000.000,0000",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "56.000.000,0000",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "07/05/2026",
+      "nomeTipoRequerimento": "OPD Aut Público em Geral ou Qualificado - sem bookbuilding",
+      "status": "Registro Concedido",
+      "automaticaSemBook": true,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42762
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "CRI",
+              "loteBase": {
+                "quantidadeAtivos": "56.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "56.000.000,0000"
+              },
+              "valorTotalLote": "56.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "05/05/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "17/05/2030",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações  sobre subordinação",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Não há.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "1ª série: 3,50% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Amortização do Valor Nominal Unitário realizada de forma parcelada, conforme cronograma de amortização programada previsto no Termo de Securitização, com liquidação do saldo remanescente na data de vencimento da 1ª série, admitida ainda a realização de amortização extraordinária facultativa, nos termos dos Documentos da Operação.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Oferta conta com benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/249"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 0,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 0,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 0,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 0,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "0,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "0,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "0,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "0,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "oid": 42762
+    },
+    "registroValorMobiliario": false
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "numeroProcesso": "SRE/1413/2026",
+    "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/249",
+    "nomeValorMobiliario": "Certificados de Recebíveis Imobiliários",
+    "valorTotal": "56.000.000,0000",
+    "data": "07/05/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Público em Geral ou Qualificado - sem bookbuilding",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "56.000,0000",
+    "status": "Registro Concedido",
+    "automaticaSemBook": true,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42762,
+    "dataInicioOferta": "08/05/2026",
+    "bookbuildingPreenchido": false,
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "07/05/2026",
+      "hora": "10:12:16",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "07/05/2026",
+      "hora": "10:12:16",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "07/05/2026",
+      "hora": "10:12:24",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26201\\pdfs\\Prospecto Definitivo_d70212a6-7dda-4788-a805-79f132b56b6c.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26201\\pdfs\\Lâmina_f85e66f1-567d-44f4-8e40-6755c56e7194.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26201\\pdfs\\Anúncio de Início da Distribuição_7f9434ee-24cb-49ba-820f-fb9be591128f.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Prospecto Definitivo",
+        "uuid": "d70212a6-7dda-4788-a805-79f132b56b6c"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26201\\pdfs\\Prospecto Definitivo_d70212a6-7dda-4788-a805-79f132b56b6c.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Lâmina",
+        "uuid": "f85e66f1-567d-44f4-8e40-6755c56e7194"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26201\\pdfs\\Lâmina_f85e66f1-567d-44f4-8e40-6755c56e7194.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "7f9434ee-24cb-49ba-820f-fb9be591128f"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26201\\pdfs\\Anúncio de Início da Distribuição_7f9434ee-24cb-49ba-820f-fb9be591128f.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

@@ -1,0 +1,571 @@
+{
+  "offer_number": "26119",
+  "cvm": {
+    "Numero_Requerimento": 26119,
+    "Numero_Processo": "SRE/1331/2026",
+    "Data_requerimento": "2026-04-29T00:00:00",
+    "Data_Registro": "2026-05-06T00:00:00",
+    "Data_Encerramento": "2026-05-07T00:00:00",
+    "Status_Requerimento": "Oferta Encerrada",
+    "Valor_Mobiliario": "Debêntures",
+    "Tipo_requerimento": "OPD Aut Profissional - com bookbuilding - Emissor Não Registrado",
+    "Bookbuilding": "S",
+    "CNPJ_Emissor": "27.486.182/0001-09",
+    "Nome_Emissor": "VIACAO AGUIA BRANCA S A",
+    "CNPJ_Lider": "00.360.305/0001-04",
+    "Nome_Lider": "CAIXA ECONOMICA FEDERAL",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 250000,
+    "Valor_Total_Registrado": 250000000.0,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Garantia Firme de Colocação",
+    "Administrador": null,
+    "Gestor": null,
+    "Destinacao_recursos": "Os recursos líquidos obtidos pela Emissora com a Emissão serão utilizados, no curso ordinário dos seus negócios, (i) para o resgate antecipado da totalidade das debêntures da 3ª (terceira) emissão da Emissora, registrada sob o ticker \"VABC13\" e (ii) o saldo remanescente, após o resgate antecipado descrito no item \"(i)\", para reforço de caixa da Emissora."
+  },
+  "documents": [
+    {
+      "label": "Aviso ao Mercado",
+      "uuid": "7251360f-1f86-4fab-a7f8-cbb7fc25ad12"
+    },
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "fbbf8571-fbe2-4704-94ba-19fbe8f52fca"
+    },
+    {
+      "label": "Anúncio de Encerramento da Distribuição",
+      "uuid": "d3ae30d4-e5ae-4e6e-9c8f-d421924c8cb9"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "179750",
+      "razaoSocial": "CAIXA ECONOMICA FEDERAL",
+      "cnpjInstituicao": "00.360.305/0001-04",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "57476",
+      "razaoSocial": "VIACAO AGUIA BRANCA S A",
+      "cnpjInstituicao": "27.486.182/0001-09",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "57477",
+      "razaoSocial": "CAIXA ECONOMICA FEDERAL",
+      "cnpjInstituicao": "00.360.305/0001-04",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "57478",
+      "razaoSocial": "VIACAO AGUIA BRANCA S A",
+      "cnpjInstituicao": "27.486.182/0001-09",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26119,
+      "campoNome": "Emissão nº",
+      "valor": "5"
+    },
+    {
+      "codigo": 26119,
+      "campoNome": "Tipo societário",
+      "valor": "SA capital fechado"
+    },
+    {
+      "codigo": 26119,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "27/04/2026"
+    },
+    {
+      "codigo": 26119,
+      "campoNome": "Mercado de negociação",
+      "valor": "no mercado primário por meio do MDA – Módulo de Distribuição de Ativos (“MDA”), e negociação no mercado secundário por meio do CETIP21 – Títulos e Valores Mobiliários (“CETIP21”)."
+    },
+    {
+      "codigo": 26119,
+      "campoNome": "Agente fiduciário",
+      "valor": "OLIVEIRA TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A., CNPJ/MF sob o nº 36.113.876/0004-34."
+    },
+    {
+      "codigo": 26119,
+      "campoNome": "Escriturador",
+      "valor": "OLIVEIRA TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A., CNPJ/MF sob o nº 36.113.876/0001-91."
+    },
+    {
+      "codigo": 26119,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Os recursos líquidos obtidos pela Emissora com a Emissão serão utilizados, no curso ordinário dos seus negócios, (i) para o resgate antecipado da totalidade das debêntures da 3ª (terceira) emissão da Emissora, registrada sob o ticker “VABC13”; e (ii) o saldo remanescente, após o resgate antecipado descrito no item “(i)”, para reforço de caixa da Emissora."
+    },
+    {
+      "codigo": 26119,
+      "campoNome": "Avaliador de risco",
+      "valor": "Não será contratada agência de classificação de risco no âmbito da Oferta para atribuir rating às Debêntures."
+    },
+    {
+      "codigo": 26119,
+      "campoNome": "Título padronizado",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26119,
+      "campoNome": "Reabertura de série",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26119,
+      "campoNome": "Endereço do emissor na rede mundial de computadores",
+      "valor": ""
+    },
+    {
+      "codigo": 26119,
+      "campoNome": "Regime de distribuição",
+      "valor": "Garantia Firme de Colocação"
+    },
+    {
+      "codigo": 26119,
+      "campoNome": "Título classificado como “verde”, “social”, “sustentável” ou correlato",
+      "valor": "Não"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": true,
+      "numeroProcesso": "SRE/1331/2026",
+      "numeroRegistro": "CVM/SRE/AUT/DEB/PRI/2026/238",
+      "nomeValorMobiliario": "Debêntures",
+      "valorTotalInicial": "250.000.000,0000",
+      "valorTotalFinal": "250.000.000,0000",
+      "valorTotalLoteBaseInicial": "250.000.000,0000",
+      "valorTotalLoteBaseFinal": "250.000.000,0000",
+      "data": "06/05/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - com bookbuilding - Emissor Não Registrado",
+      "status": "Oferta Encerrada",
+      "automaticaSemBook": false,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42719
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": true,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "Debêntures",
+              "loteBase": {
+                "quantidadeAtivos": "250.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "250.000.000,0000"
+              },
+              "valorTotalLote": "250.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "23/04/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "23/04/2032",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Espécie",
+                  "campoTipo": "Espécie de Debênture",
+                  "campoValor": "Quirografária",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Não se aplica.",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração máxima",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "100% da Taxa DI + 1,85% a.a., base 252 d.u., sendo que a Remuneração das Debêntures será paga trimestralmente a partir da Data de Emissão, sempre no dia 23 dos meses de janeiro, abril, julho e outubro de cada ano, ocorrendo o primeiro pagamento em 23 de julho de 2026 e o último na Data de Vencimento das Debêntures.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração final (pós bookbuilding)",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "100% da Taxa DI + 1,85% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "O saldo do Valor Nominal Unitário das Debêntures será amortizado trimestralmente, a partir do 36º (trigésimo sexto) mês (inclusive) contado da Data de Emissão, sendo o primeiro pagamento em 23 de abril de 2029 e o último na Data de Vencimento",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tem benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim fixo",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º ou Lei 14.801/24",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxxx ou +xx.xxxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxxx ou +xx.xxxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "loteFinal": {
+              "valorMobiliario": "Debêntures",
+              "loteBase": {
+                "quantidadeAtivos": "250.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "250.000.000,0000"
+              },
+              "valorTotalLote": "250.000.000,0000",
+              "taxaRemuneracao": "100% da Taxa DI + 1,85% a.a.",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "23/04/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "23/04/2032",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Espécie",
+                  "campoTipo": "Espécie de Debênture",
+                  "campoValor": "Quirografária",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Não se aplica.",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração máxima",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "100% da Taxa DI + 1,85% a.a., base 252 d.u., sendo que a Remuneração das Debêntures será paga trimestralmente a partir da Data de Emissão, sempre no dia 23 dos meses de janeiro, abril, julho e outubro de cada ano, ocorrendo o primeiro pagamento em 23 de julho de 2026 e o último na Data de Vencimento das Debêntures.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração final (pós bookbuilding)",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "100% da Taxa DI + 1,85% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "O saldo do Valor Nominal Unitário das Debêntures será amortizado trimestralmente, a partir do 36º (trigésimo sexto) mês (inclusive) contado da Data de Emissão, sendo o primeiro pagamento em 23 de abril de 2029 e o último na Data de Vencimento",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tem benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim fixo",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º ou Lei 14.801/24",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxxx ou +xx.xxxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxxx ou +xx.xxxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": true,
+            "numeroRegistro": "CVM/SRE/AUT/DEB/PRI/2026/238"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "dataEncerramento": "2026-05-07T17:00:00Z",
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 0,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 0,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 1,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 0,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "0,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "0,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "250.000,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "0,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "foiRevogada": false,
+      "oid": 42719
+    },
+    "registroValorMobiliario": false
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": true,
+    "numeroProcesso": "SRE/1331/2026",
+    "numeroRegistro": "CVM/SRE/AUT/DEB/PRI/2026/238",
+    "nomeValorMobiliario": "Debêntures",
+    "valorTotal": "250.000.000,0000",
+    "data": "06/05/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - com bookbuilding - Emissor Não Registrado",
+    "bookValorTotal": "1.000,0000",
+    "bookQuantidadeAtivos": "250.000,0000",
+    "quantidadeAtivos": "250.000,0000",
+    "status": "Oferta Encerrada",
+    "automaticaSemBook": false,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42719,
+    "dataInicioOferta": "06/05/2026",
+    "bookbuildingPreenchido": true,
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "29/04/2026",
+      "hora": "18:41:58",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "29/04/2026",
+      "hora": "18:41:59",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "06/05/2026",
+      "hora": "17:25:33",
+      "observacao": ""
+    },
+    {
+      "status": "Oferta Encerrada",
+      "data": "07/05/2026",
+      "hora": "18:10:56",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26119\\pdfs\\Aviso ao Mercado_7251360f-1f86-4fab-a7f8-cbb7fc25ad12.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26119\\pdfs\\Anúncio de Início da Distribuição_fbbf8571-fbe2-4704-94ba-19fbe8f52fca.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26119\\pdfs\\Anúncio de Encerramento da Distribuição_d3ae30d4-e5ae-4e6e-9c8f-d421924c8cb9.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Aviso ao Mercado",
+        "uuid": "7251360f-1f86-4fab-a7f8-cbb7fc25ad12"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26119\\pdfs\\Aviso ao Mercado_7251360f-1f86-4fab-a7f8-cbb7fc25ad12.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "fbbf8571-fbe2-4704-94ba-19fbe8f52fca"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26119\\pdfs\\Anúncio de Início da Distribuição_fbbf8571-fbe2-4704-94ba-19fbe8f52fca.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Anúncio de Encerramento da Distribuição",
+        "uuid": "d3ae30d4-e5ae-4e6e-9c8f-d421924c8cb9"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26119\\pdfs\\Anúncio de Encerramento da Distribuição_d3ae30d4-e5ae-4e6e-9c8f-d421924c8cb9.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

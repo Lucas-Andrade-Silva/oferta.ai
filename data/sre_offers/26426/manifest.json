@@ -1,0 +1,349 @@
+{
+  "offer_number": "26426",
+  "cvm": {
+    "Numero_Requerimento": "26426",
+    "Numero_Processo": "SRE/1613/2026",
+    "Data_requerimento": "2026-05-22T00:00:00",
+    "Data_Registro": "2026-05-22T00:00:00",
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Registro Concedido",
+    "Valor_Mobiliario": "Cotas de FII",
+    "Tipo_requerimento": "OPD Aut Público em Geral ou Qualificado - sem bookbuilding",
+    "Bookbuilding": "N",
+    "CNPJ_Emissor": "29.641.226/0001-53",
+    "Nome_Emissor": "PÁTRIA RENDA URBANA - FUNDO DE INVESTIMENTO IMOBILIÁRIO - RESPONSABILIDADE LIMITADA",
+    "CNPJ_Lider": "46.482.072/0001-13",
+    "Nome_Lider": "BTG PACTUAL INVESTMENT BANKING LTDA.",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": "14549546",
+    "Valor_Total_Registrado": 1876745938.54,
+    "Publico_alvo": "Público Geral",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": "BANCO GENIAL S.A.",
+    "Gestor": "PATRIA INVESTIMENTOS LTDA.",
+    "Destinacao_recursos": "Os recursos líquidos provenientes, inclusive os recursos provenientes da eventual emissão de Cotas do LoteAdicional da Oferta, inclusive os recursos provenientes da eventual emissão de Cotas do Lote Adicional, serãoinvestidos DE FORMA ATIVA E DISCRICIONÁRIA PELA GESTORA E PELA ADMINISTRADORA,conforme o caso, de acordo com a política de investimento da Classe, à aplicação nos seguintes ativos, conformeAnexo Descritivo da Classe ao Regulamento",
+    "Rito_Requerimento": "Automático",
+    "Grupo_Coordenador": "COORDENADOR PLENO",
+    "Emissao": "6",
+    "Oferta_inicial": "N",
+    "Oferta_vasos_comunicantes": null,
+    "Reabertura_serie": null,
+    "Titulo_classificado_como_sustentavel": null,
+    "Titulo_padronizado": null,
+    "Data_deliberacao_aprovou_oferta": "22/05/2026",
+    "Mercado_negociacao": "B3",
+    "Tipo_lastro": null,
+    "Regime_fiduciario": null,
+    "Ativos_alvo": null,
+    "Descricao_garantias": null,
+    "Descricao_lastro": null,
+    "Identificacao_devedores_coobrigados": null,
+    "Possibilidade_revolvencia": null,
+    "FIDC_nao_padronizado": null,
+    "Titulo_incentivado": null,
+    "Tipo_societario": null,
+    "Agente_fiduciario": null,
+    "Escriturador": "BANCO GENIAL S.A.",
+    "Custodiante": "BANCO GENIAL S.A.",
+    "Avaliador_Risco": null,
+    "Processo_SEI": null,
+    "Endereco_emissor_rede_mundial_computadores": null,
+    "Num_Invest_Pessoa_Natural": "0",
+    "Qtde_VM_Pessoa_Natural": "0",
+    "Num_Invest_Clube_Investimento": "0",
+    "Qtde_VM_Clube_Investimento": "0",
+    "Num_Invest_Fundos_Investimento": "0",
+    "Qtde_VM_Fundos_Investimento": "0",
+    "Num_Invest_Entidade_Previdencia_Privada": "0",
+    "Qtde_VM_Entidade_Previdencia_Privada": "0",
+    "Num_Invest_Companhia_Seguradora": "0",
+    "Qtde_VM_Companhia_Seguradora": "0",
+    "Num_Invest_Investidor_Estrangeiro": "0",
+    "Qtde_VM_Investidor_Estrangeiro": "0",
+    "Num_Invest_Instit_Intermed_Partic_Consorcio_Distrib": "0",
+    "Qtde_VM_Instit_Intermed_Partic_Consorcio_Distrib": "0",
+    "Num_Invest_Instit_Financ_Emissora_Partic_Consorcio": "0",
+    "Qtde_VM_Instit_Financ_Emissora_Partic_Consorcio": "0",
+    "Num_Invest_Demais_Instit_Financ": "0",
+    "Qtde_VM_Demais_Instit_Financ": "0",
+    "Num_Invest_Demais_Pessoa_Juridica_Emissora_Partic_Consorcio": "0",
+    "Qtde_VM_Demais_Pessoa_Juridica_Emissora_Partic_Consorcio": "0",
+    "Num_Invest_Demais_Pessoa_Juridica": "0",
+    "Qtde_VM_Demais_Pessoa_Juridica": "0",
+    "Num_Invest_Soc_Adm_Emp_Prop_Demais_Pess_Jurid_Emiss_Partic_Consorcio": "0",
+    "Qdte_VM_Soc_Adm_Emp_Prop_Demais_Pess_Jurid_Emiss_Partic_Consorcio": "0",
+    "Mes": "2026-05",
+    "ticker_sre": "HGRU11",
+    "label_sre": "26426 | HGRU11 | PÁTRIA RENDA URBANA - FUNDO DE INVESTIMENTO IMOBILIÁRIO - RESPONSABILIDADE LIMITADA | BTG PACTUAL INVESTMENT BANKING LTDA. | 2026-05-22"
+  },
+  "documents": [
+    {
+      "label": "Prospecto Definitivo",
+      "uuid": "74c76ab4-97cb-471a-a349-86c3cf546eb5"
+    },
+    {
+      "label": "Lâmina",
+      "uuid": "2208b9e1-3346-4ec3-bf49-a27d90466d39"
+    },
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "6b2e14ed-da73-49ff-ad9a-4253913a2a8c"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "183309",
+      "razaoSocial": "BTG PACTUAL INVESTMENT BANKING LTDA.",
+      "cnpjInstituicao": "46.482.072/0001-13",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "183315",
+      "razaoSocial": "ITAU BBA ASSESSORIA FINANCEIRA S.A",
+      "cnpjInstituicao": "04.845.753/0001-59",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "58394",
+      "razaoSocial": "PÁTRIA RENDA URBANA - FUNDO DE INVESTIMENTO IMOBILIÁRIO - RESPONSABILIDADE LIMITADA",
+      "cnpjInstituicao": "29.641.226/0001-53",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "58395",
+      "razaoSocial": "BTG PACTUAL INVESTMENT BANKING LTDA.",
+      "cnpjInstituicao": "46.482.072/0001-13",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "58396",
+      "razaoSocial": "PÁTRIA RENDA URBANA - FUNDO DE INVESTIMENTO IMOBILIÁRIO - RESPONSABILIDADE LIMITADA",
+      "cnpjInstituicao": "29.641.226/0001-53",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26426,
+      "campoNome": "Oferta inicial?",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26426,
+      "campoNome": "Emissão nº",
+      "valor": "6"
+    },
+    {
+      "codigo": 26426,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "22/05/2026"
+    },
+    {
+      "codigo": 26426,
+      "campoNome": "Mercado de negociação",
+      "valor": "B3"
+    },
+    {
+      "codigo": 26426,
+      "campoNome": "Administrador",
+      "valor": "BANCO GENIAL S.A."
+    },
+    {
+      "codigo": 26426,
+      "campoNome": "Gestor",
+      "valor": "PATRIA INVESTIMENTOS LTDA."
+    },
+    {
+      "codigo": 26426,
+      "campoNome": "Escriturador",
+      "valor": "BANCO GENIAL S.A."
+    },
+    {
+      "codigo": 26426,
+      "campoNome": "Custodiante",
+      "valor": "BANCO GENIAL S.A."
+    },
+    {
+      "codigo": 26426,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Os recursos líquidos provenientes, inclusive os recursos provenientes da eventual emissão de Cotas do Lote\nAdicional da Oferta, inclusive os recursos provenientes da eventual emissão de Cotas do Lote Adicional, serão\ninvestidos DE FORMA ATIVA E DISCRICIONÁRIA PELA GESTORA E PELA ADMINISTRADORA,\nconforme o caso, de acordo com a política de investimento da Classe, à aplicação nos seguintes ativos, conforme\nAnexo Descritivo da Classe ao Regulamento"
+    },
+    {
+      "codigo": 26426,
+      "campoNome": "Público alvo",
+      "valor": "Público Geral"
+    },
+    {
+      "codigo": 26426,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1613/2026",
+      "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/166",
+      "nomeValorMobiliario": "Cotas de FII",
+      "valorTotalInicial": "1.876.745.938,5400",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "1.501.396.776,6300",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "22/05/2026",
+      "nomeTipoRequerimento": "OPD Aut Público em Geral ou Qualificado - sem bookbuilding",
+      "status": "Registro Concedido",
+      "automaticaSemBook": true,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42905
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "1",
+              "loteBase": {
+                "quantidadeAtivos": "11.639.637,0000",
+                "valorNominal": "128,8700",
+                "custoUnitario": "0,1200",
+                "valorTotal": "1.501.396.776,6300"
+              },
+              "loteAdicional": {
+                "quantidadeAtivos": "2.909.909,0000",
+                "valorNominal": "128,8700",
+                "custoUnitario": "0,1200",
+                "valorTotal": "375.349.161,9100"
+              },
+              "valorTotalLote": "1.876.745.938,5400",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Descrição do valor mobiliário",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "LASSE ÚNICA DE COTAS DO\nPÁTRIA RENDA URBANA - FUNDO DE INVESTIMENTO IMOBILIÁRIO -\nRESPONSABILIDADE LIMITADA",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/166"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 0,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 0,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 0,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 0,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "0,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "0,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "0,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "0,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "oid": 42905
+    },
+    "registroValorMobiliario": true
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "resumoOferta": "OFERTA PÚBLICA DE DISTRIBUIÇÃO DA 6ª (SEXTA) EMISSÃO DE COTAS DA CLASSE ÚNICA DE COTAS DO\nPÁTRIA RENDA URBANA - FUNDO DE INVESTIMENTO IMOBILIÁRIO -\nRESPONSABILIDADE LIMITADA",
+    "numeroProcesso": "SRE/1613/2026",
+    "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/166",
+    "nomeValorMobiliario": "Cotas de FII",
+    "valorTotal": "1.876.745.938,5400",
+    "data": "22/05/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Público em Geral ou Qualificado - sem bookbuilding",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "11.639.637,0000",
+    "status": "Registro Concedido",
+    "automaticaSemBook": true,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42905,
+    "dataInicioOferta": "22/05/2026",
+    "bookbuildingPreenchido": false,
+    "razaoSocialFundoAssociado": "PÁTRIA RENDA URBANA - FUNDO DE INVESTIMENTO IMOBILIÁRIO - RESPONSABILIDADE LIMITADA",
+    "cnpjFundoAssociado": "29.641.226/0001-53",
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "22/05/2026",
+      "hora": "22:55:27",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "22/05/2026",
+      "hora": "22:55:27",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "22/05/2026",
+      "hora": "22:55:30",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26426\\pdfs\\Prospecto Definitivo_74c76ab4-97cb-471a-a349-86c3cf546eb5.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26426\\pdfs\\Lâmina_2208b9e1-3346-4ec3-bf49-a27d90466d39.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26426\\pdfs\\Anúncio de Início da Distribuição_6b2e14ed-da73-49ff-ad9a-4253913a2a8c.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Prospecto Definitivo",
+        "uuid": "74c76ab4-97cb-471a-a349-86c3cf546eb5"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26426\\pdfs\\Prospecto Definitivo_74c76ab4-97cb-471a-a349-86c3cf546eb5.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Lâmina",
+        "uuid": "2208b9e1-3346-4ec3-bf49-a27d90466d39"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26426\\pdfs\\Lâmina_2208b9e1-3346-4ec3-bf49-a27d90466d39.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "6b2e14ed-da73-49ff-ad9a-4253913a2a8c"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26426\\pdfs\\Anúncio de Início da Distribuição_6b2e14ed-da73-49ff-ad9a-4253913a2a8c.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

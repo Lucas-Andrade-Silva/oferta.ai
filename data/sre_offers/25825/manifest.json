@@ -1,0 +1,433 @@
+{
+  "offer_number": "25825",
+  "cvm": {
+    "Numero_Requerimento": 25825,
+    "Numero_Processo": "SRE/1054/2026",
+    "Data_requerimento": "2026-04-06T00:00:00",
+    "Data_Registro": "2026-04-09T00:00:00",
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Registro Concedido",
+    "Valor_Mobiliario": "Cotas de FII",
+    "Tipo_requerimento": "OPD Aut Público em Geral ou Qualificado - com bookbuilding",
+    "Bookbuilding": "S",
+    "CNPJ_Emissor": "59.436.431/0001-48",
+    "Nome_Emissor": "KINEA DESENVOLVIMENTO LOGÍSTICO II FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+    "CNPJ_Lider": "04.845.753/0001-59",
+    "Nome_Lider": "ITAU BBA ASSESSORIA FINANCEIRA S.A",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 44400000,
+    "Valor_Total_Registrado": 444000000.0,
+    "Publico_alvo": "Qualificado",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": "INTRAG DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA.",
+    "Gestor": "KINEA INVESTIMENTOS LTDA",
+    "Destinacao_recursos": "Independentemente do volume captado, 100% (cem por cento) dos recursos líquidos provenientes da Emissão e da Oferta serão destinados para a aquisição de direitos reais sobre o Imóvel Franco e/ou das quotas da Sociedade Investida pelo Fundo, conforme aplicável, com o objetivo de viabilizar o desenvolvimento do empreendimento e implementação do projeto imobiliário. O montante adicional poderá ser utilizado conforme as necessidades do Fundo e as condições de mercado."
+  },
+  "documents": [
+    {
+      "label": "Prospecto Preliminar",
+      "uuid": "74604465-d8fa-4b7f-8804-c4b045dfbf8e"
+    },
+    {
+      "label": "Prospecto Definitivo",
+      "uuid": "ec66cc26-aeca-4d42-8f7d-0b9affc1f6bd"
+    },
+    {
+      "label": "Prospecto Definitivo",
+      "uuid": "29593d11-721c-4422-a0e2-6cbab4b343a6"
+    },
+    {
+      "label": "Lâmina",
+      "uuid": "a5835c2a-e160-4c95-92fa-3e7e1bff4ecd"
+    },
+    {
+      "label": "Lâmina",
+      "uuid": "41dd3f1f-b042-479d-92d2-d64d41fb7438"
+    },
+    {
+      "label": "Lâmina",
+      "uuid": "28f19b04-bbd1-462f-bb16-11bd48e88129"
+    },
+    {
+      "label": "Aviso ao Mercado",
+      "uuid": "621278f0-db34-4aca-8805-05c918e0a817"
+    },
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "2e385cbc-68d3-429c-87f1-50de216e10a2"
+    },
+    {
+      "label": "Comunicado ao Mercado",
+      "uuid": "c92b254b-6707-404c-9edd-f823bd461868"
+    },
+    {
+      "label": "Comunicado ao Mercado",
+      "uuid": "bedd1a04-e249-42b9-b06f-a6d145b03812"
+    },
+    {
+      "label": "Comunicado ao Mercado",
+      "uuid": "5ea715b3-1b4d-431d-bf35-a74593003ce0"
+    },
+    {
+      "label": "Comunicado ao Mercado",
+      "uuid": "7ff9ea4e-c8aa-4354-8173-c0005d73b6c4"
+    },
+    {
+      "label": "Comunicado ao Mercado",
+      "uuid": "61034eab-8ab8-41f6-9572-734b5cb506aa"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "176293",
+      "razaoSocial": "ITAU BBA ASSESSORIA FINANCEIRA S.A",
+      "cnpjInstituicao": "04.845.753/0001-59",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "56583",
+      "razaoSocial": "KINEA DESENVOLVIMENTO LOGÍSTICO II FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+      "cnpjInstituicao": "59.436.431/0001-48",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "56584",
+      "razaoSocial": "ITAU BBA ASSESSORIA FINANCEIRA S.A",
+      "cnpjInstituicao": "04.845.753/0001-59",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "56585",
+      "razaoSocial": "KINEA DESENVOLVIMENTO LOGÍSTICO II FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+      "cnpjInstituicao": "59.436.431/0001-48",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 25825,
+      "campoNome": "Oferta inicial?",
+      "valor": "Não"
+    },
+    {
+      "codigo": 25825,
+      "campoNome": "Emissão nº",
+      "valor": "2"
+    },
+    {
+      "codigo": 25825,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "06/04/2026"
+    },
+    {
+      "codigo": 25825,
+      "campoNome": "Mercado de negociação",
+      "valor": "As Cotas A poderão ser admitidas para distribuição no mercado primário no DDA - Sistema de Distribuição de Ativos e para negociação e liquidação no mercado secundário por meio do mercado de bolsa, ou balcão organizado ambos administrados e operacionaliza"
+    },
+    {
+      "codigo": 25825,
+      "campoNome": "Administrador",
+      "valor": "INTRAG DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA."
+    },
+    {
+      "codigo": 25825,
+      "campoNome": "Gestor",
+      "valor": "KINEA INVESTIMENTOS LTDA"
+    },
+    {
+      "codigo": 25825,
+      "campoNome": "Escriturador",
+      "valor": "ITAÚ UNIBANCO S.A."
+    },
+    {
+      "codigo": 25825,
+      "campoNome": "Custodiante",
+      "valor": "ITAÚ UNIBANCO S.A."
+    },
+    {
+      "codigo": 25825,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Independentemente do volume captado, 100% (cem por cento) dos recursos líquidos provenientes da Emissão e da Oferta serão destinados para a aquisição de direitos reais sobre o Imóvel Franco e/ou das quotas da Sociedade Investida pelo Fundo, conforme aplicável, com o objetivo de viabilizar o desenvolvimento do empreendimento e implementação do projeto imobiliário. O montante adicional poderá ser utilizado conforme as necessidades do Fundo e as condições de mercado."
+    },
+    {
+      "codigo": 25825,
+      "campoNome": "Público alvo",
+      "valor": "Qualificado"
+    },
+    {
+      "codigo": 25825,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": true,
+      "numeroProcesso": "SRE/1054/2026",
+      "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/113",
+      "nomeValorMobiliario": "Cotas de FII",
+      "valorTotalInicial": "444.000.000,0000",
+      "valorTotalFinal": "444.000.000,0000",
+      "valorTotalLoteBaseInicial": "444.000.000,0000",
+      "valorTotalLoteBaseFinal": "444.000.000,0000",
+      "data": "09/04/2026",
+      "nomeTipoRequerimento": "OPD Aut Público em Geral ou Qualificado - com bookbuilding",
+      "status": "Registro Concedido",
+      "automaticaSemBook": false,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42656
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": true,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "Cotas A",
+              "loteBase": {
+                "quantidadeAtivos": "44.400.000,0000",
+                "valorNominal": "10,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "444.000.000,0000"
+              },
+              "valorTotalLote": "444.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Descrição do valor mobiliário",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                }
+              ]
+            },
+            "loteFinal": {
+              "valorMobiliario": "Cotas A",
+              "loteBase": {
+                "quantidadeAtivos": "44.400.000,0000",
+                "valorNominal": "10,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "444.000.000,0000"
+              },
+              "valorTotalLote": "444.000.000,0000",
+              "taxaRemuneracao": "-",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Descrição do valor mobiliário",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": true,
+            "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/113"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 0,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 0,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 0,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 0,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "0,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "0,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "0,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "0,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "oid": 42656
+    },
+    "registroValorMobiliario": true
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": true,
+    "numeroProcesso": "SRE/1054/2026",
+    "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/113",
+    "nomeValorMobiliario": "Cotas de FII",
+    "valorTotal": "444.000.000,0000",
+    "data": "09/04/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Público em Geral ou Qualificado - com bookbuilding",
+    "bookValorTotal": "10,0000",
+    "bookQuantidadeAtivos": "44.400.000,0000",
+    "quantidadeAtivos": "44.400.000,0000",
+    "status": "Registro Concedido",
+    "automaticaSemBook": false,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42656,
+    "dataInicioOferta": "09/04/2026",
+    "bookbuildingPreenchido": true,
+    "razaoSocialFundoAssociado": "KINEA DESENVOLVIMENTO LOGÍSTICO II FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+    "cnpjFundoAssociado": "59.436.431/0001-48",
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "06/04/2026",
+      "hora": "18:38:06",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "06/04/2026",
+      "hora": "18:38:07",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "09/04/2026",
+      "hora": "14:10:12",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "data\\sre_offers\\25825\\pdfs\\Prospecto Preliminar_74604465-d8fa-4b7f-8804-c4b045dfbf8e.pdf",
+    "data\\sre_offers\\25825\\pdfs\\Prospecto Definitivo_ec66cc26-aeca-4d42-8f7d-0b9affc1f6bd.pdf",
+    "data\\sre_offers\\25825\\pdfs\\Prospecto Definitivo_29593d11-721c-4422-a0e2-6cbab4b343a6.pdf",
+    "data\\sre_offers\\25825\\pdfs\\Lâmina_a5835c2a-e160-4c95-92fa-3e7e1bff4ecd.pdf",
+    "data\\sre_offers\\25825\\pdfs\\Lâmina_41dd3f1f-b042-479d-92d2-d64d41fb7438.pdf",
+    "data\\sre_offers\\25825\\pdfs\\Lâmina_28f19b04-bbd1-462f-bb16-11bd48e88129.pdf",
+    "data\\sre_offers\\25825\\pdfs\\Aviso ao Mercado_621278f0-db34-4aca-8805-05c918e0a817.pdf",
+    "data\\sre_offers\\25825\\pdfs\\Anúncio de Início da Distribuição_2e385cbc-68d3-429c-87f1-50de216e10a2.pdf",
+    "data\\sre_offers\\25825\\pdfs\\Comunicado ao Mercado_c92b254b-6707-404c-9edd-f823bd461868.pdf",
+    "data\\sre_offers\\25825\\pdfs\\Comunicado ao Mercado_bedd1a04-e249-42b9-b06f-a6d145b03812.pdf",
+    "data\\sre_offers\\25825\\pdfs\\Comunicado ao Mercado_5ea715b3-1b4d-431d-bf35-a74593003ce0.pdf",
+    "data\\sre_offers\\25825\\pdfs\\Comunicado ao Mercado_7ff9ea4e-c8aa-4354-8173-c0005d73b6c4.pdf",
+    "data\\sre_offers\\25825\\pdfs\\Comunicado ao Mercado_61034eab-8ab8-41f6-9572-734b5cb506aa.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Prospecto Preliminar",
+        "uuid": "74604465-d8fa-4b7f-8804-c4b045dfbf8e"
+      },
+      "arquivo": "data\\sre_offers\\25825\\pdfs\\Prospecto Preliminar_74604465-d8fa-4b7f-8804-c4b045dfbf8e.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Prospecto Definitivo",
+        "uuid": "ec66cc26-aeca-4d42-8f7d-0b9affc1f6bd"
+      },
+      "arquivo": "data\\sre_offers\\25825\\pdfs\\Prospecto Definitivo_ec66cc26-aeca-4d42-8f7d-0b9affc1f6bd.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Prospecto Definitivo",
+        "uuid": "29593d11-721c-4422-a0e2-6cbab4b343a6"
+      },
+      "arquivo": "data\\sre_offers\\25825\\pdfs\\Prospecto Definitivo_29593d11-721c-4422-a0e2-6cbab4b343a6.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Lâmina",
+        "uuid": "a5835c2a-e160-4c95-92fa-3e7e1bff4ecd"
+      },
+      "arquivo": "data\\sre_offers\\25825\\pdfs\\Lâmina_a5835c2a-e160-4c95-92fa-3e7e1bff4ecd.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Lâmina",
+        "uuid": "41dd3f1f-b042-479d-92d2-d64d41fb7438"
+      },
+      "arquivo": "data\\sre_offers\\25825\\pdfs\\Lâmina_41dd3f1f-b042-479d-92d2-d64d41fb7438.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Lâmina",
+        "uuid": "28f19b04-bbd1-462f-bb16-11bd48e88129"
+      },
+      "arquivo": "data\\sre_offers\\25825\\pdfs\\Lâmina_28f19b04-bbd1-462f-bb16-11bd48e88129.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Aviso ao Mercado",
+        "uuid": "621278f0-db34-4aca-8805-05c918e0a817"
+      },
+      "arquivo": "data\\sre_offers\\25825\\pdfs\\Aviso ao Mercado_621278f0-db34-4aca-8805-05c918e0a817.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "2e385cbc-68d3-429c-87f1-50de216e10a2"
+      },
+      "arquivo": "data\\sre_offers\\25825\\pdfs\\Anúncio de Início da Distribuição_2e385cbc-68d3-429c-87f1-50de216e10a2.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Comunicado ao Mercado",
+        "uuid": "c92b254b-6707-404c-9edd-f823bd461868"
+      },
+      "arquivo": "data\\sre_offers\\25825\\pdfs\\Comunicado ao Mercado_c92b254b-6707-404c-9edd-f823bd461868.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Comunicado ao Mercado",
+        "uuid": "bedd1a04-e249-42b9-b06f-a6d145b03812"
+      },
+      "arquivo": "data\\sre_offers\\25825\\pdfs\\Comunicado ao Mercado_bedd1a04-e249-42b9-b06f-a6d145b03812.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Comunicado ao Mercado",
+        "uuid": "5ea715b3-1b4d-431d-bf35-a74593003ce0"
+      },
+      "arquivo": "data\\sre_offers\\25825\\pdfs\\Comunicado ao Mercado_5ea715b3-1b4d-431d-bf35-a74593003ce0.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Comunicado ao Mercado",
+        "uuid": "7ff9ea4e-c8aa-4354-8173-c0005d73b6c4"
+      },
+      "arquivo": "data\\sre_offers\\25825\\pdfs\\Comunicado ao Mercado_7ff9ea4e-c8aa-4354-8173-c0005d73b6c4.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Comunicado ao Mercado",
+        "uuid": "61034eab-8ab8-41f6-9572-734b5cb506aa"
+      },
+      "arquivo": "data\\sre_offers\\25825\\pdfs\\Comunicado ao Mercado_61034eab-8ab8-41f6-9572-734b5cb506aa.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

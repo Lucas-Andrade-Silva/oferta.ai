@@ -1,0 +1,231 @@
+{
+  "offer_number": "26356",
+  "cvm": {
+    "Numero_Requerimento": 26356,
+    "Numero_Processo": "SRE/1586/2026",
+    "Data_requerimento": "2026-05-21T00:00:00",
+    "Data_Registro": "2026-05-21T00:00:00",
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Registro Concedido",
+    "Valor_Mobiliario": "Cotas de FII",
+    "Tipo_requerimento": "OPD Aut Profissional - sem bookbuilding",
+    "Bookbuilding": "N",
+    "CNPJ_Emissor": "52.353.292/0001-40",
+    "Nome_Emissor": "BTG RE STRUCTURED OPPORTUNITIES FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+    "CNPJ_Lider": "58.160.789/0001-28",
+    "Nome_Lider": "BANCO SAFRA S/A",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 2746341,
+    "Valor_Total_Registrado": 274634100.0,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": "BANCO J. SAFRA S.A.",
+    "Gestor": "SAFRA ASSET CORRETORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A.",
+    "Destinacao_recursos": "Subscrição de cotas do JS Renda Ativa - 62.206.618/0001-60"
+  },
+  "documents": [],
+  "participants": [
+    {
+      "idParticipante": "182497",
+      "razaoSocial": "BANCO SAFRA S/A",
+      "cnpjInstituicao": "58.160.789/0001-28",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "58184",
+      "razaoSocial": "BTG RE STRUCTURED OPPORTUNITIES FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+      "cnpjInstituicao": "52.353.292/0001-40",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "58185",
+      "razaoSocial": "BANCO SAFRA S/A",
+      "cnpjInstituicao": "58.160.789/0001-28",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "58186",
+      "razaoSocial": "BTG RE STRUCTURED OPPORTUNITIES FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+      "cnpjInstituicao": "52.353.292/0001-40",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26356,
+      "campoNome": "Oferta inicial?",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26356,
+      "campoNome": "Emissão nº",
+      "valor": "3"
+    },
+    {
+      "codigo": 26356,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "20/05/2026"
+    },
+    {
+      "codigo": 26356,
+      "campoNome": "Mercado de negociação",
+      "valor": "(i) primário - escritural; (ii) secundário - CETIP21"
+    },
+    {
+      "codigo": 26356,
+      "campoNome": "Administrador",
+      "valor": "BANCO J. SAFRA S.A."
+    },
+    {
+      "codigo": 26356,
+      "campoNome": "Gestor",
+      "valor": "SAFRA ASSET CORRETORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A."
+    },
+    {
+      "codigo": 26356,
+      "campoNome": "Escriturador",
+      "valor": "BANCO SAFRA S.A."
+    },
+    {
+      "codigo": 26356,
+      "campoNome": "Custodiante",
+      "valor": "BANCO SAFRA S.A."
+    },
+    {
+      "codigo": 26356,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Subscrição de cotas do JS Renda Ativa - 62.206.618/0001-60"
+    },
+    {
+      "codigo": 26356,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    }
+  ],
+  "errors": [
+    "documentos: nenhum UUID encontrado"
+  ],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1586/2026",
+      "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/160",
+      "nomeValorMobiliario": "Cotas de FII",
+      "valorTotalInicial": "274.634.100,0000",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "274.634.100,0000",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "21/05/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+      "status": "Registro Concedido",
+      "automaticaSemBook": true,
+      "ofertaAutomatica": true
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "Subclasse A",
+              "loteBase": {
+                "quantidadeAtivos": "1.460.000,0000",
+                "valorNominal": "100,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "146.000.000,0000"
+              },
+              "valorTotalLote": "146.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Descrição do valor mobiliário",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Subclasse A - sênior",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/160"
+          },
+          {
+            "loteInicial": {
+              "valorMobiliario": "Subclasse B",
+              "loteBase": {
+                "quantidadeAtivos": "1.286.341,0000",
+                "valorNominal": "100,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "128.634.100,0000"
+              },
+              "valorTotalLote": "128.634.100,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Descrição do valor mobiliário",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Subclasse B - subordinada",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/160"
+          }
+        ]
+      }
+    ],
+    "registroValorMobiliario": true
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "numeroProcesso": "SRE/1586/2026",
+    "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/160",
+    "nomeValorMobiliario": "Cotas de FII",
+    "valorTotal": "274.634.100,0000",
+    "data": "21/05/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "1.460.000,0000",
+    "status": "Registro Concedido",
+    "automaticaSemBook": true,
+    "ofertaAutomatica": true,
+    "bookbuildingPreenchido": false,
+    "razaoSocialFundoAssociado": "BTG RE STRUCTURED OPPORTUNITIES FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+    "cnpjFundoAssociado": "52.353.292/0001-40",
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "21/05/2026",
+      "hora": "11:20:11",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "21/05/2026",
+      "hora": "11:20:14",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "21/05/2026",
+      "hora": "11:20:48",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [],
+  "pdf_summaries": []
+}

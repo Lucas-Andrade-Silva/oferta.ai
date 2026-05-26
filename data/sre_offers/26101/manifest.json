@@ -1,0 +1,414 @@
+{
+  "offer_number": "26101",
+  "cvm": {
+    "Numero_Requerimento": 26101,
+    "Numero_Processo": "SRE/1316/2026",
+    "Data_requerimento": "2026-04-28T00:00:00",
+    "Data_Registro": "2026-04-28T00:00:00",
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Registro Concedido",
+    "Valor_Mobiliario": "Certificados de Recebíveis Imobiliários",
+    "Tipo_requerimento": "OPD Aut Profissional - sem bookbuilding",
+    "Bookbuilding": "N",
+    "CNPJ_Emissor": "02.773.542/0001-22",
+    "Nome_Emissor": "OPEA SECURITIZADORA S.A.",
+    "CNPJ_Lider": "02.773.542/0001-22",
+    "Nome_Lider": "OPEA SECURITIZADORA S.A.",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 4000,
+    "Valor_Total_Registrado": 4000000.0,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": null,
+    "Gestor": null,
+    "Destinacao_recursos": "Os recursos líquidos captados pela Devedora em razão da integralização das Notas Comerciais serão destinados, integral e exclusivamente, pela Devedora, para arcar com os gastos, custos e as despesas futuras, de natureza imobiliária, diretamente atinentes às Obras, conforme Cronograma Indicativo (\"Destinação dos Recursos\")."
+  },
+  "documents": [
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "8ab633d2-7b60-4389-93b5-3abc920e6566"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "179539",
+      "razaoSocial": "OPEA SECURITIZADORA S.A.",
+      "cnpjInstituicao": "02.773.542/0001-22",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "57422",
+      "razaoSocial": "OPEA SECURITIZADORA S.A.",
+      "cnpjInstituicao": "02.773.542/0001-22",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "57423",
+      "razaoSocial": "OPEA SECURITIZADORA S.A.",
+      "cnpjInstituicao": "02.773.542/0001-22",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "57424",
+      "razaoSocial": "OPEA SECURITIZADORA S.A.",
+      "cnpjInstituicao": "02.773.542/0001-22",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26101,
+      "campoNome": "Emissão nº",
+      "valor": "541"
+    },
+    {
+      "codigo": 26101,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "07/08/2023"
+    },
+    {
+      "codigo": 26101,
+      "campoNome": "Mercado de negociação",
+      "valor": "MDA E CETIP"
+    },
+    {
+      "codigo": 26101,
+      "campoNome": "Regime fiduciário",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 26101,
+      "campoNome": "Agente fiduciário",
+      "valor": "VÓRTX DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA"
+    },
+    {
+      "codigo": 26101,
+      "campoNome": "Escriturador",
+      "valor": "ITAÚ CORRETORA DE VALORES S.A."
+    },
+    {
+      "codigo": 26101,
+      "campoNome": "Custodiante",
+      "valor": "VÓRTX DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA"
+    },
+    {
+      "codigo": 26101,
+      "campoNome": "Avaliador de risco",
+      "valor": "N/A"
+    },
+    {
+      "codigo": 26101,
+      "campoNome": "Tipo de lastro",
+      "valor": "Concentrado"
+    },
+    {
+      "codigo": 26101,
+      "campoNome": "Descrição do lastro",
+      "valor": "Termo da 1ª (Primeira) Emissão de Notas Comerciais, em 4 (quatro) Séries, com Garantias Reais e Fidejussórias, para Colocação Privada, da Bioma Apinajés Empreendimento Imobiliário SPE Ltda.”, celebrado nesta data entre a Devedora, a Emissora e os Avalistas, por meio do qual as Notas Comerciais foram emitidas pela Devedora."
+    },
+    {
+      "codigo": 26101,
+      "campoNome": "Identificação dos devedores e coobrigados",
+      "valor": "BIOMA APINAJÉS EMPREENDIMENTO IMOBILIÁRIO SPE LTDA"
+    },
+    {
+      "codigo": 26101,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Os recursos líquidos captados pela Devedora em razão da integralização das Notas Comerciais serão destinados, integral e exclusivamente, pela Devedora, para arcar com os gastos, custos e as despesas futuras, de natureza imobiliária, diretamente atinentes às Obras, conforme Cronograma Indicativo (“Destinação dos Recursos”)."
+    },
+    {
+      "codigo": 26101,
+      "campoNome": "Descrição das garantias",
+      "valor": "Significa, quando mencionadas em conjunto, o Aval, a Alienação Fiduciária do Imóvel Apinajés, a Alienação Fiduciária de Quotas Apinajés, a Cessão Fiduciária Apinajés, a Alienação Fiduciária da Propriedade Superveniente do Imóvel Simpatia, a Alienação Fiduciária da Propriedade Superveniente de Quotas Simpatia e a Cessão Fiduciária Simpatia. Além disso, compõem garantias do adimplemento das Obrigações Garantidas o Fundo de Despesas e o Fundo de Obras."
+    },
+    {
+      "codigo": 26101,
+      "campoNome": "Título padronizado",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 26101,
+      "campoNome": "Reabertura de série",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26101,
+      "campoNome": "Endereço do emissor na rede mundial de computadores",
+      "valor": "www.opea.com.br"
+    },
+    {
+      "codigo": 26101,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    },
+    {
+      "codigo": 26101,
+      "campoNome": "Título classificado como “verde”, “social”, “sustentável” ou correlato",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26101,
+      "campoNome": "Possibilidade de revolvência",
+      "valor": "Não"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1316/2026",
+      "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/234",
+      "nomeValorMobiliario": "Certificados de Recebíveis Imobiliários",
+      "valorTotalInicial": "4.000.000,0000",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "4.000.000,0000",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "28/04/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+      "status": "Registro Concedido",
+      "automaticaSemBook": true,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42636
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "3ª Série da 541ª Emissão",
+              "loteBase": {
+                "quantidadeAtivos": "4.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "4.000.000,0000"
+              },
+              "valorTotalLote": "4.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "20/01/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "22/01/2029",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "N/A",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações  sobre subordinação",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "N/A",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "CDI + 4,9950% a.a",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Observados os eventos de Amortização Extraordinária Obrigatória, o Valor Nominal Unitário será amortizado mensalmente, conforme cronograma de amortização constante no Anexo II ao  Termo de Securitização.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Oferta conta com benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/234"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 0,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 0,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 0,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 0,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "0,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "0,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "0,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "0,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "oid": 42636
+    },
+    "registroValorMobiliario": false
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "numeroProcesso": "SRE/1316/2026",
+    "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/234",
+    "nomeValorMobiliario": "Certificados de Recebíveis Imobiliários",
+    "valorTotal": "4.000.000,0000",
+    "data": "28/04/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "4.000,0000",
+    "status": "Registro Concedido",
+    "automaticaSemBook": true,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42636,
+    "dataInicioOferta": "28/04/2026",
+    "bookbuildingPreenchido": false,
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "28/04/2026",
+      "hora": "18:10:43",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "28/04/2026",
+      "hora": "18:10:43",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "28/04/2026",
+      "hora": "18:10:45",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26101\\pdfs\\Anúncio de Início da Distribuição_8ab633d2-7b60-4389-93b5-3abc920e6566.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "8ab633d2-7b60-4389-93b5-3abc920e6566"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26101\\pdfs\\Anúncio de Início da Distribuição_8ab633d2-7b60-4389-93b5-3abc920e6566.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

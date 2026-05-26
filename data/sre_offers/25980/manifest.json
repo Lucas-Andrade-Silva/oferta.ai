@@ -1,0 +1,252 @@
+{
+  "offer_number": "25980",
+  "cvm": {
+    "Numero_Requerimento": 25980,
+    "Numero_Processo": "SRE/1199/2026",
+    "Data_requerimento": "2026-04-17T00:00:00",
+    "Data_Registro": "2026-04-17T00:00:00",
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Registro Concedido",
+    "Valor_Mobiliario": "Cotas de FII",
+    "Tipo_requerimento": "OPD Aut Profissional - sem bookbuilding",
+    "Bookbuilding": "N",
+    "CNPJ_Emissor": "60.413.964/0001-93",
+    "Nome_Emissor": "LAZIO II FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+    "CNPJ_Lider": "22.610.500/0001-88",
+    "Nome_Lider": "VORTX DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS LTDA.",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 4744396,
+    "Valor_Total_Registrado": 400000026.76,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": "VÓRTX DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA",
+    "Gestor": "VÓRTX CAPITAL GESTÃO DE RECURSOS LTDA., VÓRTX CAPITAL GESTÃO DE RECURSOS LTDA",
+    "Destinacao_recursos": "A Classe poderá adquirir Em caráter suplementar ao objeto de investimento target, a Gestora também sempre poderá realizar investimento em: (a) outros Ativos, inclusive em títulos públicos federais e operações compromissadas lastreadas nestes títulos e (b) cotas de fundos de investimento, abertos ou fechados, para fins de gestão de caixa e liquidez, observadas as regras de enquadramento exigidas na regulamentação e os critérios de composição de Carteira estabelecidos neste Regulamento."
+  },
+  "documents": [
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "71c323f7-3bd1-4736-a22e-7d25b3c726a0"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "178111",
+      "razaoSocial": "VORTX DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS LTDA.",
+      "cnpjInstituicao": "22.610.500/0001-88",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "57048",
+      "razaoSocial": "LAZIO II FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+      "cnpjInstituicao": "60.413.964/0001-93",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "57049",
+      "razaoSocial": "VORTX DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS LTDA.",
+      "cnpjInstituicao": "22.610.500/0001-88",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "57050",
+      "razaoSocial": "LAZIO II FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+      "cnpjInstituicao": "60.413.964/0001-93",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 25980,
+      "campoNome": "Oferta inicial?",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 25980,
+      "campoNome": "Emissão nº",
+      "valor": "4"
+    },
+    {
+      "codigo": 25980,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "20/10/2025"
+    },
+    {
+      "codigo": 25980,
+      "campoNome": "Mercado de negociação",
+      "valor": "ESCRITURAL"
+    },
+    {
+      "codigo": 25980,
+      "campoNome": "Administrador",
+      "valor": "VÓRTX DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA"
+    },
+    {
+      "codigo": 25980,
+      "campoNome": "Gestor",
+      "valor": "VÓRTX CAPITAL GESTÃO DE RECURSOS LTDA., VÓRTX CAPITAL GESTÃO DE RECURSOS LTDA"
+    },
+    {
+      "codigo": 25980,
+      "campoNome": "Escriturador",
+      "valor": "VÓRTX DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA"
+    },
+    {
+      "codigo": 25980,
+      "campoNome": "Custodiante",
+      "valor": "VÓRTX DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA"
+    },
+    {
+      "codigo": 25980,
+      "campoNome": "Destinação dos recursos",
+      "valor": "A Classe poderá adquirir Em caráter suplementar ao objeto de investimento target, a Gestora também sempre poderá realizar investimento em: (a) outros Ativos, inclusive em títulos públicos federais e operações compromissadas lastreadas nestes títulos; e (b) cotas de fundos de investimento, abertos ou fechados, para fins de gestão de caixa e liquidez, observadas as regras de enquadramento exigidas na regulamentação e os critérios de composição de Carteira estabelecidos neste Regulamento."
+    },
+    {
+      "codigo": 25980,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1199/2026",
+      "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/124",
+      "nomeValorMobiliario": "Cotas de FII",
+      "valorTotalInicial": "400.000.026,7600",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "400.000.026,7600",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "17/04/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+      "status": "Registro Concedido",
+      "automaticaSemBook": true,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42513
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "4ª EMISSÃO DE COTAS",
+              "loteBase": {
+                "quantidadeAtivos": "4.744.396,0000",
+                "valorNominal": "84,3100",
+                "custoUnitario": "0,0000",
+                "valorTotal": "400.000.026,7600"
+              },
+              "valorTotalLote": "400.000.026,7600",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Descrição do valor mobiliário",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "4ª EMISSÃO DE COTAS",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/124"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 0,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 0,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 0,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 0,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "0,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "0,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "0,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "0,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "oid": 42513
+    },
+    "registroValorMobiliario": true
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "numeroProcesso": "SRE/1199/2026",
+    "numeroRegistro": "CVM/SRE/AUT/FII/PRI/2026/124",
+    "nomeValorMobiliario": "Cotas de FII",
+    "valorTotal": "400.000.026,7600",
+    "data": "17/04/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "4.744.396,0000",
+    "status": "Registro Concedido",
+    "automaticaSemBook": true,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42513,
+    "dataInicioOferta": "17/04/2026",
+    "bookbuildingPreenchido": false,
+    "razaoSocialFundoAssociado": "LAZIO II FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+    "cnpjFundoAssociado": "60.413.964/0001-93",
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "17/04/2026",
+      "hora": "11:30:54",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "17/04/2026",
+      "hora": "11:30:54",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "17/04/2026",
+      "hora": "11:30:55",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "data\\sre_offers\\25980\\pdfs\\Anúncio de Início da Distribuição_71c323f7-3bd1-4736-a22e-7d25b3c726a0.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "71c323f7-3bd1-4736-a22e-7d25b3c726a0"
+      },
+      "arquivo": "data\\sre_offers\\25980\\pdfs\\Anúncio de Início da Distribuição_71c323f7-3bd1-4736-a22e-7d25b3c726a0.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

@@ -1,0 +1,445 @@
+{
+  "offer_number": "26161",
+  "cvm": {
+    "Numero_Requerimento": 26161,
+    "Numero_Processo": "SRE/1373/2026",
+    "Data_requerimento": "2026-05-04T00:00:00",
+    "Data_Registro": "2026-05-04T00:00:00",
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Registro Concedido",
+    "Valor_Mobiliario": "Certificados de Recebíveis Imobiliários",
+    "Tipo_requerimento": "OPD Aut Público em Geral ou Qualificado - sem bookbuilding",
+    "Bookbuilding": "N",
+    "CNPJ_Emissor": "04.200.649/0001-07",
+    "Nome_Emissor": "CIA PROVINCIA DE SECURITIZAÇÃO",
+    "CNPJ_Lider": "13.673.855/0001-25",
+    "Nome_Lider": "OSLO CAPITAL DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS S.A.",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 39000,
+    "Valor_Total_Registrado": 39000000.0,
+    "Publico_alvo": "Qualificado",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": null,
+    "Gestor": null,
+    "Destinacao_recursos": "Os recursos recebidos pelas Devedoras em razão da integralização das Notas Comerciais serão destinados, integral e exclusivamente, pela respectiva Devedora, para arcar com os gastos, custos e as despesas futuras, de natureza imobiliária, diretamente atinentes às obras do respectivo Empreendimento, conforme cronograma indicativo previsto no Anexo III do respectivo Termo de Emissão e replicados no Anexo VII do Termo de Securitização."
+  },
+  "documents": [
+    {
+      "label": "Prospecto Definitivo",
+      "uuid": "4abc32de-d7dc-46d3-9e58-f999cb8172b0"
+    },
+    {
+      "label": "Lâmina",
+      "uuid": "bd95bb9d-07e5-4f1f-9003-a1a9f349e4ec"
+    },
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "619ca70f-dbc2-49c0-b0f3-98c7168ff026"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "180243",
+      "razaoSocial": "OSLO CAPITAL DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS S.A.",
+      "cnpjInstituicao": "13.673.855/0001-25",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "57602",
+      "razaoSocial": "CIA PROVINCIA DE SECURITIZAÇÃO",
+      "cnpjInstituicao": "04.200.649/0001-07",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "57603",
+      "razaoSocial": "OSLO CAPITAL DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS S.A.",
+      "cnpjInstituicao": "13.673.855/0001-25",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "57604",
+      "razaoSocial": "CIA PROVINCIA DE SECURITIZAÇÃO",
+      "cnpjInstituicao": "04.200.649/0001-07",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26161,
+      "campoNome": "Emissão nº",
+      "valor": "145"
+    },
+    {
+      "codigo": 26161,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "03/10/2025"
+    },
+    {
+      "codigo": 26161,
+      "campoNome": "Mercado de negociação",
+      "valor": "B3"
+    },
+    {
+      "codigo": 26161,
+      "campoNome": "Regime fiduciário",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 26161,
+      "campoNome": "Agente fiduciário",
+      "valor": "OLIVEIRA TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A."
+    },
+    {
+      "codigo": 26161,
+      "campoNome": "Escriturador",
+      "valor": "VÓRTX DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA."
+    },
+    {
+      "codigo": 26161,
+      "campoNome": "Custodiante",
+      "valor": "OXY COMPANHIA HIPOTECÁRIA S.A."
+    },
+    {
+      "codigo": 26161,
+      "campoNome": "Avaliador de risco",
+      "valor": ""
+    },
+    {
+      "codigo": 26161,
+      "campoNome": "Tipo de lastro",
+      "valor": "Concentrado"
+    },
+    {
+      "codigo": 26161,
+      "campoNome": "Descrição do lastro",
+      "valor": "Notas Comerciais emitidas pelas Devedoras"
+    },
+    {
+      "codigo": 26161,
+      "campoNome": "Identificação dos devedores e coobrigados",
+      "valor": "PEDRA AZUL EMPREENDIMENTO IMOBILIÁRIO SPE LTDA., sociedade limitada empresária, com sede na cidade de Rio Claro, estado de São Paulo, na Rua 1 JE, 731, Jardim Europa, CEP 13.502820, inscrita no CNPJ sob o nº 37.998.738/0001-08.\n\nCPR11 ARAÇATUBA EMPREENDIMENTO IMOBILIÁRIO SPE LTDA., sociedade limitada empresária, com sede na cidade de Rio Claro, estado de São Paulo, na Rua 1 JE, 731, Jardim Europa, CEP 13.502-820, inscrita no CNPJ sob o nº 53.851.971/0001-01."
+    },
+    {
+      "codigo": 26161,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Os recursos recebidos pelas Devedoras em razão da integralização das Notas Comerciais serão destinados, integral e exclusivamente, pela respectiva Devedora, para arcar com os gastos, custos e as despesas futuras, de natureza imobiliária, diretamente atinentes às \nobras do respectivo Empreendimento, conforme cronograma indicativo previsto no Anexo III do respectivo Termo de Emissão e replicados no Anexo VII do Termo de Securitização."
+    },
+    {
+      "codigo": 26161,
+      "campoNome": "Descrição das garantias",
+      "valor": "Os Créditos Imobiliários, representados pelas CCI, gozarão das seguintes garantias: Aval, Alienação Fiduciária de Quotas, Alienação Fiduciária dos Imóveis e a Cessão Fiduciária. Os CRI, por sua vez, não contarão com a constituição de quaisquer garantias."
+    },
+    {
+      "codigo": 26161,
+      "campoNome": "Público alvo",
+      "valor": "Qualificado"
+    },
+    {
+      "codigo": 26161,
+      "campoNome": "Título padronizado",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26161,
+      "campoNome": "Reabertura de série",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26161,
+      "campoNome": "Endereço do emissor na rede mundial de computadores",
+      "valor": "https://www.provinciasecuritizadora.com.br/"
+    },
+    {
+      "codigo": 26161,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    },
+    {
+      "codigo": 26161,
+      "campoNome": "Título classificado como “verde”, “social”, “sustentável” ou correlato",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26161,
+      "campoNome": "Possibilidade de revolvência",
+      "valor": "Não"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1373/2026",
+      "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/246",
+      "nomeValorMobiliario": "Certificados de Recebíveis Imobiliários",
+      "valorTotalInicial": "39.000.000,0000",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "39.000.000,0000",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "04/05/2026",
+      "nomeTipoRequerimento": "OPD Aut Público em Geral ou Qualificado - sem bookbuilding",
+      "status": "Registro Concedido",
+      "automaticaSemBook": true,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42682
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "CRI - 1ª Série",
+              "loteBase": {
+                "quantidadeAtivos": "39.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "39.000.000,0000"
+              },
+              "valorTotalLote": "39.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "24/04/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "22/04/2031",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações  sobre subordinação",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "n/a",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "IPCA + 11,00%",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "No vencimento.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Oferta conta com benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/246"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 0,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 0,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 0,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 0,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "0,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "0,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "0,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "0,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "oid": 42682
+    },
+    "registroValorMobiliario": false
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "numeroProcesso": "SRE/1373/2026",
+    "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/246",
+    "nomeValorMobiliario": "Certificados de Recebíveis Imobiliários",
+    "valorTotal": "39.000.000,0000",
+    "data": "04/05/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Público em Geral ou Qualificado - sem bookbuilding",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "39.000,0000",
+    "status": "Registro Concedido",
+    "automaticaSemBook": true,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42682,
+    "dataInicioOferta": "04/05/2026",
+    "bookbuildingPreenchido": false,
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "04/05/2026",
+      "hora": "17:34:08",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "04/05/2026",
+      "hora": "17:34:08",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "04/05/2026",
+      "hora": "17:34:10",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26161\\pdfs\\Prospecto Definitivo_4abc32de-d7dc-46d3-9e58-f999cb8172b0.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26161\\pdfs\\Lâmina_bd95bb9d-07e5-4f1f-9003-a1a9f349e4ec.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26161\\pdfs\\Anúncio de Início da Distribuição_619ca70f-dbc2-49c0-b0f3-98c7168ff026.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Prospecto Definitivo",
+        "uuid": "4abc32de-d7dc-46d3-9e58-f999cb8172b0"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26161\\pdfs\\Prospecto Definitivo_4abc32de-d7dc-46d3-9e58-f999cb8172b0.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Lâmina",
+        "uuid": "bd95bb9d-07e5-4f1f-9003-a1a9f349e4ec"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26161\\pdfs\\Lâmina_bd95bb9d-07e5-4f1f-9003-a1a9f349e4ec.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "619ca70f-dbc2-49c0-b0f3-98c7168ff026"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26161\\pdfs\\Anúncio de Início da Distribuição_619ca70f-dbc2-49c0-b0f3-98c7168ff026.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

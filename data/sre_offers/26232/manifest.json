@@ -1,0 +1,400 @@
+{
+  "offer_number": "26232",
+  "cvm": {
+    "Numero_Requerimento": 26232,
+    "Numero_Processo": "SRE/1435/2026",
+    "Data_requerimento": "2026-05-08T00:00:00",
+    "Data_Registro": "2026-05-08T00:00:00",
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Registro Concedido",
+    "Valor_Mobiliario": "Certificados de Recebíveis Imobiliários",
+    "Tipo_requerimento": "OPD Aut Profissional - sem bookbuilding",
+    "Bookbuilding": "N",
+    "CNPJ_Emissor": "11.257.352/0001-43",
+    "Nome_Emissor": "BSI CAPITAL SECURITIZADORA S.A.",
+    "CNPJ_Lider": "11.257.352/0001-43",
+    "Nome_Lider": "BSI CAPITAL SECURITIZADORA S.A.",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 5000,
+    "Valor_Total_Registrado": 5000000.0,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": null,
+    "Gestor": null,
+    "Destinacao_recursos": "Os recursos líquidos obtidos com a emissão da Cédula de Crédito Bancário (CCB) devem ser utilizados integral e exclusivamente pela devedora (Alto Bellevue Empreendimentos Imobiliários SPE Ltda.) para financiar as obras de construção e desenvolvimento do empreendimento imobiliário  Alto Bellevue , localizado em Garanhuns, Pernambuco.Isso inclui o pagamento de gastos, custos e despesas futuras de natureza imobiliária, como aquisição, construção, reforma, expansão e desenvolvimento do projeto"
+  },
+  "documents": [],
+  "participants": [
+    {
+      "idParticipante": "181064",
+      "razaoSocial": "BSI CAPITAL SECURITIZADORA S.A.",
+      "cnpjInstituicao": "11.257.352/0001-43",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "57815",
+      "razaoSocial": "BSI CAPITAL SECURITIZADORA S.A.",
+      "cnpjInstituicao": "11.257.352/0001-43",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "57816",
+      "razaoSocial": "BSI CAPITAL SECURITIZADORA S.A.",
+      "cnpjInstituicao": "11.257.352/0001-43",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "57817",
+      "razaoSocial": "BSI CAPITAL SECURITIZADORA S.A.",
+      "cnpjInstituicao": "11.257.352/0001-43",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26232,
+      "campoNome": "Emissão nº",
+      "valor": "24"
+    },
+    {
+      "codigo": 26232,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "18/09/2014"
+    },
+    {
+      "codigo": 26232,
+      "campoNome": "Mercado de negociação",
+      "valor": "CETIP 21"
+    },
+    {
+      "codigo": 26232,
+      "campoNome": "Regime fiduciário",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 26232,
+      "campoNome": "Agente fiduciário",
+      "valor": "VÓRTX DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA."
+    },
+    {
+      "codigo": 26232,
+      "campoNome": "Escriturador",
+      "valor": "VÓRTX DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA."
+    },
+    {
+      "codigo": 26232,
+      "campoNome": "Custodiante",
+      "valor": "Oxy Companhia Hipotecaria"
+    },
+    {
+      "codigo": 26232,
+      "campoNome": "Avaliador de risco",
+      "valor": "n/a"
+    },
+    {
+      "codigo": 26232,
+      "campoNome": "Tipo de lastro",
+      "valor": "Pulverizado"
+    },
+    {
+      "codigo": 26232,
+      "campoNome": "Descrição do lastro",
+      "valor": "Compromissos de compra e venda e contratos de compra e venda dos empreendimentos Alto Bellevue"
+    },
+    {
+      "codigo": 26232,
+      "campoNome": "Identificação dos devedores e coobrigados",
+      "valor": "Devedora Principal\nNome: Alto Bellevue Empreendimentos Imobiliários SPE Ltda.\nCNPJ: 60.345.993/0001-65\nSede: Rua Padre Carapuceiro, 752, Sala 1307, Boa Viagem, Recife/PE, CEP 51.020-280\n.\nCoobrigada (Avalista PJ)\nNome: FK Garanhuns Empreendimentos Imobiliários SPE Ltda.\nCNPJ: 48.677.455/0001-37\nSede: Rua Padre Carapuceiro, 752, Sala 1307, Boa Viagem, Recife/PE, CEP 51.020-280"
+    },
+    {
+      "codigo": 26232,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Os recursos líquidos obtidos com a emissão da Cédula de Crédito Bancário (CCB) devem ser utilizados integral e exclusivamente pela devedora (Alto Bellevue Empreendimentos Imobiliários SPE Ltda.) para financiar as obras de construção e desenvolvimento do empreendimento imobiliário \"Alto Bellevue\", localizado em Garanhuns, Pernambuco\n.\nIsso inclui o pagamento de gastos, custos e despesas futuras de natureza imobiliária, como aquisição, construção, reforma, expansão e desenvolvimento do projeto"
+    },
+    {
+      "codigo": 26232,
+      "campoNome": "Descrição das garantias",
+      "valor": ""
+    },
+    {
+      "codigo": 26232,
+      "campoNome": "Título padronizado",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 26232,
+      "campoNome": "Reabertura de série",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26232,
+      "campoNome": "Endereço do emissor na rede mundial de computadores",
+      "valor": ""
+    },
+    {
+      "codigo": 26232,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    },
+    {
+      "codigo": 26232,
+      "campoNome": "Título classificado como “verde”, “social”, “sustentável” ou correlato",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26232,
+      "campoNome": "Possibilidade de revolvência",
+      "valor": "Não"
+    }
+  ],
+  "errors": [
+    "documentos: nenhum UUID encontrado"
+  ],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1435/2026",
+      "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/257",
+      "nomeValorMobiliario": "Certificados de Recebíveis Imobiliários",
+      "valorTotalInicial": "5.000.000,0000",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "5.000.000,0000",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "08/05/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+      "status": "Registro Concedido",
+      "automaticaSemBook": true,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42753
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "Certificado de recebiveis imobiliarios - CRI",
+              "loteBase": {
+                "quantidadeAtivos": "5.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "5.000.000,0000"
+              },
+              "valorTotalLote": "5.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "08/05/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "08/05/2031",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações  sobre subordinação",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "não há",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "CDI +6% +  PAGAMENTO DE JUROS MENSAL",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Cash Sweep -  NO VENCIMENTO",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Oferta conta com benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/257"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 0,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 0,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 0,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 0,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "0,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "0,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "0,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "0,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "oid": 42753
+    },
+    "registroValorMobiliario": false
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "numeroProcesso": "SRE/1435/2026",
+    "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/257",
+    "nomeValorMobiliario": "Certificados de Recebíveis Imobiliários",
+    "valorTotal": "5.000.000,0000",
+    "data": "08/05/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "5.000,0000",
+    "status": "Registro Concedido",
+    "automaticaSemBook": true,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42753,
+    "dataInicioOferta": "08/05/2026",
+    "bookbuildingPreenchido": false,
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "08/05/2026",
+      "hora": "17:12:08",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "08/05/2026",
+      "hora": "17:12:08",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "08/05/2026",
+      "hora": "17:12:12",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [],
+  "pdf_summaries": []
+}

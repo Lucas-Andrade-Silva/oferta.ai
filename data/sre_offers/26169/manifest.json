@@ -1,0 +1,579 @@
+{
+  "offer_number": "26169",
+  "cvm": {
+    "Numero_Requerimento": 26169,
+    "Numero_Processo": "SRE/1380/2026",
+    "Data_requerimento": "2026-05-04T00:00:00",
+    "Data_Registro": "2026-05-14T00:00:00",
+    "Data_Encerramento": "2026-05-18T00:00:00",
+    "Status_Requerimento": "Oferta Encerrada",
+    "Valor_Mobiliario": "Debêntures",
+    "Tipo_requerimento": "OPD Aut Profissional - com bookbuilding",
+    "Bookbuilding": "S",
+    "CNPJ_Emissor": "58.070.452/0001-20",
+    "Nome_Emissor": "IGUÁ SERGIPE S.A.",
+    "CNPJ_Lider": "59.588.111/0001-03",
+    "Nome_Lider": "BANCO VOTORANTIM S.A.",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 1040000,
+    "Valor_Total_Registrado": 1040000000.0,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": null,
+    "Gestor": null,
+    "Destinacao_recursos": "Pagamento futuro, bem como reembolso de gastos, despesas ou dívidas, relacionados ao projeto, desde que as referidas despesas passíveis de reembolso tenham ocorrido em prazo igual ou inferior a 48 (quarenta e oito) meses da data de encerramento da Oferta."
+  },
+  "documents": [
+    {
+      "label": "Aviso ao Mercado",
+      "uuid": "b8765d9e-d05e-428a-abc2-336147805955"
+    },
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "b64c3c65-d4fc-45da-bcaf-7eda084e5fce"
+    },
+    {
+      "label": "Comunicado ao Mercado",
+      "uuid": "78afd5f7-27b4-4120-ba8e-95d8bca91686"
+    },
+    {
+      "label": "Anúncio de Encerramento da Distribuição",
+      "uuid": "e7395b55-742a-45ef-87a0-eb59821b3827"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "180334",
+      "razaoSocial": "BANCO VOTORANTIM S.A.",
+      "cnpjInstituicao": "59.588.111/0001-03",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "57626",
+      "razaoSocial": "IGUÁ SERGIPE S.A.",
+      "cnpjInstituicao": "58.070.452/0001-20",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "57627",
+      "razaoSocial": "BANCO VOTORANTIM S.A.",
+      "cnpjInstituicao": "59.588.111/0001-03",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "57628",
+      "razaoSocial": "IGUÁ SERGIPE S.A.",
+      "cnpjInstituicao": "58.070.452/0001-20",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26169,
+      "campoNome": "Emissão nº",
+      "valor": "4"
+    },
+    {
+      "codigo": 26169,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "30/04/2026"
+    },
+    {
+      "codigo": 26169,
+      "campoNome": "Mercado de negociação",
+      "valor": "Negociação no mercado secundário por meio do CETIP21 – Títulos e Valores Mobiliários (“CETIP21”)"
+    },
+    {
+      "codigo": 26169,
+      "campoNome": "Agente fiduciário",
+      "valor": "VÓRTX DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA."
+    },
+    {
+      "codigo": 26169,
+      "campoNome": "Escriturador",
+      "valor": "ITAÚ UNIBANCO S.A."
+    },
+    {
+      "codigo": 26169,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Pagamento futuro, bem como reembolso de gastos, despesas ou dívidas, relacionados ao projeto, desde que as referidas despesas passíveis de reembolso tenham ocorrido em prazo igual ou inferior a 48 (quarenta e oito) meses da data de encerramento da Oferta."
+    },
+    {
+      "codigo": 26169,
+      "campoNome": "Avaliador de risco",
+      "valor": "CLASSIFICAÇÃO DE RISCO PRELIMINAR DA EMISSÃO DE DEBÊNTURES ATRIBUÍDA PELA S&P GLOBAL RATINGS: “brAA-”"
+    },
+    {
+      "codigo": 26169,
+      "campoNome": "Título padronizado",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 26169,
+      "campoNome": "Reabertura de série",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26169,
+      "campoNome": "Endereço do emissor na rede mundial de computadores",
+      "valor": "https://igua.com.br/sergipe"
+    },
+    {
+      "codigo": 26169,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    },
+    {
+      "codigo": 26169,
+      "campoNome": "Título classificado como “verde”, “social”, “sustentável” ou correlato",
+      "valor": "Sim"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": true,
+      "numeroProcesso": "SRE/1380/2026",
+      "numeroRegistro": "CVM/SRE/AUT/DEB/PRI/2026/241",
+      "nomeValorMobiliario": "Debêntures",
+      "valorTotalInicial": "1.040.000.000,0000",
+      "valorTotalFinal": "1.040.000.000,0000",
+      "valorTotalLoteBaseInicial": "1.040.000.000,0000",
+      "valorTotalLoteBaseFinal": "1.040.000.000,0000",
+      "data": "14/05/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - com bookbuilding",
+      "status": "Oferta Encerrada",
+      "automaticaSemBook": false,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42808
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": true,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "4ª EMISSÃO DE DEBÊNTURES SIMPLES",
+              "loteBase": {
+                "quantidadeAtivos": "1.040.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "1.040.000.000,0000"
+              },
+              "valorTotalLote": "1.040.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/05/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/05/2046",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Espécie",
+                  "campoTipo": "Espécie de Debênture",
+                  "campoValor": "Garantia Real",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "\"brAA-\" pela S&P Global Ratings",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração máxima",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "IPCA + 9,5000% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração final (pós bookbuilding)",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "IPCA + 8,9774% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Semestral, a partir do 34º mês",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tem benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim fixo",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º ou Lei 14.801/24",
+                  "campoValor": "Lei 12.431/11 - art. 2º",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Portaria MCID nº 1.463, de 18 de dezembro de 2025, publicada no Diário Oficial da União (\"DOU\") em 29 de dezembro de 2025 (Processo Administrativo MCID nº 80000.006047/2025-82)",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "V - Saneamento Básico: Esgotamento Sanitário",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "Concessão",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxxx ou +xx.xxxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "-36.8869ºW",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxxx ou +xx.xxxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "10.3442ºS",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "loteFinal": {
+              "valorMobiliario": "4ª EMISSÃO DE DEBÊNTURES SIMPLES",
+              "loteBase": {
+                "quantidadeAtivos": "1.040.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "1.040.000.000,0000"
+              },
+              "valorTotalLote": "1.040.000.000,0000",
+              "taxaRemuneracao": "IPCA + 8,9774% a.a.",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/05/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "15/05/2046",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Espécie",
+                  "campoTipo": "Espécie de Debênture",
+                  "campoValor": "Garantia Real",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "\"brAA-\" pela S&P Global Ratings",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração máxima",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "IPCA + 9,5000% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração final (pós bookbuilding)",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "IPCA + 8,9774% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Semestral, a partir do 34º mês",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tem benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim fixo",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º ou Lei 14.801/24",
+                  "campoValor": "Lei 12.431/11 - art. 2º",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Portaria MCID nº 1.463, de 18 de dezembro de 2025, publicada no Diário Oficial da União (\"DOU\") em 29 de dezembro de 2025 (Processo Administrativo MCID nº 80000.006047/2025-82)",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "V - Saneamento Básico: Esgotamento Sanitário",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "Concessão",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxxx ou +xx.xxxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "-36.8869ºW",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxxx ou +xx.xxxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "10.3442ºS",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": true,
+            "numeroRegistro": "CVM/SRE/AUT/DEB/PRI/2026/241"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "dataEncerramento": "2026-05-18T17:00:00Z",
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 0,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 1,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 0,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 0,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "0,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "1.040.000,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "0,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "0,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "foiRevogada": false,
+      "oid": 42808
+    },
+    "registroValorMobiliario": false
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": true,
+    "numeroProcesso": "SRE/1380/2026",
+    "numeroRegistro": "CVM/SRE/AUT/DEB/PRI/2026/241",
+    "nomeValorMobiliario": "Debêntures",
+    "valorTotal": "1.040.000.000,0000",
+    "data": "14/05/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - com bookbuilding",
+    "bookValorTotal": "1.000,0000",
+    "bookQuantidadeAtivos": "1.040.000,0000",
+    "quantidadeAtivos": "1.040.000,0000",
+    "status": "Oferta Encerrada",
+    "automaticaSemBook": false,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42808,
+    "dataInicioOferta": "14/05/2026",
+    "bookbuildingPreenchido": true,
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "04/05/2026",
+      "hora": "23:25:43",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "04/05/2026",
+      "hora": "23:25:44",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "14/05/2026",
+      "hora": "08:59:26",
+      "observacao": ""
+    },
+    {
+      "status": "Oferta Encerrada",
+      "data": "18/05/2026",
+      "hora": "20:46:54",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26169\\pdfs\\Aviso ao Mercado_b8765d9e-d05e-428a-abc2-336147805955.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26169\\pdfs\\Anúncio de Início da Distribuição_b64c3c65-d4fc-45da-bcaf-7eda084e5fce.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26169\\pdfs\\Comunicado ao Mercado_78afd5f7-27b4-4120-ba8e-95d8bca91686.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26169\\pdfs\\Anúncio de Encerramento da Distribuição_e7395b55-742a-45ef-87a0-eb59821b3827.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Aviso ao Mercado",
+        "uuid": "b8765d9e-d05e-428a-abc2-336147805955"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26169\\pdfs\\Aviso ao Mercado_b8765d9e-d05e-428a-abc2-336147805955.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "b64c3c65-d4fc-45da-bcaf-7eda084e5fce"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26169\\pdfs\\Anúncio de Início da Distribuição_b64c3c65-d4fc-45da-bcaf-7eda084e5fce.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Comunicado ao Mercado",
+        "uuid": "78afd5f7-27b4-4120-ba8e-95d8bca91686"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26169\\pdfs\\Comunicado ao Mercado_78afd5f7-27b4-4120-ba8e-95d8bca91686.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Anúncio de Encerramento da Distribuição",
+        "uuid": "e7395b55-742a-45ef-87a0-eb59821b3827"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26169\\pdfs\\Anúncio de Encerramento da Distribuição_e7395b55-742a-45ef-87a0-eb59821b3827.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

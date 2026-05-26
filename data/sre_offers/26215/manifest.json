@@ -1,0 +1,415 @@
+{
+  "offer_number": "26215",
+  "cvm": {
+    "Numero_Requerimento": 26215,
+    "Numero_Processo": "SRE/1425/2026",
+    "Data_requerimento": "2026-05-07T00:00:00",
+    "Data_Registro": "2026-05-07T00:00:00",
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Registro Concedido",
+    "Valor_Mobiliario": "Certificados de Recebíveis Imobiliários",
+    "Tipo_requerimento": "OPD Aut Profissional - sem bookbuilding",
+    "Bookbuilding": "N",
+    "CNPJ_Emissor": "48.415.978/0001-40",
+    "Nome_Emissor": "LEVERAGE COMPANHIA SECURITIZADORA",
+    "CNPJ_Lider": "48.415.978/0001-40",
+    "Nome_Lider": "LEVERAGE COMPANHIA SECURITIZADORA",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 30000,
+    "Valor_Total_Registrado": 30000000.0,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Melhores Esforços",
+    "Administrador": null,
+    "Gestor": null,
+    "Destinacao_recursos": "Os recursos oriundos da integralização dos CRI serão destinados à integralização das Notas Comerciais que deram origem aos Créditos Imobiliários e as Notas Comerciais, por sua vez, serão destinadas desenvolvimento do empreendimento imobiliário \"Moov Bosque\", pela Devedora, na modalidade de incorporação, nos termos da Lei nº 4.591, e destinado a uso residencial e comercial no imóvel matriculado sob o nº 139.233 no 6º Serviço Notarial e Registro de Imóveis da Terceira Circunscrição Imobiliária de Cuiabá / MT, conforme indicado Anexo -  Cronograma de Destinação  do Termo de Securitização."
+  },
+  "documents": [
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "2ac14cb4-b981-49d5-8948-b13634cd5820"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "180867",
+      "razaoSocial": "LEVERAGE COMPANHIA SECURITIZADORA",
+      "cnpjInstituicao": "48.415.978/0001-40",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "57764",
+      "razaoSocial": "LEVERAGE COMPANHIA SECURITIZADORA",
+      "cnpjInstituicao": "48.415.978/0001-40",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "57765",
+      "razaoSocial": "LEVERAGE COMPANHIA SECURITIZADORA",
+      "cnpjInstituicao": "48.415.978/0001-40",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "57766",
+      "razaoSocial": "LEVERAGE COMPANHIA SECURITIZADORA",
+      "cnpjInstituicao": "48.415.978/0001-40",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26215,
+      "campoNome": "Emissão nº",
+      "valor": "77"
+    },
+    {
+      "codigo": 26215,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "29/04/2023"
+    },
+    {
+      "codigo": 26215,
+      "campoNome": "Mercado de negociação",
+      "valor": "B3 S.A. – BRASIL, BOLSA, BALCÃO – BALCÃO B3"
+    },
+    {
+      "codigo": 26215,
+      "campoNome": "Regime fiduciário",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 26215,
+      "campoNome": "Agente fiduciário",
+      "valor": "VÓRTX DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIO LTDA."
+    },
+    {
+      "codigo": 26215,
+      "campoNome": "Escriturador",
+      "valor": "VÓRTX DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIO LTDA."
+    },
+    {
+      "codigo": 26215,
+      "campoNome": "Custodiante",
+      "valor": "VÓRTX DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIO LTDA."
+    },
+    {
+      "codigo": 26215,
+      "campoNome": "Avaliador de risco",
+      "valor": "Não há."
+    },
+    {
+      "codigo": 26215,
+      "campoNome": "Tipo de lastro",
+      "valor": "Concentrado"
+    },
+    {
+      "codigo": 26215,
+      "campoNome": "Descrição do lastro",
+      "valor": "Créditos imobiliários devidos pela GVIVART 500 BOSQUE DA SAUDE EMPREEENDIMENTO IMOBILIÁRIO SPE LTDA. (CNPJ 54.218.116/0001-20), representados pelas Cédulas de Crédito Imobiliário descritas no Anexo \"CCI\" do Termo de Securitização, oriundos do “Termo de Emissão da 1ª (primeira) Emissão de Notas Comerciais Escriturais, em 02 (duas) Série(s), para Colocação Privada, da Gvivart 500 Bosque da Saúde Empreendimento Imobiliário SPE Ltda.”, destinado ao desenvolvimento do empreendimento imobiliário “Moov Bosque”, pela Devedora, na modalidade de incorporação, nos termos da Lei nº 4.591, e destinado a uso residencial e comercial no imóvel matriculado sob o nº 139.233 no 6º Serviço Notarial e Registro de Imóveis da Terceira Circunscrição Imobiliária de Cuiabá / MT, conforme indicado Anexo - \"Cronograma de Destinação\" do Termo de Securitização."
+    },
+    {
+      "codigo": 26215,
+      "campoNome": "Identificação dos devedores e coobrigados",
+      "valor": "Devedor principal: GVIVART 500 BOSQUE DA SAUDE EMPREEENDIMENTO IMOBILIÁRIO SPE LTDA. (CNPJ 54.218.116/0001-20)\nAvalistas: (i) VIVART ENGENHARIA LTDA. (CNPJ 30.050.667/0001-60); (ii) FELIPE CARLESSO DE OLIVEIRA (CPF 041.740.329-12); (iii) LAIANE TAVARES BENTO (CPF 034.433.521-62)."
+    },
+    {
+      "codigo": 26215,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Os recursos oriundos da integralização dos CRI serão destinados à integralização das Notas Comerciais que deram origem aos Créditos Imobiliários e as Notas Comerciais, por sua vez, serão destinadas desenvolvimento do empreendimento imobiliário “Moov Bosque”, pela Devedora, na modalidade de incorporação, nos termos da Lei nº 4.591, e destinado a uso residencial e comercial no imóvel matriculado sob o nº 139.233 no 6º Serviço Notarial e Registro de Imóveis da Terceira Circunscrição Imobiliária de Cuiabá / MT, conforme indicado Anexo - \"Cronograma de Destinação\" do Termo de Securitização."
+    },
+    {
+      "codigo": 26215,
+      "campoNome": "Descrição das garantias",
+      "valor": "1. Aval outorgado pelos Avalistas acima mencionados.\n2. Cessão fiduciária dos direitos creditórios oriundos da comercialização de unidades do Empreendimento Imobiliário acima mencionado.\n3. Alienação fiduciária do Imóvel matriculado sob o nº 139.233 no 6º Serviço Notarial e Registro de Imóveis da Terceira Circunscrição Imobiliária de Cuiabá / MT\n4. Alienação fiduciária das cotas representativas de 100% do capital social da Devedora Principal. \n5. Fundo de Obras e Fundo de Reserva, nos termos previstos no Termo de Securitização."
+    },
+    {
+      "codigo": 26215,
+      "campoNome": "Título padronizado",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26215,
+      "campoNome": "Reabertura de série",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26215,
+      "campoNome": "Endereço do emissor na rede mundial de computadores",
+      "valor": "https://www.leveragesec.com.br/"
+    },
+    {
+      "codigo": 26215,
+      "campoNome": "Regime de distribuição",
+      "valor": "Melhores Esforços"
+    },
+    {
+      "codigo": 26215,
+      "campoNome": "Título classificado como “verde”, “social”, “sustentável” ou correlato",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26215,
+      "campoNome": "Possibilidade de revolvência",
+      "valor": "Não"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1425/2026",
+      "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/253",
+      "nomeValorMobiliario": "Certificados de Recebíveis Imobiliários",
+      "valorTotalInicial": "30.000.000,0000",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "30.000.000,0000",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "07/05/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+      "status": "Registro Concedido",
+      "automaticaSemBook": true,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42740
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "CRI da 1ª Série",
+              "loteBase": {
+                "quantidadeAtivos": "30.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "30.000.000,0000"
+              },
+              "valorTotalLote": "30.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "27/04/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "26/04/2030",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Não há.",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações  sobre subordinação",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Não há subordinação.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Os CRI da 1ª Série farão jus a uma remuneração correspondente a 100% da variação da Taxa DI acrescida de uma sobretaxa de 5,3500% ao ano com base em um ano de 252 Dias Úteis, a ser paga na periodicidade prevista no Anexo - \"Cronograma de Pagamentos\" do Termo de Securitização e demais condições do referido instrumento.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "A amortização ordinária dos CRI da 1ª Série será realizada integralmente na Data de Vencimento dos CRI da 1ª Série, conforme Anexo \"Cronograma de Pagamentos\" do Termo de Securitização, sem prejuízo da possibilidade de amortização extraordinária e de resgate antecipado, observados os demais termos e condições do referido instrumento.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Oferta conta com benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/253"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 0,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 0,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 0,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 0,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "0,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "0,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "0,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "0,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "oid": 42740
+    },
+    "registroValorMobiliario": false
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "resumoOferta": "Oferta Pública de Distribuição de Certificados de Recebíveis Imobiliários da 1ª Série da 77ª Emissão da Leverage Companhia Securitizadora com lastro em Créditos Imobiliários devidos pela GVIVART500 Bosque da Saúde Empreendimentos Imobiliário SPE Ltda.",
+    "numeroProcesso": "SRE/1425/2026",
+    "numeroRegistro": "CVM/SRE/AUT/CRI/PRI/2026/253",
+    "nomeValorMobiliario": "Certificados de Recebíveis Imobiliários",
+    "valorTotal": "30.000.000,0000",
+    "data": "07/05/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - sem bookbuilding",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "30.000,0000",
+    "status": "Registro Concedido",
+    "automaticaSemBook": true,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42740,
+    "dataInicioOferta": "07/05/2026",
+    "bookbuildingPreenchido": false,
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "07/05/2026",
+      "hora": "18:54:25",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "07/05/2026",
+      "hora": "18:54:26",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "07/05/2026",
+      "hora": "18:54:33",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26215\\pdfs\\Anúncio de Início da Distribuição_2ac14cb4-b981-49d5-8948-b13634cd5820.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "2ac14cb4-b981-49d5-8948-b13634cd5820"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26215\\pdfs\\Anúncio de Início da Distribuição_2ac14cb4-b981-49d5-8948-b13634cd5820.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

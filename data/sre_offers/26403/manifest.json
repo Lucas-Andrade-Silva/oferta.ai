@@ -1,0 +1,355 @@
+{
+  "offer_number": "26403",
+  "cvm": {
+    "Numero_Requerimento": 26403,
+    "Numero_Processo": "SRE/1596/2026",
+    "Data_requerimento": "2026-05-21T00:00:00",
+    "Data_Registro": null,
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Aguardando Bookbuilding",
+    "Valor_Mobiliario": "Debêntures",
+    "Tipo_requerimento": "OPD Aut Profissional - com bookbuilding - Emissor Não Registrado",
+    "Bookbuilding": "S",
+    "CNPJ_Emissor": "41.777.706/0001-41",
+    "Nome_Emissor": "REFINARIA DE MATARIPE S.A.",
+    "CNPJ_Lider": "02.819.125/0001-73",
+    "Nome_Lider": "UBS BB Corretora de Câmbio, Títulos e Valores Mobiliários S.A.",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 0,
+    "Valor_Total_Registrado": 0.0,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Garantia Firme de Colocação",
+    "Administrador": null,
+    "Gestor": null,
+    "Destinacao_recursos": "Propósitos corporativos gerais, incluindo, sem limitação, reforço e recomposição de caixa e capital de giro da Emissora"
+  },
+  "documents": [
+    {
+      "label": "Aviso ao Mercado",
+      "uuid": "6cb12283-e3f9-4531-9d66-0cbad1873f1b"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "183043",
+      "razaoSocial": "UBS BB Corretora de Câmbio, Títulos e Valores Mobiliários S.A.",
+      "cnpjInstituicao": "02.819.125/0001-73",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "58325",
+      "razaoSocial": "REFINARIA DE MATARIPE S.A.",
+      "cnpjInstituicao": "41.777.706/0001-41",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "58326",
+      "razaoSocial": "UBS BB Corretora de Câmbio, Títulos e Valores Mobiliários S.A.",
+      "cnpjInstituicao": "02.819.125/0001-73",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "58327",
+      "razaoSocial": "REFINARIA DE MATARIPE S.A.",
+      "cnpjInstituicao": "41.777.706/0001-41",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26403,
+      "campoNome": "Emissão nº",
+      "valor": "1"
+    },
+    {
+      "codigo": 26403,
+      "campoNome": "Tipo societário",
+      "valor": "SA capital fechado"
+    },
+    {
+      "codigo": 26403,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "08/05/2026"
+    },
+    {
+      "codigo": 26403,
+      "campoNome": "Mercado de negociação",
+      "valor": "B3 S.A. – Brasil, Bolsa, Balcão – Balcão B3"
+    },
+    {
+      "codigo": 26403,
+      "campoNome": "Agente fiduciário",
+      "valor": "Pentágono S.A. Distribuidora de Títulos e Valores Mobiliários"
+    },
+    {
+      "codigo": 26403,
+      "campoNome": "Escriturador",
+      "valor": "Pentágono S.A. Distribuidora de Títulos e Valores Mobiliários"
+    },
+    {
+      "codigo": 26403,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Propósitos corporativos gerais, incluindo, sem limitação, reforço e recomposição de caixa e capital de giro da Emissora"
+    },
+    {
+      "codigo": 26403,
+      "campoNome": "Avaliador de risco",
+      "valor": "N/A"
+    },
+    {
+      "codigo": 26403,
+      "campoNome": "Título padronizado",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 26403,
+      "campoNome": "Reabertura de série",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26403,
+      "campoNome": "Endereço do emissor na rede mundial de computadores",
+      "valor": ""
+    },
+    {
+      "codigo": 26403,
+      "campoNome": "Regime de distribuição",
+      "valor": "Garantia Firme de Colocação"
+    },
+    {
+      "codigo": 26403,
+      "campoNome": "Título classificado como “verde”, “social”, “sustentável” ou correlato",
+      "valor": "Não"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1596/2026",
+      "numeroRegistro": "N/A",
+      "nomeValorMobiliario": "Debêntures",
+      "valorTotalInicial": "275.000.000,0000",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "275.000.000,0000",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "21/05/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - com bookbuilding - Emissor Não Registrado",
+      "status": "Aguardando Bookbuilding",
+      "automaticaSemBook": false,
+      "ofertaAutomatica": true
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "Debêntures - Série Única",
+              "loteBase": {
+                "quantidadeAtivos": "275.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "275.000.000,0000"
+              },
+              "valorTotalLote": "275.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "25/05/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "25/05/2029",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Espécie",
+                  "campoTipo": "Espécie de Debênture",
+                  "campoValor": "Garantia Real",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração máxima",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "CDI + 1,70%",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração final (pós bookbuilding)",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Será amortizado em uma única parcela, na Data de Vencimento das Debêntures",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tem benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim fixo",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º ou Lei 14.801/24",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxxx ou +xx.xxxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxxx ou +xx.xxxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "Em andamento"
+          }
+        ]
+      }
+    ],
+    "registroValorMobiliario": false
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "numeroProcesso": "SRE/1596/2026",
+    "numeroRegistro": "N/A",
+    "nomeValorMobiliario": "Debêntures",
+    "valorTotal": "275.000.000,0000",
+    "data": "21/05/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - com bookbuilding - Emissor Não Registrado",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "275.000,0000",
+    "status": "Aguardando Bookbuilding",
+    "automaticaSemBook": false,
+    "ofertaAutomatica": true,
+    "bookbuildingPreenchido": true,
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "21/05/2026",
+      "hora": "18:11:31",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "21/05/2026",
+      "hora": "18:11:33",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26403\\pdfs\\Aviso ao Mercado_6cb12283-e3f9-4531-9d66-0cbad1873f1b.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Aviso ao Mercado",
+        "uuid": "6cb12283-e3f9-4531-9d66-0cbad1873f1b"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26403\\pdfs\\Aviso ao Mercado_6cb12283-e3f9-4531-9d66-0cbad1873f1b.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

@@ -1,0 +1,350 @@
+{
+  "offer_number": "26381",
+  "cvm": {
+    "Numero_Requerimento": 26381,
+    "Numero_Processo": "SRE/1597/2026",
+    "Data_requerimento": "2026-05-21T00:00:00",
+    "Data_Registro": null,
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Aguardando Bookbuilding",
+    "Valor_Mobiliario": "Debêntures",
+    "Tipo_requerimento": "OPD Aut Profissional - com bookbuilding",
+    "Bookbuilding": "S",
+    "CNPJ_Emissor": "75.609.123/0001-23",
+    "Nome_Emissor": "UNIDAS LOCAÇÕES E SERVIÇOS S.A.",
+    "CNPJ_Lider": "00.360.305/0001-04",
+    "Nome_Lider": "CAIXA ECONOMICA FEDERAL",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 0,
+    "Valor_Total_Registrado": 0.0,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Garantia Firme de Colocação",
+    "Administrador": null,
+    "Gestor": null,
+    "Destinacao_recursos": "(i) para resgate e/ou recompra da totalidade das debêntures da 12ª (décima segunda) emissão de debêntures da Emissora, registradas sob o código de ativo OVSAA2 (ii) resgate e/ou recompra da totalidade das debêntures da 17ª (décima sétima) emissão de debêntures da Emissora, registradas sob o código de ativo OVSAA7 e (iii) o saldo remanescente, após a realização dos resgates e/ou recompras previstos nos itens \"(i)\" e \"(ii)\" desta Cláusula, para reforço de caixa da Emissora."
+  },
+  "documents": [
+    {
+      "label": "Aviso ao Mercado",
+      "uuid": "131e8f7f-0ba3-4932-b916-cc230c526a46"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "182785",
+      "razaoSocial": "CAIXA ECONOMICA FEDERAL",
+      "cnpjInstituicao": "00.360.305/0001-04",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "58259",
+      "razaoSocial": "UNIDAS LOCAÇÕES E SERVIÇOS S.A.",
+      "cnpjInstituicao": "75.609.123/0001-23",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "58260",
+      "razaoSocial": "CAIXA ECONOMICA FEDERAL",
+      "cnpjInstituicao": "00.360.305/0001-04",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "58261",
+      "razaoSocial": "UNIDAS LOCAÇÕES E SERVIÇOS S.A.",
+      "cnpjInstituicao": "75.609.123/0001-23",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26381,
+      "campoNome": "Emissão nº",
+      "valor": "22"
+    },
+    {
+      "codigo": 26381,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "20/05/2026"
+    },
+    {
+      "codigo": 26381,
+      "campoNome": "Mercado de negociação",
+      "valor": "(i) distribuição pública no mercado primário por meio do MDA – Módulo de Distribuição de Ativos; (ii) negociação no mercado secundário por meio do CETIP21 – Títulos e Valores Mobiliários"
+    },
+    {
+      "codigo": 26381,
+      "campoNome": "Agente fiduciário",
+      "valor": "PENTÁGONO S.A. DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS"
+    },
+    {
+      "codigo": 26381,
+      "campoNome": "Escriturador",
+      "valor": "BANCO BRADESCO S.A."
+    },
+    {
+      "codigo": 26381,
+      "campoNome": "Destinação dos recursos",
+      "valor": "(i) para resgate e/ou recompra da totalidade das debêntures da 12ª (décima segunda) emissão de debêntures da Emissora, registradas sob o código de ativo OVSAA2; (ii) resgate e/ou recompra da totalidade das debêntures da 17ª (décima sétima) emissão de debêntures da Emissora, registradas sob o código de ativo OVSAA7; e (iii) o saldo remanescente, após a realização dos resgates e/ou recompras previstos nos itens “(i)” e “(ii)” desta Cláusula, para reforço de caixa da Emissora."
+    },
+    {
+      "codigo": 26381,
+      "campoNome": "Avaliador de risco",
+      "valor": "Moody’s"
+    },
+    {
+      "codigo": 26381,
+      "campoNome": "Título padronizado",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 26381,
+      "campoNome": "Reabertura de série",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26381,
+      "campoNome": "Endereço do emissor na rede mundial de computadores",
+      "valor": "https://ri.unidas.com.br"
+    },
+    {
+      "codigo": 26381,
+      "campoNome": "Regime de distribuição",
+      "valor": "Garantia Firme de Colocação"
+    },
+    {
+      "codigo": 26381,
+      "campoNome": "Título classificado como “verde”, “social”, “sustentável” ou correlato",
+      "valor": "Não"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": false,
+      "numeroProcesso": "SRE/1597/2026",
+      "numeroRegistro": "N/A",
+      "nomeValorMobiliario": "Debêntures",
+      "valorTotalInicial": "500.000.000,0000",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "500.000.000,0000",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "21/05/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - com bookbuilding",
+      "status": "Aguardando Bookbuilding",
+      "automaticaSemBook": false,
+      "ofertaAutomatica": true
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "Debêntures",
+              "loteBase": {
+                "quantidadeAtivos": "500.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "500.000.000,0000"
+              },
+              "valorTotalLote": "500.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "20/05/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "20/05/2032",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Espécie",
+                  "campoTipo": "Espécie de Debênture",
+                  "campoValor": "Quirografária",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração máxima",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "100% da Taxa DI + 2,35% a.a.; a Remuneração será paga semestralmente a partir da Data de Emissão, sendo o primeiro pagamento devido em 20 de novembro de 2026, e os demais pagamentos devidos sempre no dia 20 dos meses de maio e novembro de cada ano, até a Data de Vencimento das Debêntures.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração final (pós bookbuilding)",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "O saldo do Valor Nominal Unitário das Debêntures será amortizado em 2 (duas) parcelas, sendo que a primeira parcela será devida em 20 de maio de 2031, e a segunda parcela na Data de Vencimento das Debêntures.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tem benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim fixo",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º ou Lei 14.801/24",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxxx ou +xx.xxxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxxx ou +xx.xxxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "Em andamento"
+          }
+        ]
+      }
+    ],
+    "registroValorMobiliario": false
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": false,
+    "numeroProcesso": "SRE/1597/2026",
+    "numeroRegistro": "N/A",
+    "nomeValorMobiliario": "Debêntures",
+    "valorTotal": "500.000.000,0000",
+    "data": "21/05/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - com bookbuilding",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "500.000,0000",
+    "status": "Aguardando Bookbuilding",
+    "automaticaSemBook": false,
+    "ofertaAutomatica": true,
+    "bookbuildingPreenchido": true,
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "21/05/2026",
+      "hora": "18:56:53",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "21/05/2026",
+      "hora": "18:56:54",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26381\\pdfs\\Aviso ao Mercado_131e8f7f-0ba3-4932-b916-cc230c526a46.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Aviso ao Mercado",
+        "uuid": "131e8f7f-0ba3-4932-b916-cc230c526a46"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26381\\pdfs\\Aviso ao Mercado_131e8f7f-0ba3-4932-b916-cc230c526a46.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

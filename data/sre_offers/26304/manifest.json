@@ -1,0 +1,573 @@
+{
+  "offer_number": "26304",
+  "cvm": {
+    "Numero_Requerimento": 26304,
+    "Numero_Processo": "SRE/1510/2026",
+    "Data_requerimento": "2026-05-14T00:00:00",
+    "Data_Registro": "2026-05-19T00:00:00",
+    "Data_Encerramento": "2026-05-21T00:00:00",
+    "Status_Requerimento": "Oferta Encerrada",
+    "Valor_Mobiliario": "Debêntures",
+    "Tipo_requerimento": "OPD Aut Profissional - com bookbuilding",
+    "Bookbuilding": "S",
+    "CNPJ_Emissor": "08.397.078/0001-01",
+    "Nome_Emissor": "GSH CORP PARTICIPAÇÕES S.A.",
+    "CNPJ_Lider": "06.271.464/0001-19",
+    "Nome_Lider": "BANCO BRADESCO BBI S.A.",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 150000,
+    "Valor_Total_Registrado": 150000000.0,
+    "Publico_alvo": "Profissional",
+    "Regime_distribuicao": "Garantia Firme de Colocação",
+    "Administrador": null,
+    "Gestor": null,
+    "Destinacao_recursos": "Reforço de caixa e gestão de passivos da Emissora (Liability Management)."
+  },
+  "documents": [
+    {
+      "label": "Aviso ao Mercado",
+      "uuid": "ad33b8b9-0e12-4e8f-998a-e0ba11abc850"
+    },
+    {
+      "label": "Anúncio de Início da Distribuição",
+      "uuid": "b79e4996-eb50-440e-812b-55da165e05ab"
+    },
+    {
+      "label": "Anúncio de Encerramento da Distribuição",
+      "uuid": "f0eeef66-6d6e-42c6-a6e7-fe3d0625fd51"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "181902",
+      "razaoSocial": "BANCO BRADESCO BBI S.A.",
+      "cnpjInstituicao": "06.271.464/0001-19",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "181908",
+      "razaoSocial": "BANCO CITIBANK SA",
+      "cnpjInstituicao": "33.479.023/0001-80",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "58031",
+      "razaoSocial": "GSH CORP PARTICIPAÇÕES S.A.",
+      "cnpjInstituicao": "08.397.078/0001-01",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "58032",
+      "razaoSocial": "BANCO BRADESCO BBI S.A.",
+      "cnpjInstituicao": "06.271.464/0001-19",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "58033",
+      "razaoSocial": "GSH CORP PARTICIPAÇÕES S.A.",
+      "cnpjInstituicao": "08.397.078/0001-01",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26304,
+      "campoNome": "Emissão nº",
+      "valor": "8"
+    },
+    {
+      "codigo": 26304,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "08/05/2026"
+    },
+    {
+      "codigo": 26304,
+      "campoNome": "Mercado de negociação",
+      "valor": "CETIP21 – Títulos e Valores Mobiliários"
+    },
+    {
+      "codigo": 26304,
+      "campoNome": "Agente fiduciário",
+      "valor": "VÓRTX DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA."
+    },
+    {
+      "codigo": 26304,
+      "campoNome": "Escriturador",
+      "valor": "Vórtx Distribuidora de Títulos e Valores Mobiliários Ltda."
+    },
+    {
+      "codigo": 26304,
+      "campoNome": "Destinação dos recursos",
+      "valor": "Reforço de caixa e gestão de passivos da Emissora (Liability Management)."
+    },
+    {
+      "codigo": 26304,
+      "campoNome": "Avaliador de risco",
+      "valor": "N.A."
+    },
+    {
+      "codigo": 26304,
+      "campoNome": "Título padronizado",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26304,
+      "campoNome": "Reabertura de série",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26304,
+      "campoNome": "Endereço do emissor na rede mundial de computadores",
+      "valor": "https://ri.gshcorp.com.br/"
+    },
+    {
+      "codigo": 26304,
+      "campoNome": "Regime de distribuição",
+      "valor": "Garantia Firme de Colocação"
+    },
+    {
+      "codigo": 26304,
+      "campoNome": "Título classificado como “verde”, “social”, “sustentável” ou correlato",
+      "valor": "Não"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": true,
+      "numeroProcesso": "SRE/1510/2026",
+      "numeroRegistro": "CVM/SRE/AUT/DEB/PRI/2026/249",
+      "nomeValorMobiliario": "Debêntures",
+      "valorTotalInicial": "150.000.000,0000",
+      "valorTotalFinal": "150.000.000,0000",
+      "valorTotalLoteBaseInicial": "150.000.000,0000",
+      "valorTotalLoteBaseFinal": "150.000.000,0000",
+      "data": "19/05/2026",
+      "nomeTipoRequerimento": "OPD Aut Profissional - com bookbuilding",
+      "status": "Oferta Encerrada",
+      "automaticaSemBook": false,
+      "ofertaAutomatica": true,
+      "idDadosColocacao": 42862
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": true,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "Debêntures",
+              "loteBase": {
+                "quantidadeAtivos": "150.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "150.000.000,0000"
+              },
+              "valorTotalLote": "150.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "12/05/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "12/05/2031",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Espécie",
+                  "campoTipo": "Espécie de Debênture",
+                  "campoValor": "Garantia Real",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "N.A.",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração máxima",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "CDI + 2,35% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração final (pós bookbuilding)",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "CDI + 2,35% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Semestral, a partir do 18º mês (inclusive)",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tem benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim fixo",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º ou Lei 14.801/24",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxxx ou +xx.xxxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxxx ou +xx.xxxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "loteFinal": {
+              "valorMobiliario": "Debêntures",
+              "loteBase": {
+                "quantidadeAtivos": "150.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "150.000.000,0000"
+              },
+              "valorTotalLote": "150.000.000,0000",
+              "taxaRemuneracao": "CDI + 2,35% a.a.",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "12/05/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "12/05/2031",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Espécie",
+                  "campoTipo": "Espécie de Debênture",
+                  "campoValor": "Garantia Real",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "N.A.",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração máxima",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "CDI + 2,35% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração final (pós bookbuilding)",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "CDI + 2,35% a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "Semestral, a partir do 18º mês (inclusive)",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tem benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim fixo",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º ou Lei 14.801/24",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxxx ou +xx.xxxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxxx ou +xx.xxxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": true,
+            "numeroRegistro": "CVM/SRE/AUT/DEB/PRI/2026/249"
+          }
+        ]
+      }
+    ],
+    "dadosColocacao": {
+      "dataEncerramento": "2026-05-21T17:00:00Z",
+      "nuIPessoasNaturais": 0,
+      "nuIClubesInvestimento": 0,
+      "nuIFundosInvestimento": 0,
+      "nuIEntidadesPrevidenciaPrivada": 0,
+      "nuICompanhiasSeguradoras": 0,
+      "nuIInvestidoresEstrangeiros": 0,
+      "nuIInstituicaoIntermediariasConsorcioDistribuicao": 1,
+      "nuIInstituicaoFinanceirasParticipantesConsorcio": 1,
+      "nuIDemaisInstituicoesFinanceiras": 0,
+      "nuIDemaisPjParticipantesConsorcio": 0,
+      "nuIDemaisPj": 0,
+      "nuISociosAdministradoresEmpregadosPropostosParticipantesConsorcio": 0,
+      "qVMPessoasNaturais": "0,0000",
+      "qVMClubesInvestimento": "0,0000",
+      "qVMFundosInvestimento": "0,0000",
+      "qVMEntidadesPrevidenciaPrivada": "0,0000",
+      "qVMCompanhiasSeguradoras": "0,0000",
+      "qVMInvestidoresEstrangeiros": "0,0000",
+      "qVMInstituicaoIntermediariasConsorcioDistribuicao": "75.000,0000",
+      "qVMInstituicaoFinanceirasParticipantesConsorcio": "75.000,0000",
+      "qVMDemaisInstituicoesFinanceiras": "0,0000",
+      "qVMDemaisPjParticipantesConsorcio": "0,0000",
+      "qVMDemaisPj": "0,0000",
+      "qVMSociosAdministradoresEmpregadosPropostosParticipantesConsorcio": "0,0000",
+      "foiRevogada": false,
+      "oid": 42862
+    },
+    "registroValorMobiliario": false
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": true,
+    "resumoOferta": "EMISSÃO DE DEBÊNTURES SIMPLES, NÃO CONVERSÍVEIS EM AÇÕES, DA ESPÉCIE QUIROGRAFÁRIA, A SER CONVOLADA EM ESPÉCIE COM GARANTIA REAL, COM GARANTIA FIDEJUSSÓRIA ADICIONAL, EM SÉRIE ÚNICA, PARA DISTRIBUIÇÃO PÚBLICA, SOB O RITO DE REGISTRO AUTOMÁTICO, DA 8ª (OITAVA) EMISSÃO DE GSH CORP PARTICIPAÇÕES S.A.",
+    "numeroProcesso": "SRE/1510/2026",
+    "numeroRegistro": "CVM/SRE/AUT/DEB/PRI/2026/249",
+    "nomeValorMobiliario": "Debêntures",
+    "valorTotal": "150.000.000,0000",
+    "data": "19/05/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Profissional - com bookbuilding",
+    "bookValorTotal": "1.000,0000",
+    "bookQuantidadeAtivos": "150.000,0000",
+    "quantidadeAtivos": "150.000,0000",
+    "status": "Oferta Encerrada",
+    "automaticaSemBook": false,
+    "ofertaAutomatica": true,
+    "idDadosColocacao": 42862,
+    "dataInicioOferta": "19/05/2026",
+    "bookbuildingPreenchido": true,
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "14/05/2026",
+      "hora": "18:37:21",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "14/05/2026",
+      "hora": "18:37:22",
+      "observacao": ""
+    },
+    {
+      "status": "Registro Concedido",
+      "data": "19/05/2026",
+      "hora": "21:49:48",
+      "observacao": ""
+    },
+    {
+      "status": "Oferta Encerrada",
+      "data": "21/05/2026",
+      "hora": "18:55:17",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26304\\pdfs\\Aviso ao Mercado_ad33b8b9-0e12-4e8f-998a-e0ba11abc850.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26304\\pdfs\\Anúncio de Início da Distribuição_b79e4996-eb50-440e-812b-55da165e05ab.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26304\\pdfs\\Anúncio de Encerramento da Distribuição_f0eeef66-6d6e-42c6-a6e7-fe3d0625fd51.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Aviso ao Mercado",
+        "uuid": "ad33b8b9-0e12-4e8f-998a-e0ba11abc850"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26304\\pdfs\\Aviso ao Mercado_ad33b8b9-0e12-4e8f-998a-e0ba11abc850.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Anúncio de Início da Distribuição",
+        "uuid": "b79e4996-eb50-440e-812b-55da165e05ab"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26304\\pdfs\\Anúncio de Início da Distribuição_b79e4996-eb50-440e-812b-55da165e05ab.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Anúncio de Encerramento da Distribuição",
+        "uuid": "f0eeef66-6d6e-42c6-a6e7-fe3d0625fd51"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26304\\pdfs\\Anúncio de Encerramento da Distribuição_f0eeef66-6d6e-42c6-a6e7-fe3d0625fd51.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

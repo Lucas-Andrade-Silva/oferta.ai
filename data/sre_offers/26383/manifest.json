@@ -1,0 +1,454 @@
+{
+  "offer_number": "26383",
+  "cvm": {
+    "Numero_Requerimento": 26383,
+    "Numero_Processo": "SRE/1581/2026",
+    "Data_requerimento": "2026-05-20T00:00:00",
+    "Data_Registro": null,
+    "Data_Encerramento": null,
+    "Status_Requerimento": "Aguardando Bookbuilding",
+    "Valor_Mobiliario": "Certificados de Recebíveis Imobiliários",
+    "Tipo_requerimento": "OPD Aut Público em Geral ou Qualificado - com bookbuilding",
+    "Bookbuilding": "S",
+    "CNPJ_Emissor": "02.773.542/0001-22",
+    "Nome_Emissor": "OPEA SECURITIZADORA S.A.",
+    "CNPJ_Lider": "58.160.789/0001-28",
+    "Nome_Lider": "BANCO SAFRA S/A",
+    "Tipo_Oferta": "PRIMARIA",
+    "Qtde_Total_Registrada": 0,
+    "Valor_Total_Registrado": 0.0,
+    "Publico_alvo": "Qualificado",
+    "Regime_distribuicao": "Garantia Firme de Colocação",
+    "Administrador": null,
+    "Gestor": null,
+    "Destinacao_recursos": "custeio de despesas de natureza imobiliária futuras vinculadas e atinentes direta e indiretamente ao desenvolvimento, aquisição, manutenção e reforma de imóveis"
+  },
+  "documents": [
+    {
+      "label": "Prospecto Preliminar",
+      "uuid": "dac9ecd6-3f49-462a-ae5b-3b6016f3a576"
+    },
+    {
+      "label": "Prospecto Preliminar",
+      "uuid": "462df6c3-0e1d-4343-929d-7748a25f3d5c"
+    },
+    {
+      "label": "Lâmina",
+      "uuid": "6945c1fc-1ff7-4221-8da8-2ab7dcf1e383"
+    },
+    {
+      "label": "Aviso ao Mercado",
+      "uuid": "729fdb17-4435-4db3-b027-399911918072"
+    },
+    {
+      "label": "Comunicado ao Mercado",
+      "uuid": "da2561c4-459d-4d5f-a479-05c7dc44fcbb"
+    }
+  ],
+  "participants": [
+    {
+      "idParticipante": "182810",
+      "razaoSocial": "BANCO SAFRA S/A",
+      "cnpjInstituicao": "58.160.789/0001-28",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "182816",
+      "razaoSocial": "XP INVESTIMENTOS CCTVM S.A.",
+      "cnpjInstituicao": "02.332.886/0001-04",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "182817",
+      "razaoSocial": "BANCO SANTANDER (BRASIL) S.A.",
+      "cnpjInstituicao": "90.400.888/0001-42",
+      "tipo": "COORDENADOR"
+    },
+    {
+      "idParticipante": "58265",
+      "razaoSocial": "OPEA SECURITIZADORA S.A.",
+      "cnpjInstituicao": "02.773.542/0001-22",
+      "tipo": "OFERTANTE"
+    },
+    {
+      "idParticipante": "58266",
+      "razaoSocial": "BANCO SAFRA S/A",
+      "cnpjInstituicao": "58.160.789/0001-28",
+      "tipo": "REQUERENTE"
+    },
+    {
+      "idParticipante": "58267",
+      "razaoSocial": "OPEA SECURITIZADORA S.A.",
+      "cnpjInstituicao": "02.773.542/0001-22",
+      "tipo": "EMISSOR"
+    }
+  ],
+  "inf_offer": [
+    {
+      "codigo": 26383,
+      "campoNome": "Emissão nº",
+      "valor": "608"
+    },
+    {
+      "codigo": 26383,
+      "campoNome": "Data da deliberação que aprovou a oferta",
+      "valor": "13/10/2025"
+    },
+    {
+      "codigo": 26383,
+      "campoNome": "Mercado de negociação",
+      "valor": "mercado primário por meio do MDA, e para negociação no mercado secundário por meio do CETIP21"
+    },
+    {
+      "codigo": 26383,
+      "campoNome": "Regime fiduciário",
+      "valor": "Sim"
+    },
+    {
+      "codigo": 26383,
+      "campoNome": "Agente fiduciário",
+      "valor": "VÓRTX DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA"
+    },
+    {
+      "codigo": 26383,
+      "campoNome": "Escriturador",
+      "valor": "ITAÚ CORRETORA DE VALORES S.A."
+    },
+    {
+      "codigo": 26383,
+      "campoNome": "Custodiante",
+      "valor": "VÓRTX DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA"
+    },
+    {
+      "codigo": 26383,
+      "campoNome": "Avaliador de risco",
+      "valor": "Fitch Ratings Brasil Ltda"
+    },
+    {
+      "codigo": 26383,
+      "campoNome": "Tipo de lastro",
+      "valor": "Concentrado"
+    },
+    {
+      "codigo": 26383,
+      "campoNome": "Descrição do lastro",
+      "valor": "14ª (DÉCIMA QUARTA) EMISSÃO DE DEBÊNTURES SIMPLES, NÃO CONVERSÍVEIS EM AÇÕES, EM SÉRIE ÚNICA, DA ESPÉCIE QUIROGRAFÁRIA, DA IGUATEMI EMPRESA DE SHOPPING CENTERS S.A."
+    },
+    {
+      "codigo": 26383,
+      "campoNome": "Identificação dos devedores e coobrigados",
+      "valor": "IGUATEMI EMPRESA DE SHOPPING CENTERS S.A."
+    },
+    {
+      "codigo": 26383,
+      "campoNome": "Destinação dos recursos",
+      "valor": "custeio de despesas de natureza imobiliária futuras vinculadas e atinentes direta e indiretamente ao desenvolvimento, aquisição, manutenção e reforma de imóveis"
+    },
+    {
+      "codigo": 26383,
+      "campoNome": "Descrição das garantias",
+      "valor": "N/A"
+    },
+    {
+      "codigo": 26383,
+      "campoNome": "Público Alvo",
+      "valor": "Qualificado"
+    },
+    {
+      "codigo": 26383,
+      "campoNome": "Título padronizado",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26383,
+      "campoNome": "Reabertura de série",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26383,
+      "campoNome": "Endereço do emissor na rede mundial de computadores",
+      "valor": "https://opea.com.br/pt/"
+    },
+    {
+      "codigo": 26383,
+      "campoNome": "Regime de distribuição",
+      "valor": "Garantia Firme de Colocação"
+    },
+    {
+      "codigo": 26383,
+      "campoNome": "Título classificado como “verde”, “social”, “sustentável” ou correlato",
+      "valor": "Não"
+    },
+    {
+      "codigo": 26383,
+      "campoNome": "Possibilidade de revolvência",
+      "valor": "Não"
+    }
+  ],
+  "errors": [],
+  "requerimento": {
+    "informacoesGerais": {
+      "ofertaMercado": true,
+      "numeroProcesso": "SRE/1581/2026",
+      "numeroRegistro": "N/A",
+      "nomeValorMobiliario": "Certificados de Recebíveis Imobiliários",
+      "valorTotalInicial": "535.000.000,0000",
+      "valorTotalFinal": "0,0000",
+      "valorTotalLoteBaseInicial": "535.000.000,0000",
+      "valorTotalLoteBaseFinal": "0,0000",
+      "data": "20/05/2026",
+      "nomeTipoRequerimento": "OPD Aut Público em Geral ou Qualificado - com bookbuilding",
+      "status": "Aguardando Bookbuilding",
+      "automaticaSemBook": false,
+      "ofertaAutomatica": true
+    },
+    "tipoOfertaRequerimento": "PRIMARIA",
+    "vasosComunicantes": false,
+    "bookPreenchido": false,
+    "grupos": [
+      {
+        "series": [
+          {
+            "loteInicial": {
+              "valorMobiliario": "CRI série única",
+              "loteBase": {
+                "quantidadeAtivos": "535.000,0000",
+                "valorNominal": "1.000,0000",
+                "custoUnitario": "0,0000",
+                "valorTotal": "535.000.000,0000"
+              },
+              "valorTotalLote": "535.000.000,0000",
+              "camposCadastrados": [
+                {
+                  "campoNome": "Data de emissão",
+                  "campoTipo": "DATA",
+                  "campoValor": "22/06/2026",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Data de vencimento",
+                  "campoTipo": "DATA",
+                  "campoValor": "22/06/2034",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Avaliação de risco",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "AAA(EXP)sf(bra)",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações  sobre subordinação",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "N/A",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração máxima",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "97,00% do CDI a.a.",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre remuneração final (pós bookbuilding)",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações sobre amortização",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "no vencimento (bullet)",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Oferta conta com benefício fiscal?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Não",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Benefício fiscal da Lei 12.431/11 - art. 1º?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Tipo de benefício fiscal",
+                  "campoTipo": "Lei 12.431/11 - art. 2º",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Portaria autorizativa do projeto incentivado",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Número do protocolo do projeto de investimento no ministério setorial",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_MEDIO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Setor e subsetor do projeto de investimento",
+                  "campoTipo": "Setor e Subsetor",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Objeto do projeto de investimento",
+                  "campoTipo": "Objeto do Projeto de Investimento",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [longitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Coordenadas Geográficas do Projeto [latitude] Máscara -xx.xxxxx ou +xx.xxxxx",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_CURTO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Componente da oferta está associada a mais de um projeto de investimento?",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Informações acerca dos outros projetos de investimento associados à oferta",
+                  "campoTipo": "TEXTO",
+                  "campoValor": "",
+                  "campoMascara": "LIVRE_LONGO",
+                  "visivel": true
+                },
+                {
+                  "campoNome": "Possibilidade de resgate antecipado",
+                  "campoTipo": "Sim ou não",
+                  "campoValor": "Sim",
+                  "campoMascara": "DEFAULT",
+                  "visivel": true
+                }
+              ]
+            },
+            "bookPreenchido": false,
+            "numeroRegistro": "Em andamento"
+          }
+        ]
+      }
+    ],
+    "registroValorMobiliario": false
+  },
+  "informacoes_gerais": {
+    "tipoOferta": "OFERTA_REGULAR",
+    "ofertaMercado": true,
+    "numeroProcesso": "SRE/1581/2026",
+    "numeroRegistro": "N/A",
+    "nomeValorMobiliario": "Certificados de Recebíveis Imobiliários",
+    "valorTotal": "535.000.000,0000",
+    "data": "20/05/2026",
+    "possuiCancelamentoRegistro": false,
+    "possuiAlienacaoControle": false,
+    "possuiAumentoParticipacao": false,
+    "possuiVoluntaria": false,
+    "possuiAquisicaoControle": false,
+    "opaSemInstituicaoIntermediaria": false,
+    "opdSemInstituicaoIntermediaria": false,
+    "possuiConcorrente": false,
+    "nomeTipoRequerimento": "OPD Aut Público em Geral ou Qualificado - com bookbuilding",
+    "bookValorTotal": "0,0000",
+    "bookQuantidadeAtivos": "0,0000",
+    "quantidadeAtivos": "535.000,0000",
+    "status": "Aguardando Bookbuilding",
+    "automaticaSemBook": false,
+    "ofertaAutomatica": true,
+    "bookbuildingPreenchido": true,
+    "normaDoFacil": false
+  },
+  "historico_status": [
+    {
+      "status": "Em análise CVM",
+      "data": "20/05/2026",
+      "hora": "22:07:07",
+      "observacao": ""
+    },
+    {
+      "status": "Análise Inicial",
+      "data": "20/05/2026",
+      "hora": "22:07:11",
+      "observacao": ""
+    }
+  ],
+  "downloaded_pdfs": [
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26383\\pdfs\\Prospecto Preliminar_dac9ecd6-3f49-462a-ae5b-3b6016f3a576.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26383\\pdfs\\Prospecto Preliminar_462df6c3-0e1d-4343-929d-7748a25f3d5c.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26383\\pdfs\\Lâmina_6945c1fc-1ff7-4221-8da8-2ab7dcf1e383.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26383\\pdfs\\Aviso ao Mercado_729fdb17-4435-4db3-b027-399911918072.pdf",
+    "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26383\\pdfs\\Comunicado ao Mercado_da2561c4-459d-4d5f-a479-05c7dc44fcbb.pdf"
+  ],
+  "pdf_summaries": [
+    {
+      "documento": {
+        "label": "Prospecto Preliminar",
+        "uuid": "dac9ecd6-3f49-462a-ae5b-3b6016f3a576"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26383\\pdfs\\Prospecto Preliminar_dac9ecd6-3f49-462a-ae5b-3b6016f3a576.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Prospecto Preliminar",
+        "uuid": "462df6c3-0e1d-4343-929d-7748a25f3d5c"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26383\\pdfs\\Prospecto Preliminar_462df6c3-0e1d-4343-929d-7748a25f3d5c.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Lâmina",
+        "uuid": "6945c1fc-1ff7-4221-8da8-2ab7dcf1e383"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26383\\pdfs\\Lâmina_6945c1fc-1ff7-4221-8da8-2ab7dcf1e383.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Aviso ao Mercado",
+        "uuid": "729fdb17-4435-4db3-b027-399911918072"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26383\\pdfs\\Aviso ao Mercado_729fdb17-4435-4db3-b027-399911918072.pdf",
+      "campos_extraidos": {}
+    },
+    {
+      "documento": {
+        "label": "Comunicado ao Mercado",
+        "uuid": "da2561c4-459d-4d5f-a479-05c7dc44fcbb"
+      },
+      "arquivo": "C:\\Users\\Misti\\PycharmProjects\\PythonProject\\data\\sre_offers\\26383\\pdfs\\Comunicado ao Mercado_da2561c4-459d-4d5f-a479-05c7dc44fcbb.pdf",
+      "campos_extraidos": {}
+    }
+  ]
+}

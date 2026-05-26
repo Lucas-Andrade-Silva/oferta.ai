@@ -1,0 +1,521 @@
+2026-05-23 20:41:14,665 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-23 20:41:16,685 WARNING [urllib3.connectionpool] Retrying (Retry(total=2, connect=2, read=3, redirect=None, status=3)) after connection broken by 'NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente")': /dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-23 20:41:19,752 WARNING [urllib3.connectionpool] Retrying (Retry(total=1, connect=1, read=3, redirect=None, status=3)) after connection broken by 'NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente")': /dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-23 20:41:23,801 WARNING [urllib3.connectionpool] Retrying (Retry(total=0, connect=0, read=3, redirect=None, status=3)) after connection broken by 'NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente")': /dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-23 20:41:27,910 WARNING [urllib3.connectionpool] Retrying (Retry(total=2, connect=2, read=3, redirect=None, status=3)) after connection broken by 'NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente")': /dados/serie/bcdata.sgs.432/dados?formato=json&dataInicial=23%2F05%2F2024&dataFinal=23%2F05%2F2026
+2026-05-23 20:41:30,963 WARNING [urllib3.connectionpool] Retrying (Retry(total=1, connect=1, read=3, redirect=None, status=3)) after connection broken by 'NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente")': /dados/serie/bcdata.sgs.432/dados?formato=json&dataInicial=23%2F05%2F2024&dataFinal=23%2F05%2F2026
+2026-05-23 20:41:35,009 WARNING [urllib3.connectionpool] Retrying (Retry(total=0, connect=0, read=3, redirect=None, status=3)) after connection broken by 'NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente")': /dados/serie/bcdata.sgs.432/dados?formato=json&dataInicial=23%2F05%2F2024&dataFinal=23%2F05%2F2026
+2026-05-23 20:41:37,066 ERROR [fii_analytics.sources.macro] Failed to load BCB series: selic_meta
+Traceback (most recent call last):
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connectionpool.py", line 774, in urlopen
+    self._prepare_proxy(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1055, in _prepare_proxy
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connection.py", line 219, in _new_conn
+    raise NewConnectionError(
+        self, f"Failed to establish a new connection: {e}"
+    ) from e
+urllib3.exceptions.NewConnectionError: HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+
+The above exception was the direct cause of the following exception:
+
+urllib3.exceptions.ProxyError: ('Unable to connect to proxy', NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente"))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\util\retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.bcb.gov.br', port=443): Max retries exceeded with url: /dados/serie/bcdata.sgs.432/dados?formato=json&dataInicial=23%2F05%2F2024&dataFinal=23%2F05%2F2026 (Caused by ProxyError('Unable to connect to proxy', NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente")))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Misti\PycharmProjects\PythonProject\fii_analytics\sources\macro.py", line 65, in load_default_dashboard
+    frames.append(self.load_series(key))
+                  ~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Misti\PycharmProjects\PythonProject\fii_analytics\sources\macro.py", line 42, in load_series
+    response = self.session.get(
+        url,
+    ...<5 lines>...
+        timeout=settings.request_timeout,
+    )
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\requests\sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\requests\adapters.py", line 723, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='api.bcb.gov.br', port=443): Max retries exceeded with url: /dados/serie/bcdata.sgs.432/dados?formato=json&dataInicial=23%2F05%2F2024&dataFinal=23%2F05%2F2026 (Caused by ProxyError('Unable to connect to proxy', NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente")))
+2026-05-23 20:41:39,181 WARNING [urllib3.connectionpool] Retrying (Retry(total=2, connect=2, read=3, redirect=None, status=3)) after connection broken by 'NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente")': /dados/serie/bcdata.sgs.12/dados?formato=json&dataInicial=23%2F05%2F2024&dataFinal=23%2F05%2F2026
+2026-05-23 20:41:42,251 WARNING [urllib3.connectionpool] Retrying (Retry(total=1, connect=1, read=3, redirect=None, status=3)) after connection broken by 'NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente")': /dados/serie/bcdata.sgs.12/dados?formato=json&dataInicial=23%2F05%2F2024&dataFinal=23%2F05%2F2026
+2026-05-23 20:41:46,294 WARNING [urllib3.connectionpool] Retrying (Retry(total=0, connect=0, read=3, redirect=None, status=3)) after connection broken by 'NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente")': /dados/serie/bcdata.sgs.12/dados?formato=json&dataInicial=23%2F05%2F2024&dataFinal=23%2F05%2F2026
+2026-05-23 20:41:48,324 ERROR [fii_analytics.sources.macro] Failed to load BCB series: cdi
+Traceback (most recent call last):
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connectionpool.py", line 774, in urlopen
+    self._prepare_proxy(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1055, in _prepare_proxy
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connection.py", line 219, in _new_conn
+    raise NewConnectionError(
+        self, f"Failed to establish a new connection: {e}"
+    ) from e
+urllib3.exceptions.NewConnectionError: HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+
+The above exception was the direct cause of the following exception:
+
+urllib3.exceptions.ProxyError: ('Unable to connect to proxy', NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente"))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\util\retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.bcb.gov.br', port=443): Max retries exceeded with url: /dados/serie/bcdata.sgs.12/dados?formato=json&dataInicial=23%2F05%2F2024&dataFinal=23%2F05%2F2026 (Caused by ProxyError('Unable to connect to proxy', NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente")))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Misti\PycharmProjects\PythonProject\fii_analytics\sources\macro.py", line 65, in load_default_dashboard
+    frames.append(self.load_series(key))
+                  ~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Misti\PycharmProjects\PythonProject\fii_analytics\sources\macro.py", line 42, in load_series
+    response = self.session.get(
+        url,
+    ...<5 lines>...
+        timeout=settings.request_timeout,
+    )
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\requests\sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\requests\adapters.py", line 723, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='api.bcb.gov.br', port=443): Max retries exceeded with url: /dados/serie/bcdata.sgs.12/dados?formato=json&dataInicial=23%2F05%2F2024&dataFinal=23%2F05%2F2026 (Caused by ProxyError('Unable to connect to proxy', NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente")))
+2026-05-23 20:41:50,390 WARNING [urllib3.connectionpool] Retrying (Retry(total=2, connect=2, read=3, redirect=None, status=3)) after connection broken by 'NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente")': /dados/serie/bcdata.sgs.433/dados?formato=json&dataInicial=23%2F05%2F2024&dataFinal=23%2F05%2F2026
+2026-05-23 20:41:53,443 WARNING [urllib3.connectionpool] Retrying (Retry(total=1, connect=1, read=3, redirect=None, status=3)) after connection broken by 'NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente")': /dados/serie/bcdata.sgs.433/dados?formato=json&dataInicial=23%2F05%2F2024&dataFinal=23%2F05%2F2026
+2026-05-23 20:41:57,460 WARNING [urllib3.connectionpool] Retrying (Retry(total=0, connect=0, read=3, redirect=None, status=3)) after connection broken by 'NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente")': /dados/serie/bcdata.sgs.433/dados?formato=json&dataInicial=23%2F05%2F2024&dataFinal=23%2F05%2F2026
+2026-05-23 20:41:59,503 ERROR [fii_analytics.sources.macro] Failed to load BCB series: ipca
+Traceback (most recent call last):
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connectionpool.py", line 774, in urlopen
+    self._prepare_proxy(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1055, in _prepare_proxy
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connection.py", line 219, in _new_conn
+    raise NewConnectionError(
+        self, f"Failed to establish a new connection: {e}"
+    ) from e
+urllib3.exceptions.NewConnectionError: HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+
+The above exception was the direct cause of the following exception:
+
+urllib3.exceptions.ProxyError: ('Unable to connect to proxy', NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente"))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\util\retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.bcb.gov.br', port=443): Max retries exceeded with url: /dados/serie/bcdata.sgs.433/dados?formato=json&dataInicial=23%2F05%2F2024&dataFinal=23%2F05%2F2026 (Caused by ProxyError('Unable to connect to proxy', NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente")))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Misti\PycharmProjects\PythonProject\fii_analytics\sources\macro.py", line 65, in load_default_dashboard
+    frames.append(self.load_series(key))
+                  ~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Misti\PycharmProjects\PythonProject\fii_analytics\sources\macro.py", line 42, in load_series
+    response = self.session.get(
+        url,
+    ...<5 lines>...
+        timeout=settings.request_timeout,
+    )
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\requests\sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\requests\adapters.py", line 723, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='api.bcb.gov.br', port=443): Max retries exceeded with url: /dados/serie/bcdata.sgs.433/dados?formato=json&dataInicial=23%2F05%2F2024&dataFinal=23%2F05%2F2026 (Caused by ProxyError('Unable to connect to proxy', NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente")))
+2026-05-23 20:42:01,544 WARNING [urllib3.connectionpool] Retrying (Retry(total=2, connect=2, read=3, redirect=None, status=3)) after connection broken by 'NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente")': /dados/serie/bcdata.sgs.189/dados?formato=json&dataInicial=23%2F05%2F2024&dataFinal=23%2F05%2F2026
+2026-05-23 20:42:04,581 WARNING [urllib3.connectionpool] Retrying (Retry(total=1, connect=1, read=3, redirect=None, status=3)) after connection broken by 'NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente")': /dados/serie/bcdata.sgs.189/dados?formato=json&dataInicial=23%2F05%2F2024&dataFinal=23%2F05%2F2026
+2026-05-23 20:42:08,610 WARNING [urllib3.connectionpool] Retrying (Retry(total=0, connect=0, read=3, redirect=None, status=3)) after connection broken by 'NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente")': /dados/serie/bcdata.sgs.189/dados?formato=json&dataInicial=23%2F05%2F2024&dataFinal=23%2F05%2F2026
+2026-05-23 20:42:10,645 ERROR [fii_analytics.sources.macro] Failed to load BCB series: igpm
+Traceback (most recent call last):
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connectionpool.py", line 774, in urlopen
+    self._prepare_proxy(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1055, in _prepare_proxy
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connection.py", line 219, in _new_conn
+    raise NewConnectionError(
+        self, f"Failed to establish a new connection: {e}"
+    ) from e
+urllib3.exceptions.NewConnectionError: HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+
+The above exception was the direct cause of the following exception:
+
+urllib3.exceptions.ProxyError: ('Unable to connect to proxy', NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente"))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connectionpool.py", line 872, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\connectionpool.py", line 842, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\urllib3\util\retry.py", line 543, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.bcb.gov.br', port=443): Max retries exceeded with url: /dados/serie/bcdata.sgs.189/dados?formato=json&dataInicial=23%2F05%2F2024&dataFinal=23%2F05%2F2026 (Caused by ProxyError('Unable to connect to proxy', NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente")))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Misti\PycharmProjects\PythonProject\fii_analytics\sources\macro.py", line 65, in load_default_dashboard
+    frames.append(self.load_series(key))
+                  ~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Misti\PycharmProjects\PythonProject\fii_analytics\sources\macro.py", line 42, in load_series
+    response = self.session.get(
+        url,
+    ...<5 lines>...
+        timeout=settings.request_timeout,
+    )
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\requests\sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Misti\PycharmProjects\PythonProject\.venv\Lib\site-packages\requests\adapters.py", line 723, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='api.bcb.gov.br', port=443): Max retries exceeded with url: /dados/serie/bcdata.sgs.189/dados?formato=json&dataInicial=23%2F05%2F2024&dataFinal=23%2F05%2F2026 (Caused by ProxyError('Unable to connect to proxy', NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente")))
+2026-05-23 20:44:09,512 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-23 20:56:03,587 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-23 20:56:05,645 WARNING [urllib3.connectionpool] Retrying (Retry(total=2, connect=2, read=3, redirect=None, status=3)) after connection broken by 'NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente")': /dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-23 20:56:08,695 WARNING [urllib3.connectionpool] Retrying (Retry(total=1, connect=1, read=3, redirect=None, status=3)) after connection broken by 'NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente")': /dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-23 20:56:12,727 WARNING [urllib3.connectionpool] Retrying (Retry(total=0, connect=0, read=3, redirect=None, status=3)) after connection broken by 'NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente")': /dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-23 20:56:39,406 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-23 20:56:41,454 WARNING [urllib3.connectionpool] Retrying (Retry(total=2, connect=2, read=3, redirect=None, status=3)) after connection broken by 'NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente")': /dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-23 20:56:44,504 WARNING [urllib3.connectionpool] Retrying (Retry(total=1, connect=1, read=3, redirect=None, status=3)) after connection broken by 'NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente")': /dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-23 20:56:48,555 WARNING [urllib3.connectionpool] Retrying (Retry(total=0, connect=0, read=3, redirect=None, status=3)) after connection broken by 'NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente")': /dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-23 20:56:50,588 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-23 20:56:52,741 WARNING [urllib3.connectionpool] Retrying (Retry(total=2, connect=2, read=3, redirect=None, status=3)) after connection broken by 'NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente")': /dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-23 20:56:55,791 WARNING [urllib3.connectionpool] Retrying (Retry(total=1, connect=1, read=3, redirect=None, status=3)) after connection broken by 'NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente")': /dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-23 20:56:59,856 WARNING [urllib3.connectionpool] Retrying (Retry(total=0, connect=0, read=3, redirect=None, status=3)) after connection broken by 'NewConnectionError("HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente")': /dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-23 20:59:36,532 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-23 21:09:57,597 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-23 21:12:34,895 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-23 21:13:13,051 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-23 21:54:21,293 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-23 22:00:57,011 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-23 22:16:34,271 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-23 22:59:25,734 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-23 23:58:57,994 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-24 00:04:43,137 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-24 00:12:07,580 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-24 01:08:52,671 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-24 13:49:29,102 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-24 17:11:33,968 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-24 17:54:51,057 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-24 18:19:43,887 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-24 18:56:33,470 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-24 19:49:02,686 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-24 20:42:43,238 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-25 08:46:02,715 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-25 09:09:25,279 INFO [fii_analytics.sources.fixed_income] Fetching Investidor10 fixed income page 1
+2026-05-25 09:09:26,577 INFO [fii_analytics.sources.fixed_income] Fetching Investidor10 fixed income page 2
+2026-05-25 09:09:26,816 INFO [fii_analytics.sources.fixed_income] Fetching Investidor10 fixed income page 3
+2026-05-25 09:09:27,080 INFO [fii_analytics.sources.fixed_income] Fetching Investidor10 fixed income page 4
+2026-05-25 09:09:27,338 INFO [fii_analytics.sources.fixed_income] Fetching Investidor10 fixed income page 5
+2026-05-25 09:46:57,396 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-25 11:01:30,881 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-25 11:22:32,409 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-25 13:53:13,784 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-25 14:54:17,588 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-25 17:49:32,127 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-25 17:53:57,361 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-25 17:55:35,602 INFO [httpx] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-25 18:03:00,611 INFO [httpx] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 402 Payment Required"
+2026-05-25 18:03:02,101 INFO [httpx] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-25 18:03:02,631 INFO [httpx] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-25 18:03:31,385 INFO [httpx] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-25 18:57:07,717 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-25 18:57:48,087 INFO [httpx] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-25 18:58:32,491 INFO [httpx] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-25 18:58:32,493 INFO [groq._base_client] Retrying request to /openai/v1/chat/completions in 6.000000 seconds
+2026-05-25 18:58:39,709 INFO [httpx] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-25 19:19:04,362 WARNING [fii_analytics.sources.anbima] ANBIMA secondary market load failed for Debentures: ANBIMA retornou HTTP 403 para /feed/precos-indices/v1/debentures/mercado-secundario: Access denied for this environment.
+2026-05-25 19:19:04,417 WARNING [fii_analytics.sources.anbima] ANBIMA secondary market load failed for CRI/CRA: ANBIMA retornou HTTP 403 para /feed/precos-indices/v1/cri-cra/mercado-secundario: Access denied for this environment.
+2026-05-25 19:19:06,880 INFO [httpx] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-25 19:20:04,943 INFO [httpx] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-25 19:20:51,791 INFO [httpx] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-25 19:22:02,429 INFO [httpx] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-25 19:30:35,871 INFO [httpx] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-25 19:40:31,946 INFO [httpx] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
+2026-05-25 19:44:15,156 INFO [httpx] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
+2026-05-25 19:45:34,150 INFO [httpx] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
+2026-05-25 19:55:09,819 INFO [httpx] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
+2026-05-25 19:57:24,548 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-25 20:32:04,878 INFO [httpx] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
+2026-05-25 21:04:11,119 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-25 22:13:22,153 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-25 22:24:22,921 INFO [httpx] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
+2026-05-25 22:28:44,186 INFO [httpx] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-25 22:28:45,157 INFO [httpx] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-25 22:29:13,446 INFO [httpx] HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-26 13:34:33,612 INFO [fii_analytics.sources.cvm] Fetching CVM distribution offers from https://dados.cvm.gov.br/dados/OFERTA/DISTRIB/DADOS/oferta_distribuicao.zip
+2026-05-26 13:36:33,094 INFO [httpx] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-26 13:57:26,730 INFO [httpx] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
