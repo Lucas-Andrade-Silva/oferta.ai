@@ -51,6 +51,20 @@ def groq_error_message(exc: Exception) -> str:
     return f"Falha ao conversar com Groq: {exc}"
 
 
+def openrouter_error_message(exc: Exception) -> str:
+    message = str(exc)
+    lowered = message.lower()
+    if "connection error" in lowered or "proxy" in lowered or "127.0.0.1" in lowered:
+        return (
+            "Falha ao executar o duelo LLM: nao consegui conectar ao OpenRouter. "
+            "Verifique sua internet, a chave OPENROUTER_API_KEY e se o OpenRouter esta acessivel. "
+            "O cliente LangChain/OpenRouter foi configurado para ignorar proxies do ambiente; recarregue o Streamlit e tente novamente."
+        )
+    if "401" in message or "unauthorized" in lowered or "invalid api key" in lowered:
+        return "Falha ao executar o duelo LLM: chave OPENROUTER_API_KEY ausente ou invalida."
+    return f"Falha ao executar o duelo LLM: {exc}"
+
+
 @st.cache_data(ttl=3600, show_spinner=False)
 def load_cvm_fii_offers() -> pd.DataFrame:
     return CVMClient().load_fii_related_offers()
@@ -2308,14 +2322,7 @@ def run_llm_offer_debate(
         )
         return
     except Exception as exc:
-        message = str(exc)
-        if "ProxyError" in message or "127.0.0.1" in message:
-            st.error(
-                "Falha ao executar o duelo LLM: a conexao tentou usar um proxy local indisponivel. "
-                "O cliente OpenRouter foi ajustado para ignorar proxies do ambiente; recarregue o Streamlit e tente novamente."
-            )
-        else:
-            st.error(f"Falha ao executar o duelo LLM: {exc}")
+        st.error(openrouter_error_message(exc))
         return
 
     st.markdown("### Decisao do juiz")
@@ -2433,8 +2440,15 @@ def render_groq_chat_page(
         )
         hydrate_col, status_col = st.columns([1, 2])
         with hydrate_col:
-            if st.button("Hidratar dados do chat", type="primary", key="hydrate_chat_data"):
-                manifest = hydrate_chat_data_store(offers, market_fiis, fii_reports, macro)
+            if st.button("Atualizar hidratacao do chat", type="primary", key="hydrate_chat_data"):
+                manifest = hydrate_chat_data_store(
+                    offers,
+                    market_fiis,
+                    fii_reports,
+                    macro,
+                    source="manual_update",
+                    preserve_existing_on_empty=True,
+                )
                 st.success(f"Dados hidratados em {manifest['root']}")
         with status_col:
             hydration_summary = chat_hydration_summary()
@@ -2541,6 +2555,8 @@ def hydrate_chat_data_store(
     market_fiis: pd.DataFrame,
     fii_reports: pd.DataFrame,
     macro: pd.DataFrame,
+    source: str = "manual",
+    preserve_existing_on_empty: bool = True,
 ) -> dict[str, object]:
     CHAT_DATA_ROOT.mkdir(parents=True, exist_ok=True)
     datasets = {
@@ -2552,17 +2568,52 @@ def hydrate_chat_data_store(
     files = {}
     for name, df in datasets.items():
         path = CHAT_DATA_ROOT / f"{name}.csv"
-        safe_df = df.copy() if not df.empty else pd.DataFrame()
+        existing_df = load_chat_hydrated_dataset(name)
+        source_df = normalize_hydrated_dataset_types(df.copy(), name) if not df.empty else pd.DataFrame()
+        reused_existing = bool(preserve_existing_on_empty and source_df.empty and not existing_df.empty)
+        safe_df = existing_df if reused_existing else source_df
         safe_df.to_csv(path, index=False, encoding="utf-8-sig")
-        files[name] = {"path": str(path), "rows": int(len(safe_df)), "columns": list(safe_df.columns)}
+        files[name] = {
+            "path": str(path),
+            "rows": int(len(safe_df)),
+            "columns": list(safe_df.columns),
+            "reused_existing": reused_existing,
+        }
     manifest = {
         "hydrated_at": datetime.now().isoformat(timespec="seconds"),
+        "source": source,
         "root": str(CHAT_DATA_ROOT),
         "files": files,
         "sre_cache_root": str(SRE_CACHE_ROOT),
     }
     manifest_path = CHAT_DATA_ROOT / "manifest.json"
     manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2, default=str), encoding="utf-8")
+    return manifest
+
+
+def auto_hydrate_chat_data_store(
+    offers: pd.DataFrame,
+    market_fiis: pd.DataFrame,
+    fii_reports: pd.DataFrame,
+    macro: pd.DataFrame,
+) -> dict[str, object] | None:
+    signature = {
+        "offers_cvm": int(len(offers)),
+        "market_fiis": int(len(market_fiis)),
+        "fii_reports_cvm": int(len(fii_reports)),
+        "macro": int(len(macro)),
+    }
+    if st.session_state.get("chat_data_auto_hydration_signature") == signature:
+        return None
+    manifest = hydrate_chat_data_store(
+        offers=offers,
+        market_fiis=market_fiis,
+        fii_reports=fii_reports,
+        macro=macro,
+        source="auto_startup",
+        preserve_existing_on_empty=True,
+    )
+    st.session_state["chat_data_auto_hydration_signature"] = signature
     return manifest
 
 
@@ -2628,8 +2679,10 @@ def chat_hydration_summary() -> str:
     files = manifest.get("files") or {}
     rows = []
     for label, data in files.items():
-        rows.append(f"{label}: {data.get('rows', 0)} linhas")
-    return f"Ultima hidratacao: {manifest.get('hydrated_at', 'N/D')} | " + " | ".join(rows)
+        reused = " (mantido do cache)" if data.get("reused_existing") else ""
+        rows.append(f"{label}: {data.get('rows', 0)} linhas{reused}")
+    source = "automatica" if manifest.get("source") == "auto_startup" else "manual"
+    return f"Ultima hidratacao {source}: {manifest.get('hydrated_at', 'N/D')} | " + " | ".join(rows)
 
 
 def hydrated_chat_context() -> str:
@@ -3350,6 +3403,11 @@ try:
 except Exception as exc:
     fii_reports = pd.DataFrame()
     st.warning(f"Informes mensais da CVM indisponiveis: {exc}")
+
+try:
+    auto_hydrate_chat_data_store(offers, market_fiis, fii_reports, macro)
+except Exception as exc:
+    st.warning(f"Hidratacao automatica do chat indisponivel no momento: {exc}")
 
 page = st.sidebar.radio(
     "Navegacao",

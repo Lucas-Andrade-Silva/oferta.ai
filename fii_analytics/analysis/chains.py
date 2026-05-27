@@ -46,6 +46,8 @@ def _openrouter_llm(model: str, api_key: str | None = None, max_tokens: int | No
             "HTTP-Referer": "http://localhost:8502",
             "X-Title": "Oferta.Ai",
         },
+        http_client=httpx.Client(trust_env=False),
+        http_async_client=httpx.AsyncClient(trust_env=False),
     )
     return llm.bind(max_tokens=max_tokens) if max_tokens else llm
 
