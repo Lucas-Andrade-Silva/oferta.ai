@@ -6,6 +6,7 @@ import os
 from pathlib import Path
 from typing import Any
 
+import httpx
 from dotenv import load_dotenv
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnableLambda, RunnableParallel
@@ -31,6 +32,8 @@ def _groq_llm(api_key: str | None = None, model: str | None = None, max_tokens: 
         model=model or settings.groq_report_model or "llama-3.3-70b-versatile",
         temperature=0.2,
         max_tokens=max_tokens,
+        http_client=httpx.Client(trust_env=False),
+        http_async_client=httpx.AsyncClient(trust_env=False),
     )
 
 
@@ -56,7 +59,7 @@ def build_report_chain(api_key: str | None = None, model: str | None = None):
 
 
 def build_chat_chain(api_key: str | None = None, model: str | None = None):
-    return chat_prompt | _groq_llm(api_key=api_key, model=model, max_tokens=1800) | StrOutputParser()
+    return chat_prompt | _groq_llm(api_key=api_key, model=model, max_tokens=1000) | StrOutputParser()
 
 
 def build_debate_chain(
@@ -121,7 +124,7 @@ model_b = _openrouter_llm(settings.debate_model_2, max_tokens=1400)
 judge_llm = _openrouter_llm(settings.debate_judge_model, max_tokens=1800)
 
 report_chain = report_prompt | groq_llm | StrOutputParser()
-chat_chain = chat_prompt | _groq_llm(max_tokens=1800) | StrOutputParser()
+chat_chain = chat_prompt | _groq_llm(max_tokens=1000) | StrOutputParser()
 debate_chain = build_debate_chain(settings.debate_model_1, settings.debate_model_2)
 judge_chain = (
     judge_prompt.partial(format_instructions=verdict_parser.get_format_instructions())

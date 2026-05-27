@@ -86,7 +86,12 @@ def compact_asset_context(offer: dict[str, Any] | None, manifest: dict[str, Any]
 
 
 def _compact_macro_lines(macro: pd.DataFrame) -> list[str]:
-    if macro.empty:
+    if macro.empty or "data" not in macro.columns:
         return []
-    latest = macro.sort_values("data").groupby("label").tail(1).sort_values("label")
+    work = macro.copy()
+    work["data"] = pd.to_datetime(work["data"], errors="coerce")
+    work = work.dropna(subset=["data"])
+    if work.empty:
+        return []
+    latest = work.sort_values("data").groupby("label").tail(1).sort_values("label")
     return [f"{row['label']}: {row['valor']} em {row['data'].date().isoformat()}" for _, row in latest.iterrows()]

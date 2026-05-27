@@ -1,4 +1,6 @@
 import json
+from datetime import datetime
+from pathlib import Path
 
 import pandas as pd
 import plotly.express as px
@@ -8,6 +10,7 @@ import unicodedata
 
 from fii_analytics.analysis.groq_report import GroqReportClient, compact_asset_context, compact_market_context
 from fii_analytics.analysis.chains import build_chat_chain
+from fii_analytics.analysis.chat_logic import deterministic_liquidity_answer, normalize_chat_text, resolve_focus_ticker
 from fii_analytics.analysis.indicators import interpret_pvp, price_to_book, summarize_offers
 from fii_analytics.analysis.llm_debate import (
     DEFAULT_FREE_OPENROUTER_MODELS,
@@ -25,13 +28,27 @@ from fii_analytics.sources.anbima import AnbimaClient
 from fii_analytics.sources.cvm import CVMClient
 from fii_analytics.sources.cvm_sre import CVMSREClient
 from fii_analytics.sources.fii_reports import CVMFIIReportsClient, match_latest_report, report_history
-from fii_analytics.sources.fundamentus import FundamentusClient
+from fii_analytics.sources.fundamentus import FundamentusClient, clean_fii_market_data
 from fii_analytics.sources.macro import BCBClient
 from fii_analytics.storage.sre_cache import SRE_CACHE_ROOT, build_manifest, load_cached_offer, manifest_path, save_manifest, save_pdf
 
 
 configure_logging()
 st.set_page_config(page_title="Oferta.Ai", layout="wide")
+
+CHAT_DATA_ROOT = Path("data") / "chat_hydration"
+
+
+def groq_error_message(exc: Exception) -> str:
+    message = str(exc)
+    lowered = message.lower()
+    if "connection error" in lowered or "proxy" in lowered or "127.0.0.1" in lowered:
+        return (
+            "Falha ao conversar com Groq: nao consegui conectar na API do Groq. "
+            "Verifique sua internet, a chave GROQ_API_KEY e proxies locais do Windows/ambiente. "
+            "O cliente do chat foi configurado para ignorar proxies do ambiente; recarregue o Streamlit e tente novamente."
+        )
+    return f"Falha ao conversar com Groq: {exc}"
 
 
 @st.cache_data(ttl=3600, show_spinner=False)
@@ -101,9 +118,13 @@ def number(value: float | int | None) -> str:
 
 HELP_TEXT = {
     "selic": "Taxa basica de juros definida pelo Banco Central. Influencia o custo de oportunidade dos FIIs e ativos de renda fixa.",
+    "selic_meta": "Taxa basica de juros definida pelo Banco Central. Influencia o custo de oportunidade dos FIIs e ativos de renda fixa.",
     "cdi": "Referencia diaria usada em muitos investimentos de renda fixa. Serve como comparativo para retorno de baixo risco de mercado.",
     "ipca": "Indice oficial de inflacao ao consumidor. Afeta contratos indexados a inflacao e o poder de compra dos rendimentos.",
     "igpm": "Indice de inflacao historicamente usado em contratos de aluguel. Pode impactar receitas imobiliarias.",
+    "ibovespa": "Principal indice de acoes da B3. Ajuda a comparar apetite por risco e desempenho geral da bolsa brasileira.",
+    "ifix": "Indice de fundos imobiliarios da B3. Ajuda a comparar o mercado de FIIs com ofertas e ativos individuais.",
+    "imob": "Indice imobiliario da B3. Reune acoes ligadas ao setor imobiliario e construcao civil.",
     "ofertas": "Quantidade de registros de ofertas primarias relacionadas a FII, FIAGRO-FII e CRI na base da CVM.",
     "volume": "Soma do valor total registrado nas ofertas do recorte.",
     "lider": "Instituicao que aparece como lider/coordenadora da oferta na base da CVM.",
@@ -115,7 +136,6 @@ HELP_TEXT = {
     "valor_mercado": "Valor aproximado do fundo em bolsa, calculado a partir do preco das cotas.",
     "pl": "Patrimonio liquido informado pelo fundo na CVM.",
     "cotas": "Quantidade de cotas emitidas informada no informe mensal da CVM.",
-    "mais_queridos": "Proxy de interesse do mercado. Enquanto nao houver fonte direta de popularidade, usa liquidez como aproximacao.",
 }
 
 
@@ -155,15 +175,22 @@ PRIMARY_PRODUCT_TABS = [
 
 
 def latest_macro(macro: pd.DataFrame) -> pd.DataFrame:
-    if macro.empty:
+    if macro.empty or "data" not in macro.columns:
         return pd.DataFrame()
-    return macro.sort_values("data").groupby("label").tail(1).sort_values("label")
+    work = macro.copy()
+    work["data"] = pd.to_datetime(work["data"], errors="coerce")
+    work = work.dropna(subset=["data"])
+    if work.empty:
+        return pd.DataFrame()
+    return work.sort_values("data").groupby("label").tail(1).sort_values("label")
 
 
 def macro_delta_text(macro: pd.DataFrame, row: pd.Series) -> str | None:
-    if macro.empty or "serie" not in macro.columns:
+    if macro.empty or "serie" not in macro.columns or "data" not in macro.columns:
         return None
-    history = macro[macro["serie"] == row["serie"]].sort_values("data").dropna(subset=["valor"])
+    work = macro.copy()
+    work["data"] = pd.to_datetime(work["data"], errors="coerce")
+    history = work[work["serie"] == row["serie"]].sort_values("data").dropna(subset=["data", "valor"])
     if len(history) < 2:
         return None
     current = history.iloc[-1]["valor"]
@@ -174,6 +201,75 @@ def macro_delta_text(macro: pd.DataFrame, row: pd.Series) -> str | None:
     if abs(change) < 0.005:
         return "0.00"
     return f"{change:+.2f}"
+
+
+def macro_series_frame(macro: pd.DataFrame, series_order: list[str]) -> pd.DataFrame:
+    if macro.empty or "serie" not in macro.columns or "data" not in macro.columns:
+        return pd.DataFrame()
+    work = macro.copy()
+    work["data"] = pd.to_datetime(work["data"], errors="coerce")
+    filtered = work[work["serie"].isin(series_order)].dropna(subset=["data", "valor"]).copy()
+    if filtered.empty:
+        return filtered
+    filtered["serie_order"] = filtered["serie"].map({serie: index for index, serie in enumerate(series_order)})
+    return filtered.sort_values(["serie_order", "data"])
+
+
+def normalized_macro_frame(macro: pd.DataFrame, series_order: list[str]) -> pd.DataFrame:
+    filtered = macro_series_frame(macro, series_order)
+    if filtered.empty:
+        return filtered
+    frames = []
+    for _, group in filtered.groupby("serie", sort=False):
+        group = group.sort_values("data").copy()
+        first_valid = group["valor"].dropna()
+        if first_valid.empty:
+            continue
+        base = float(first_valid.iloc[0])
+        if base == 0:
+            continue
+        group["valor_base_100"] = group["valor"] / base * 100
+        frames.append(group)
+    return pd.concat(frames, ignore_index=True) if frames else pd.DataFrame()
+
+
+def render_macro_faceted_chart(macro: pd.DataFrame, series_order: list[str], title: str, yaxis_title: str) -> None:
+    chart_data = macro_series_frame(macro, series_order)
+    if chart_data.empty:
+        return
+    fig = px.line(
+        chart_data,
+        x="data",
+        y="valor",
+        color="label",
+        facet_col="label",
+        facet_col_wrap=2,
+        markers=False,
+        title=title,
+    )
+    fig.update_yaxes(matches=None, title_text=yaxis_title, showticklabels=True)
+    fig.update_xaxes(matches=None, title_text="")
+    fig.for_each_annotation(lambda annotation: annotation.update(text=annotation.text.split("=")[-1]))
+    fig.update_layout(height=420, margin=dict(l=20, r=20, t=50, b=20), showlegend=False)
+    st.plotly_chart(fig, use_container_width=True)
+
+
+def render_macro_index_chart(macro: pd.DataFrame, series_order: list[str]) -> None:
+    chart_data = normalized_macro_frame(macro, series_order)
+    if chart_data.empty:
+        return
+    fig = px.line(
+        chart_data,
+        x="data",
+        y="valor_base_100",
+        color="label",
+        markers=False,
+        title="Indices de mercado (base 100)",
+    )
+    fig.update_layout(height=320, margin=dict(l=20, r=20, t=50, b=20), legend_title_text="")
+    fig.update_yaxes(title_text="Base 100")
+    fig.update_xaxes(title_text="")
+    st.plotly_chart(fig, use_container_width=True)
 
 
 def selected_fii_context(market_fiis: pd.DataFrame, fii_reports: pd.DataFrame, key: str) -> dict[str, object] | None:
@@ -224,11 +320,13 @@ def render_macro_top(macro: pd.DataFrame) -> None:
         col.metric(row["label"], f"{row['valor']:.2f}", delta=delta, help=HELP_TEXT.get(help_key))
         col.caption(f"Referencia: {row['data'].date().isoformat()}")
 
-    compact = macro[macro["serie"].isin(["selic_meta", "ipca", "igpm"])].copy()
-    if not compact.empty:
-        fig = px.line(compact, x="data", y="valor", color="label")
-        fig.update_layout(height=280, margin=dict(l=20, r=20, t=20, b=20))
-        st.plotly_chart(fig, use_container_width=True)
+    render_macro_faceted_chart(
+        macro,
+        ["selic_meta", "cdi", "ipca", "igpm"],
+        "Juros e inflacao",
+        "Valor (%)",
+    )
+    render_macro_index_chart(macro, ["ifix", "imob", "ibovespa"])
 
 
 def render_fii_overview_chart(offers: pd.DataFrame, title: str = "FII, CRI e FIAGRO-FII", key_prefix: str = "overview") -> None:
@@ -324,20 +422,21 @@ def render_fii_ranking_table(market_fiis: pd.DataFrame) -> None:
     col_label.markdown("**Ranking por:**")
     ranking = col_filter.radio(
         "Ranking por",
-        ["Valor Patrimonial", "Dividend Yield", "Mais Queridos", "Liquidez", "Menores P/VP"],
+        ["Valor de Mercado", "Dividend Yield", "Liquidez", "Menores P/VP"],
         horizontal=True,
         label_visibility="collapsed",
         help="Escolha o criterio de ordenacao do ranking. Passe o mouse nos indicadores da tela para ver a definicao.",
     )
     sort_map = {
-        "Valor Patrimonial": ("valor_mercado", False),
+        "Valor de Mercado": ("valor_mercado", False),
         "Dividend Yield": ("dividend_yield", False),
-        "Mais Queridos": ("liquidez", False),
         "Liquidez": ("liquidez", False),
         "Menores P/VP": ("p_vp", True),
     }
     sort_col, ascending = sort_map[ranking]
-    table = market_fiis.copy()
+    table = clean_fii_market_data(market_fiis)
+    if ranking == "Menores P/VP" and "p_vp" in table.columns:
+        table = table.dropna(subset=["p_vp"])
     if sort_col in table.columns:
         table = table.sort_values(sort_col, ascending=ascending, na_position="last")
 
@@ -351,17 +450,25 @@ def render_fii_ranking_table(market_fiis: pd.DataFrame) -> None:
             "cotacao": "Cotacao",
             "dividend_yield": "Dividend Yield",
             "p_vp": "P/VP",
-            "valor_mercado": "Valor Patrimonial/Mercado",
+            "valor_mercado": "Valor de Mercado",
             "liquidez": "Liquidez",
         }
     )
-    st.dataframe(table, use_container_width=True, hide_index=True)
-    if ranking == "Mais Queridos":
-        st.caption("Mais Queridos usa liquidez como proxy de interesse de mercado enquanto nao houver uma fonte direta de popularidade.")
+    st.dataframe(
+        table,
+        use_container_width=True,
+        hide_index=True,
+        column_config={
+            "Cotacao": st.column_config.NumberColumn("Cotacao", format="R$ %.2f"),
+            "Dividend Yield": st.column_config.NumberColumn("Dividend Yield", format="%.2f%%"),
+            "P/VP": st.column_config.NumberColumn("P/VP", format="%.2f"),
+            "Valor de Mercado": st.column_config.NumberColumn("Valor de Mercado", format="R$ %.0f"),
+            "Liquidez": st.column_config.NumberColumn("Liquidez", format="R$ %.0f"),
+        },
+    )
     with st.expander("Glossario rapido dos filtros", expanded=False):
-        st.write(f"**Valor Patrimonial:** {HELP_TEXT['valor_mercado']}")
+        st.write(f"**Valor de Mercado:** {HELP_TEXT['valor_mercado']}")
         st.write(f"**Dividend Yield:** {HELP_TEXT['dy']}")
-        st.write(f"**Mais Queridos:** {HELP_TEXT['mais_queridos']}")
         st.write(f"**Liquidez:** {HELP_TEXT['liquidez']}")
         st.write(f"**Menores P/VP:** {HELP_TEXT['pvp']}")
 
@@ -489,14 +596,7 @@ def infer_offer_ticker(row: pd.Series | dict[str, object], market_fiis: pd.DataF
 
 
 def _normalize_name(value: object) -> str:
-    import unicodedata
-
-    if value is None or pd.isna(value):
-        return ""
-    text = unicodedata.normalize("NFKD", str(value)).encode("ascii", "ignore").decode("ascii")
-    for token in ["FUNDO", "INVESTIMENTO", "IMOBILIARIO", "RESPONSABILIDADE", "LIMITADA", "FII", "DE", "DO", "DA"]:
-        text = text.replace(f" {token} ", " ")
-    return " ".join(text.upper().replace("-", " ").split())
+    return normalize_chat_text(value)
 
 
 def _name_overlap_score(left: str, right: str) -> float:
@@ -2326,6 +2426,52 @@ def render_groq_chat_page(
         st.session_state["groq_chat_messages"] = []
         st.rerun()
 
+    with st.expander("Dados usados pelo chat"):
+        st.caption(
+            f"A hidratacao salva bases locais em {CHAT_DATA_ROOT}. "
+            "O chat consulta essa pasta automaticamente ao montar o contexto."
+        )
+        hydrate_col, status_col = st.columns([1, 2])
+        with hydrate_col:
+            if st.button("Hidratar dados do chat", type="primary", key="hydrate_chat_data"):
+                manifest = hydrate_chat_data_store(offers, market_fiis, fii_reports, macro)
+                st.success(f"Dados hidratados em {manifest['root']}")
+        with status_col:
+            hydration_summary = chat_hydration_summary()
+            if hydration_summary:
+                st.markdown(hydration_summary)
+            else:
+                st.caption("Nenhuma hidratacao local encontrada ainda.")
+
+        c1, c2, c3 = st.columns(3)
+        with c1:
+            st.download_button(
+                "Baixar FIIs/Fundamentus",
+                data=market_fiis.to_csv(index=False).encode("utf-8-sig") if not market_fiis.empty else b"",
+                file_name="oferta_ai_fiis_fundamentus.csv",
+                mime="text/csv",
+                disabled=market_fiis.empty,
+                key="download_chat_market_fiis",
+            )
+        with c2:
+            st.download_button(
+                "Baixar ofertas CVM",
+                data=offers.to_csv(index=False).encode("utf-8-sig") if not offers.empty else b"",
+                file_name="oferta_ai_ofertas_cvm.csv",
+                mime="text/csv",
+                disabled=offers.empty,
+                key="download_chat_offers",
+            )
+        with c3:
+            st.download_button(
+                "Baixar informes CVM",
+                data=fii_reports.to_csv(index=False).encode("utf-8-sig") if not fii_reports.empty else b"",
+                file_name="oferta_ai_informes_fii_cvm.csv",
+                mime="text/csv",
+                disabled=fii_reports.empty,
+                key="download_chat_fii_reports",
+            )
+
     for message in st.session_state["groq_chat_messages"]:
         with st.chat_message(str(message["role"])):
             st.markdown(markdown_text(message["content"]))
@@ -2333,17 +2479,37 @@ def render_groq_chat_page(
     question = st.chat_input("Pergunte sobre taxas, bancos, ativos, ofertas, emissores, FIIs ou macro...")
     if question:
         history = format_chat_history(st.session_state["groq_chat_messages"])
+        deterministic_answer = deterministic_liquidity_answer(
+            question,
+            st.session_state["groq_chat_messages"],
+            merge_with_hydrated_dataset(market_fiis, "market_fiis", ["ticker"]),
+        )
+        if not deterministic_answer:
+            deterministic_answer = deterministic_asset_answer(
+                question,
+                st.session_state["groq_chat_messages"],
+                merge_with_hydrated_dataset(market_fiis, "market_fiis", ["ticker"]),
+                merge_with_hydrated_dataset(offers, "offers_cvm", ["Numero_Requerimento"]),
+            )
+        st.session_state["groq_chat_messages"].append({"role": "user", "content": question})
+        with st.chat_message("user"):
+            st.markdown(markdown_text(question))
+
+        if deterministic_answer:
+            with st.chat_message("assistant"):
+                st.markdown(markdown_text(deterministic_answer))
+            st.session_state["groq_chat_messages"].append({"role": "assistant", "content": deterministic_answer})
+            return
+
         context = build_platform_chat_context(
             offers=offers,
             market_fiis=market_fiis,
             fii_reports=fii_reports,
             macro=macro,
             question=question,
+            messages=st.session_state["groq_chat_messages"],
         )
         context = append_primary_offer_rates_context(context, offers, question)
-        st.session_state["groq_chat_messages"].append({"role": "user", "content": question})
-        with st.chat_message("user"):
-            st.markdown(markdown_text(question))
 
         try:
             with st.chat_message("assistant"):
@@ -2354,10 +2520,10 @@ def render_groq_chat_page(
                 st.markdown(markdown_text(answer))
             st.session_state["groq_chat_messages"].append({"role": "assistant", "content": answer})
         except Exception as exc:
-            st.error(f"Falha ao conversar com Groq: {exc}")
+            st.error(groq_error_message(exc))
 
 
-def format_chat_history(messages: list[dict[str, str]], limit: int = 8) -> str:
+def format_chat_history(messages: list[dict[str, str]], limit: int = 4) -> str:
     if not messages:
         return "Sem historico anterior."
     recent = messages[-limit:]
@@ -2366,8 +2532,277 @@ def format_chat_history(messages: list[dict[str, str]], limit: int = 8) -> str:
         role = "Usuario" if message.get("role") == "user" else "Assistente"
         content = str(message.get("content", "")).strip()
         if content:
-            lines.append(f"{role}: {content[:1200]}")
+            lines.append(f"{role}: {content[:700]}")
     return "\n\n".join(lines) or "Sem historico anterior."
+
+
+def hydrate_chat_data_store(
+    offers: pd.DataFrame,
+    market_fiis: pd.DataFrame,
+    fii_reports: pd.DataFrame,
+    macro: pd.DataFrame,
+) -> dict[str, object]:
+    CHAT_DATA_ROOT.mkdir(parents=True, exist_ok=True)
+    datasets = {
+        "market_fiis": market_fiis,
+        "offers_cvm": offers,
+        "fii_reports_cvm": fii_reports,
+        "macro": macro,
+    }
+    files = {}
+    for name, df in datasets.items():
+        path = CHAT_DATA_ROOT / f"{name}.csv"
+        safe_df = df.copy() if not df.empty else pd.DataFrame()
+        safe_df.to_csv(path, index=False, encoding="utf-8-sig")
+        files[name] = {"path": str(path), "rows": int(len(safe_df)), "columns": list(safe_df.columns)}
+    manifest = {
+        "hydrated_at": datetime.now().isoformat(timespec="seconds"),
+        "root": str(CHAT_DATA_ROOT),
+        "files": files,
+        "sre_cache_root": str(SRE_CACHE_ROOT),
+    }
+    manifest_path = CHAT_DATA_ROOT / "manifest.json"
+    manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2, default=str), encoding="utf-8")
+    return manifest
+
+
+def load_chat_hydrated_dataset(name: str) -> pd.DataFrame:
+    path = CHAT_DATA_ROOT / f"{name}.csv"
+    if not path.exists():
+        return pd.DataFrame()
+    try:
+        return pd.read_csv(path)
+    except Exception:
+        return pd.DataFrame()
+
+
+def merge_with_hydrated_dataset(current: pd.DataFrame, name: str, key_columns: list[str]) -> pd.DataFrame:
+    hydrated = load_chat_hydrated_dataset(name)
+    if hydrated.empty:
+        return normalize_hydrated_dataset_types(current, name)
+    if current.empty:
+        return normalize_hydrated_dataset_types(hydrated, name)
+    combined = pd.concat([current, hydrated], ignore_index=True)
+    keys = [column for column in key_columns if column in combined.columns]
+    if keys:
+        combined = combined.drop_duplicates(subset=keys, keep="first")
+    else:
+        combined = combined.drop_duplicates(keep="first")
+    return normalize_hydrated_dataset_types(combined, name)
+
+
+def normalize_hydrated_dataset_types(df: pd.DataFrame, name: str) -> pd.DataFrame:
+    if df.empty:
+        return df
+    normalized = df.copy()
+    date_columns_by_dataset = {
+        "macro": ["data"],
+        "offers_cvm": ["Data_requerimento", "Data_Registro", "Data_Encerramento"],
+        "fii_reports_cvm": ["Data_Referencia"],
+    }
+    numeric_columns_by_dataset = {
+        "macro": ["valor"],
+        "market_fiis": ["cotacao", "ffo_yield", "dividend_yield", "p_vp", "valor_mercado", "liquidez", "qtd_imoveis", "preco_m2", "aluguel_m2", "cap_rate", "vacancia_media"],
+        "offers_cvm": ["Valor_Total_Registrado", "Qtde_Total_Registrada"],
+        "fii_reports_cvm": ["Valor_Patrimonial_Cotas", "Patrimonio_Liquido", "Percentual_Dividend_Yield_Mes", "Percentual_Rentabilidade_Patrimonial_Mes"],
+    }
+    for column in date_columns_by_dataset.get(name, []):
+        if column in normalized.columns:
+            normalized[column] = pd.to_datetime(normalized[column], errors="coerce")
+    for column in numeric_columns_by_dataset.get(name, []):
+        if column in normalized.columns:
+            normalized[column] = pd.to_numeric(normalized[column], errors="coerce")
+    if name == "market_fiis":
+        normalized = clean_fii_market_data(normalized)
+    return normalized
+
+
+def chat_hydration_summary() -> str:
+    manifest_path = CHAT_DATA_ROOT / "manifest.json"
+    if not manifest_path.exists():
+        return ""
+    try:
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    except Exception:
+        return ""
+    files = manifest.get("files") or {}
+    rows = []
+    for label, data in files.items():
+        rows.append(f"{label}: {data.get('rows', 0)} linhas")
+    return f"Ultima hidratacao: {manifest.get('hydrated_at', 'N/D')} | " + " | ".join(rows)
+
+
+def hydrated_chat_context() -> str:
+    manifest_path = CHAT_DATA_ROOT / "manifest.json"
+    if not manifest_path.exists():
+        return ""
+    try:
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    except Exception:
+        return ""
+    files = manifest.get("files") or {}
+    lines = [
+        f"Pasta hidratada do chat: {manifest.get('root') or CHAT_DATA_ROOT}",
+        f"Ultima hidratacao: {manifest.get('hydrated_at', 'N/D')}",
+        f"Cache SRE/ofertas: {manifest.get('sre_cache_root') or SRE_CACHE_ROOT}",
+    ]
+    for name, data in files.items():
+        lines.append(f"- {name}: {data.get('rows', 0)} linhas em {data.get('path')}")
+    return "\n".join(lines)
+
+
+def deterministic_asset_answer(
+    question: str,
+    messages: list[dict[str, str]],
+    market_fiis: pd.DataFrame,
+    offers: pd.DataFrame,
+) -> str | None:
+    ticker = resolve_focus_ticker(question, messages)
+    if not ticker:
+        return None
+    normalized = _normalize_name(question)
+    market_row = find_market_row_by_ticker(market_fiis, ticker)
+
+    if any(term in normalized for term in ["COTACAO", "COTA O", "PRECO", "PRE O", "VALOR COTA"]):
+        if market_row is None:
+            return missing_asset_data_answer(ticker, "cotacao")
+        price = market_row.get("cotacao")
+        liquidity = market_row.get("liquidez")
+        dy = market_row.get("dividend_yield")
+        return (
+            f"Pelos dados de mercado carregados, {ticker} esta com cotacao de {brl(price)}. "
+            f"A liquidez informada e {number(liquidity)} e o dividend yield e {pct(dy)}. "
+            "Fonte: Fundamentus / base de mercado carregada."
+        )
+
+    if any(term in normalized for term in ["BANCO", "COORDENADOR", "LIDER", "OFERTADO", "OFERTA", "EMISSAO"]):
+        offer_matches = find_offers_for_ticker_or_market_row(offers, ticker, market_row)
+        if not offer_matches.empty:
+            rows = offer_matches.head(5)
+            lines = [f"Encontrei estas ofertas relacionadas a {ticker} na base CVM carregada:"]
+            for _, row in rows.iterrows():
+                date_value = row.get("Data_requerimento")
+                date_text = date_value.date().isoformat() if hasattr(date_value, "date") else _clean_display(date_value)
+                lines.append(
+                    "- "
+                    f"Lider/coordenador: {_clean_display(row.get('Nome_Lider'))}; "
+                    f"emissor: {_clean_display(row.get('Nome_Emissor'))}; "
+                    f"tipo: {_clean_display(row.get('Valor_Mobiliario'))}; "
+                    f"status: {_clean_display(row.get('Status_Requerimento'))}; "
+                    f"requerimento CVM: {_clean_display(row.get('Numero_Requerimento'))}; "
+                    f"data: {date_text}."
+                )
+            lines.append("Fonte: CVM / ofertas primarias carregadas. Para persistir/atualizar a base local, use 'Hidratar dados do chat'.")
+            return "\n".join(lines)
+        if market_row is not None:
+            return (
+                f"{ticker} aparece nos dados de mercado como {market_row.get('nome')}, mas nao encontrei uma oferta primaria CVM carregada ligada a esse ticker/nome. "
+                "Entao eu nao consigo afirmar um banco/coordenador de oferta para ele com os dados atuais. "
+                "Para investigar, use 'Hidratar dados do chat' para salvar as bases em data/chat_hydration, ou use a tela de Detalhe do ativo/Ofertas para hidratar documentos SRE quando houver requerimento CVM."
+            )
+        return missing_asset_data_answer(ticker, "oferta primaria")
+
+    return None
+
+
+def find_market_row_by_ticker(market_fiis: pd.DataFrame, ticker: str) -> pd.Series | None:
+    if market_fiis.empty or "ticker" not in market_fiis.columns:
+        return None
+    rows = market_fiis[market_fiis["ticker"].astype(str).str.upper() == ticker.upper()]
+    return None if rows.empty else rows.iloc[0]
+
+
+def find_offers_for_ticker_or_market_row(offers: pd.DataFrame, ticker: str, market_row: pd.Series | None) -> pd.DataFrame:
+    if offers.empty:
+        return pd.DataFrame()
+    text_columns = [
+        column
+        for column in [
+            "Nome_Emissor",
+            "Nome_Lider",
+            "Valor_Mobiliario",
+            "Destinacao_recursos",
+            "Descricao_lastro",
+            "Tipo_lastro",
+        ]
+        if column in offers.columns
+    ]
+    if not text_columns:
+        return pd.DataFrame()
+    work = offers.copy()
+    work["_chat_text"] = work[text_columns].fillna("").astype(str).agg(" ".join, axis=1).map(_normalize_name)
+    terms = [ticker.upper()]
+    if market_row is not None:
+        name_tokens = [token for token in _normalize_name(market_row.get("nome")).split() if len(token) >= 4]
+        terms.extend(name_tokens[:5])
+    mask = work["_chat_text"].map(lambda text: any(term in text for term in terms))
+    matches = work[mask].drop(columns=["_chat_text"])
+    sort_columns = []
+    ascending = []
+    if "Data_requerimento" in matches.columns:
+        sort_columns.append("Data_requerimento")
+        ascending.append(False)
+    if "Valor_Total_Registrado" in matches.columns:
+        sort_columns.append("Valor_Total_Registrado")
+        ascending.append(False)
+    return matches.sort_values(sort_columns, ascending=ascending) if sort_columns else matches
+
+
+def missing_asset_data_answer(ticker: str, subject: str) -> str:
+    return (
+        f"Nao encontrei {subject} para {ticker} nas bases carregadas. "
+        "Use 'Hidratar dados do chat' para salvar as bases disponiveis em data/chat_hydration; "
+        "se a informacao depender de documento de oferta, procure ou hidrate o requerimento CVM na tela de Ofertas/Detalhe do ativo."
+    )
+
+
+def chat_focus_asset_dossier(
+    ticker: str | None,
+    market_fiis: pd.DataFrame,
+    offers: pd.DataFrame,
+    fii_reports: pd.DataFrame,
+) -> str:
+    if not ticker:
+        return ""
+    lines = [f"Ticker resolvido: {ticker}"]
+    market_row = find_market_row_by_ticker(market_fiis, ticker)
+    if market_row is not None:
+        lines.append(
+            "Mercado/Fundamentus: "
+            f"nome={_clean_display(market_row.get('nome'))}; "
+            f"segmento={_clean_display(market_row.get('segmento'))}; "
+            f"cotacao={_clean_display(market_row.get('cotacao'))}; "
+            f"dividend_yield={_clean_display(market_row.get('dividend_yield'))}; "
+            f"p_vp={_clean_display(market_row.get('p_vp'))}; "
+            f"liquidez={_clean_display(market_row.get('liquidez'))}; "
+            f"valor_mercado={_clean_display(market_row.get('valor_mercado'))}."
+        )
+    else:
+        lines.append("Mercado/Fundamentus: ticker nao encontrado na base carregada.")
+
+    offer_matches = find_offers_for_ticker_or_market_row(offers, ticker, market_row)
+    if not offer_matches.empty:
+        lines.append("Ofertas CVM relacionadas:")
+        for _, row in offer_matches.head(5).iterrows():
+            lines.append(
+                "- "
+                f"requerimento={_clean_display(row.get('Numero_Requerimento'))}; "
+                f"lider={_clean_display(row.get('Nome_Lider'))}; "
+                f"emissor={_clean_display(row.get('Nome_Emissor'))}; "
+                f"tipo={_clean_display(row.get('Valor_Mobiliario'))}; "
+                f"status={_clean_display(row.get('Status_Requerimento'))}; "
+                f"data={_clean_display(row.get('Data_requerimento'))}."
+            )
+    else:
+        lines.append("Ofertas CVM relacionadas: nenhuma encontrada por ticker/nome do fundo.")
+
+    report_context = chat_fii_reports_context(fii_reports, ticker)
+    if report_context:
+        lines.append("Informes CVM possivelmente relacionados:\n" + report_context)
+    else:
+        lines.append("Informes CVM: nenhum informe relacionado encontrado pelo ticker/nome nas colunas carregadas.")
+    lines.append("Se algum item estiver ausente, disponibilize ao usuario baixar as bases usadas pelo chat e explique qual fonte faltou.")
+    return "\n".join(lines)[:5000]
 
 
 def build_platform_chat_context(
@@ -2376,17 +2811,37 @@ def build_platform_chat_context(
     fii_reports: pd.DataFrame,
     macro: pd.DataFrame,
     question: str,
+    messages: list[dict[str, str]] | None = None,
 ) -> str:
+    offers = merge_with_hydrated_dataset(offers, "offers_cvm", ["Numero_Requerimento"])
+    market_fiis = merge_with_hydrated_dataset(market_fiis, "market_fiis", ["ticker"])
+    fii_reports = merge_with_hydrated_dataset(fii_reports, "fii_reports_cvm", ["CNPJ_Fundo", "Data_Referencia"])
+    macro = merge_with_hydrated_dataset(macro, "macro", ["serie", "data"])
+    focus_ticker = resolve_focus_ticker(question, messages or [])
+    retrieval_question = f"{question} {focus_ticker or ''}".strip()
     selected_product = infer_chat_product(question)
     scoped_offers = filter_chat_offers_by_product(offers, selected_product)
-    relevant_offers = relevant_chat_offers(scoped_offers, question, chat_context_offer_limit(question))
+    include_offers = chat_question_wants_offer_context(retrieval_question)
+    include_fiis = chat_question_wants_fii_market_context(retrieval_question) or not include_offers
+    relevant_offers = (
+        relevant_chat_offers(scoped_offers, retrieval_question, chat_context_offer_limit(retrieval_question))
+        if include_offers
+        else pd.DataFrame()
+    )
     parts = [
         "REGRAS DE USO DO CONTEXTO: responda apenas com base nestes dados. Se algo nao estiver aqui, diga que nao foi encontrado nos dados carregados.",
         f"RECORTE INFERIDO AUTOMATICAMENTE: {selected_product}.",
-        "RESUMO CVM E MACRO:\n" + compact_market_context(scoped_offers, macro),
+        f"ATIVO EM FOCO RESOLVIDO PELO HISTORICO: {focus_ticker or 'nenhum ticker identificado'}.",
     ]
 
-    if not relevant_offers.empty:
+    hydrated_context = hydrated_chat_context()
+    if hydrated_context:
+        parts.append("HIDRATACAO LOCAL DISPONIVEL:\n" + hydrated_context)
+
+    if include_offers:
+        parts.append("RESUMO CVM E MACRO:\n" + compact_market_context(scoped_offers, macro))
+
+    if include_offers and not relevant_offers.empty:
         offer_lines = []
         for _, row in relevant_offers.iterrows():
             offer_lines.append(chat_offer_summary(row))
@@ -2394,28 +2849,34 @@ def build_platform_chat_context(
             if manifest_text:
                 offer_lines.append(manifest_text)
         parts.append("OFERTAS CVM E DOCUMENTOS MAIS RELEVANTES PARA A PERGUNTA:\n" + "\n\n".join(offer_lines))
-    else:
+    elif include_offers:
         parts.append("OFERTAS CVM E DOCUMENTOS MAIS RELEVANTES PARA A PERGUNTA:\nNenhuma oferta encontrada no recorte selecionado.")
 
-    fii_context = chat_market_fii_context(market_fiis, question)
+    asset_dossier = chat_focus_asset_dossier(focus_ticker, market_fiis, offers, fii_reports) if focus_ticker else ""
+    if asset_dossier:
+        parts.append("DOSSIE DO ATIVO EM FOCO:\n" + asset_dossier)
+
+    fii_context = chat_market_fii_context(market_fiis, retrieval_question) if include_fiis else ""
     if fii_context:
         parts.append("FUNDAMENTUS / MERCADO FII:\n" + fii_context)
 
-    reports_context = chat_fii_reports_context(fii_reports, question)
+    reports_context = chat_fii_reports_context(fii_reports, retrieval_question) if include_fiis else ""
     if reports_context:
         parts.append("INFORMES MENSAIS CVM FII:\n" + reports_context)
 
-    macro_context = chat_macro_context(macro)
+    macro_context = chat_macro_context(macro) if chat_question_wants_macro_context(retrieval_question) or not include_fiis else ""
     if macro_context:
         parts.append("MACRO E INDICES:\n" + macro_context)
 
-    return "\n\n---\n\n".join(parts)[:28000]
+    return "\n\n---\n\n".join(parts)[:12000]
 
 
 def append_primary_offer_rates_context(base_context: str, offers: pd.DataFrame, question: str) -> str:
+    if not chat_question_wants_offer_context(question):
+        return base_context
     selected_product = infer_chat_product(question)
     scoped_offers = filter_chat_offers_by_product(offers, selected_product)
-    limit = 28 if chat_question_wants_bank_comparison(question) else 16
+    limit = 16 if chat_question_wants_bank_comparison(question) else 8
     relevant_offers = relevant_chat_offers(scoped_offers, question, limit)
     if relevant_offers.empty:
         return base_context
@@ -2427,7 +2888,60 @@ def append_primary_offer_rates_context(base_context: str, offers: pd.DataFrame, 
     ]
     for _, row in relevant_offers.iterrows():
         lines.append(format_primary_offer_rate_for_chat(row))
-    return "\n\n---\n\n".join([base_context, "\n".join(lines)])[:32000]
+    return "\n\n---\n\n".join([base_context, "\n".join(lines)])[:14000]
+
+
+def chat_question_wants_offer_context(question: str) -> bool:
+    normalized = _normalize_name(question)
+    terms = [
+        "OFERTA",
+        "OFERTAS",
+        "EMISSAO",
+        "EMISSOES",
+        "PRIMARIA",
+        "PRIMARIAS",
+        "TAXA",
+        "TAXAS",
+        "REMUNERACAO",
+        "COORDENADOR",
+        "COORDENADORES",
+        "LIDER",
+        "REQUERIMENTO",
+        "CVM",
+        "BOOKBUILDING",
+        "DISTRIBUICAO",
+    ]
+    return any(term in normalized for term in terms)
+
+
+def chat_question_wants_fii_market_context(question: str) -> bool:
+    normalized = _normalize_name(question)
+    terms = [
+        "FII",
+        "FIIS",
+        "FUNDO IMOBILIARIO",
+        "FUNDOS IMOBILIARIOS",
+        "LIQUIDEZ",
+        "DIVIDEND",
+        "DY",
+        "PVP",
+        "P VP",
+        "COTACAO",
+        "VALOR DE MERCADO",
+        "PATRIMONIAL",
+        "BTG",
+        "KINEA",
+        "XP",
+        "HEDGE",
+        "VINCI",
+    ]
+    return any(term in normalized for term in terms)
+
+
+def chat_question_wants_macro_context(question: str) -> bool:
+    normalized = _normalize_name(question)
+    terms = ["MACRO", "SELIC", "CDI", "IPCA", "IGPM", "IGP M", "IFIX", "IMOB", "IBOVESPA", "JUROS", "INFLACAO"]
+    return any(term in normalized for term in terms)
 
 
 def chat_question_wants_bank_comparison(question: str) -> bool:
@@ -2613,9 +3127,9 @@ def chat_market_fii_context(market_fiis: pd.DataFrame, question: str) -> str:
             sort_columns.append(column)
             ascending.append(False)
             break
-    work = work.sort_values(sort_columns, ascending=ascending).head(12)
-    readable_columns = [column for column in ["ticker", "nome", "segmento", "cotacao", "dividend_yield", "pvp", "liquidez", "valor_mercado"] if column in work.columns]
-    return work[readable_columns].to_string(index=False)[:4500]
+    work = work.sort_values(sort_columns, ascending=ascending).head(10)
+    readable_columns = [column for column in ["ticker", "nome", "segmento", "cotacao", "dividend_yield", "p_vp", "liquidez", "valor_mercado"] if column in work.columns]
+    return work[readable_columns].to_string(index=False)[:3000]
 
 
 def chat_fii_reports_context(fii_reports: pd.DataFrame, question: str) -> str:
@@ -2634,7 +3148,7 @@ def chat_fii_reports_context(fii_reports: pd.DataFrame, question: str) -> str:
     if "Data_Referencia" in work.columns:
         sort_columns.append("Data_Referencia")
         ascending.append(False)
-    work = work.sort_values(sort_columns, ascending=ascending).head(8)
+    work = work.sort_values(sort_columns, ascending=ascending).head(5)
     readable_columns = [
         column
         for column in [
@@ -2648,7 +3162,7 @@ def chat_fii_reports_context(fii_reports: pd.DataFrame, question: str) -> str:
         ]
         if column in work.columns
     ]
-    return work[readable_columns].to_string(index=False)[:3500]
+    return work[readable_columns].to_string(index=False)[:2000]
 
 
 def chat_macro_context(macro: pd.DataFrame) -> str:

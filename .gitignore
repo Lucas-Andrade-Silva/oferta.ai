@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# IDE/editor files
+.idea/
+.vscode/
+
+# Runtime caches and logs
+.cache/
+logs/*
+!logs/.gitkeep
+
+# App-generated data
+data/sre_offers/*
+!data/sre_offers/.gitkeep
+data/chat_hydration/*
+!data/chat_hydration/.gitkeep
+
+# OS artifacts
+.DS_Store
+Thumbs.db

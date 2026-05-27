@@ -4,6 +4,7 @@ import html
 import logging
 import re
 from dataclasses import dataclass
+from pathlib import Path
 
 import pandas as pd
 
@@ -32,6 +33,20 @@ COLUMNS = [
     "endereco",
 ]
 
+NUMERIC_COLUMNS = [
+    "cotacao",
+    "ffo_yield",
+    "dividend_yield",
+    "p_vp",
+    "valor_mercado",
+    "liquidez",
+    "qtd_imoveis",
+    "preco_m2",
+    "aluguel_m2",
+    "cap_rate",
+    "vacancia_media",
+]
+
 
 @dataclass(frozen=True)
 class MarketFii:
@@ -48,11 +63,38 @@ class MarketFii:
 class FundamentusClient:
     def __init__(self):
         self.session = build_session()
+        self.cache_path = Path(settings.cache_dir) / "fundamentus_fiis.csv"
 
     def load_fii_table(self) -> pd.DataFrame:
-        response = self.session.get(FII_RESULT_URL, headers=HEADERS, timeout=settings.request_timeout)
-        response.raise_for_status()
-        return parse_fii_table(response.text)
+        try:
+            response = self.session.get(FII_RESULT_URL, headers=HEADERS, timeout=settings.request_timeout)
+            response.raise_for_status()
+            df = parse_fii_table(response.text)
+            if not df.empty:
+                self._save_cache(df)
+            return df
+        except Exception:
+            cached = self._load_cache()
+            if not cached.empty:
+                logger.warning("Fundamentus indisponivel; usando cache local em %s", self.cache_path, exc_info=True)
+                return cached
+            raise
+
+    def _save_cache(self, df: pd.DataFrame) -> None:
+        try:
+            self.cache_path.parent.mkdir(parents=True, exist_ok=True)
+            df.to_csv(self.cache_path, index=False)
+        except Exception:
+            logger.warning("Nao foi possivel salvar cache do Fundamentus em %s", self.cache_path, exc_info=True)
+
+    def _load_cache(self) -> pd.DataFrame:
+        if not self.cache_path.exists():
+            return pd.DataFrame()
+        try:
+            return clean_fii_market_data(pd.read_csv(self.cache_path))
+        except Exception:
+            logger.warning("Nao foi possivel carregar cache do Fundamentus em %s", self.cache_path, exc_info=True)
+            return pd.DataFrame()
 
 
 def parse_fii_table(page_html: str) -> pd.DataFrame:
@@ -73,22 +115,39 @@ def parse_fii_table(page_html: str) -> pd.DataFrame:
     if df.empty:
         return df
 
-    for col in [
-        "cotacao",
-        "ffo_yield",
-        "dividend_yield",
-        "p_vp",
-        "valor_mercado",
-        "liquidez",
-        "qtd_imoveis",
-        "preco_m2",
-        "aluguel_m2",
-        "cap_rate",
-        "vacancia_media",
-    ]:
+    for col in NUMERIC_COLUMNS:
         df[col] = df[col].map(_parse_br_number)
     df["ticker"] = df["ticker"].str.upper().str.strip()
-    return df
+    return clean_fii_market_data(df)
+
+
+def clean_fii_market_data(df: pd.DataFrame) -> pd.DataFrame:
+    if df.empty:
+        return df
+
+    cleaned = df.copy()
+    if "ticker" in cleaned.columns:
+        cleaned["ticker"] = cleaned["ticker"].astype(str).str.upper().str.strip()
+
+    for column in NUMERIC_COLUMNS:
+        if column in cleaned.columns:
+            cleaned[column] = pd.to_numeric(cleaned[column], errors="coerce")
+
+    invalid_rules = {
+        "cotacao": (cleaned.get("cotacao", pd.Series(dtype="float64")) <= 0)
+        | (cleaned.get("cotacao", pd.Series(dtype="float64")) > 5000),
+        "dividend_yield": (cleaned.get("dividend_yield", pd.Series(dtype="float64")) < 0)
+        | (cleaned.get("dividend_yield", pd.Series(dtype="float64")) > 100),
+        "p_vp": (cleaned.get("p_vp", pd.Series(dtype="float64")) <= 0)
+        | (cleaned.get("p_vp", pd.Series(dtype="float64")) > 20),
+        "valor_mercado": cleaned.get("valor_mercado", pd.Series(dtype="float64")) <= 0,
+        "liquidez": cleaned.get("liquidez", pd.Series(dtype="float64")) < 0,
+    }
+    for column, mask in invalid_rules.items():
+        if column in cleaned.columns:
+            cleaned.loc[mask, column] = pd.NA
+
+    return cleaned
 
 
 def _clean_cell(value: str) -> str:
@@ -108,4 +167,3 @@ def _parse_br_number(value: object) -> float | None:
         return float(text)
     except ValueError:
         return None
-
